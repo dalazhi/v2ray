@@ -8,6 +8,6 @@ https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
 https://raw.fastgit.org/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
 
 clash:
-https://raw.fastgit.or/dalazhi/v2ray/main/dalazhi.yaml
+https://raw.fastgit.org/dalazhi/v2ray/main/dalazhi.yaml
 
 🏆订阅链接永久不变，节点每天都会更新，请设置成1天更新1次，如果用不了就把订阅转换成你相对应的代理工具即可
