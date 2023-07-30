@@ -1,0 +1,232 @@
+proxies:
+  - name: "640522e2-VLESS_TCP/TLS_Vision"
+    type: vless
+    server: us1.dalazhi.eu.org
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "640522e2-VLESS_WS"
+    type: vless
+    server: shopify.com
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    ws-opts:
+      path: /xxbzws
+      headers:
+        Host: us1.dalazhi.eu.org
+  - name: "640522e2-VLESS_WS1"
+    type: vless
+    server: www.visa.com
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    ws-opts:
+      path: /xxbzws
+      headers:
+        Host: us1.dalazhi.eu.org
+  - name: "640522e2-VLESS_WS2"
+    type: vless
+    server: cf.dalazhi.eu.org
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    ws-opts:
+      path: /xxbzws
+      headers:
+        Host: us1.dalazhi.eu.org
+  - name: "640522e2-vless_grpc"
+    type: vless
+    server: shopify.com
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    udp: true
+    tls: true
+    network: grpc
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    grpc-opts:
+      grpc-service-name: xxbzgrpc
+  - name: "640522e2-vless_grpc1"
+    type: vless
+    server: www.visa.com
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    udp: true
+    tls: true
+    network: grpc
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    grpc-opts:
+      grpc-service-name: xxbzgrpc
+  - name: "640522e2-vless_grpc2"
+    type: vless
+    server: cf.dalazhi.eu.org
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    udp: true
+    tls: true
+    network: grpc
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    grpc-opts:
+      grpc-service-name: xxbzgrpc
+  - name: "640522e2-VMess_WS"
+    type: vmess
+    server: shopify.com
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    alterId: 0
+    cipher: none
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    network: ws
+    ws-opts:
+      path: /xxbzvws
+      headers:
+        Host: us1.dalazhi.eu.org
+  - name: "640522e2-VMess_WS1"
+    type: vmess
+    server: www.visa.com
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    alterId: 0
+    cipher: none
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    network: ws
+    ws-opts:
+      path: /xxbzvws
+      headers:
+        Host: us1.dalazhi.eu.org
+  - name: "640522e2-VMess_WS2"
+    type: vmess
+    server: cf.dalazhi.eu.org
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    alterId: 0
+    cipher: none
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    servername: us1.dalazhi.eu.org
+    network: ws
+    ws-opts:
+      path: /xxbzvws
+      headers:
+        Host: us1.dalazhi.eu.org
+  - name: "640522e2-trojan_tcp"
+    type: trojan
+    server: us1.dalazhi.eu.org
+    port: 443
+    password: 640522e2-a610-4f12-92e9-e1389b051f94
+    client-fingerprint: chrome
+    udp: true
+    sni: us1.dalazhi.eu.org
+  - name: "640522e2-Trojan_gRPC"
+    server: shopify.com
+    port: 443
+    type: trojan
+    password: 640522e2-a610-4f12-92e9-e1389b051f94
+    network: grpc
+    sni: us1.dalazhi.eu.org
+    udp: true
+    grpc-opts:
+      grpc-service-name: xxbztrojangrpc
+  - name: "640522e2-Trojan_gRPC1"
+    server: www.visa.com
+    port: 443
+    type: trojan
+    password: 640522e2-a610-4f12-92e9-e1389b051f94
+    network: grpc
+    sni: us1.dalazhi.eu.org
+    udp: true
+    grpc-opts:
+      grpc-service-name: xxbztrojangrpc
+  - name: "640522e2-Trojan_gRPC2"
+    server: cf.dalazhi.eu.org
+    port: 443
+    type: trojan
+    password: 640522e2-a610-4f12-92e9-e1389b051f94
+    network: grpc
+    sni: us1.dalazhi.eu.org
+    udp: true
+    grpc-opts:
+      grpc-service-name: xxbztrojangrpc
+  - name: "640522e2_hysteria"
+    type: hysteria
+    server: us1.dalazhi.eu.org
+    port: 18747
+    auth_str: 640522e2-a610-4f12-92e9-e1389b051f94
+    alpn:
+     - h3
+    protocol: udp
+    up: "50"
+    down: "600"
+    sni: us1.dalazhi.eu.org
+  - name: "640522e2-vless_reality_vision"
+    type: vless
+    server: 45.12.109.69
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: us1.dalazhi.eu.org
+    reality-opts:
+      public-key: 4-4voDl3f-CFEZz57hJmNIYEN9Mpq4y__H89kVSWj00
+    client-fingerprint: chrome
+  - name: "640522e2-vless_reality_grpc"
+    type: vless
+    server: 45.12.109.69
+    port: 443
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    network: grpc
+    tls: true
+    udp: true
+    servername: us1.dalazhi.eu.org
+    reality-opts:
+      public-key: 4-4voDl3f-CFEZz57hJmNIYEN9Mpq4y__H89kVSWj00
+    grpc-opts:
+      grpc-service-name: "grpc"
+    client-fingerprint: chrome
+  - name: "640522e2_tuic"
+    server: us1.dalazhi.eu.org
+    type: tuic
+    port: 24868
+    uuid: 640522e2-a610-4f12-92e9-e1389b051f94
+    password: 640522e2-a610-4f12-92e9-e1389b051f94
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
