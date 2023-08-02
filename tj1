@@ -1,0 +1,128 @@
+proxies:
+  - name: "d256e73b-VLESS_TCP/TLS_Vision"
+    type: vless
+    server: tj1.dalazhi.eu.org
+    port: 443
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "d256e73b-VLESS_WS"
+    type: vless
+    server: cf.dalazhi.eu.org
+    port: 443
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: chrome
+    servername: tj1.dalazhi.eu.org
+    ws-opts:
+      path: /ezbkws
+      headers:
+        Host: tj1.dalazhi.eu.org
+  - name: "d256e73b-vless_grpc"
+    type: vless
+    server: cf.dalazhi.eu.org
+    port: 443
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    udp: true
+    tls: true
+    network: grpc
+    client-fingerprint: chrome
+    servername: tj1.dalazhi.eu.org
+    grpc-opts:
+      grpc-service-name: ezbkgrpc
+  - name: "d256e73b-VMess_WS"
+    type: vmess
+    server: cf.dalazhi.eu.org
+    port: 443
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    alterId: 0
+    cipher: none
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    servername: tj1.dalazhi.eu.org
+    network: ws
+    ws-opts:
+      path: /ezbkvws
+      headers:
+        Host: tj1.dalazhi.eu.org
+  - name: "d256e73b-trojan_tcp"
+    type: trojan
+    server: tj1.dalazhi.eu.org
+    port: 443
+    password: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    client-fingerprint: chrome
+    udp: true
+    sni: tj1.dalazhi.eu.org
+  - name: "d256e73b-Trojan_gRPC"
+    server: cf.dalazhi.eu.org
+    port: 443
+    type: trojan
+    password: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    network: grpc
+    sni: tj1.dalazhi.eu.org
+    udp: true
+    grpc-opts:
+      grpc-service-name: ezbktrojangrpc
+  - name: "d256e73b_hysteria"
+    type: hysteria
+    server: tj1.dalazhi.eu.org
+    port: 16988
+    auth_str: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    alpn:
+     - h3
+    protocol: udp
+    up: "600"
+    down: "600"
+    sni: tj1.dalazhi.eu.org
+  - name: "d256e73b-vless_reality_vision"
+    type: vless
+    server: 107.173.15.52
+    port: 443
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tj1.dalazhi.eu.org
+    reality-opts:
+      public-key: P0u0Wonv_wjUxXIkgdQABCptgB6dixLz4nu1dD_OWWg
+    client-fingerprint: chrome
+  - name: "d256e73b-vless_reality_grpc"
+    type: vless
+    server: 107.173.15.52
+    port: 443
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    network: grpc
+    tls: true
+    udp: true
+    servername: tj1.dalazhi.eu.org
+    reality-opts:
+      public-key: P0u0Wonv_wjUxXIkgdQABCptgB6dixLz4nu1dD_OWWg
+    grpc-opts:
+      grpc-service-name: "grpc"
+    client-fingerprint: chrome
+  - name: "d256e73b_tuic"
+    server: tj1.dalazhi.eu.org
+    type: tuic
+    port: 18699
+    uuid: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    password: d256e73b-8259-490a-aeb5-23f6a3636a1a
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
