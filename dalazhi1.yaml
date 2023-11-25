@@ -129,12 +129,7 @@ proxies:
   congestion-controller: bbr
   sni: www.bing.com
   skip-cert-verify: true
- - {"name":"us-ygkkk-vm-ws","type":"vmess","server":"cf.dalazhi.eu.org","port":8880,"cipher":"auto","uuid":"b46cb204-5849-4b86-852d-8154fb8eb580","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"b46cb204-5849-4b86-852d-8154fb8eb580-vm","headers":{"host":"us.dalazhi.eu.org"}}}
-  - {"name":"us.dalazhi.eu.org-vm","type":"vmess","server":"cf.dalazhi.eu.org","port":8880,"cipher":"auto","uuid":"b46cb204-5849-4b86-852d-8154fb8eb580","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"b46cb204-5849-4b86-852d-8154fb8eb580-vm","headers":{"host":"furnishings-kid-sticky-counsel.trycloudflare.com"}}}
-  - {"name":"tj1-ygkkk-vm-argo","type":"vmess","server":"cf.dalazhi.eu.org","port":443,"cipher":"auto","uuid":"81d527fd-5bbf-40fc-b2b0-be1956133aa6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"poly-weekly-wide-words.trycloudflare.com","network":"ws","ws-opts":{"path":"81d527fd-5bbf-40fc-b2b0-be1956133aa6-vm","headers":{"host":"poly-weekly-wide-words.trycloudflare.com"}}}
-  - {"name":"tj1-vm-ws-cf","type":"vmess","server":"cf.dalazhi.eu.org","port":2086,"cipher":"auto","uuid":"81d527fd-5bbf-40fc-b2b0-be1956133aa6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"81d527fd-5bbf-40fc-b2b0-be1956133aa6-vm","headers":{"host":"poly-weekly-wide-words.trycloudflare.com"}}}
-  - {"name":"tj1-ygkkk-vm-ws-cf","type":"vmess","server":"cf.dalazhi.eu.org","port":2086,"cipher":"auto","uuid":"81d527fd-5bbf-40fc-b2b0-be1956133aa6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"81d527fd-5bbf-40fc-b2b0-be1956133aa6-vm","headers":{"host":"tj1.dalazhi.cyou"}}}
-proxy-groups:
+ proxy-groups:
 - name: 负载均衡
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
