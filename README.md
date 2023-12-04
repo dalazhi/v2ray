@@ -9,5 +9,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E
 
 🎬频道永久订阅 (国内导入)clash:
 https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/dalazhi.yaml
+https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/sub.yaml
 
 🏆订阅链接永久不变，节点每天都会更新，请设置成1天更新1次，如果用不了就把订阅转换成你相对应的代理工具即可
