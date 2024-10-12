@@ -6,6 +6,7 @@ https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
 
 🎬频道永久订阅 (国内导入)v2ray:
 https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
+https://ghp.ci/https://raw.githubusercontent.com/dalazhi/v2ray/refs/heads/main/best.txt
 
 🎬频道永久订阅 (国内导入)clash:
 https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/dalazhi.yaml
