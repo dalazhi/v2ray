@@ -1,28 +1,6 @@
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 机场订阅
 proxy-providers:
-  Airport1:
-#    url: "https://gist.githubusercontent.com/dalazhi/d0db537c55d15ba97c80d169bd00bbb7/raw/all.yaml"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 100
-    proxy: 直连
-#https://api.2c.lol/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fgo4sharing%2Fsub%2Fmain%2Fsub.yaml&insert=false
-
-  Airport2:
- #   url: "https://gh-proxy.com/raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 100
-    proxy: 直连
-#https://aa.dalazhi.cloudns.biz/sub/16f0a9a6-11bf-4093-a5db-e53fb1f71644?format=clash
-
   Airport3:
     url: "https://us.dalazhi.eu.org:37061/s/clashMeta/e84f2a1b5bc3d4dd794b0d33f646780c"
     type: http
