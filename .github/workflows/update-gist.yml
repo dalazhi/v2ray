@@ -1,0 +1,28 @@
+yaml
+name: Update Gist
+
+on:
+  schedule:
+    # 每天 UTC 时间 0 点运行
+    - cron: '0 0 * * *'
+  # 也可以手动触发工作流
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Update Gist
+        uses: exelban/update-gist@v1
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          # 替换为你的 Gist ID（在 Gist URL 中可以找到）
+          gist_id: adf2e62a5931358889eca20256cd0833
+          # 替换为要更新的文件路径（相对于仓库根目录）
+          filename: v2ray/data/all.yaml
+          # 可选：Gist 描述
+          description: Auto-updated Gist
