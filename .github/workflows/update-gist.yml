@@ -1,34 +1,41 @@
-name: Update Gist
+name: 自动更新 all.yaml 文件
 
 on:
   schedule:
-    # 每天 UTC 时间 0 点运行
-    - cron: '0 0 * * *'
-  # 也可以手动触发工作流
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # 每天 00:00 UTC 执行（北京时间 08:00）
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  update:
+  update-yaml:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: 检查仓库
         uses: actions/checkout@v4
-
-      - name: Update Gist via GitHub API
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: adf2e62a5931358889eca20256cd0833
-          FILENAME: data/all.yaml
-          GIST_DESCRIPTION: Auto-updated Gist
+        
+      - name: 下载最新 YAML 文件
         run: |
-          # 读取文件内容
-          FILE_CONTENT=$(cat $FILENAME)
-          # 构建 JSON 数据
-          JSON_DATA=$(jq -n --arg desc "$GIST_DESCRIPTION" --arg filename "$FILENAME" --arg content "$FILE_CONTENT" '{description: $desc, files: {($filename): {content: $content}}}')
-          # 调用 GitHub API 更新 Gist
-          curl -X PATCH \
-            -H "Authorization: token $GH_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -d "$JSON_DATA" \
-            "https://api.github.com/gists/$GIST_ID"
+          curl -L -o data/all.yaml https://gist.githubusercontent.com/dalazhi/d0db537c55d15ba97c80d169bd00bbb7/raw/all.yaml
+          echo "下载完成"
+          
+      - name: 检查文件是否有更新
+        id: check_diff
+        run: |
+          if [[ `git status --porcelain` ]]; then
+            echo "文件有更新"
+            echo "has_changes=true" >> $GITHUB_ENV
+          else
+            echo "文件无更新"
+            echo "has_changes=false" >> $GITHUB_ENV
+          fi
+          
+      - name: 提交更新
+        if: env.has_changes == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/all.yaml
+          git commit -m "自动更新 all.yaml 文件"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  
