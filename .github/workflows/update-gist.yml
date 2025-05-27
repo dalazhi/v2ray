@@ -12,9 +12,15 @@ jobs:
       - name: 检查仓库
         uses: actions/checkout@v4
         
-      - name: 下载最新 YAML 文件
+      - name: 下载最新文件
         run: |
+          mkdir -p data
           curl -L -o data/all.yaml https://gist.githubusercontent.com/dalazhi/d0db537c55d15ba97c80d169bd00bbb7/raw/all.yaml
+          curl -L -o data/base64.txt https://gist.githubusercontent.com/dalazhi/d0db537c55d15ba97c80d169bd00bbb7/raw/base64.txt
+          curl -L -o data/mihomo.yaml https://gist.githubusercontent.com/dalazhi/d0db537c55d15ba97c80d169bd00bbb7/raw/mihomo.yaml
+          curl -L -o data/all-1.yaml https://gist.githubusercontent.com/dalazhi/adf2e62a5931358889eca20256cd0833/raw/all.yaml
+          curl -L -o data/base64-1.txt https://gist.githubusercontent.com/dalazhi/adf2e62a5931358889eca20256cd0833/base64.txt
+          curl -L -o data/mihomo-1.yaml https://gist.githubusercontent.com/dalazhi/adf2e62a5931358889eca20256cd0833/raw/mihomo.yaml
           echo "下载完成"
           
       - name: 检查文件是否有更新
@@ -33,8 +39,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/all.yaml
-          git commit -m "自动更新 all.yaml 文件"
+          git add data/
+          git commit -m "自动更新配置文件"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
