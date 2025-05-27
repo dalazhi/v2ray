@@ -1,4 +1,3 @@
-#yaml
 name: Update Gist
 
 on:
@@ -15,6 +14,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      - name: Debug - Print environment
+        run: env
       
       - name: Update Gist
         uses: exelban/update-gist@v1
