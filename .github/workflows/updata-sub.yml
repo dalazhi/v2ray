@@ -6,43 +6,35 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-nodes-only:
+  simple-format:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install yq v4 (官方脚本方案)
+      - name: Install yq v4
         run: |
           curl -fsSL https://install.yq.sh | sh -s -- -b $HOME/.local/bin
-          echo "$HOME/.local/bin" >> $GITHUB_PATH  # 添加到环境变量
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
-      - name: Fetch raw sub.yaml
-        run: |
-          curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o raw_sub.yaml
-          echo "===== 原始文件前10行 ====="
-          head -n 10 raw_sub.yaml  # 打印头部内容确认下载成功
+      - name: Fetch raw nodes
+        run:
+          curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o raw_nodes.txt
 
-      - name: Extract proxies array
+      - name: Prepend 'proxies:' to the top
         run: |
-          yq eval '.proxies | to_yaml' raw_sub.yaml > nodes_only.yaml
+          # 确保首行是 'proxies:'，其余内容保留原始格式
+          echo "proxies:" > sub.yaml
+          cat raw_nodes.txt >> sub.yaml
 
-      - name: Validate nodes
+      - name: Validate and commit
         run: |
-          if [ -z "$(cat nodes_only.yaml)" ] || [ "$(yq eval 'length' nodes_only.yaml)" -eq 0 ]; then
-            echo "===== 提取的节点内容 ====="
-            cat nodes_only.yaml
+          if [ -z "$(grep 'proxies:' sub.yaml)" ] || [ $(wc -l < sub.yaml) -le 1 ]; then
+            echo "Error: No nodes found after prepend"
             exit 1
           fi
-
-      - name: Save as sub.yaml
-        run:
-          mv nodes_only.yaml ./sub.yaml
-
-      - name: Commit and push
-        run: |
-          git config user.name "GitHub Actions"
+          git config user.name "Actions"
           git config user.email "actions@github.com"
           git add sub.yaml
-          git commit -m "Update nodes group $(date +'%Y-%m-%d %H:%M:%S')" -a || true
+          git commit -m "Add proxies: header $(date +'%Y-%m-%d %H:%M')" -a || true
           git push
