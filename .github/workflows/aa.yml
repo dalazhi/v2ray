@@ -24,9 +24,8 @@ jobs:
       - name: Convert to V2Ray format
         run: |
           mkdir -p v2ray
-          python3 - <<EOF
+          python3 <<EOF
 import yaml
-import base64
 import json
 import os
 
@@ -41,20 +40,15 @@ os.makedirs('v2ray', exist_ok=True)
 if 'proxies' in data:
     proxies_config = []
     for proxy in data['proxies']:
-        single_config = {
-            'log': {
-                'loglevel': 'warning'
-            },
+        config = {
+            'log': {'loglevel': 'warning'},
             'inbounds': [{
                 'port': 10808,
                 'protocol': 'socks',
-                'settings': {
-                    'auth': 'noauth',
-                    'udp': True
-                }
+                'settings': {'auth': 'noauth', 'udp': True}
             }],
             'outbounds': [{
-                'protocol': proxy.get('type', 'vmess'),  # 适配协议类型
+                'protocol': proxy.get('type', 'vmess'),
                 'settings': {
                     'vnext': [{
                         'address': proxy.get('server', ''),
@@ -70,43 +64,36 @@ if 'proxies' in data:
             }]
         }
         
-        # 处理不同网络类型（如WS/TCP）
+        # 处理网络类型（WS/TCP/TLS）
         network = proxy.get('network', 'tcp')
-        single_config['outbounds'][0]['streamSettings']['network'] = network
+        config['outbounds'][0]['streamSettings']['network'] = network
         if network == 'ws':
-            single_config['outbounds'][0]['streamSettings']['wsSettings'] = {
+            config['outbounds'][0]['streamSettings']['wsSettings'] = {
                 'path': proxy.get('ws-path', '/'),
-                'headers': {
-                    'Host': proxy.get('ws-headers', {}).get('Host', '')
-                }
+                'headers': {'Host': proxy.get('ws-headers', {}).get('Host', '')}
             }
-        elif network == 'tcp' and proxy.get('tls'):
-            single_config['outbounds'][0]['streamSettings']['security'] = 'tls'
+        elif network == 'tcp' and proxy.get('tls', False):
+            config['outbounds'][0]['streamSettings']['security'] = 'tls'
         
-        proxies_config.append(single_config)
+        proxies_config.append(config)
     
-    # 合并为单个配置文件（V2Ray支持多节点数组）
+    # 生成最终配置（合并所有节点到proxies数组）
     final_config = {
         'proxies': proxies_config,
-        'log': {
-            'loglevel': 'warning'
-        },
+        'log': {'loglevel': 'warning'},
         'inbounds': [{
             'port': 10808,
             'protocol': 'socks',
-            'settings': {
-                'auth': 'noauth',
-                'udp': True
-            }
+            'settings': {'auth': 'noauth', 'udp': True}
         }]
     }
     
     # 保存为JSON文件
     with open('v2ray/config.json', 'w') as f:
         json.dump(final_config, f, indent=2)
-    print(f"成功转换 {len(proxies_config)} 个节点配置")
+    print(f"成功转换 {len(proxies_config)} 个节点到 v2ray/config.json")
 else:
-    print("未找到代理节点信息")
+    print("警告：YAML文件中未找到proxies节点")
 EOF
 
       - name: Commit changes
@@ -115,8 +102,10 @@ EOF
           git config --local user.name "GitHub Action"
           git add v2ray/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "没有需要提交的变更"
           else
-            git commit -m "Update V2Ray configurations"
+            git commit -m "Update V2Ray configurations $(date)"
             git push
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
