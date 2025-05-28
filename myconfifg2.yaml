@@ -1,0 +1,323 @@
+# 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
+# 机场订阅
+# 定义代理提供者，从远程地址获取代理信息
+proxy-providers:
+  # gist-3 代理提供者
+  gist-3:
+    # 代理信息的远程获取地址
+    url: "https://gist.githubusercontent.com/dalazhi/d0db537c55d15ba97c80d169bd00bbb7/raw/all.yaml"
+    # 备用地址，当主地址更新失败时使用
+    fallback: "https://raw.githubusercontent.com/dalazhi/v2ray/refs/heads/main/data/all.yaml"
+    # 类型为 http，表示从 HTTP 地址获取代理信息
+    type: http
+    # 刷新代理信息的时间间隔，86400 秒即一天
+    interval: 86400
+    # 健康检查配置
+    health-check:
+      # 启用健康检查
+      enable: true
+      # 用于健康检查的 URL，通过访问该 URL 检查代理是否可用
+      url: https://www.gstatic.com/generate_204
+      # 健康检查的时间间隔，300 秒即 5 分钟
+      interval: 300
+    # 代理提供者获取代理信息时使用的代理，这里设置为直连
+    proxy: 获取代理信息切换
+  # sub 代理提供者
+  sub:
+    url: "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 获取代理信息切换
+  # gist-59 代理提供者
+  gist-59:
+    url: "https://ghfast.top/https://gist.githubusercontent.com/dalazhi/adf2e62a5931358889eca20256cd0833/raw/all.yaml"
+    # 备用地址，当主地址更新失败时使用
+    fallback: "https://raw.githubusercontent.com/dalazhi/v2ray/refs/heads/main/data/all1.yaml"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+
+# 节点信息
+# 定义代理节点，这里定义了一个名为直连的节点，类型为 direct 表示直接连接
+proxies:
+  - {name: 直连, type: direct}
+
+# 全局配置 
+# HTTP 代理端口
+port: 7890
+# SOCKS5 代理端口
+socks-port: 7891
+# 透明代理端口
+redir-port: 7892
+# 混合代理端口，支持 HTTP 和 SOCKS5
+mixed-port: 7893
+# TPROXY 端口
+tproxy-port: 7894
+# 是否允许局域网内的设备使用代理
+allow-lan: true
+# 绑定的地址，* 表示监听所有可用的网络接口
+bind-address: "*"
+# 是否启用 IPv6 支持
+ipv6: false
+# 是否统一计算延迟
+unified-delay: true
+# 是否启用 TCP 并发连接
+tcp-concurrent: true
+# 日志级别，warning 表示只输出警告及以上级别的日志
+log-level: warning
+# 查找进程的模式，off 表示关闭该功能
+find-process-mode: 'off'
+# 指定网络接口名称，这里注释掉表示使用默认接口
+# interface-name: en0
+# 全局客户端指纹，模拟 Chrome 浏览器的指纹
+global-client-fingerprint: chrome
+# TCP 连接的空闲超时时间，600 秒即 10 分钟
+keep-alive-idle: 600
+# TCP 连接的保活间隔时间，15 秒
+keep-alive-interval: 15
+# 是否禁用 TCP 保活机制
+disable-keep-alive: false
+# 配置文件相关设置
+profile:
+  # 是否保存上次选择的代理
+  store-selected: true
+  # 是否保存伪造的 IP 地址
+  store-fake-ip: true
+
+# 控制面板
+# 外部控制器的监听地址和端口
+external-controller: 0.0.0.0:9090
+# 外部控制器的访问密钥，为空表示不使用密钥
+secret: ""
+# 外部 UI 的存储路径
+external-ui: "/etc/mihomo/run/ui"
+# 外部 UI 的名称
+external-ui-name: zashboard
+# 外部 UI 的下载地址
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+
+# 嗅探
+# 启用嗅探功能
+sniffer:
+  enable: true
+  # 嗅探的协议和端口配置
+  sniff:
+    # HTTP 协议嗅探
+    HTTP:
+      # 嗅探的端口范围
+      ports: [80, 8080-8880]
+      # 是否覆盖目标地址
+      override-destination: true
+    # TLS 协议嗅探
+    TLS:
+      ports: [443, 8443]
+    # QUIC 协议嗅探
+    QUIC:
+      ports: [443, 8443]
+  # 强制嗅探的域名
+  force-domain:
+    - "+.v2ex.com"
+  # 跳过嗅探的域名
+  skip-domain:
+    - "+.baidu.com"
+
+# 入站  
+# 启用 TUN 模式
+tun:
+  enable: true
+  # TUN 模式的栈类型，mixed 表示混合模式
+  stack: mixed
+  # DNS 劫持配置，劫持所有 53 端口的 DNS 请求
+  dns-hijack: ["any:53", "tcp://any:53"]
+  # 是否自动配置路由
+  auto-route: true
+  # 是否自动重定向流量
+  auto-redirect: true
+  # 是否自动检测网络接口
+  auto-detect-interface: true
+
+# DNS模块
+# 启用 DNS 功能
+dns:
+  enable: true
+  # DNS 服务器的监听地址和端口
+  listen: 0.0.0.0:1053
+  # 是否启用 IPv6 DNS
+  ipv6: false
+  # 是否遵循规则进行 DNS 解析
+  respect-rules: true
+  # DNS 增强模式，fake-ip 表示使用伪造 IP 地址
+  enhanced-mode: fake-ip
+  # 伪造 IP 地址的范围
+  fake-ip-range: 28.0.0.1/8
+  # 伪造 IP 地址的过滤模式，blacklist 表示黑名单模式
+  fake-ip-filter-mode: blacklist
+  # 伪造 IP 地址的过滤规则
+  fake-ip-filter:
+    - "rule-set:private_domain,cn_domain"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "time.*.com"
+  # 默认的 DNS 服务器
+  default-nameserver:
+    - 223.5.5.5
+  # 代理服务器使用的 DNS 服务器
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+  # DNS 服务器列表
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+# 出站策略
+# 注意锚点必须放在引用的上方，可以集中把锚点全部放 yaml 的顶部。
+# 定义一个锚点 pr，用于定义代理组的通用配置
+pr: &pr {type: select, proxies: [🚀 默认代理, 🔯 香港故转, 🔯 日本故转,🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
+# 定义代理组
+proxy-groups:
+  # 默认代理组
+  - {name: 🚀 默认代理, type: select, proxies: [🔯 香港故转, 🔯 日本故转,🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
+  # YouTube 代理组，引用 pr 锚点的配置
+  - {name: 📹 YouTube, <<: *pr}
+  # Google 代理组
+  - {name: 🍀 Google, <<: *pr}
+  # ChatGPT 代理组
+  - {name: 🤖 ChatGPT, <<: *pr}
+  # GitHub 代理组
+  - {name: 👨🏿‍💻 GitHub, <<: *pr}
+  # OneDrive 代理组
+  - {name: 🐬 OneDrive, <<: *pr}
+  # Microsoft 代理组
+  - {name: 🪟 Microsoft, <<: *pr}
+  # TikTok 代理组
+  - {name: 🎵 TikTok, <<: *pr}
+  # Telegram 代理组
+  - {name: 📲 Telegram, <<: *pr}
+  # NETFLIX 代理组
+  - {name: 🎥 NETFLIX, <<: *pr}
+  # Speedtest 代理组
+  - {name: ✈️ Speedtest, <<: *pr}
+  # PayPal 代理组
+  - {name: 💶 PayPal, <<: *pr}
+  # Apple 代理组，手动指定代理选项
+  - {name: 🍎 Apple, type: select, proxies: [直连, 🚀 默认代理]}
+  # 直连代理组
+  - {name: 🎯 直连, type: select, proxies: [直连, 🚀 默认代理]}
+  # 漏网之鱼代理组
+  - {name: 🐟 漏网之鱼, <<: *pr}
+  # 香港节点代理组，通过正则表达式筛选包含香港相关关键词的节点
+  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
+  # 日本节点代理组
+  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
+  # 美国节点代理组
+  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
+  # 香港故转代理组，fallback 类型，当第一个代理不可用时使用第二个代理
+  - {name: 🔯 香港故转, type: fallback, lazy: false, interval: 300, proxies: [🇭🇰 香港节点, ♻️ 香港自动]}
+  # 日本故转代理组
+  - {name: 🔯 日本故转, type: fallback, lazy: false, interval: 300, proxies: [🇯🇵 日本节点, ♻️ 日本自动]}
+  # 美国故转代理组
+  - {name: 🔯 美国故转, type: fallback, lazy: false, interval: 300, proxies: [🇺🇲 美国节点, ♻️ 美国自动]}
+  # 香港自动代理组，url-test 类型，通过测试选择延迟最低的代理
+  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  # 日本自动代理组
+  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
+  # 美国自动代理组
+  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
+  # 自动选择代理组
+  - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
+  # 全部节点代理组
+  - {name: 🌐 全部节点, type: select, include-all: true}
+  # 新增代理组，用于 gist-3 获取代理信息时的代理切换
+  - {name: 获取代理信息切换, type: fallback, lazy: false, interval: 300, proxies: [🚀 默认代理, 直连]}
+
+# 规则匹配
+# 此规则部分没有做防泄露处理，因为弊严重大于利！
+rules:
+  # 匹配域名后缀为 qichiyu.com 的流量，使用默认代理
+  - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
+  # 匹配 private_domain 规则集的流量，直接连接
+  - RULE-SET,private_domain,直连
+  # 匹配 apple_domain 规则集的流量，使用 Apple 代理组
+  - RULE-SET,apple_domain,🍎 Apple
+  # 匹配 proxylite 规则集的流量，使用默认代理
+  - RULE-SET,proxylite,🚀 默认代理
+  # 匹配 ai 规则集的流量，使用 ChatGPT 代理组
+  - RULE-SET,ai,🤖 ChatGPT
+  # 匹配 github_domain 规则集的流量，使用 GitHub 代理组
+  - RULE-SET,github_domain,👨🏿‍💻 GitHub
+  # 匹配 youtube_domain 规则集的流量，使用 YouTube 代理组
+  - RULE-SET,youtube_domain,📹 YouTube
+  # 匹配 google_domain 规则集的流量，使用 Google 代理组
+  - RULE-SET,google_domain,🍀 Google
+  # 匹配 onedrive_domain 规则集的流量，使用 OneDrive 代理组
+  - RULE-SET,onedrive_domain,🐬 OneDrive
+  # 匹配 microsoft_domain 规则集的流量，使用 Microsoft 代理组
+  - RULE-SET,microsoft_domain,🪟 Microsoft
+  # 匹配 tiktok_domain 规则集的流量，使用 TikTok 代理组
+  - RULE-SET,tiktok_domain,🎵 TikTok
+  # 匹配 speedtest_domain 规则集的流量，使用 Speedtest 代理组
+  - RULE-SET,speedtest_domain,✈️ Speedtest
+  # 匹配 telegram_domain 规则集的流量，使用 Telegram 代理组
+  - RULE-SET,telegram_domain,📲 Telegram
+  # 匹配 netflix_domain 规则集的流量，使用 NETFLIX 代理组
+  - RULE-SET,netflix_domain,🎥 NETFLIX
+  # 匹配 paypal_domain 规则集的流量，使用 PayPal 代理组
+  - RULE-SET,paypal_domain,💶 PayPal
+  # 匹配 gfw_domain 规则集的流量，使用默认代理
+  - RULE-SET,gfw_domain,🚀 默认代理
+  # 匹配 geolocation-!cn 规则集的流量，使用默认代理
+  - RULE-SET,geolocation-!cn,🚀 默认代理
+  # 匹配 cn_domain 规则集的流量，直接连接
+  - RULE-SET,cn_domain,🎯 直连
+  # 匹配 google_ip 规则集的流量，使用 Google 代理组，不进行 DNS 解析
+  - RULE-SET,google_ip,🍀 Google,no-resolve
+  # 匹配 netflix_ip 规则集的流量，使用 NETFLIX 代理组，不进行 DNS 解析
+  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
+  # 匹配 telegram_ip 规则集的流量，使用 Telegram 代理组，不进行 DNS 解析
+  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
+  # 匹配 cn_ip 规则集的流量，直接连接
+  - RULE-SET,cn_ip,🎯 直连
+  # 匹配所有未命中上述规则的流量，使用漏网之鱼代理组
+  - MATCH,🐟 漏网之鱼
+
+# 规则集
+# 定义规则集的锚点，方便复用配置
+rule-anchor:
+  # IP 规则集配置
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
+  # 域名规则集配置
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
+  # 经典规则集配置
+  class: &class {type: http, interval: 86400, behavior: classical, format: text}
+# 定义规则集提供者
+rule-providers: 
+  private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
+  proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
+  ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
+  youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
+  google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
+  github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
+  telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
+  netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
+  paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
+  onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
+  microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
+  apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"}
+  speedtest_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ookla-speedtest.mrs"}
+  tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
+  gfw_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"}
+  geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
+  cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
+  
+  cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
+  google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+  telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
+  netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
