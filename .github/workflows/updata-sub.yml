@@ -12,24 +12,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install yq (YAML parser)
+      - name: Install yq v4 (推荐方案)
         run: |
-          sudo apt-get update && sudo apt-get install -y yq
+          curl -sL https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -o /usr/bin/yq
+          chmod +x /usr/bin/yq
 
       - name: Fetch raw sub.yaml
         run: |
           curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o raw_sub.yaml
+          echo "===== 原始文件内容 ====="
           cat raw_sub.yaml  # 打印原始内容以便调试
 
       - name: Extract proxies array
         run: |
-          # 使用yq提取proxies数组并格式化为YAML
           yq eval '.proxies | to_yaml' raw_sub.yaml > nodes_only.yaml
 
       - name: Validate nodes
         run: |
           if [ ! -s nodes_only.yaml ] || [ "$(yq eval 'length' nodes_only.yaml)" -eq 0 ]; then
-            echo "Error: No valid nodes found in the file"
+            echo "===== 提取的节点内容 ====="
             cat nodes_only.yaml  # 打印空文件内容
             exit 1
           fi
