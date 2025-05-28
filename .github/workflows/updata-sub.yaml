@@ -1,0 +1,35 @@
+name: Update Subscription Nodes
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"  # 每两小时执行一次
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  fetch-subscription:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch sub.yaml from remote
+        run: |
+          curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o temp_sub.yaml
+          # 验证文件是否有效（可选，根据实际格式调整）
+          if [ -z "$(grep 'proxies:' temp_sub.yaml)" ]; then
+            echo "Error: Failed to fetch valid sub.yaml"
+            exit 1
+          fi
+
+      - name: Replace existing sub.yaml
+        run: |
+          mv temp_sub.yaml ./sub.yaml
+          echo "Successfully updated sub.yaml"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add sub.yaml
+          git commit -m "Update sub.yaml $(date +'%Y-%m-%d %H:%M:%S')" -a || true  # 无变化时跳过提交
+          git push
