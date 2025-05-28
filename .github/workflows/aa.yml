@@ -1,0 +1,100 @@
+name: Convert Subscription to V2Ray
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每6小时执行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Download YAML file
+        run: |
+          mkdir -p download
+          wget -O download/sub.yaml https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml
+          
+      - name: Install dependencies
+        run: |
+          pip3 install pyyaml requests
+          
+      - name: Convert to V2Ray format
+        run: |
+          mkdir -p v2ray
+          python3 - <<EOF
+import yaml
+import base64
+import json
+import os
+
+# 读取YAML文件
+with open('download/sub.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+
+# 创建V2Ray配置目录
+os.makedirs('v2ray', exist_ok=True)
+
+# 提取节点信息并转换为V2Ray格式
+if 'proxies' in data:
+    for i, proxy in enumerate(data['proxies']):
+        config = {
+            'log': {
+                'loglevel': 'warning'
+            },
+            'inbounds': [{
+                'port': 10808,
+                'protocol': 'socks',
+                'settings': {
+                    'auth': 'noauth',
+                    'udp': True
+                }
+            }],
+            'outbounds': [{
+                'protocol': 'vmess',
+                'settings': {
+                    'vnext': [{
+                        'address': proxy.get('server', ''),
+                        'port': proxy.get('port', 0),
+                        'users': [{
+                            'id': proxy.get('uuid', ''),
+                            'alterId': proxy.get('alterId', 0),
+                            'security': proxy.get('cipher', 'auto')
+                        }]
+                    }]
+                },
+                'streamSettings': {
+                    'network': proxy.get('network', 'tcp'),
+                    'security': proxy.get('tls', 'none'),
+                    'wsSettings': {
+                        'path': proxy.get('ws-path', '/'),
+                        'headers': {
+                            'Host': proxy.get('ws-headers', {}).get('Host', '')
+                        }
+                    } if proxy.get('network') == 'ws' else {}
+                }
+            }]
+        }
+        
+        # 保存为JSON文件
+        filename = f"v2ray/config_{i}.json"
+        with open(filename, 'w') as f:
+            json.dump(config, f, indent=2)
+    print(f"成功转换 {len(data['proxies'])} 个节点配置")
+else:
+    print("未找到代理节点信息")
+EOF
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add v2ray/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update V2Ray configurations"
+            git push
+          fi    
