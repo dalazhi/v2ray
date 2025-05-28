@@ -1,43 +1,52 @@
-name: Generate Proxies with Top Level
-
+name: Update Subscription
 on:
+  push:
+    branches: [ main ]
   schedule:
-    - cron: "0 */2 * * *"
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # 每天零点执行
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  format-proxies:
+  update-sub:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      # 处理 Pull Request 事件（拉取 PR 分支代码）
+      - name: Checkout PR branch
+        uses: actions/checkout@v3
+        if: github.event_name == 'pull_request'
+        with:
+          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          fetch-depth: 0  # 拉取完整历史记录
 
-      - name: Install yq v4
+      # 处理非 PR 事件（默认拉取 main 分支代码）
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        if: github.event_name != 'pull_request'
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Install dependencies
         run: |
-          curl -fsSL https://install.yq.sh | sh -s -- -b $HOME/.local/bin
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Fetch raw configuration
-        run:
-          curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o raw.yaml
-
-      - name: Extract and wrap in proxies: root
+      - name: Generate subscription
         run: |
-          yq eval '{proxies: .proxies}' raw.yaml > sub.yaml  # 强制生成proxies顶级字段
+          python generate_sub.py
 
-      - name: Validate format
+      - name: Commit and push changes
         run: |
-          if ! yq eval '.proxies[0].name' sub.yaml >/dev/null; then
-            echo "Error: Invalid proxy format in sub.yaml"
-            cat sub.yaml
-            exit 1
-          fi
-          echo "Successfully generated proxies with top level"
-
-      - name: Commit and push
-        run: |
-          git config user.name "Actions"
+          git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add sub.yaml
-          git commit -m "Update formatted proxies $(date +'%Y-%m-%d %H:%M')" -a || true
-          git push
+          # 使用双引号包裹并转义特殊字符（避免 YAML 语法错误）
+          git commit -m "Update proxies $(date +\"%Y-%m-%d %H:%M:%S\")" -a || true
+          git push --force-with-lease
