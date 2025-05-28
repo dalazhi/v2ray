@@ -1,4 +1,4 @@
-name: Update Subscription Nodes
+name: Generate Proxies with Top Level
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  simple-format:
+  format-proxies:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -17,24 +17,27 @@ jobs:
           curl -fsSL https://install.yq.sh | sh -s -- -b $HOME/.local/bin
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
-      - name: Fetch raw nodes
+      - name: Fetch raw configuration
         run:
-          curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o raw_nodes.txt
+          curl -fsSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o raw.yaml
 
-      - name: Prepend 'proxies:' to the top
+      - name: Extract and wrap in proxies: root
         run: |
-          # 确保首行是 'proxies:'，其余内容保留原始格式
-          echo "proxies:" > sub.yaml
-          cat raw_nodes.txt >> sub.yaml
+          yq eval '{proxies: .proxies}' raw.yaml > sub.yaml  # 强制生成proxies顶级字段
 
-      - name: Validate and commit
+      - name: Validate format
         run: |
-          if [ -z "$(grep 'proxies:' sub.yaml)" ] || [ $(wc -l < sub.yaml) -le 1 ]; then
-            echo "Error: No nodes found after prepend"
+          if ! yq eval '.proxies[0].name' sub.yaml >/dev/null; then
+            echo "Error: Invalid proxy format in sub.yaml"
+            cat sub.yaml
             exit 1
           fi
+          echo "Successfully generated proxies with top level"
+
+      - name: Commit and push
+        run: |
           git config user.name "Actions"
           git config user.email "actions@github.com"
           git add sub.yaml
-          git commit -m "Add proxies: header $(date +'%Y-%m-%d %H:%M')" -a || true
+          git commit -m "Update formatted proxies $(date +'%Y-%m-%d %H:%M')" -a || true
           git push
