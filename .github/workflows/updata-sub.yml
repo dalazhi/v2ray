@@ -72,6 +72,6 @@ jobs:
             # 添加文件并提交变更
             git add sub.yaml
             git commit -m "Update formatted proxies $(date +'%Y-%m-%d %H:%M')"
-            # 强制推送（可选，根据需求决定是否使用 --force）
-            git push
+            # 修正推送命令的缩进和符号（原错误可能在此处）
+            git push  # 确保与上一行缩进一致（4 个空格）
           fi
