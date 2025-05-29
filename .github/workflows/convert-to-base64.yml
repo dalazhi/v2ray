@@ -4,6 +4,7 @@ name: Convert to Base64
 on:
   schedule:
     - cron: '0 */4 * * *'
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   convert:
