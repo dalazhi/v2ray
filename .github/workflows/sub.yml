@@ -15,7 +15,7 @@ jobs:
 
       - name: 获取最新的节点信息
         run: |
-          curl -sSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yam" -o nodes.yaml
+          curl -sSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml" -o nodes.yaml
 
       - name: 检查 `nodes.yaml` 是否有数据
         run: cat nodes.yaml
