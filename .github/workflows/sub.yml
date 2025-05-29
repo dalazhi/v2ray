@@ -33,12 +33,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: 确保 Git 追踪文件
+      - name: 添加 `sub.yaml` 到 Git
         run: |
           git add v2ray/sub.yaml || echo "sub.yaml 文件不存在！"
 
-      - name: 提交更新
+      - name: 强制提交所有更改
         run: |
+          git add .
           git commit -m "自动更新 V2Ray 节点信息"
           git push origin main
         env:
