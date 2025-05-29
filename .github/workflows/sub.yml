@@ -19,17 +19,21 @@ jobs:
 
       - name: 提取并格式化节点信息
         run: |
+          mkdir -p v2ray  # 确保 v2ray 目录存在
           echo "proxies:" > v2ray/sub.yaml
           grep -A 100 "proxies:" nodes.yaml | sed '/^$/d' >> v2ray/sub.yaml
 
-      - name: 配置 Git
+      - name: 检查 `sub.yaml` 是否成功生成
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          ls -l v2ray/
+          cat v2ray/sub.yaml
+
+      - name: 确保 Git 追踪文件
+        run: |
+          git add v2ray/sub.yaml || echo "sub.yaml 文件不存在！"
 
       - name: 提交更新
         run: |
-          git add v2ray/sub.yaml
           git commit -m "自动更新 V2Ray 节点信息"
           git push origin main
         env:
