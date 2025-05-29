@@ -1,0 +1,44 @@
+name: Convert to Base64
+
+# 触发条件：每4小时执行一次
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch remote YAML file
+      run: |
+        curl -sL https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yaml -o sub.yaml
+
+    - name: Read YAML file and convert to Base64
+      run: |
+        # 安装yq工具用于读取YAML文件
+        sudo apt-get update && sudo apt-get install -y jq
+        yq e '.. | select(type == "string") |= @base64' sub.yaml > sub_base64.yaml
+
+        # 提取节点信息并转换成Base64格式保存到base64.txt
+        # 假设你需要转换的是所有字符串类型的节点，以下是一个示例脚本，具体可能需要根据你的YAML结构调整
+        grep -oP '"[^"]*": "\K[^"]*(?=")' sub.yaml | while read -r node; do echo "$node" | base64; done > v2ray/base64.txt
+
+        # 如果v2ray目录不存在，则创建
+        mkdir -p v2ray
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "your-email@example.com"
+        git config --local user.name "your-username"
+        git add v2ray/base64.txt
+        git commit -m "Update base64.txt with converted nodes"
+        git push
+
+      # 注意：使用个人访问令牌（PAT）进行推送时，需要在仓库设置中配置SECRET
+      # 确保在仓库的Secrets中添加了名为PERSONAL_ACCESS_TOKEN的Secret
+      env:
+        GITHUB_TOKEN: ${{ secrets.secrets.GH_TOKEN }}
