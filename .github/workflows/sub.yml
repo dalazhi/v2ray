@@ -17,6 +17,9 @@ jobs:
         run: |
           curl -sSL "https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/sub.yam" -o nodes.yaml
 
+      - name: 检查 `nodes.yaml` 是否有数据
+        run: cat nodes.yaml
+        
       - name: 提取并格式化节点信息
         run: |
           mkdir -p v2ray  # 确保 v2ray 目录存在
