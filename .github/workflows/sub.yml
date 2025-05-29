@@ -28,6 +28,11 @@ jobs:
           ls -l v2ray/
           cat v2ray/sub.yaml
 
+      - name: 配置 Git 用户身份
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: 确保 Git 追踪文件
         run: |
           git add v2ray/sub.yaml || echo "sub.yaml 文件不存在！"
