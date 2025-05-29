@@ -20,7 +20,7 @@ jobs:
       - name: 提取并格式化节点信息
         run: |
           echo "proxies:" > v2ray/sub.yaml
-          awk '/proxies:/,/^$/' nodes.yaml | tail -n +2 >> v2ray/sub.yaml
+          grep -A 100 "proxies:" nodes.yaml | sed '/^$/d' >> v2ray/sub.yaml
 
       - name: 配置 Git
         run: |
