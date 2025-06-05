@@ -1,6 +1,6 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
     server: 47.116.166.178
     port: 50002
     type: vmess
@@ -10,34 +10,8 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: 47.116.166.178
-    delay: 329
-  - type: ss
-    server: 113.96.190.245
-    port: 10888
-    cipher: chacha20-ietf-poly1305
-    password: 5e8fa330-fb4d-42a3-87c7-8ccd3a81743f
-    name: 中国 - 乌恰 - Baxet Group Inc. - 23
-    delay: 633
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: 中国 - 北京 - Alliance Intelligent Technologies Pte. Ltd. - 20
-    network: http
-    port: 51036
-    server: 206.237.127.188
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: af73136a-bbfa-4f95-a3e0-6c3005aa8ae1
-    xudp: true
-    delay: 1450
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+    delay: 308
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 2
     server: 47.92.152.169
     port: 50002
     type: vmess
@@ -46,49 +20,8 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 257
-  - name: 中国 - 台湾 - Cloudflare, Inc. - 27
-    network: ws
-    port: 81
-    server: 210.61.97.241
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edma.ambercc.filegear-sg.me
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    servername: edma.ambercc.filegear-sg.me
-    delay: 643
-  - cipher: chacha20-ietf-poly1305
-    name: 中国 - 台湾 - Pittqiao Network Information Co., Ltd. - 1
-    password: 937f6b6168b6
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: wt8v1.kvote.cn
-      mode: websocket
-      mux: true
-      path: /oqhygtklyhwi
-      tls: true
-    port: 443
-    server: 103.137.62.194
-    type: ss
-    udp: true
-    delay: 2303
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-    server: 112.132.215.12
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ury-unit-c030ehei8.poget71138.workers.dev
-    delay: 673
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 9
+    delay: 260
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
     server: 112.132.215.34
     port: 50007
     type: vmess
@@ -98,5 +31,72 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: 112.132.215.34
-    delay: 295
-  - name: 中国 - 广州市 - China Mobile - 8
+    delay: 1366
+  - name: 中国 - 广州市 - China Mobile communications corporation - 1
+    server: 120.210.205.59
+    port: 50002
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 646
+  - name: 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 16
+    server: 43.99.251.175
+    port: 34045
+    type: vless
+    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    tls: true
+    reality-opts:
+      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+      short-id: e8ab71d0
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+    delay: 2637
+  - cipher: chacha20-ietf-poly1305
+    name: 中国 - 香港 - BGP Network Limited - 4
+    password: 60a930c17ff0
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: kr6v1.xpmc.cc
+      mode: websocket
+      path: /matwnpkhug
+      tls: true
+    port: 43361
+    server: 43.226.17.11
+    type: ss
+    udp: true
+    delay: 1109
+  - name: 中国 - 香港 - Cloudflare, Inc. - 13
+    server: 47.76.218.163
+    port: 443
+    type: vless
+    uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+    tls: true
+    network: ws
+    ws-opts:
+      path: /Telegram @pgkj666 /?ed=2560
+      headers:
+        Host: steep.skyfigure.top
+    udp: true
+    servername: steep.skyfigure.top
+    delay: 1057
+  - name: 中国 - 香港 - Cloudflare, Inc. - 14
+    server: 74.119.193.128
+    port: 443
+    type: vless
+    uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+    tls: true
+    servername: steep.skyfigure.top
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+      headers:
+        Host: steep.skyfigure.top
+    delay: 1289
+  - name: 中国 - 香港 - Cloudflare, Inc. - 20
+    network: ws
+    port: 26010
