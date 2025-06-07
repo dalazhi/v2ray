@@ -1,20 +1,43 @@
 proxies:
+    - name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 4.0MB/s"
+      password: 85f133142f04dbf6547da33895cfabb3
+      port: 39001
+      server: 125.94.40.221
+      skip-cert-verify: true
+      sni: www.yrtok.com
+      type: trojan
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 3.5MB/s"
+      password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+      port: 8313
+      server: dozo01.flztjc.top
+      skip-cert-verify: false
+      sni: hk-13-568.flztjc.net
+      type: trojan
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: 1000 Mbps
-      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 3.3MB/s"
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.1MB/s"
       port: 17549
       server: 208.87.243.151
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria
       up: 1000 Mbps
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 2.4MB/s"
+      password: dongtaiwang.com
+      port: 30033
+      server: 46.29.163.171
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
     - delay: 2760
       disable-sni: true
       down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.5MB/s"
+      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.8MB/s"
       obfs: ""
       obfs-password: ""
       password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
@@ -24,34 +47,16 @@ proxies:
       sni: ""
       type: hysteria2
       up: ""
-    - auth: e3f67f43-9097-4e56-96e2-681910b92150
-      name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 2.2MB/s"
-      obfs: salamander
-      obfs-password: fWQ4LCfAYiKaEVRe
-      password: e3f67f43-9097-4e56-96e2-681910b92150
-      port: 35091
-      server: 172.245.106.236
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F300其他1-未识别 | ⬇️ 2.3MB/s"
-      network: ws
-      port: 30825
-      server: v25.heduian.link
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /oooo
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 2.2MB/s"
+    - delay: 872
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 3.5MB/s"
+      obfs: ""
+      obfs-password: ""
       password: dongtaiwang.com
-      port: 30033
-      server: 46.29.163.171
+      port: 4489
+      server: 51.158.205.126
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+      up: ""
