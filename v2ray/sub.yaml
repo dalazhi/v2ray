@@ -1,17 +1,25 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-    server: 47.116.166.178
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: undefined - undefined - undefined - 1
+    server: 222.118.119.243
+    type: trojan
+    country: 🇰🇷KR
+    port: 30017
+    password: Aimer
+    sni: agepn.ambercc.filegear-sg.me
     skip-cert-verify: true
-    servername: 47.116.166.178
-    delay: 308
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 2
+    udp: true
+    delay: 533
+  - name: 中国 - Houxi - CloudRadium L.L.C - 16
+    type: vmess
+    server: 183.238.90.8
+    port: 46920
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    tls: false
+    delay: 2914
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
     server: 47.92.152.169
     port: 50002
     type: vmess
@@ -20,18 +28,17 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 260
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-    server: 112.132.215.34
-    port: 50007
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 112.132.215.34
-    delay: 1366
+    delay: 600
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 10
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    udp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    delay: 1609
   - name: 中国 - 广州市 - China Mobile communications corporation - 1
     server: 120.210.205.59
     port: 50002
@@ -41,62 +48,55 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 646
-  - name: 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 16
-    server: 43.99.251.175
-    port: 34045
-    type: vless
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    tls: true
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    client-fingerprint: firefox
+    delay: 476
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
+    server: 47.104.186.133
+    type: vmess
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
     network: tcp
-    udp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-    delay: 2637
-  - cipher: chacha20-ietf-poly1305
-    name: 中国 - 香港 - BGP Network Limited - 4
-    password: 60a930c17ff0
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: kr6v1.xpmc.cc
-      mode: websocket
-      path: /matwnpkhug
-      tls: true
-    port: 43361
-    server: 43.226.17.11
-    type: ss
-    udp: true
-    delay: 1109
-  - name: 中国 - 香港 - Cloudflare, Inc. - 13
-    server: 47.76.218.163
+    http-opts: {}
+    h2-opts: {}
+    delay: 544
+  - type: vless
+    name: 中国 - 香港 - Cloudflare, Inc. - 12
+    server: 103.44.255.81
     port: 443
-    type: vless
-    uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     tls: true
+    skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /Telegram @pgkj666 /?ed=2560
       headers:
-        Host: steep.skyfigure.top
-    udp: true
-    servername: steep.skyfigure.top
-    delay: 1057
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+    delay: 384
   - name: 中国 - 香港 - Cloudflare, Inc. - 14
-    server: 74.119.193.128
-    port: 443
+    server: 218.51.125.182
+    port: 14220
     type: vless
-    uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+    uuid: 7033139c-1d54-4aa8-b074-68ca2c06aeb6
     tls: true
-    servername: steep.skyfigure.top
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+      path: /?ed=2560
       headers:
-        Host: steep.skyfigure.top
-    delay: 1289
-  - name: 中国 - 香港 - Cloudflare, Inc. - 20
+        Host: oty.myto.ip-ddns.com
+    udp: true
+    servername: oty.myto.ip-ddns.com
+    delay: 606
+  - name: 中国 - 香港 - Cloudflare, Inc. - 15
+    server: 118.91.83.231
+    port: 10704
+    type: vless
+    uuid: 7033139c-1d54-4aa8-b074-68ca2c06aeb6
+    tls: true
+    client-fingerprint: random
     network: ws
-    port: 26010
+    ws-opts:
+      path: /?ed=2560
