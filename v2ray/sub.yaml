@@ -1,48 +1,64 @@
 proxies:
 proxies:
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+  - name: 中国 - Houxi - CloudRadium L.L.C - 12
+    server: 183.238.90.8
+    port: 46920
     type: vmess
-    server: 47.92.152.169
-    port: 50002
-    cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
+    alterId: 64
+    cipher: auto
     tls: false
-    client-fingerprint: ''
-    delay: 158
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 14
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    delay: 1793
-  - name: 中国 - 台湾 - Pittqiao Network Information Co., Ltd. - 8
-    server: mdss-tw.04z3susick.download
-    type: ss
-    country: 🇨🇳CN
-    port: 12032
-    password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-    cipher: aes-128-gcm
-    delay: 709
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-    server: 112.132.215.34
+    delay: 858
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+    server: 47.116.166.178
     type: vmess
-    country: 🇨🇳 CN
-    port: 50007
+    country: 🇨🇳CN
+    port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     network: tcp
-    ws-path: /
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 1301
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+    delay: 165
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+    server: 47.92.152.169
+    port: 50002
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    delay: 385
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 15
+    server: tw.xiao666666.site
+    port: 26900
+    type: hysteria2
+    password: e307d816-12d7-421d-b4e6-51d50549de17
+    auth: e307d816-12d7-421d-b4e6-51d50549de17
+    sni: tw.xiao666666.site
+    up: 150
+    down: 150
+    skip-cert-verify: false
+    udp: true
+    delay: 2672
+  - cipher: aes-256-cfb
+    name: 中国 - 台湾 - Data Center Network Limited - 8
+    password: qwerREWQ@@
+    port: 64759
+    server: 185.189.160.98
+    type: ss
+    udp: true
+    delay: 660
+  - name: 中国 - 台湾 - Gigabit Hosting Sdn Bhd - 1
+    server: 120.233.128.98
+    port: 30015
+    type: ss
+    cipher: aes-256-gcm
+    password: dwz1GtF7
+    delay: 753
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
     type: vmess
     server: 112.132.215.12
     port: 50002
@@ -51,52 +67,36 @@ proxies:
     alterId: 0
     tls: false
     client-fingerprint: ''
-    delay: 321
-  - name: 中国 - 广州市 - China Mobile - 4
-    server: 183.236.51.36
+    delay: 386
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
+    server: 112.132.215.34
+    port: 50007
     type: vmess
-    port: 59003
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
-    http-opts: {}
-    h2-opts: {}
+    tls: false
     skip-cert-verify: true
-    delay: 234
-  - name: 中国 - 广州市 - China Mobile communications corporation - 1
+    delay: 445
+  - name: 中国 - 广州市 - China Mobile - 6
+    server: 183.236.51.36
+    port: 59003
     type: vmess
-    server: 120.210.205.59
-    port: 50002
-    cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    tls: false
-    client-fingerprint: ''
-    delay: 865
-  - name: 中国 - 镇江市 - CHINAUNICOM CHINA169 Jiangsu Province Network - 16
-    type: vmess
-    server: 103.56.63.19
-    port: 80
-    cipher: auto
-    uuid: 2c0c131b-ff1c-4b76-a4b1-b623c63bbb39
     alterId: 0
+    cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: tms.dingtalk.com
-    client-fingerprint: ''
-    delay: 715
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-    type: vmess
+    skip-cert-verify: true
+    delay: 421
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
     server: 47.104.186.133
     port: 50002
-    cipher: auto
+    type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
+    cipher: auto
     tls: false
-    client-fingerprint: ''
-    delay: 205
-  - name: 中国 - 香港 - Cnservers LLC - 12
-    type: vmess
+    delay: 408
+  - auth: fae536f0-c2e4-4082-8e81-f4c466575f5b
+    name: 中国 - 香港 - Baxet Group Inc. - 18
+    password: fae536f0-c2e4-4082-8e81-f4c466575f5b
