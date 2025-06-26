@@ -1,6 +1,19 @@
 proxies:
 proxies:
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+    server: 47.116.166.178
+    type: vmess
+    country: 🇨🇳CN
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 298
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
     server: 47.92.152.169
     port: 50002
     type: vmess
@@ -8,36 +21,19 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-    delay: 362
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 10
-    server: vps.200566.xyz
+    delay: 193
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 15
+    server: tw.xiao666666.site
+    port: 26900
     type: hysteria2
-    country: 🇹🇼TW
-    port: 30329
+    password: 05168661-a845-4844-9e04-e610461ebad9
+    auth: 05168661-a845-4844-9e04-e610461ebad9
+    sni: tw.xiao666666.site
+    up: 150
+    down: 150
+    skip-cert-verify: false
     udp: true
-    password: 79739832-b888-415a-a454-8b53911c944a
-    sni: vps.200566.xyz
-    skip-cert-verify: true
-    delay: 376
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 5
-    server: tw40.453521.xyz
-    type: trojan
-    country: 🇹🇼TW
-    port: 3663
-    password: a348278e-71ac-499c-8069-28b1af18c372
-    skip-cert-verify: true
-    udp: true
-    delay: 483
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 6
-    server: 111.250.98.104
-    type: trojan
-    country: 🇹🇼TW
-    port: 3663
-    password: a348278e-71ac-499c-8069-28b1af18c372
-    sni: tw40.453521.xyz
-    skip-cert-verify: true
-    udp: true
-    delay: 419
+    delay: 2840
   - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
     server: 112.132.215.34
     port: 50007
@@ -47,19 +43,9 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 383
-  - name: 中国 - 广州市 - China Mobile communications corporation - 3
-    server: 120.210.205.59
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 449
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
-    server: 47.104.186.133
+    delay: 621
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+    server: 112.132.215.12
     type: vmess
     country: 🇨🇳CN
     port: 50002
@@ -67,36 +53,50 @@ proxies:
     alterId: 64
     cipher: auto
     network: tcp
-    servername: trojan.burgerip.co.uk
+    servername: 09jzus.zdzdzd.xyz
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 448
-  - cipher: aes-256-gcm
-    name: 中国 - 香港 - BGP Network Limited - 1
-    password: 8360adcea0b1
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: kr6v1.dashengjs.net
-      mode: websocket
-      mux: true
-      path: /bylnxldqaquw
-      tls: true
-    port: 443
-    server: kr6v1.dashengjs.net
-    type: ss
-    udp: true
-    delay: 1677
-  - name: 中国 - 香港 - CTG Server Ltd. - 12
-    server: 120.232.153.40
-    port: 31209
+    delay: 560
+  - name: 中国 - 广州市 - China Mobile - 4
+    server: 183.236.51.36
+    type: vmess
+    port: 59003
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 537
+  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 1
+    server: 120.26.55.225
+    port: 50002
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: false
+    delay: 855
+  - name: 中国 - 臺北市 - Akari Networks - 11
+    server: wb.kaiqsz.com
+    port: 42765
+    type: trojan
+    password: a25ed269-105b-4f15-bee2-bc2785d38912
+    sni: wb.kaiqsz.com
+    skip-cert-verify: true
     udp: true
-    delay: 573
-  - name: 中国 - 香港 - CTG Server Ltd. - 9
-    server: 183.236.51.38
+    delay: 1730
+  - name: 中国 - 香港 - Akari Networks - 5
+    server: pop.air.1543.0tk8a3a1q4t94dler.com
+    type: ss
+    port: 3052
+    password: VXPipi29nxMO
+    cipher: aes-128-gcm
+    plugin: obfs
+    plugin-opts:
+      host: 182039459a34f64238143cd31ddebbc914362.taobao.com
+      mode: http
+    delay: 172
+  - name: 中国 - 香港 - Baxet Group Inc. - 16
+    server: 2.linkhub.support
