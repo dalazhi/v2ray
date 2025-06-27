@@ -1,19 +1,16 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 6
     server: 47.116.166.178
-    type: vmess
-    country: 🇨🇳CN
     port: 50002
+    type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
+    tls: false
     skip-cert-verify: true
-    delay: 298
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+    delay: 129
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
     server: 47.92.152.169
     port: 50002
     type: vmess
@@ -21,20 +18,8 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-    delay: 193
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 15
-    server: tw.xiao666666.site
-    port: 26900
-    type: hysteria2
-    password: 05168661-a845-4844-9e04-e610461ebad9
-    auth: 05168661-a845-4844-9e04-e610461ebad9
-    sni: tw.xiao666666.site
-    up: 150
-    down: 150
-    skip-cert-verify: false
-    udp: true
-    delay: 2840
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+    delay: 321
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 4
     server: 112.132.215.34
     port: 50007
     type: vmess
@@ -43,9 +28,44 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 621
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
-    server: 112.132.215.12
+    delay: 194
+  - name: 中国 - 广州市 - China Mobile - 1
+    server: 183.236.51.36
+    port: 59003
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 246
+  - name: 中国 - 广州市 - China Mobile communications corporation - 2
+    server: 120.210.205.59
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 264
+  - name: 中国 - 成都 - CloudRadium L.L.C - 7
+    server: 120.198.71.218
+    type: vmess
+    country: 🇨🇳CN
+    port: 32915
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 114
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+    server: 47.104.186.133
     type: vmess
     country: 🇨🇳CN
     port: 50002
@@ -53,50 +73,30 @@ proxies:
     alterId: 64
     cipher: auto
     network: tcp
-    servername: 09jzus.zdzdzd.xyz
+    servername: trojan.burgerip.co.uk
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 560
-  - name: 中国 - 广州市 - China Mobile - 4
-    server: 183.236.51.36
-    type: vmess
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 537
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 1
-    server: 120.26.55.225
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    delay: 855
-  - name: 中国 - 臺北市 - Akari Networks - 11
-    server: wb.kaiqsz.com
-    port: 42765
-    type: trojan
-    password: a25ed269-105b-4f15-bee2-bc2785d38912
-    sni: wb.kaiqsz.com
-    skip-cert-verify: true
-    udp: true
-    delay: 1730
-  - name: 中国 - 香港 - Akari Networks - 5
-    server: pop.air.1543.0tk8a3a1q4t94dler.com
-    type: ss
-    port: 3052
-    password: VXPipi29nxMO
-    cipher: aes-128-gcm
-    plugin: obfs
-    plugin-opts:
-      host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-      mode: http
-    delay: 172
-  - name: 中国 - 香港 - Baxet Group Inc. - 16
+    delay: 200
+  - name: 中国 - 香港 - Baxet Group Inc. - 11
     server: 2.linkhub.support
+    port: 40206
+    type: ssr
+    cipher: rc4-md5
+    password: ENZ52K
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 92902:pFWGOQ
+    obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+    udp: true
+    delay: 798
+  - name: 中国 - 香港 - CTG Server Ltd. - 10
+    server: 183.236.51.37
+    type: vmess
+    country: 🇨🇳CN
+    port: 55112
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    http-opts: {}
