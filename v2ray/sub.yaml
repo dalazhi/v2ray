@@ -1,16 +1,18 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 6
-    server: 47.116.166.178
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 129
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  - name: 中国 - 乌恰 - Baxet Group Inc. - 10
+    server: hk3.pddwdf.store
+    port: 10866
+    type: hysteria2
+    password: 924abf1e-375d-4918-8b20-1047ef3dbb57
+    auth: 924abf1e-375d-4918-8b20-1047ef3dbb57
+    sni: hk3.pddwdf.store
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    udp: true
+    delay: 2102
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
     server: 47.92.152.169
     port: 50002
     type: vmess
@@ -18,85 +20,83 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-    delay: 321
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 4
-    server: 112.132.215.34
-    port: 50007
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 194
-  - name: 中国 - 广州市 - China Mobile - 1
-    server: 183.236.51.36
-    port: 59003
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 246
-  - name: 中国 - 广州市 - China Mobile communications corporation - 2
-    server: 120.210.205.59
+    delay: 182
+  - type: ss
+    server: 183.240.187.198
+    port: 34664
+    cipher: 2022-blake3-aes-128-gcm
+    password: 12xGRmcEy3TVETzE47MreA==
+    name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7
+    delay: 196
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+    server: 112.132.215.12
     type: vmess
     port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 264
-  - name: 中国 - 成都 - CloudRadium L.L.C - 7
-    server: 120.198.71.218
-    type: vmess
-    country: 🇨🇳CN
-    port: 32915
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 114
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
-    server: 47.104.186.133
-    type: vmess
-    country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    servername: trojan.burgerip.co.uk
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 200
-  - name: 中国 - 香港 - Baxet Group Inc. - 11
-    server: 2.linkhub.support
-    port: 40206
-    type: ssr
-    cipher: rc4-md5
-    password: ENZ52K
-    protocol: auth_aes128_md5
-    obfs: plain
-    protocol-param: 92902:pFWGOQ
-    obfs-param: cd2b692902.6602b8463464108506.microsoft.com
     udp: true
-    delay: 798
-  - name: 中国 - 香港 - CTG Server Ltd. - 10
-    server: 183.236.51.37
-    type: vmess
-    country: 🇨🇳CN
-    port: 55112
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     network: tcp
     http-opts: {}
+    h2-opts: {}
+    delay: 183
+  - name: 中国 - 广州市 - China Mobile communications corporation - 1
+    server: 120.210.205.59
+    port: 50002
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 202
+  - name: 中国 - 香港 - Akile LTD - 3
+    server: 156.226.173.104
+    type: ss
+    country: 🇸🇨SC
+    port: 443
+    password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=
+    cipher: aes-128-gcm
+    delay: 979
+  - name: 中国 - 香港 - Cnservers LLC - 8
+    server: 120.198.71.217
+    port: 46759
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    delay: 886
+  - name: 中国 - 香港 - CTG Server Ltd. - 6
+    server: 183.236.51.37
+    port: 41911
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 482
+  - name: 中国 - 香港 - Datacamp Limited - 5
+    server: 3.link-hub.click
+    type: ssr
+    country: 🇨🇳CN
+    port: 40239
+    password: ENZ52K
+    cipher: rc4-md5
+    protocol: auth_aes128_md5
+    protocol-param: 92902:pFWGOQ
+    obfs: plain
+    obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+    delay: 1846
+  - name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
+    server: hkt.gotochinatown.net
+    port: 80
+    type: vmess
+    uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
