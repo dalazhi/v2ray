@@ -1,10 +1,34 @@
 proxies:
+    - auth: dongtaiwang.com
+      delay: 1074
+      name: "臻选\U0001F1F7\U0001F1FARU_1 | ⬇️ 1.1MB/s"
+      password: dongtaiwang.com
+      port: 30033
+      server: 46.17.41.217
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1483
+      down: "100"
+      name: "臻选\U0001F1EB\U0001F1F7FR_1 | ⬇️ 2.7MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 1000 Mbps
-      name: "臻选\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.3MB/s"
+      name: "臻选\U0001F1FA\U0001F1F8US_1 | ⬇️ 3.6MB/s"
       port: 17549
       server: 208.87.243.151
       skip-cert-verify: true
@@ -17,7 +41,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 1427
       down: 100
-      name: "臻选\U0001F1F3\U0001F1F1NL_1 | ⬇️ 4.9MB/s"
+      name: "臻选\U0001F1F3\U0001F1F1NL_1 | ⬇️ 1.5MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
@@ -26,24 +50,16 @@ proxies:
       type: hysteria
       udp: true
       up: 100
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1483
-      down: "100"
-      name: "臻选\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.4MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
+    - delay: 1239
+      name: "臻选\U0001F1FA\U0001F1F8US_2 | ⬇️ 1.1MB/s"
+      password: 042b0562-678a-3f83-ac35-96b40d20eb3f
+      port: 20705
+      server: usa04.20210420.xyz
+      sni: usa04-ssl.20210420.xyz
+      type: trojan
     - down: ""
       fingerprint: ""
-      name: "臻选\U0001F1FA\U0001F1F8US_2 | ⬇️ 741KB/s"
+      name: "臻选\U0001F1FA\U0001F1F8US_3 | ⬇️ 935KB/s"
       obfs: ""
       obfs-password: ""
       password: 5CBqBh6MeDq6GajcilBiDg==
@@ -59,7 +75,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 1275
       down: 55 Mbps
-      name: "臻选\U0001F1FA\U0001F1F8US_3 | ⬇️ 571KB/s"
+      name: "臻选\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.6MB/s"
       port: 11512
       protocol: udp
       server: 108.181.24.77
@@ -68,236 +84,135 @@ proxies:
       type: hysteria
       udp: true
       up: 11 Mbps
+    - ip-version: dual
+      name: "臻选\U0001F1FA\U0001F1F8US_5 | ⬇️ 1.9MB/s"
+      password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+      port: 21332
+      server: 36.156.184.33
+      sni: k65.tudou211.com
+      type: trojan
+      udp: true
+    - ip-version: dual
+      name: "臻选\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.9MB/s"
+      password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+      port: 21332
+      server: xd-js.timiwc.com
+      sni: k65.tudou211.com
+      type: trojan
+      udp: true
     - client-fingerprint: chrome
-      name: "臻选\U0001F1E8\U0001F1E6CA_1 | ⬇️ 1.0MB/s"
-      network: ws
-      port: "443"
-      server: 104.17.104.243
-      servername: xc.ylks0033.dpdns.org
+      name: "臻选\U0001F1EC\U0001F1E7GB_1 | ⬇️ 1.6MB/s"
+      network: tcp
+      port: "1370"
+      reality-opts:
+        public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+        short-id: e1afb93bfe75a34b
+      server: v11.vxlimir.com
+      servername: refersion.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /?ed=2560
+      uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
       xudp: true
     - client-fingerprint: chrome
-      name: 臻选❓Other_1 | ⬇️ 1.1MB/s
-      network: ws
-      port: "443"
-      server: 162.159.153.170
-      servername: xc.ylks0033.dpdns.org
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "臻选\U0001F1FB\U0001F1F3VN_1 | ⬇️ 3.3MB/s"
+      network: tcp
+      port: "34045"
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 59.153.216.68
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
-        path: /?ed=2560
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
       xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_2 | ⬇️ 1.3MB/s
-      network: ws
-      port: "443"
-      server: 162.159.152.53
-      servername: xb.ylks0033.dpdns.org
+    - client-fingerprint: firefox
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "臻选\U0001F1F3\U0001F1F1NL_2 | ⬇️ 2.6MB/s"
+      network: tcp
+      port: "55700"
+      reality-opts:
+        public-key: upY29Nxcyc_8q8shNAv_0XNdn0WJdy93iNlKbxLmFUA
+        short-id: ae839dceb524a40b
+      server: 152.53.105.60
+      servername: refersion.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xb.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /?ed=2560
+      uuid: 77b7af06-6e10-4afa-a9bb-461fab6db315
       xudp: true
     - client-fingerprint: chrome
-      name: 臻选❓Other_3 | ⬇️ 827KB/s
-      network: ws
-      port: "443"
-      server: 162.159.152.31
-      servername: xb.ylks0033.dpdns.org
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "臻选\U0001F1EC\U0001F1E7GB_2 | ⬇️ 937KB/s"
+      network: tcp
+      port: "1370"
+      reality-opts:
+        public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+        short-id: e1afb93bfe75a34b
+      server: 51.89.231.215
+      servername: refersion.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xb.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-        path: /?ed=2560
+      uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
       xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_4 | ⬇️ 1.1MB/s
-      network: ws
-      port: "443"
-      server: 162.159.153.194
-      servername: xc.ylks0033.dpdns.org
+    - client-fingerprint: firefox
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "臻选\U0001F1E9\U0001F1EADE_1 | ⬇️ 1.5MB/s"
+      network: tcp
+      port: "55700"
+      reality-opts:
+        public-key: upY29Nxcyc_8q8shNAv_0XNdn0WJdy93iNlKbxLmFUA
+        short-id: ae839dceb524a40b
+      server: 152.53.104.110
+      servername: refersion.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /?ed=2560
+      uuid: 77b7af06-6e10-4afa-a9bb-461fab6db315
       xudp: true
     - client-fingerprint: chrome
-      name: 臻选❓Other_5 | ⬇️ 942KB/s
-      network: ws
-      port: "12486"
-      server: 121.140.60.17
-      servername: xc.ylks0033.dpdns.org
+      name: "臻选\U0001F1EC\U0001F1E7GB_3 | ⬇️ 559KB/s"
+      network: tcp
+      port: "1370"
+      reality-opts:
+        public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+        short-id: e1afb93bfe75a34b
+      server: v07.vxlimir.com
+      servername: refersion.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /?ed=2560
+      uuid: e71f9e93-064e-4847-b628-f41c6e74e6cb
       xudp: true
     - client-fingerprint: chrome
-      name: 臻选❓Other_6 | ⬇️ 861KB/s
-      network: ws
-      port: "443"
-      server: 162.159.152.81
-      servername: xc.ylks0033.dpdns.org
+      grpc-opts:
+        grpc-service-name: mgrpcmn
+      name: 臻选❓Other_1 | ⬇️ 735KB/s
+      network: grpc
+      port: "4920"
+      reality-opts:
+        public-key: xSKFCOvniPfPNbue8I_OjLigMECtNzSAjXDuyGziwyw
+        short-id: e446638013d88e20
+      server: 104.131.161.53
+      servername: refersion.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-        path: /?ed=2560
+      uuid: eeba92b0-7204-4ccc-b0c9-50213c1d8b1c
       xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_7 | ⬇️ 1.1MB/s
-      network: ws
-      port: "443"
-      server: 162.159.152.205
-      servername: xb.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xb.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_8 | ⬇️ 926KB/s
-      network: ws
-      port: "443"
-      server: 162.159.153.216
-      servername: xc.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_9 | ⬇️ 2.4MB/s
-      network: ws
-      port: "443"
-      server: 162.159.153.239
-      servername: xb.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xb.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_10 | ⬇️ 640KB/s
-      network: ws
-      port: "443"
-      server: 172.67.95.24
-      servername: xc.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_11 | ⬇️ 1.3MB/s
-      network: ws
-      port: "443"
-      server: 172.67.106.26
-      servername: xc.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_12 | ⬇️ 754KB/s
-      network: ws
-      port: "443"
-      server: 162.159.36.104
-      servername: xc.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: 臻选❓Other_13 | ⬇️ 529KB/s
-      network: ws
-      port: "443"
-      server: 172.67.110.232
-      servername: xc.ylks0033.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: xc.ylks0033.dpdns.org
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
-        path: /?ed=2560
-      xudp: true
-    - auth: dongtaiwang.com
-      delay: 1074
-      name: "臻选\U0001F1F7\U0001F1FARU_1 | ⬇️ 519KB/s"
-      password: dongtaiwang.com
-      port: 30033
-      server: 46.17.41.217
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
