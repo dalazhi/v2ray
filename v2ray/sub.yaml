@@ -1,6 +1,6 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
     server: 47.116.166.178
     type: vmess
     port: 50002
@@ -11,30 +11,35 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 819
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+    delay: 613
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
     server: 47.92.152.169
     type: vmess
-    country: 🇨🇳CN
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
-    network: tcp
-    servername: chunchuan.kejixiaoqi666.store
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 461
-  - name: 中国 - 台湾 - Data Center Network Limited - 12
-    server: 185.189.160.98
+    delay: 1512
+  - name: 中国 - 台湾 - Akile LTD - 8
+    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+    port: 23102
     type: ss
-    country: 🇭🇰 HK
-    port: 64759
-    password: qwerREWQ@@
-    cipher: aes-256-cfb
-    delay: 480
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 9
+    cipher: chacha20-ietf-poly1305
+    password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714
+    udp: true
+    delay: 1143
+  - cipher: aes-256-cfb
+    name: 中国 - 台湾 - Kaopu Cloud HK Limited - 6
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 154.223.20.79
+    type: ss
+    udp: true
+    delay: 1046
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 4
     server: 112.132.215.12
     type: vmess
     port: 50002
@@ -45,8 +50,8 @@ proxies:
     network: tcp
     http-opts: {}
     h2-opts: {}
-    delay: 543
-  - name: 中国 - 广州市 - China Mobile - 5
+    delay: 579
+  - name: 中国 - 广州市 - China Mobile - 2
     server: 183.236.51.36
     type: vmess
     port: 59003
@@ -56,33 +61,9 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 612
+    delay: 399
   - name: 中国 - 广州市 - China Mobile communications corporation - 1
     server: 120.210.205.59
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 944
-  - name: 中国 - 成都 - CloudRadium L.L.C - 8
-    server: 120.198.71.220
-    type: vmess
-    country: 🇨🇳CN
-    port: 39595
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 512
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 6
-    server: 120.26.55.225
     type: vmess
     country: 🇨🇳CN
     port: 50002
@@ -93,10 +74,29 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 547
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
-    server: 47.104.186.133
-    type: vmess
-    country: 🇨🇳 CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    delay: 459
+  - name: 中国 - 香港 - Akile LTD - 11
+    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+    port: 23504
+    type: trojan
+    password: 2ae11355-725b-420a-b097-184f30806b5f
+    sni: cn.bing.com
+    skip-cert-verify: true
+    udp: true
+    delay: 1268
+  - name: 中国 - 香港 - ASYMPTOTE NETWORK, LLC - 10
+    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+    port: 23300
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: f8d99daf-99f2-4a98-ac16-8cf7da4d0fee
+    udp: true
+    delay: 449
+  - name: 中国 - 香港 - ASYMPTOTE NETWORK, LLC - 12
+    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+    port: 23503
+    type: trojan
+    password: da233167-3fa6-4361-9aa2-35f7c9e5055d
+    sni: cn.bing.com
+    skip-cert-verify: true
+    udp: true
