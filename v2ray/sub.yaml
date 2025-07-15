@@ -1,102 +1,102 @@
 proxies:
 proxies:
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-    server: 47.92.152.169
+  - name: 中国 - Shizishan - China Telecom - 61
+    server: 111.170.36.146
+    type: vmess
+    country: 🇨🇳CN
+    port: 32309
+    uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: file.dingtalk.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /market?ed=512
+      headers:
+        HOST: file.dingtalk.com
+    delay: 328
+  - name: 中国 - Shizishan - China Telecom - 63
+    server: gcvbnjth.hjdfghfc.asia
+    type: vmess
+    country: 🇨🇳CN
+    port: 32309
+    uuid: b566a8bf-8b33-47fc-a361-e10f96056cff
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: file.dingtalk.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /market?ed=512
+      headers:
+        HOST: file.dingtalk.com
+    delay: 266
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 57
+    server: 47.116.166.178
     type: vmess
     country: 🇨🇳CN
     port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 143
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+    server: 47.92.152.169
+    port: 50002
+    type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
-    network: tcp
+    tls: false
+    skip-cert-verify: true
     servername: chunchuan.kejixiaoqi666.store
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 909
-  - cipher: aes-256-cfb
-    name: 中国 - 台湾 - Kaopu Cloud HK Limited - 6
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 154.223.20.79
+    delay: 233
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 10
+    server: 118.163.200.41
     type: ss
-    udp: true
-    delay: 4735
-  - name: 中国 - 台湾 - Radishcloud Technology LLC - 10
-    server: c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8.1kmei.com
-    port: 23508
-    type: trojan
-    password: 84ebe306-5aa1-4160-9ab7-0f86e5ca6199
-    sni: cn.bing.com
-    skip-cert-verify: true
-    udp: true
-    delay: 1432
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 4
-    server: 112.132.215.12
-    type: vmess
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    delay: 560
-  - name: 中国 - 广州市 - China Mobile - 2
-    server: 183.236.51.36
-    type: vmess
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 971
-  - name: 中国 - 广州市 - China Mobile communications corporation - 3
-    server: 120.210.205.59
-    type: vmess
-    country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 971
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 1
-    server: 120.26.55.225
-    type: vmess
-    country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 1547
-  - name: 中国 - 香港 - Cloudflare, Inc. - 8
-    server: 47.76.218.163
-    port: 443
-    type: vless
-    uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-    tls: true
-    servername: steep.skyfigure.top
-    network: ws
-    ws-opts:
-      path: /Telegram @SRCVPN/?ed=2560
-      headers:
-        Host: steep.skyfigure.top
-    udp: true
-    delay: 492
-  - name: 中国 - 香港 - Dalian Yichuan Industrial CO - 7
-    server: 103.149.183.154
+    port: 2377
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    cipher: chacha20-ietf-poly1305
+    plugin: obfs
+    plugin-opts:
+      host: (TG @WangCai2)32cf132:178330
+      mode: tls
+    delay: 166
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 11
+    server: 211.75.210.22
     type: ss
-    country: 🇭🇰HK
-    port: 8388
-    password: asd123456
+    port: 2377
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    cipher: chacha20-ietf-poly1305
+    plugin: obfs
+    plugin-opts:
+      host: (TG @WangCai2)32cf132:178330
+      mode: tls
+    delay: 990
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12
+    server: 211.75.210.24
+    type: ss
+    port: 2377
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    cipher: chacha20-ietf-poly1305
+    plugin: obfs
+    plugin-opts:
+      host: (TG @WangCai2)32cf132:178330
+      mode: tls
+    delay: 1320
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+    server: 3ce8ee8.hb.gladns.com
+    type: ss
+    port: 2377
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    cipher: chacha20-ietf-poly1305
+    plugin: obfs
