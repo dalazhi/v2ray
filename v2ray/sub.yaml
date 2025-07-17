@@ -1,11 +1,11 @@
 proxies:
 proxies:
-  - name: 中国 - Shizishan - China Telecom - 61
+  - name: 中国 - Shizishan - China Telecom - 1
     server: 111.170.36.146
     type: vmess
     country: 🇨🇳CN
     port: 32309
-    uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
+    uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
     alterId: 0
     cipher: auto
     network: ws
@@ -17,12 +17,30 @@ proxies:
       path: /market?ed=512
       headers:
         HOST: file.dingtalk.com
-    delay: 328
-  - name: 中国 - Shizishan - China Telecom - 63
+    delay: 191
+  - name: 中国 - Shizishan - China Telecom - 10
     server: gcvbnjth.hjdfghfc.asia
     type: vmess
     country: 🇨🇳CN
-    port: 32309
+    port: 25395
+    uuid: 3b0ad7ab-57f9-4db2-98dc-daccc9d5938e
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: file.dingtalk.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /market?ed=512
+      headers:
+        HOST: file.dingtalk.com
+    delay: 351
+  - name: 中国 - Shizishan - China Telecom - 12
+    server: 111.170.36.146
+    type: vmess
+    country: 🇨🇳CN
+    port: 25395
     uuid: b566a8bf-8b33-47fc-a361-e10f96056cff
     alterId: 0
     cipher: auto
@@ -35,68 +53,50 @@ proxies:
       path: /market?ed=512
       headers:
         HOST: file.dingtalk.com
-    delay: 266
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 57
-    server: 47.116.166.178
+    delay: 377
+  - name: 中国 - Shizishan - China Telecom - 13
+    server: 111.170.36.146
     type: vmess
     country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    port: 25395
+    uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    servername: file.dingtalk.com
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 143
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-    server: 47.92.152.169
+    ws-opts:
+      path: /market?ed=512
+      headers:
+        HOST: file.dingtalk.com
+    delay: 388
+  - name: 中国 - Shizishan - China Telecom - 14
+    server: gcvbnjth.hjdfghfc.asia
+    type: vmess
+    country: 🇨🇳CN
+    port: 25395
+    uuid: b566a8bf-8b33-47fc-a361-e10f96056cff
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: file.dingtalk.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /market?ed=512
+      headers:
+        HOST: file.dingtalk.com
+    delay: 381
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+    server: 47.116.166.178
     port: 50002
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: chunchuan.kejixiaoqi666.store
-    delay: 233
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 10
-    server: 118.163.200.41
-    type: ss
-    port: 2377
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    cipher: chacha20-ietf-poly1305
-    plugin: obfs
-    plugin-opts:
-      host: (TG @WangCai2)32cf132:178330
-      mode: tls
-    delay: 166
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 11
-    server: 211.75.210.22
-    type: ss
-    port: 2377
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    cipher: chacha20-ietf-poly1305
-    plugin: obfs
-    plugin-opts:
-      host: (TG @WangCai2)32cf132:178330
-      mode: tls
-    delay: 990
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12
-    server: 211.75.210.24
-    type: ss
-    port: 2377
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    cipher: chacha20-ietf-poly1305
-    plugin: obfs
-    plugin-opts:
-      host: (TG @WangCai2)32cf132:178330
-      mode: tls
-    delay: 1320
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
-    server: 3ce8ee8.hb.gladns.com
-    type: ss
-    port: 2377
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    cipher: chacha20-ietf-poly1305
-    plugin: obfs
+    delay: 167
