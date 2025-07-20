@@ -1,64 +1,248 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 2.4MB/s"
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 45.87.175.167
-    type: ss
+  - http-opts:
+      headers: {}
+      path:
+        - /
+    name: "优选\U0001F300其他1-ID | ⬇️ 2.8MB/s"
+    network: tcp
+    port: 2321
+    server: 172.232.248.242
+    type: vless
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 2.4MB/s"
+    uuid: 0d6b5af6-17df-4bb1-af76-e524f00602a5
+    xudp: true
+  - name: "优选\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.7MB/s"
     network: ws
-    port: 2096
-    server: www.speedtest.net
+    port: 32391
+    server: 195.58.58.88
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
+    ws-opts:
+      headers:
+        Host: 45f4d22d.Mareza.pages.dev
+      path: /
+    servername: 45f4d22d.Mareza.pages.dev
+  - name: "优选\U0001F300其他2-未识别 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 2083
+    server: 212.183.88.29
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: cc5d15ef-fd93-40f6-b2f9-7a80225e7e5d
+    uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
     ws-opts:
       headers:
-        Host: 638879176706570136.amsterdam-prx-dnraaal.info
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /nqxbfjws
-    xudp: true
-    servername: 638879176706570136.amsterdam-prx-dnraaal.info
-  - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 1.1MB/s"
-    network: ws
-    port: 80
-    server: aio.loophole.biz.id
+        Host: PoStwarE-2jM.PaGeS.DEv
+      path: /PB8ZxcORP4BTVbIC?ed=2560
+    servername: PoStwarE-2jM.PaGeS.DEv
+  - client-fingerprint: ios
+    delay: 2882
+    flow: xtls-rprx-vision
+    name: "优选\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.1MB/s"
+    network: tcp
+    port: 25888
+    reality-opts:
+      public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
+      short-id: be1be5fc
+    server: 143.14.220.111
+    tls: true
     type: vless
     udp: true
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    uuid: 6dc666d1-cb55-4225-8034-a6fba1f37113
+    servername: www.samsung.com
+  - client-fingerprint: chrome
+    name: "优选\U0001F1EE\U0001F1F9意大利1 | ⬇️ 3.3MB/s"
+    network: tcp
+    port: 3037
+    reality-opts:
+      public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+      short-id: ''
+    server: it.panelmarzban.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: a0a3e34d-87e4-4ff3-b04a-875c85325d62
+    xudp: true
+    servername: refersion.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "优选\U0001F1FA\U0001F1F8美国3 | ⬇️ 5.0MB/s"
+    network: tcp
+    port: 2040
+    reality-opts:
+      public-key: hOt5bCyO5AwK6aGZKIOBR0U-wPgu_13HjvTMAfBgAT0
+      short-id: ''
+    server: 5.181.3.169
+    tls: true
+    type: vless
+    udp: true
+    uuid: 320bc89e-2a48-42c4-b7b2-0f982342a9fe
+    xudp: true
+    servername: tradingview.com
+  - client-fingerprint: chrome
+    name: "优选\U0001F1FA\U0001F1F8美国4 | ⬇️ 4.6MB/s"
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    port: 3596
+    server: 36.151.192.239
+    skip-cert-verify: true
+    sni: www.baidu.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: 'Telegram:@FergalVpnMod'
+    name: "优选\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 3.1MB/s"
+    network: grpc
+    port: 59365
+    reality-opts:
+      public-key: AtKTc84OxbQltdeNKIgGRpUBmO1nKRCyqV6OuZmGIik
+      short-id: 1e
+    server: server2.fergalvpnmod.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: dc1985a0-76ce-486f-b571-4b210aadbc8c
+    xudp: true
+    servername: cloudflare.com
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "优选\U0001F1F0\U0001F1F7韩国1 | ⬇️ 3.8MB/s"
+    network: ws
+    port: 20521
+    server: 118.43.158.220
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: ab6dde08-ce0d-4c3d-b708-da53af1a862d
     ws-opts:
-      headers:
-        Host: aio.loophole.biz.id
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /aioproxybot/129.150.49.58-18650
+      headers: {}
+      path: /
     xudp: true
   - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 1.1MB/s"
-    network: ws
+    name: "优选\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 2.6MB/s"
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    port: 8117
+    server: 36.151.192.239
+    skip-cert-verify: true
+    sni: www.baidu.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: >-
+        @ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--
+    name: "优选\U0001F1E9\U0001F1EA德国1 | ⬇️ 4.2MB/s"
+    network: grpc
+    port: 24070
+    reality-opts:
+      public-key: Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk
+      short-id: '93'
+    server: 91.107.170.231
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0d998d17-411f-4a9a-be9e-187e942cceac
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "优选\U0001F300其他3-TR | ⬇️ 4.0MB/s"
+    network: tcp
     port: 443
-    server: www.speedtest.net
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 8453e5fd9af927
+    server: tr01-vlr01.tcp-reset-club.net
     tls: true
     type: vless
     udp: true
-    uuid: 409dae9c-e37b-5b6d-b70b-9f358074b51b
-    ws-opts:
-      headers:
-        Host: nl-2-ssm.medicaldream.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /vless
+    uuid: 2a02cb25-0f58-4b19-a7a6-8c205fdb9042
     xudp: true
-    servername: nl-2-ssm.medicaldream.ir
+    servername: hls-svod.itunes.apple.com
+  - client-fingerprint: firefox
+    name: "优选\U0001F1E7\U0001F1F7巴西1 | ⬇️ 5.7MB/s"
+    network: tcp
+    port: 10001
+    reality-opts:
+      public-key: AMz6hSd2yvrcg1cOe2PPSTX1w6pLWlb_UT-uRHoG1BI
+      short-id: 1a24af87
+    server: 172.233.20.133
+    tls: true
+    type: vless
+    udp: true
+    uuid: 07ccdc51-52f5-47f8-8524-2149ea380063
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "优选\U0001F1E9\U0001F1EA德国2 | ⬇️ 2.1MB/s"
+    network: tcp
+    port: 6013
+    reality-opts:
+      public-key: 849lPPGm7-3F_CNsmUJ_g5hDJsrqxaBF18Awjm7vz1Q
+      short-id: e36c99fb4bbdf550
+    server: fastkeysolus.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3c1932ac-c46b-4b56-99a4-cbe65887af90
+    xudp: true
+    servername: amazon.it
+  - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "优选\U0001F1E9\U0001F1EA德国3 | ⬇️ 2.2MB/s"
+    network: tcp
+    port: 8501
+    reality-opts:
+      public-key: OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI
+      short-id: e701a013553059ba
+    server: 49.13.12.238
+    tls: true
+    type: vless
+    udp: true
+    uuid: ac37eb9c-0db8-4056-8f61-e8db4e2da35e
+    xudp: true
+    servername: tgju.org
+  - name: "优选\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 3.2MB/s"
+    network: tcp
+    port: 45877
+    server: 104.248.105.52
+    type: vless
+    udp: true
+    uuid: 81ed7265-be10-498b-c96f-46789e81ac88
+    xudp: true
+  - client-fingerprint: chrome
+    name: "优选\U0001F300其他4-IE | ⬇️ 2.7MB/s"
+    network: tcp
+    port: 49790
+    reality-opts:
+      public-key: Xj6-HabAfXfu2dIz1orkRH5rAlbGMs0YMc7Zo4aARlU
+      short-id: 9d90d7ada8
+    server: 95.164.44.237
+    tls: true
+    type: vless
+    udp: true
+    uuid: 99210efd-1a49-4085-add3-d1d2e4fdd6c2
+    xudp: true
+    servername: yahoo.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
