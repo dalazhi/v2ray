@@ -1,10 +1,17 @@
 proxies:
     - client-fingerprint: chrome
-      name: "优选\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 2.0MB/s"
-      password: d0d08cddacc3190ea81b1b792e1b5fde
-      port: "8117"
-      server: 36.151.192.239
-      skip-cert-verify: true
-      sni: www.baidu.com
-      type: trojan
+      grpc-opts:
+        grpc-service-name: 23145vless
+      name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 1.4MB/s"
+      network: grpc
+      port: "2050"
+      reality-opts:
+        public-key: IBTQswLX4U6WI_tl305r8FKwhZoCka5nW0_idDXLUlo
+        short-id: eb91f5c0
+      server: 91.107.188.21
+      servername: journalofbigdata.springeropen.com
+      tls: true
+      type: vless
       udp: true
+      uuid: Telegram-TokaVpn-
+      xudp: true
