@@ -1,201 +1,610 @@
 proxies:
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.7MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.47.130
-    type: ss
-    udp: true
-  - name: "优选\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 32391
-    server: 195.58.58.88
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
-    ws-opts:
-      headers:
-        Host: 45f4d22d.Mareza.pages.dev
-      path: /
-    servername: 45f4d22d.Mareza.pages.dev
-  - client-fingerprint: chrome
-    name: "优选\U0001F1F5\U0001F1F1波兰1 | ⬇️ 4.1MB/s"
-    network: tcp
-    port: 49868
-    reality-opts:
-      public-key: joEKL4Itljxodt1SOe1itSMrAH9bk_udpPtXgIjdu10
-      short-id: 6d638e
-    server: 2.56.125.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: be015dd2-30b4-4fcf-a9ee-080c13ac13fb
-    xudp: true
-    servername: yahoo.com
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1FA\U0001F1F8美国3 | ⬇️ 2.3MB/s"
-    network: tcp
-    port: 12188
-    server: 45.63.60.98
-    type: vless
-    udp: true
-    uuid: 2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9
-    xudp: true
   - cipher: aes-256-cfb
-    name: "优选\U0001F300其他1-T1 | ⬇️ 2.1MB/s"
+    name: "\U0001F300其他1-MD | ⬇️ 2.9MB/s"
     password: f8f7aCzcPKbsF8p3
     port: 989
-    server: 51.15.23.63
+    server: 185.153.197.5
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.2MB/s"
+    password: shadowsocks
+    port: 443
+    server: 37.19.198.236
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.2MB/s"
+    password: shadowsocks
+    port: 443
+    server: 37.19.198.243
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 1.0MB/s"
+    password: shadowsocks
+    port: 443
+    server: 156.146.38.167
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 1.1MB/s"
+    password: shadowsocks
+    port: 443
+    server: 156.146.38.169
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 1.9MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 51.15.17.169
     type: ss
   - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E7\U0001F1F7巴西1 | ⬇️ 2.1MB/s"
+    name: "\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 2.5MB/s"
+    password: cvII85TrW6n0OGyfpHVS1u
+    port: 8080
+    server: 193.29.139.189
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 1.2MB/s"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 193.29.139.235
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1荷兰4 | ⬇️ 2.2MB/s"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 45.158.171.60
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1荷兰5 | ⬇️ 1.2MB/s"
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    port: 8080
+    server: 193.29.139.227
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1荷兰6 | ⬇️ 1.2MB/s"
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    port: 8080
+    server: 151.242.251.131
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1荷兰7 | ⬇️ 1.9MB/s"
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    port: 8080
+    server: 151.242.251.153
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F300其他2-CZ | ⬇️ 1.2MB/s"
     password: f8f7aCzcPKbsF8p3
     port: 990
-    server: 185.192.124.188
+    server: 195.181.160.6
     type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国1 | ⬇️ 4.2MB/s"
+  - cipher: aes-128-gcm
+    name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 2.2MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.193
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EC\U0001F1E7英国2 | ⬇️ 1.6MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.196
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EC\U0001F1E7英国3 | ⬇️ 2.7MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.195
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他3-NO | ⬇️ 1.3MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 185.213.23.226
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EC\U0001F1E7英国4 | ⬇️ 1.3MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.194
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他4-SE | ⬇️ 3.4MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 121.127.46.147
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EC\U0001F1E7英国5 | ⬇️ 1.8MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.197
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他5-RO | ⬇️ 2.0MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 194.14.217.38
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 1.5MB/s"
+    password: a58fa62b4944ddbf
+    port: 57456
+    server: 81.19.137.222
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1E8\U0001F1ED瑞士1 | ⬇️ 1.3MB/s"
+    password: shadowsocks
+    port: 443
+    server: 156.146.62.162
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F300其他6-LV | ⬇️ 1.5MB/s"
     network: ws
-    port: 12403
-    server: 112.171.112.109
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    port: 8443
+    server: 216.173.69.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 91382092-2330-455b-8a1c-9c129cfe661a
+    ws-opts:
+      path: /
+  - cipher: aes-128-gcm
+    name: "\U0001F1E8\U0001F1ED瑞士2 | ⬇️ 1.8MB/s"
+    password: shadowsocks
+    port: 443
+    server: 156.146.62.161
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 2.6MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 37.143.129.230
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 5.8MB/s"
+    password: shadowsocks
+    port: 443
+    server: 149.22.87.241
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E8\U0001F1ED瑞士3 | ⬇️ 3.1MB/s"
+    password: oXGp1+ihlfKg826H
+    port: 1866
+    server: 204.136.10.115
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他7-VN | ⬇️ 2.9MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 103.163.218.2
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: 0469094f-sv6hs0-t5qfe2-1khwf.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
     ws-opts:
       headers:
-        Host: edga.aimercc.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edga.aimercc.dpdns.org
-  - client-fingerprint: firefox
-    name: "优选\U0001F300其他2-VN | ⬇️ 6.4MB/s"
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 160.250.65.148
+        Host: 0469094f-sv6hs0-t5qfe2-1khwf.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 80
+    server: 2c655502-sv0xs0-t4qa9y-g43g.hk.p5pv.com
     skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    network: tcp
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - delay: 760
-    name: "优选\U0001F1E9\U0001F1EA德国2 | ⬇️ 2.6MB/s"
+    tls: false
+    type: vmess
+    uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+    ws-opts:
+      headers:
+        Host: 2c655502-sv0xs0-t4qa9y-g43g.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 2.0MB/s"
+    network: ws
+    port: 80
+    server: 3417ad6c-sv2sg0-te1s1a-1i55g.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d1d13cd2-329f-11ed-bb74-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 3417ad6c-sv2sg0-te1s1a-1i55g.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 1.3MB/s"
+    password: XPtzA9sCug3SPR4c
+    port: 9025
+    server: 80.92.204.106
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 80
+    server: 793f272d-sv0xs0-tb36ag-1jfq7.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 793f272d-sv0xs0-tb36ag-1jfq7.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: bed31eab-sv0xs0-t2hqlr-1s3mx.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: bed31eab-sv0xs0-t2hqlr-1s3mx.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: e9dc3722-sv2sg0-sylfil-1gcq2.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: e9dc3722-sv2sg0-sylfil-1gcq2.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 80
+    server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港9 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: 53484f5e-sv6hs0-swmdal-17xo8.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 53484f5e-sv6hs0-swmdal-17xo8.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港10 | ⬇️ 1.9MB/s"
+    network: ws
+    port: 80
+    server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港11 | ⬇️ 1.7MB/s"
+    network: ws
+    port: 80
+    server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+      path: /
+    servername: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港12 | ⬇️ 1.5MB/s"
+    network: ws
+    port: 80
+    server: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港13 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: 033d62df-sv4n40-tcsjnd-1tff5.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 033d62df-sv4n40-tcsjnd-1tff5.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港14 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 80
+    server: e4fac854-sum4g0-sx1cxx-1tfjk.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: e4fac854-sum4g0-sx1cxx-1tfjk.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港15 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 80
+    server: 72697351-sv2sg0-suzz2n-vmdo.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 24e32978-4858-11eb-8684-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 72697351-sv2sg0-suzz2n-vmdo.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港16 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: ae709d15-sv0xs0-svim0o-1slop.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: ae709d15-sv0xs0-svim0o-1slop.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港17 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 80
+    server: 6d010e37-sva740-sxv7gp-8rja.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 6d010e37-sva740-sxv7gp-8rja.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港18 | ⬇️ 2.9MB/s"
+    network: ws
+    port: 80
+    server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港19 | ⬇️ 1.6MB/s"
+    network: ws
+    port: 80
+    server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港20 | ⬇️ 2.2MB/s"
+    network: ws
+    port: 80
+    server: 3f8b16bc-sv2sg0-t3q3xd-1sai0.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 4551f124-65ca-11ef-8c8e-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 3f8b16bc-sv2sg0-t3q3xd-1sai0.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港21 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: 06eb7c64-sv2sg0-svxfqo-1hfyu.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: ab0147e4-e673-11ee-8058-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 06eb7c64-sv2sg0-svxfqo-1hfyu.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港22 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 80
+    server: 36a88ce8-sv4n40-t2whio-1jcwu.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 36a88ce8-sv4n40-t2whio-1jcwu.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港23 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 80
+    server: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
+      path: /
+    servername: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港24 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 80
+    server: 2e3ac5d1-sv2sg0-t7udc0-1pqhp.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 2e3ac5d1-sv2sg0-t7udc0-1pqhp.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - cipher: aes-256-gcm
+    name: "\U0001F1ED\U0001F1F0香港25 | ⬇️ 2.2MB/s"
+    password: 941cbc4237e0
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: kh36v1.dsjsapp.com
+      mode: websocket
+      mux: true
+      path: /tkzhhylcfuf
+      skip-cert-verify: false
+      tls: true
+    port: 636
+    server: 121.127.231.239
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港26 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港27 | ⬇️ 2.0MB/s"
+    network: ws
+    port: 80
+    server: 96aaf322-sv2sg0-tbvl5i-1mebs.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 96aaf322-sv2sg0-tbvl5i-1mebs.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - name: "\U0001F1E9\U0001F1EA德国2 | ⬇️ 1.3MB/s"
     network: tcp
     port: 2020
     server: 78.47.24.36
+    tls: false
     type: vless
     udp: true
     uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-    xudp: true
-  - country: "\U0001F1FA\U0001F1F8 US"
-    delay: 1569
-    name: "优选\U0001F1FA\U0001F1F8美国4 | ⬇️ 2.3MB/s"
-    password: OAj6Zba9QLK9HxrV
-    port: 31443
-    server: us1.petal.news
-    skip-cert-verify: true
+  - name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 4.4MB/s"
+    password: 7ZkPnMNGly
+    port: 1935
+    server: x1-japan-linode-v2-pwlzp.devefun.org
+    skip-cert-verify: false
+    sni: x1-japan-linode-v2-pwlzp.devefun.org
     type: trojan
     udp: true
-    sni: us1.petal.news
-  - country: "\U0001F1FA\U0001F1F8US"
-    delay: 865
-    name: "优选\U0001F1FA\U0001F1F8美国5 | ⬇️ 4.0MB/s"
-    password: AtnzQFeFeEqgDqs6
-    port: 29443
-    server: us2.petal.news
-    skip-cert-verify: true
-    sni: us2.petal.news
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    delay: 853
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1FA\U0001F1F8美国6 | ⬇️ 3.0MB/s"
-    network: tcp
-    port: 10088
-    reality-opts:
-      public-key: CWO043TqIdMiwVVNBydNwdVuzKz3K8p9IIEynpR_dFs
-      short-id: 20182bcc0f3415d9
-    server: 172.245.33.163
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4cb539cb-7e01-4c00-90a1-b89b66881e73
-    xudp: true
-    servername: learn.microsoft.com
-  - alterId: 2
-    cipher: auto
-    delay: 1289
-    name: "优选\U0001F1FA\U0001F1F8美国7 | ⬇️ 8.2MB/s"
-    network: ws
-    port: 30808
-    server: v8.heduian.link
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: v8.heduian.link
-      path: /oooo
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    delay: 1558
-    name: "优选\U0001F1E9\U0001F1EA德国3 | ⬇️ 2.4MB/s"
-    network: ws
-    port: 443
-    server: 172.67.134.196
-    tls: true
-    type: vless
-    udp: true
-    uuid: 59b3242f-6e1b-45f7-a57d-183192cc87fe
-    ws-opts:
-      headers:
-        Host: avid.gorbe.store
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /random
-    xudp: true
-    servername: avid.gorbe.store
-  - client-fingerprint: chrome
-    delay: 2596
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 3.5MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: e499f276e7bd6420
-    server: nl01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0
-    xudp: true
-    servername: hls-svod.itunes.apple.com
   - client-fingerprint: firefox
-    delay: 2218
-    name: "优选\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 2.6MB/s"
+    name: "\U0001F1F3\U0001F1F1荷兰8 | ⬇️ 1.4MB/s"
     network: tcp
     port: 1500
     reality-opts:
@@ -206,13 +615,250 @@ proxies:
     type: vless
     udp: true
     uuid: b20c84f3-988c-489d-a93f-a42c26aa0c59
-    xudp: true
     servername: springer-professional.com
+  - alterId: 2
+    cipher: auto
+    delay: 1238
+    name: "\U0001F1ED\U0001F1F0香港28 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    delay: 1186
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港29 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    delay: 1182
+    name: "\U0001F1ED\U0001F1F0香港30 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: ae030a85-sv2sg0-tas70o-yjcr.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: f1ddbc82-ae6a-11ef-b69c-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: ae030a85-sv2sg0-tas70o-yjcr.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-1.65.202.130-4993 | 8.703MB"
+  - alterId: 2
+    cipher: auto
+    delay: 1897
+    name: "\U0001F1ED\U0001F1F0香港31 | ⬇️ 1.9MB/s"
+    network: ws
+    port: 80
+    server: 96aaf322-sv2sg0-tbvl5i-1mebs.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 96aaf322-sv2sg0-tbvl5i-1mebs.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-1.65.202.130-5137 | 3.302MB"
+  - alterId: 2
+    cipher: auto
+    delay: 2470
+    name: "\U0001F1ED\U0001F1F0香港32 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    delay: 2663
+    name: "\U0001F1ED\U0001F1F0香港33 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 80
+    server: a1d35d30-sv2sg0-t66zs1-1pq44.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: a1d35d30-sv2sg0-t66zs1-1pq44.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-1.65.202.130-5099 | 15.167MB"
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1E6乌克兰1 | ⬇️ 1.6MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 176.103.53.105
+    type: ss
+    udp: true
+  - http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EA德国3 | ⬇️ 2.8MB/s"
+    network: tcp
+    port: 25921
+    server: 162.19.250.117
+    type: vless
+    udp: true
+    uuid: 598d2298-5e1f-4d07-bc4b-6d1949693852
+    xudp: true
+  - client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: melov2ray
+    name: "\U0001F1EB\U0001F1EE芬兰2 | ⬇️ 2.5MB/s"
+    network: grpc
+    port: 2083
+    reality-opts:
+      public-key: mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8
+      short-id: 54602915a7
+    server: 65.109.221.186
+    tls: true
+    type: vless
+    udp: true
+    uuid: 949e6151-6899-4605-f2d1-51570f60d51d
+    xudp: true
+    servername: khamenei.ir
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E8\U0001F1ED瑞士4 | ⬇️ 1.3MB/s"
+    network: tcp
+    port: 22324
+    server: 186.190.215.193
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F300其他8-AM | ⬇️ 1.5MB/s"
+    network: tcp
+    port: 55983
+    reality-opts:
+      public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+      short-id: 0e
+    server: 77.91.68.70
+    tls: true
+    type: vless
+    udp: true
+    uuid: f667a096-5231-4cfb-8759-92bb32473139
+    xudp: true
+    servername: yahoo.com
+  - name: "\U0001F1EC\U0001F1E7英国6 | ⬇️ 2.8MB/s"
+    network: tcp
+    port: 37171
+    server: 54.38.214.56
+    type: vless
+    udp: true
+    uuid: 19199927-fb46-4203-8872-672fd1daca14
+    xudp: true
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: >-
+        @VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM
+    name: "\U0001F1E9\U0001F1EA德国4 | ⬇️ 1.7MB/s"
+    network: grpc
+    port: 51479
+    reality-opts:
+      public-key: ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg
+      short-id: ''
+    server: 91.99.97.62
+    tls: true
+    type: vless
+    udp: true
+    uuid: dcdbb1fb-ab20-447b-aa0a-7d149add2a53
+    xudp: true
+    servername: www.cdn77.com
+  - grpc-opts:
+      grpc-service-name: >-
+        TELEGRAM_BYA_CHANEL_RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS-RK_VPS
+    name: "\U0001F300其他9-未识别 | ⬇️ 2.8MB/s"
+    network: grpc
+    port: 882
+    server: 79.137.195.203
+    type: vless
+    udp: true
+    uuid: abeb3ac3-7039-4fcd-98a3-b6aac75fffb4
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 3.5MB/s"
+    password: c976721a-e390-4dbf-b4f9-72c3feb9594c
+    port: 31298
+    server: 45.76.180.205
+    type: ss
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7英国7 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 2052
+    server: 45.89.111.198
+    type: vless
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+    ws-opts:
+      headers:
+        Host: omidyzvg2.kamaleriz.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1E8\U0001F1ED瑞士5 | ⬇️ 2.6MB/s"
+    network: tcp
+    port: 22324
+    server: 23.166.88.183
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    xudp: true
+  - name: "\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 1.3MB/s"
+    network: tcp
+    port: 25429
+    server: 51.222.84.252
+    type: vless
+    udp: true
+    uuid: f64ec975-bed6-4c91-b02b-80e5fdad363b
+    xudp: true
   - client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: >-
         Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "优选\U0001F300其他3-CZ | ⬇️ 2.5MB/s"
+    name: "\U0001F300其他10-CZ | ⬇️ 1.3MB/s"
     network: grpc
     port: 48785
     reality-opts:
@@ -229,7 +875,7 @@ proxies:
     grpc-opts:
       grpc-service-name: >-
         Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "优选\U0001F300其他4-CZ | ⬇️ 2.6MB/s"
+    name: "\U0001F300其他11-CZ | ⬇️ 3.6MB/s"
     network: grpc
     port: 37814
     reality-opts:
@@ -242,82 +888,129 @@ proxies:
     uuid: d5f63b9e-780a-472a-9d1b-e2088087a037
     xudp: true
     servername: journalofbigdata.springeropen.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EF\U0001F1F5日本1 | ⬇️ 5.2MB/s"
-    password: shadowsocks
-    port: 443
-    server: 149.22.87.204
-    type: ss
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: >-
+        @ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--
+    name: "\U0001F1E9\U0001F1EA德国5 | ⬇️ 1.7MB/s"
+    network: grpc
+    port: 24070
+    reality-opts:
+      public-key: Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk
+      short-id: '93'
+    server: 91.107.130.44
+    tls: true
+    type: vless
     udp: true
-  - alterId: 0
-    cipher: auto
-    name: "优选\U0001F1FA\U0001F1F8美国8 | ⬇️ 2.4MB/s"
+    uuid: e5b7d16e-fa74-400a-9a7f-d8e051670508
+    xudp: true
+    servername: yahoo.com
+  - http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F300其他12-TR | ⬇️ 3.0MB/s"
     network: tcp
-    port: 41100
-    server: 15.204.234.200
+    port: 53221
+    server: 94.131.108.195
+    type: vless
+    udp: true
+    uuid: 90efad13-d266-4d10-a914-bc40028ec469
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 2.5MB/s"
+    network: tcp
+    port: 11052
+    server: 45.67.230.79
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4
+    uuid: 314185f7-931d-4656-922d-0857e7afd224
     xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 2.5MB/s"
-    password: zI7kiNZ0UfV9cXB73a4nRD
-    port: 24206
-    server: 164.92.156.41
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国1 | ⬇️ 2.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.81
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1FA\U0001F1F8美国9 | ⬇️ 7.2MB/s"
-    password: 360e21d21977dc11
-    port: 57456
-    server: us.vmagnum.win
-    type: ss
-    udp: true
   - client-fingerprint: chrome
-    name: "优选\U0001F1ED\U0001F1FA匈牙利1 | ⬇️ 7.0MB/s"
+    name: "\U0001F300其他13-GR | ⬇️ 3.0MB/s"
     network: tcp
-    port: 17267
+    port: 45448
     reality-opts:
-      public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
-      short-id: 4ae260
-    server: 5.182.38.91
+      public-key: MmEVCRy11fz67vYJQWyA2a_ZPMBzv2le2cus1XSSI0E
+      short-id: 958639bf55e679
+    server: 94.131.8.19
     tls: true
     type: vless
     udp: true
-    uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+    uuid: 96fcf8cc-535d-46c4-b8f9-76058df48e3b
+    xudp: true
+    servername: yahoo.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F300其他14-NO | ⬇️ 3.7MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 185.213.23.226
+    type: ss
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1荷兰9 | ⬇️ 2.3MB/s"
+    network: ws
+    port: 9008
+    server: holanx.blacklike.ir
+    type: vless
+    udp: true
+    uuid: ca9fdfc9-7a4d-4245-9871-39583eff2b4f
+    ws-opts:
+      headers:
+        Host: skyroom.online
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /?ed=2048
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F300其他15-ES | ⬇️ 3.7MB/s"
+    network: tcp
+    port: 15470
+    reality-opts:
+      public-key: Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY
+      short-id: e08a28
+    server: 45.12.150.145
+    tls: true
+    type: vless
+    udp: true
+    uuid: ecc97810-557a-44ef-9957-ba078d0ac414
     xudp: true
     servername: yahoo.com
   - client-fingerprint: chrome
-    name: "优选\U0001F300其他5-AL | ⬇️ 6.8MB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 2.7MB/s"
     network: tcp
-    port: 28495
+    port: 443
     reality-opts:
-      public-key: KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ
-      short-id: 0ecc2c1392
-    server: 45.15.170.80
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+    server: ind01-vlr01.tcp-reset-club.net
     tls: true
     type: vless
     udp: true
-    uuid: 7e296434-2d17-48d3-928d-19eaa34aecb1
+    uuid: 4a640781-f5c8-4d17-80db-a6b0a091ba05
     xudp: true
-    servername: dl.google.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国10 | ⬇️ 8.4MB/s"
-    password: Yc2CtrIz8L
-    port: 16899
-    server: 2.58.87.221
-    type: ss
+    servername: hls-svod.itunes.apple.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA德国6 | ⬇️ 1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
+      short-id: 974a74bf
+    server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+    tls: true
+    type: vless
     udp: true
-  - name: "优选\U0001F1FA\U0001F1F8美国11 | ⬇️ 8.3MB/s"
+    uuid: 1584806e-f63d-4f9b-a0b3-abe64b35a09c
+    xudp: true
+    servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+  - name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 4.3MB/s"
     network: tcp
     port: 43728
     server: 15.204.235.13
@@ -325,1031 +1018,50 @@ proxies:
     udp: true
     uuid: 1b18b439-5371-4f38-b8d0-71aad09a3a92
     xudp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F300其他6-KZ | ⬇️ 2.4MB/s"
-    network: tcp
-    port: 38065
-    reality-opts:
-      public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
-      short-id: fa
-    server: 83.222.23.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
-    xudp: true
-    servername: yahoo.com
-  - name: "优选\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 7.2MB/s"
-    network: tcp
-    port: 54051
-    server: 51.222.86.157
-    type: vless
-    udp: true
-    uuid: d1e720d6-4ac9-4a03-b781-567960161b13
-    xudp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国4 | ⬇️ 6.6MB/s"
-    network: tcp
-    port: 44807
-    reality-opts:
-      public-key: CKRx3TijRUQqqRcEOVF07CfvekiUlPbr0twB3wrpfiQ
-      short-id: 6d78523a82d71956
-    server: 89.58.1.98
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9f69c514-7aba-4cb2-88d2-1be504c97061
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1FA\U0001F1F8美国12 | ⬇️ 5.8MB/s"
-    network: tcp
-    port: 15810
-    reality-opts:
-      public-key: Clc3P7127drFOxcwY7TTCIAdD4a7enFY96Jo0TxC-hY
-      short-id: '75'
-    server: api.hostbaran.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4ad963a1-48a4-40cf-9ec0-26a732e0d887
-    xudp: true
-    servername: www.pottermore.com
-  - alterId: '2'
+  - alterId: '0'
     cipher: auto
-    name: "优选\U0001F1FA\U0001F1F8美国13 | ⬇️ 3.9MB/s"
-    network: ws
-    port: 30829
-    server: v29.heduian.link
+    name: "\U0001F300其他16-MY | ⬇️ 4.7MB/s"
+    network: tcp
+    port: 37313
+    server: 45.128.54.84
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: ocbc.com
-      path: /oooo
+    uuid: 72feb833-4196-4a70-a3f5-aeb011f7d534
     xudp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1F0\U0001F1F7韩国1 | ⬇️ 5.6MB/s"
-    network: ws
-    port: 20521
-    server: 118.43.158.220
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ab6dde08-ce0d-4c3d-b708-da53af1a862d
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - name: "优选\U0001F1FA\U0001F1F8美国14 | ⬇️ 3.1MB/s"
-    network: tcp
-    port: 57403
-    server: 15.204.199.122
-    type: vless
-    udp: true
-    uuid: 1c22f9ec-4677-4a53-921a-a87c63df37d5
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1E9\U0001F1EA德国5 | ⬇️ 4.2MB/s"
-    network: tcp
-    port: 31712
-    reality-opts:
-      public-key: scHzer8e1L1Ik4vES66WdkAKVc4fUOU39ob30FIUMmY
-      short-id: 2980a753
-    server: 64.227.125.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: 76f223c5-dc30-43b9-981d-af231995066b
-    xudp: true
-    servername: www.yahoo.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港1 | ⬇️ 5.3MB/s"
-    network: ws
-    port: 80
-    server: bb9bfc22-svc1s0-szegoe-12hj8.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: bb9bfc22-svc1s0-szegoe-12hj8.hk3.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - name: "优选\U0001F1FA\U0001F1F8美国15 | ⬇️ 5.3MB/s"
-    network: ws
-    port: 32391
-    server: 195.58.58.88
-    type: vless
-    udp: true
-    uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
-    ws-opts:
-      headers:
-        Host: 45f4d22d.Mareza.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /
-    xudp: true
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港2 | ⬇️ 4.6MB/s"
-    network: ws
-    port: 80
-    server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港3 | ⬇️ 2.2MB/s"
-    network: ws
-    port: 80
-    server: 532538de-sv0xs0-sylfil-1gcq2.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: 532538de-sv0xs0-sylfil-1gcq2.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国6 | ⬇️ 5.2MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-      short-id: 974a74bf
-    server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1584806e-f63d-4f9b-a0b3-abe64b35a09c
-    xudp: true
-    servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港4 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 80
-    server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
   - client-fingerprint: chrome
     grpc-opts:
-      grpc-service-name: melov2ray
-    name: "优选\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 5.4MB/s"
+      grpc-service-name: grpc.reality
+    name: "\U0001F1E9\U0001F1EA德国7 | ⬇️ 3.9MB/s"
     network: grpc
-    port: 2083
+    port: 1911
     reality-opts:
-      public-key: mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8
-      short-id: 54602915a7
-    server: 65.109.221.186
+      public-key: VCwUyNFL_IMTZfEKeIUYEuXbPfzCpuUBGNW1kAu2VW4
+      short-id: 32aaf12b
+    server: gr.globalunlimitedinternet.xyz
     tls: true
     type: vless
     udp: true
-    uuid: 949e6151-6899-4605-f2d1-51570f60d51d
+    uuid: 7eac3c03-5204-4d53-833a-a131639f1f5f
     xudp: true
-    servername: khamenei.ir
-  - client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国7 | ⬇️ 4.1MB/s"
-    network: tcp
-    port: 18702
-    reality-opts:
-      public-key: pbi5k9j7ugmPIwxxaYSI5cvkVwW7eaVRMrjjGlm8BwE
-      short-id: afa469f10771
-    server: 51.195.101.116
-    tls: true
-    type: vless
-    udp: true
-    uuid: 71705031-92d3-4dc5-8011-e48a59e6c88b
-    xudp: true
-    servername: yahoo.com
-  - name: "优选\U0001F1EB\U0001F1EE芬兰2 | ⬇️ 3.5MB/s"
-    network: ws
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    udp: true
-    uuid: f368e349-2748-429e-86da-848600b7ff85
-    ws-opts:
-      headers:
-        Host: welcomtofreeboarders.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /ws/?ed=2048
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 6.7MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-    server: ru01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2a02cb25-0f58-4b19-a7a6-8c205fdb9042
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F300其他7-BE | ⬇️ 2.8MB/s"
-    network: tcp
-    port: 58164
-    reality-opts:
-      public-key: 7cbcFHSx2vqz38zW9BmlSIHTTSdNtlgv_S5uZ0MSIAE
-      short-id: 788456bc
-    server: 45.83.20.34
-    tls: true
-    type: vless
-    udp: true
-    uuid: 34c9f621-0614-4b7f-aab3-c4400bb15a89
-    xudp: true
-    servername: yahoo.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港5 | ⬇️ 2.0MB/s"
-    network: ws
-    port: 80
-    server: 6bcba1b3-sv2sg0-sywkhi-1o4kv.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: 6bcba1b3-sv2sg0-sywkhi-1o4kv.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国8 | ⬇️ 4.8MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-      short-id: 974a74bf
-    server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1584806e-f63d-4f9b-a0b3-abe64b35a09c
-    xudp: true
-    servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港6 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 80
-    server: 5730d1c0-sva740-te0v28-1mh67.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: 5730d1c0-sva740-te0v28-1mh67.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港7 | ⬇️ 2.7MB/s"
-    network: ws
-    port: 80
-    server: 97fb24b1-sv0xs0-svxfqo-1hfyu.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ab0147e4-e673-11ee-8058-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: 97fb24b1-sv0xs0-svxfqo-1hfyu.hk3.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国9 | ⬇️ 7.3MB/s"
-    network: tcp
-    port: 42414
-    server: 62.60.158.43
-    type: vless
-    udp: true
-    uuid: 10782287-e9e2-4378-9e1e-ddf8660ad610
-    xudp: true
-  - name: "优选\U0001F1E9\U0001F1EA德国10 | ⬇️ 7.8MB/s"
-    network: ws
-    port: 80
-    server: 8.47.69.4
-    type: vless
-    udp: true
-    uuid: 98b020e6-50f0-4247-864a-226b0129e9ce
-    ws-opts:
-      headers:
-        Host: dfghjk.farcadezero.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /www.speedtest.net/index.html-www.google.com?ed=2048
-    xudp: true
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E8\U0001F1E6加拿大2 | ⬇️ 5.4MB/s"
-    network: tcp
-    port: 45877
-    server: fahra-isbsus-iwbsha.haratipulan.ir
-    type: vless
-    udp: true
-    uuid: 81ed7265-be10-498b-c96f-46789e81ac88
-    xudp: true
-  - name: "优选\U0001F1E9\U0001F1EA德国11 | ⬇️ 6.5MB/s"
-    network: tcp
-    port: 8775
-    server: 94.131.111.200
-    type: vless
-    udp: true
-    uuid: 4f8fbb51-7e13-45df-be31-d692671aa3b1
-    xudp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1FA\U0001F1F8美国16 | ⬇️ 5.9MB/s"
-    network: tcp
-    port: 1001
-    reality-opts:
-      public-key: 8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0
-      short-id: 5fab0deb
-    server: 185.236.232.136
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7c922da-ab54-433c-8046-1f9bf9d95c23
-    xudp: true
-    servername: telewebion.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国17 | ⬇️ 5.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 37.19.198.236
-    type: ss
-    udp: true
-  - name: "优选\U0001F1E8\U0001F1E6加拿大3 | ⬇️ 5.6MB/s"
-    network: tcp
-    port: 51952
-    server: 51.222.86.7
-    type: vless
-    udp: true
-    uuid: 3956dd35-4f86-4b48-a1ca-45a3dbe471a0
-    xudp: true
+    servername: www.refersion.com
   - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "优选\U0001F300其他8-VN | ⬇️ 3.2MB/s"
-    network: ws
-    port: 443
-    server: lifetime.idk.io.vn
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 90e56755-db30-4455-95d0-6ab9da305720
-    ws-opts:
-      headers:
-        Host: lifetime.idk.io.vn
-      path: /vmess
-    xudp: true
-    servername: lifetime.idk.io.vn
-  - name: "优选\U0001F1F3\U0001F1F1荷兰4 | ⬇️ 3.5MB/s"
-    network: ws
-    port: 2082
-    server: 91.225.219.114
-    type: vless
-    udp: true
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-    ws-opts:
-      headers:
-        Host: niyunejw0.kopoly.info
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-  - cipher: rc4-md5
-    name: "优选\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 5.5MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 68.183.227.4
-    type: ss
-    udp: true
-  - cipher: rc4-md5
-    name: "优选\U0001F1E9\U0001F1EA德国12 | ⬇️ 6.8MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 193.108.119.230
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1EB\U0001F1F7法国1 | ⬇️ 4.7MB/s"
-    network: ws
-    port: 443
-    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: b9199356-42fe-468e-b9aa-2761695cf902
-    ws-opts:
-      headers:
-        Host: 638886055652718198.warsaw-prx-dnraaao.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /mjkoswws
-    xudp: true
-    servername: 638886055652718198.warsaw-prx-dnraaao.info
-  - name: "优选\U0001F1E9\U0001F1EA德国13 | ⬇️ 2.7MB/s"
-    network: ws
-    port: 2053
-    server: binex.tv.jaricopen.fun
-    type: vless
-    udp: true
-    uuid: 6f6af4b5-950f-404b-93ed-5307b16f9e4a
-    ws-opts:
-      headers:
-        Host: chess.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/65.0.3325.181 Safari/537.36
-      path: >-
-        /telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560
-    xudp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1FA\U0001F1F8美国18 | ⬇️ 4.0MB/s"
-    network: ws
-    port: 443
-    server: fonts.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-    ws-opts:
-      headers:
-        Host: rAyAn-uS-2.MeDiCaLhIsToRy.iR
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /@Rayan_Config
-    xudp: true
-    servername: rAyAn-uS-2.MeDiCaLhIsToRy.iR
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1E9\U0001F1EA德国14 | ⬇️ 5.2MB/s"
-    network: ws
-    port: 28838
-    server: 89.169.13.60
+    name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 2.3MB/s"
+    network: tcp
+    port: 30002
+    server: 38.12.83.217
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: b9d3c414-89cc-455d-b717-10c7ca1665a1
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - name: "优选\U0001F1F3\U0001F1F1荷兰5 | ⬇️ 3.2MB/s"
-    network: tcp
-    port: 33863
-    server: 62.60.155.245
-    type: vless
-    udp: true
-    uuid: 8a5e3da6-455b-4cdb-b17e-18bc6379a29e
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     xudp: true
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1E9\U0001F1EA德国15 | ⬇️ 3.0MB/s"
-    network: tcp
-    port: 46421
-    reality-opts:
-      public-key: Ha-qk9kS73yXivYFs5qpkmHErXne7MA6lAw2W2SFdhY
-      short-id: 668111aa
-    server: 64.227.120.69
-    tls: true
-    type: vless
-    udp: true
-    uuid: 89908328-c9b2-44ef-af04-575156c929ec
-    xudp: true
-    servername: www.yahoo.com
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他9-MD | ⬇️ 2.3MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 192.121.87.89
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1EB\U0001F1F7法国2 | ⬇️ 5.8MB/s"
-    password: a58fa62b4944ddbf
-    port: 57456
-    server: 81.19.137.222
-    type: ss
-    udp: true
-  - name: "优选\U0001F1E9\U0001F1EA德国16 | ⬇️ 3.3MB/s"
-    network: tcp
-    port: 2020
-    server: 188.245.207.238
-    type: vless
-    udp: true
-    uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E9\U0001F1EA德国17 | ⬇️ 3.1MB/s"
-    password: oXGp1+ihlfKg826H
-    port: 1866
-    server: 185.177.229.245
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他10-VN | ⬇️ 4.6MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 103.163.218.2
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国2 | ⬇️ 3.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.195
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国19 | ⬇️ 4.7MB/s"
-    password: iHapGY8XoW
-    port: 44642
-    server: 154.44.15.133
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1E9\U0001F1EA德国18 | ⬇️ 3.1MB/s"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-      short-id: ''
-    server: 62.60.156.102
-    tls: true
-    type: vless
-    udp: true
-    uuid: 73a22963-1825-4a74-b961-45bffdb590ce
-    xudp: true
-    servername: digikala.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F1EB\U0001F1F7法国3 | ⬇️ 2.4MB/s"
-    network: ws
-    port: 443
-    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 80128acc-ff7f-41fe-af34-62f4108635ca
-    ws-opts:
-      headers:
-        Host: 638880231667527799.madrid-prx-dnraaao.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-      path: /jzkedews
-    xudp: true
-    servername: 638880231667527799.madrid-prx-dnraaao.info
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1FA\U0001F1F8美国20 | ⬇️ 4.2MB/s"
-    network: tcp
-    port: 2040
-    reality-opts:
-      public-key: hOt5bCyO5AwK6aGZKIOBR0U-wPgu_13HjvTMAfBgAT0
-      short-id: ''
-    server: 5.181.3.169
-    tls: true
-    type: vless
-    udp: true
-    uuid: 320bc89e-2a48-42c4-b7b2-0f982342a9fe
-    xudp: true
-    servername: tradingview.com
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F300其他11-SE | ⬇️ 3.6MB/s"
-    network: tcp
-    port: 18000
-    server: 149.50.216.6
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    xudp: true
-  - name: "优选\U0001F1EC\U0001F1E7英国3 | ⬇️ 4.8MB/s"
-    network: ws
-    port: 2052
-    server: 45.89.111.198
-    type: vless
-    udp: true
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-    ws-opts:
-      headers:
-        Host: omidyzvg2.kamaleriz.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/39.0.2171.95 Safari/537.36
-      path: /
-    xudp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F1EB\U0001F1F7法国4 | ⬇️ 2.9MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 195.154.169.198
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他12-AT | ⬇️ 6.9MB/s"
-    password: eUh4lSpi7nOYj0vSrqLUh0
-    port: 8506
-    server: 95.163.176.37
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1E9\U0001F1EA德国19 | ⬇️ 4.5MB/s"
-    network: tcp
-    port: 8444
-    reality-opts:
-      public-key: L-fP4lqbWe_Z4_X9sYESu2dPF_t66AtX3DShennkREg
-      short-id: b5b8e09518535c62
-    server: de.svdualvpn.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: d926755f-e065-40dc-9dbb-952da79199fe
-    xudp: true
-    servername: deepl.com
-  - cipher: rc4-md5
-    name: "优选\U0001F1FA\U0001F1F8美国21 | ⬇️ 3.1MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 107.155.57.51
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E8\U0001F1E6加拿大4 | ⬇️ 3.2MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 64.74.163.218
-    type: ss
-    udp: true
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港8 | ⬇️ 2.9MB/s"
-    network: ws
-    port: 80
-    server: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他13-SK | ⬇️ 5.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 156.146.40.194
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国20 | ⬇️ 3.7MB/s"
-    network: tcp
-    port: 2090
-    reality-opts:
-      public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-      short-id: ''
-    server: xpanel.panelfreedom.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: f5cca562-cf3a-4bc9-a51c-b7ab2339e752
-    xudp: true
-    servername: refersion.com
-  - cipher: rc4-md5
-    name: "优选\U0001F1FA\U0001F1F8美国22 | ⬇️ 4.1MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1FA\U0001F1F8美国23 | ⬇️ 2.6MB/s"
-    network: ws
-    port: 8443
-    server: 216.128.149.33
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 73eb6452-21e5-4205-bd36-59a20a5217ba
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰6 | ⬇️ 5.4MB/s"
-    password: cvII85TrW6n0OGyfpHVS1u
-    port: 8080
-    server: 193.29.139.179
-    type: ss
-    udp: true
-  - name: "优选\U0001F1FA\U0001F1F8美国24 | ⬇️ 4.5MB/s"
-    network: tcp
-    port: 2321
-    server: 172.234.31.253
-    type: vless
-    udp: true
-    uuid: 7028cb85-9611-4876-bb19-e15fa050b253
-    xudp: true
-  - name: "优选\U0001F1E9\U0001F1EA德国21 | ⬇️ 3.2MB/s"
-    network: tcp
-    port: 8775
-    server: 94.131.111.200
-    type: vless
-    udp: true
-    uuid: 0d932ac5-92f2-44d5-9b58-900a2a6c370c
-    xudp: true
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港9 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 80
-    server: e9dc3722-sv2sg0-sylfil-1gcq2.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: e9dc3722-sv2sg0-sylfil-1gcq2.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港10 | ⬇️ 5.4MB/s"
-    network: ws
-    port: 80
-    server: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1EE\U0001F1F7伊朗1 | ⬇️ 3.0MB/s"
-    network: tcp
-    port: 8000
-    reality-opts:
-      public-key: lPLY0SEqCdqEbbe8JWS3nkg_9kN08B-T-lL9u1PvIkE
-      short-id: dd
-    server: 185.220.227.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: da179b2e-7699-424b-a5f5-5e6bdf0ed8ac
-    xudp: true
-    servername: yahoo.com
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰7 | ⬇️ 3.0MB/s"
-    password: 4a2rfixophdjffa8KVA4Aa
-    port: 8080
-    server: 45.158.171.136
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1EB\U0001F1F7法国5 | ⬇️ 2.9MB/s"
-    password: 7OrvL0JH9f2LvIE45MT7WN
-    port: 8594
-    server: 77.105.166.12
-    type: ss
-    udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1E9\U0001F1EA德国22 | ⬇️ 4.7MB/s"
-    network: tcp
-    port: 28213
-    server: 135.125.182.74
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰8 | ⬇️ 6.0MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 45.158.171.60
-    type: ss
-    udp: true
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港11 | ⬇️ 3.2MB/s"
-    network: ws
-    port: 80
-    server: eff0bb96-sv0xs0-t7x08i-1i87l.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: eff0bb96-sv0xs0-t7x08i-1i87l.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: '2'
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港12 | ⬇️ 3.7MB/s"
-    network: ws
-    port: 80
-    server: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1F7\U0001F1FA俄罗斯2 | ⬇️ 3.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-    server: ru01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰9 | ⬇️ 3.5MB/s"
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 193.29.139.217
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国4 | ⬇️ 2.9MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.198
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf
-    name: "优选\U0001F1ED\U0001F1F0香港13 | ⬇️ 2.8MB/s"
-    password: asd123456
-    port: 8388
-    server: 103.36.91.23
-    type: ss
-    udp: true
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港14 | ⬇️ 5.4MB/s"
-    network: ws
-    port: 80
-    server: 6b961a0a-sv4n40-t83wtx-2rrb.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ba64cdc5-c79a-326d-8e63-6903be8183a1
-    ws-opts:
-      headers:
-        Host: 6b961a0a-sv4n40-t83wtx-2rrb.hk3.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港15 | ⬇️ 3.7MB/s"
-    network: ws
-    port: 80
-    server: fa97199d-sv0xs0-t15jkc-eyem.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: fa97199d-sv0xs0-t15jkc-eyem.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F300其他14-LV | ⬇️ 4.2MB/s"
-    network: tcp
-    port: 40478
-    reality-opts:
-      public-key: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
-      short-id: 3c
-    server: 37.233.82.140
-    tls: true
-    type: vless
-    udp: true
-    uuid: e977d854-33f3-4345-abee-bf3fa9a6d880
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国23 | ⬇️ 5.1MB/s"
+    name: "\U0001F1E9\U0001F1EA德国8 | ⬇️ 2.1MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -1362,105 +1074,55 @@ proxies:
     uuid: 1584806e-f63d-4f9b-a0b3-abe64b35a09c
     xudp: true
     servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-  - alterId: 2
+  - alpn:
+      - ''
+    alterId: '0'
     cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港16 | ⬇️ 3.0MB/s"
-    network: ws
-    port: 80
-    server: 20b856dd-sv0xs0-sv75lj-1swf9.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: 20b856dd-sv0xs0-sv75lj-1swf9.hk.p5pv.com
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他15-BG | ⬇️ 3.9MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 37.19.203.147
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国25 | ⬇️ 2.2MB/s"
-    password: shadowsocks
-    port: 443
-    server: 173.244.56.6
-    type: ss
-    udp: true
-  - name: "优选\U0001F1E9\U0001F1EA德国24 | ⬇️ 5.8MB/s"
-    network: ws
-    port: 2053
-    server: 31.58.144.49
-    type: vless
-    udp: true
-    uuid: 6f6af4b5-950f-404b-93ed-5307b16f9e4a
-    ws-opts:
-      headers:
-        Host: chess.com
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: >-
-        /telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560
-    xudp: true
-  - name: "优选\U0001F1E8\U0001F1E6加拿大5 | ⬇️ 7.7MB/s"
+    name: "\U0001F1EE\U0001F1F3印度2 | ⬇️ 3.2MB/s"
     network: tcp
-    port: 25429
-    server: 51.222.84.252
-    type: vless
-    udp: true
-    uuid: f64ec975-bed6-4c91-b02b-80e5fdad363b
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E9\U0001F1EA德国25 | ⬇️ 7.2MB/s"
-    password: Ccp5Otzx0QS3OKxpUepGbK
-    port: 34803
-    server: 45.144.54.33
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: >-
-        @VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM
-    name: "优选\U0001F1E9\U0001F1EA德国26 | ⬇️ 6.0MB/s"
-    network: grpc
-    port: 51479
-    reality-opts:
-      public-key: ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg
-      short-id: ''
-    server: 91.99.97.62
-    tls: true
-    type: vless
-    udp: true
-    uuid: dcdbb1fb-ab20-447b-aa0a-7d149add2a53
-    xudp: true
-    servername: www.cdn77.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港17 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 80
-    server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
+    port: 49882
+    server: 148.113.6.81
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+    uuid: 6663a422-875c-44ee-9a25-3f7b334dd9f5
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 3.2MB/s"
+    network: ws
+    port: 32391
+    server: 195.58.58.88
+    type: vless
+    udp: true
+    uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
     ws-opts:
       headers:
-        Host: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
+        Host: 45f4d22d.Mareza.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /
     xudp: true
-    servername: broadcastlv.chat.bilibili.com
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 4.9MB/s"
+    network: ws
+    port: 20521
+    server: 121.154.187.44
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: efeca8c2-8f63-467b-8d28-d630a7a9dc8f
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
   - alterId: 2
     cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港18 | ⬇️ 2.3MB/s"
+    name: "\U0001F1ED\U0001F1F0香港34 | ⬇️ 2.7MB/s"
     network: ws
     port: 80
     server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com
@@ -1474,199 +1136,285 @@ proxies:
         Host: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com
       path: /
     xudp: true
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F300其他16-TR | ⬇️ 2.9MB/s"
-    network: tcp
-    port: 53221
-    server: 94.131.108.195
-    type: vless
-    udp: true
-    uuid: 90efad13-d266-4d10-a914-bc40028ec469
-    xudp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F300其他17-GR | ⬇️ 6.7MB/s"
-    network: tcp
-    port: 45448
-    reality-opts:
-      public-key: MmEVCRy11fz67vYJQWyA2a_ZPMBzv2le2cus1XSSI0E
-      short-id: 958639bf55e679
-    server: 94.131.8.19
-    tls: true
-    type: vless
-    udp: true
-    uuid: 96fcf8cc-535d-46c4-b8f9-76058df48e3b
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F1F3\U0001F1F1荷兰10 | ⬇️ 7.8MB/s"
-    network: tcp
-    port: 21624
-    reality-opts:
-      public-key: N5HSrXmFSFmCmp38i_FtGh00Cfmyh3E4M6n5bdg97GE
-      short-id: 7bacf6051ced
-    server: 209.38.45.230
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3a1228c5-ddf9-4430-ac88-57c889712cdd
-    xudp: true
-    servername: refersion.com
-  - alterId: 2
+  - alterId: 0
     cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港19 | ⬇️ 3.8MB/s"
-    network: ws
-    port: 80
-    server: d806260c-sznls0-tifnix-1ro8s.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 4.7MB/s"
+    port: 16416
+    server: 172.233.171.224
     type: vmess
     udp: true
-    uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+    uuid: 8c1b9bea-cb51-43bb-a65c-0af31bbbf145
+  - cipher: aes-256-cfb
+    country: "\U0001F1E6\U0001F1F7AR"
+    name: "\U0001F300其他17-AR | ⬇️ 3.1MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 190.103.176.32
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1E7\U0001F1EABE"
+    name: "\U0001F300其他18-BE | ⬇️ 1.8MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 192.71.249.108
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1F3\U0001F1F1荷兰10 | ⬇️ 2.2MB/s"
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+    port: 8080
+    server: 45.158.171.146
+    type: ss
+  - cipher: rc4-md5
+    country: "\U0001F1EC\U0001F1E7GB"
+    name: "\U0001F1EC\U0001F1E7英国8 | ⬇️ 1.1MB/s"
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    server: 146.70.61.18
+    type: ss
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港35 | ⬇️ 1.7MB/s"
+    network: ws
+    port: 80
+    server: 8b425941-t0bog0-t1rt5e-1s09x.hk.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
     ws-opts:
       headers:
-        Host: d806260c-sznls0-tifnix-1ro8s.hk.p5pv.com
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 8b425941-t0bog0-t1rt5e-1s09x.hk.p5pv.com
       path: /
-    xudp: true
     servername: broadcastlv.chat.bilibili.com
-  - alpn:
-      - ''
-    alterId: '0'
+  - alterId: 0
     cipher: auto
-    name: "优选\U0001F300其他18-LV | ⬇️ 6.7MB/s"
-    network: ws
-    port: 8443
-    server: 216.173.69.250
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 91382092-2330-455b-8a1c-9c129cfe661a
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港20 | ⬇️ 4.2MB/s"
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港36 | ⬇️ 1.7MB/s"
     network: ws
     port: 80
-    server: 07d2e2cb-sv0xs0-svv72o-1e0ty.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
+    server: 9c0a7feb-t0bog0-t1rksu-1ssud.hkt.tcpbbr.net
+    skip-cert-verify: true
     type: vmess
-    udp: true
-    uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
+    uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
     ws-opts:
       headers:
-        Host: 07d2e2cb-sv0xs0-svv72o-1e0ty.hk3.p5pv.com
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 9c0a7feb-t0bog0-t1rksu-1ssud.hkt.tcpbbr.net
       path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国27 | ⬇️ 7.7MB/s"
-    network: tcp
-    port: 8990
-    reality-opts:
-      public-key: Om08OL0-DY2tV5Z27yFWpzdz_TiJSBxcGUdX5awq5zA
-      short-id: 9912311de4630f2d
-    server: de1.seluna.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: eb80a285-5737-4597-9aba-cfcfd25f4f9b
-    xudp: true
-    servername: refersion.com
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港21 | ⬇️ 2.6MB/s"
-    network: ws
-    port: 80
-    server: d77542fa-sv2sg0-t5cryd-4w8.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-    ws-opts:
-      headers:
-        Host: d77542fa-sv2sg0-t5cryd-4w8.hk.p5pv.com
-      path: /
-    xudp: true
     servername: broadcastlv.chat.bilibili.com
   - alterId: 2
     cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港22 | ⬇️ 3.7MB/s"
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港37 | ⬇️ 1.1MB/s"
     network: ws
     port: 80
-    server: 360de725-sv4n40-t2y63q-1jk6u.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
+    server: 9782c7f2-t0bog0-t5wcb1-13x18.hk.p5pv.com
+    skip-cert-verify: true
     type: vmess
-    udp: true
-    uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+    uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
     ws-opts:
       headers:
-        Host: 360de725-sv4n40-t2y63q-1jk6u.hk3.p5pv.com
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 9782c7f2-t0bog0-t5wcb1-13x18.hk.p5pv.com
       path: /
-    xudp: true
     servername: broadcastlv.chat.bilibili.com
   - alterId: 2
     cipher: auto
-    name: "优选\U0001F1ED\U0001F1F0香港23 | ⬇️ 3.4MB/s"
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港38 | ⬇️ 1.0MB/s"
     network: ws
     port: 80
-    server: d1b35237-sz8sg0-t0opzi-19xg1.hk.p5pv.com
-    skip-cert-verify: false
-    tls: false
+    server: 829c47db-t0bog0-t5fh9u-1uni.hk.p5pv.com
+    skip-cert-verify: true
     type: vmess
-    udp: true
-    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
     ws-opts:
       headers:
-        Host: d1b35237-sz8sg0-t0opzi-19xg1.hk.p5pv.com
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 829c47db-t0bog0-t5fh9u-1uni.hk.p5pv.com
       path: /
-    xudp: true
     servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1FA\U0001F1F8美国26 | ⬇️ 6.5MB/s"
-    network: tcp
-    port: 20322
-    reality-opts:
-      public-key: '-3D1yyc2r7xOKDJ_nvn5x5Ij7tWYxKTpQmKiukGG7B4'
-      short-id: 4d
-    server: 62.60.178.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: fc7f9c12-7ff6-475a-b17f-e25084d1fdb3
-    xudp: true
-    servername: www.latimes.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F300其他19-TR | ⬇️ 4.5MB/s"
-    network: tcp
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港39 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 80
+    server: 949ed6dc-t07z40-thiwul-1gcq2.hkt.tcpbbr.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 949ed6dc-t07z40-thiwul-1gcq2.hkt.tcpbbr.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港40 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: 3d2c66e3-t0bog0-t3gspm-20qs.hk.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: e668cd78-6892-11eb-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 3d2c66e3-t0bog0-t3gspm-20qs.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港41 | ⬇️ 1.2MB/s"
+    network: ws
+    port: 80
+    server: 0380dfc4-t0bog0-t51bp0-1nyy5.hk.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 0380dfc4-t0bog0-t51bp0-1nyy5.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0香港42 | ⬇️ 1.4MB/s"
+    network: ws
+    port: 80
+    server: 5dc5498d-t0bog0-tcinla-hrtf.hk.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 5dc5498d-t0bog0-tcinla-hrtf.hk.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - cipher: aes-128-gcm
+    country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 1.8MB/s"
+    password: '10086'
+    port: 10087
+    server: 153.121.51.214
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1EE\U0001F1F1IL"
+    name: "\U0001F300其他19-IL | ⬇️ 2.1MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 169.150.202.174
+    type: ss
+  - cipher: aes-128-gcm
+    country: "\U0001F1F3\U0001F1F1NL"
+    name: "\U0001F1F3\U0001F1F1荷兰11 | ⬇️ 2.4MB/s"
+    password: shadowsocks
     port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: '31'
-    server: tr01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0
-    xudp: true
-    servername: hls-svod.itunes.apple.com
+    server: 149.34.244.71
+    type: ss
+  - cipher: aes-128-gcm
+    country: "\U0001F1F3\U0001F1F1NL"
+    name: "\U0001F1F3\U0001F1F1荷兰12 | ⬇️ 4.2MB/s"
+    password: shadowsocks
+    port: 443
+    server: 149.34.244.80
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F3\U0001F1F1NL"
+    name: "\U0001F1F3\U0001F1F1荷兰13 | ⬇️ 4.2MB/s"
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+    port: 8080
+    server: 193.29.139.175
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F3\U0001F1F1NL"
+    name: "\U0001F1F3\U0001F1F1荷兰14 | ⬇️ 1.6MB/s"
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+    port: 8080
+    server: 193.29.139.164
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1F7\U0001F1FARU"
+    name: "\U0001F1F7\U0001F1FA俄罗斯2 | ⬇️ 1.1MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 38.60.223.8
+    type: ss
+  - cipher: aes-256-gcm
+    country: "\U0001F1F8\U0001F1ECSG"
+    name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 1.1MB/s"
+    password: 9BvAcL4+nYJJm6e6/qW87jgwxjbBGRZ22BK05f3qN70=
+    port: 37826
+    server: 154.18.187.154
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F8\U0001F1EESI"
+    name: "\U0001F1E9\U0001F1EA德国9 | ⬇️ 1.2MB/s"
+    password: rHZ6hQAhbsCv1JroMlxcmU
+    port: 34803
+    server: 45.144.54.33
+    type: ss
+  - cipher: rc4-md5
+    country: "\U0001F1F8\U0001F1ECSG"
+    name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 4.0MB/s"
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    server: 68.183.227.236
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F9\U0001F1EDTH"
+    name: "\U0001F300其他20-TH | ⬇️ 2.2MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 119.59.98.58
+    type: ss
+  - alterId: 64
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 3.8MB/s"
+    network: tcp
+    port: 30002
+    server: 38.12.83.217
+    skip-cert-verify: true
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    servername: loosely.freetrade.link
+  - cipher: rc4-md5
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8美国10 | ⬇️ 1.1MB/s"
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    server: 107.155.57.11
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
