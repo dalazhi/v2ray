@@ -1,6 +1,18 @@
 proxies:
 proxies:
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 2
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+    server: 47.116.166.178
+    type: vmess
+    port: 50002
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    delay: 191
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
     server: 47.92.152.169
     type: vmess
     port: 50002
@@ -10,93 +22,81 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 198
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 10
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    delay: 1233
-  - name: 中国 - 广州市 - China Mobile - 4
-    server: 183.236.51.36
-    type: vmess
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 252
-  - name: 中国 - 广州市 - China Mobile communications corporation - 1
-    server: 120.210.205.59
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 486
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
-    server: 47.104.186.133
-    type: vmess
-    country: 🇨🇳 CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    ws-path: /afrhms16v.bestxray.buzz/linkws
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 192
-  - name: 中国 - 香港 - Amazon Technologies Inc. - 7
-    server: ss.039.node-for-bigairport.win
+    delay: 406
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 42
+    server: 210.61.187.240
     type: ss
-    country: 🇭🇰HK
-    port: 40408
-    password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-    cipher: aes-256-gcm
-    delay: 1229
-  - name: 中国 - 香港 - Amazon.com - 6
-    server: ss.038.node-for-bigairport.win
-    type: ss
-    country: 🇭🇰 HK
-    port: 11688
-    password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-    cipher: aes-256-gcm
-    delay: 488
-  - cipher: aes-256-gcm
-    name: 中国 - 香港 - Cnservers LLC - 9
-    password: 0b191076d18f
-    plugin: v2ray-plugin
+    country: 🇨🇳 TW
+    port: 2377
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    cipher: chacha20-ietf-poly1305
+    plugin: obfs
     plugin-opts:
-      host: hk6v1.dsjsapp.com
-      mode: websocket
-      mux: true
-      path: /ugiibpkbca
-      skip-cert-verify: false
-      tls: true
-    port: 636
-    server: 156.251.179.139
+      host: (TG @WangCai2)32cf132:178330
+      mode: tls
+    delay: 564
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 43
+    server: 210.61.187.236
     type: ss
-    delay: 2492
-  - cipher: 2022-blake3-aes-128-gcm
-    name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 11
-    password: Yzg1YmEyOWM5YjgyODg1Yg==:MGJmNTg4OWQtN2ZjMi00Yw==
-    port: 8081
-    server: zz.xn--mes91t7ofgnw.com
+    country: 🇨🇳 TW
+    port: 2377
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    cipher: chacha20-ietf-poly1305
+    plugin: obfs
+    plugin-opts:
+      host: (TG @WangCai2)32cf132:178330
+      mode: tls
+    delay: 429
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 52
     type: ss
+    server: tw01.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
+    password: eVMVtt
     udp: true
-    delay: 1234
-  - alterId: '64'
-    cipher: auto
-    name: 中国 - 香港 - Rackip Consultancy Pte. LTD - 5
-    network: ws
+    delay: 422
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 53
+    type: ss
+    server: tw02.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
+    password: eVMVtt
+    udp: true
+    delay: 601
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 54
+    type: ss
+    server: tw05.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
+    password: eVMVtt
+    udp: true
+    delay: 419
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 55
+    type: ss
+    server: tw06.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
+    password: eVMVtt
+    udp: true
+    delay: 645
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 56
+    type: ss
+    server: tw07.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
+    password: eVMVtt
+    udp: true
+    delay: 592
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 57
+    type: ss
+    server: tw08.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
+    password: eVMVtt
+    udp: true
+    delay: 1290
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 58
+    type: ss
+    server: tw09.graniterapids.com
+    port: 61147
+    cipher: rc4-md5
