@@ -1,1148 +1,211 @@
 proxies:
-  - name: "优选\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.5MB/s"
-    network: tcp
-    port: 2321
-    server: 172.234.192.79
-    type: vless
-    udp: true
-    uuid: 4c266060-28aa-4fd4-8286-86127e16b260
-    xudp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 37.19.198.236
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 3.4MB/s"
-    network: tcp
-    port: 17422
-    reality-opts:
-      public-key: 0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA
-      short-id: '33'
-    server: 5.181.20.219
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
-    xudp: true
-    servername: yahoo.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国1 | ⬇️ 2.2MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.80
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.1MB/s"
-    network: tcp
-    port: 8081
-    reality-opts:
-      public-key: KdvX1bbHtA4Y16IukcDsNiEJ9iKYk4BLlI7LDsV0iFU
-      short-id: d5bfd6c4
-    server: 51.77.91.192
-    tls: true
-    type: vless
-    udp: true
-    uuid: 91b77af9-6f06-4c22-9c0e-bdd8f63de158
-    xudp: true
-    servername: yahoo.com
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他1-RO | ⬇️ 2.6MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 185.126.237.38
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国3 | ⬇️ 3.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 156.146.38.170
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1FA\U0001F1F8美国4 | ⬇️ 3.1MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 172.233.200.241
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - cipher: aes-256-cfb
-    name: "优选\U0001F1FA\U0001F1F8美国5 | ⬇️ 4.8MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 104.192.226.106
-    type: ss
   - cipher: aes-128-cfb
-    name: "优选\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 6.4MB/s"
-    obfs: http_post
-    password: $$Turb0VPN$$
-    port: 443
-    protocol: auth_aes128_md5
-    server: ssca.irundns.net
-    type: ssr
-  - name: "优选\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 8.6MB/s"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 406
-    server: 36.156.102.125
-    skip-cert-verify: true
-    sni: www.baidu.com
-    type: trojan
-    udp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    delay: 2708
-    name: "优选\U0001F1ED\U0001F1F0香港1 | ⬇️ 4.5MB/s"
-    password: 697efab2-5561-4bd5-be36-2916eff405f8
-    port: 8443
-    server: gzhk.gzcloud.shop
-    skip-cert-verify: true
-    sni: gzhk.gzcloud.shop
-    type: anytls
-    udp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    delay: 2249
-    name: "优选\U0001F1ED\U0001F1F0香港2 | ⬇️ 2.9MB/s"
-    password: 697efab2-5561-4bd5-be36-2916eff405f8
-    port: 8443
-    server: hkgz.gzcloud.shop
-    skip-cert-verify: true
-    sni: hkgz.gzcloud.shop
-    type: anytls
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    delay: 965
-    name: "优选\U0001F1EF\U0001F1F5日本1 | ⬇️ 2.2MB/s"
-    password: EEsjQL0rXwQgJez3ASjoOq
-    port: 1235
-    server: sakura.outlinekeys.net
-    type: ss
-    udp: true
-  - delay: 1256
-    name: "优选\U0001F1FA\U0001F1F8美国6 | ⬇️ 5.9MB/s"
-    network: ws
-    port: 2086
-    server: cloudflare.182682.xyz
-    type: vless
-    udp: true
-    uuid: f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45
-    ws-opts:
-      headers:
-        Host: free.naichachong.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/49.0.2623.112 Safari/537.36
-      path: /TG@naichachong
-    xudp: true
-    servername: free.naichachong.top
-  - cipher: rc4-md5
-    name: "优选\U0001F1FA\U0001F1F8美国7 | ⬇️ 2.5MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 23.251.121.242
-    type: ss
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国2 | ⬇️ 2.1MB/s"
-    network: tcp
-    port: 59332
-    server: 54.37.205.0
-    type: vless
-    udp: true
-    uuid: d2dc2527-33d5-46f3-f39c-36da72fb1a62
-    xudp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F1F0\U0001F1F7KR"
-    delay: 1192
-    name: "优选\U0001F1F0\U0001F1F7韩国1 | ⬇️ 3.5MB/s"
-    password: qwerREWQ@@
-    port: 4652
-    server: p141.panda001.net
-    type: ss
-  - alterId: 2
-    cipher: auto
-    name: "优选\U0001F1FA\U0001F1F8美国8 | ⬇️ 5.0MB/s"
-    network: ws
-    port: 30829
-    server: v29.heduian.link
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: ocbc.com
-      path: /oooo
-  - client-fingerprint: chrome
-    name: "优选\U0001F1EC\U0001F1E7英国2 | ⬇️ 6.3MB/s"
-    network: tcp
-    port: 54974
-    reality-opts:
-      public-key: F2WLUHR5RU2d2zifwKALTGkLLbIut1AjDKEAmx7OEW0
-      short-id: '2075'
-    server: 57.129.129.41
-    tls: true
-    type: vless
-    udp: true
-    uuid: 42ead82d-d6d7-4a94-9365-5be73f5d1bcc
-    xudp: true
-    servername: yahoo.com
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国3 | ⬇️ 4.9MB/s"
-    network: tcp
-    port: 20087
-    server: 207.154.236.4
-    type: vless
-    udp: true
-    uuid: df0e67fc-a6e5-41d8-95fd-97dfb96d2802
-    xudp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国3 | ⬇️ 5.5MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.79
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1F5\U0001F1F1波兰1 | ⬇️ 4.3MB/s"
-    network: tcp
-    port: 54217
-    reality-opts:
-      public-key: RviJb4RJy0JTMTcslnAJkgXcZZGNcFDxM_niM_kV61k
-      short-id: 58ce1e2f7889b6
-    server: 51.38.129.192
-    tls: true
-    type: vless
-    udp: true
-    uuid: cba08f90-6b6e-4f51-8d07-d9dc01624706
-    xudp: true
-    servername: yahoo.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国4 | ⬇️ 2.5MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.78
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国9 | ⬇️ 2.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 156.146.38.168
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 4.7MB/s"
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-    port: 8080
-    server: 45.87.175.178
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国4 | ⬇️ 2.9MB/s"
-    network: tcp
-    port: 8081
-    reality-opts:
-      public-key: nT4JZTeUVOw-XZ-htdqbFi1je4ZHeg-ALICrDk2usFE
-      short-id: d19d7a2d3da8595a
-    server: 51.89.2.113
-    tls: true
-    type: vless
-    udp: true
-    uuid: f924939e-2d9a-46b7-a3c2-67a225b7c027
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F300其他2-IS | ⬇️ 2.2MB/s"
-    network: tcp
-    port: 59997
-    reality-opts:
-      public-key: m4ipEx1PUfb6F5Uv5Mwe5g34TzdNkG_rIQ0xw-Do1mI
-      short-id: 816473be23c2
-    server: 45.83.21.107
-    tls: true
-    type: vless
-    udp: true
-    uuid: c3dd7afc-151f-44f6-8263-ad3c8420ae2f
-    xudp: true
-    servername: yahoo.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EF\U0001F1F5日本2 | ⬇️ 5.8MB/s"
-    password: shadowsocks
-    port: 443
-    server: 149.22.87.204
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国5 | ⬇️ 5.9MB/s"
-    network: tcp
-    port: 10109
-    reality-opts:
-      public-key: 5c1QbnRvmDD3RklWlEzDAPBh-hP-rWvqrfQvNB-UzSg
-      short-id: 6aa9086a91fb6831
-    server: 165.22.87.142
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86042d26-a682-4931-b843-130c52c72f62
-    xudp: true
-    servername: zhaket.com
-  - client-fingerprint: chrome
-    name: "优选\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 5.7MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 31.169.124.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - client-fingerprint: chrome
-    name: "优选\U0001F1FA\U0001F1F8美国10 | ⬇️ 2.2MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 172.233.201.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F300其他3-DK | ⬇️ 2.4MB/s"
-    network: tcp
-    port: 59374
-    reality-opts:
-      public-key: ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc
-      short-id: d21e7c
-    server: 95.164.85.109
-    tls: true
-    type: vless
-    udp: true
-    uuid: bfc78cd8-5951-4803-8d6c-4cedef8cd420
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1FA\U0001F1F8美国11 | ⬇️ 3.4MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 107.174.253.211
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国5 | ⬇️ 2.1MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.193
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 2.1MB/s"
-    password: oXGp1+ihlfKg826H
-    port: 1866
-    server: 64.176.85.73
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1FA\U0001F1F8美国12 | ⬇️ 5.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: TUGWbWIDirGhRrEyPuB8gwxzWLpxfwPAQtV-MowUCyE
-      short-id: 95e74146e7f2
-    server: 45.8.146.239
-    tls: true
-    type: vless
-    udp: true
-    uuid: id5561190037
-    xudp: true
-    servername: apple.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1E9\U0001F1EA德国6 | ⬇️ 5.0MB/s"
-    network: tcp
-    port: 28392
-    reality-opts:
-      public-key: Pq_a-rDvNROjMaNtA7v2tSSsfPR8KspHwKfu2tEv_F8
-      short-id: cf34f84f37
-    server: 94.237.28.145
-    tls: true
-    type: vless
-    udp: true
-    uuid: 427954ab-e6bd-4758-8793-7b129699068e
-    xudp: true
-    servername: yelp.com
-  - name: "优选\U0001F1FA\U0001F1F8美国13 | ⬇️ 5.3MB/s"
-    network: ws
-    port: 2086
-    server: cloudflare.182682.xyz
-    type: vless
-    udp: true
-    uuid: f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45
-    ws-opts:
-      headers:
-        Host: free.naichachong.top
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /TG@naichachong
-    xudp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1E9\U0001F1EA德国7 | ⬇️ 4.5MB/s"
-    network: ws
-    port: 28838
-    server: 89.169.13.60
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b9d3c414-89cc-455d-b717-10c7ca1665a1
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国6 | ⬇️ 4.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 141.98.101.178
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "优选\U0001F1FA\U0001F1F8美国14 | ⬇️ 3.4MB/s"
-    network: ws
-    port: 20086
-    server: 104.238.162.76
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 6cf93fe6-0062-4212-95aa-2aabca8b11bf
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他4-PT | ⬇️ 5.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 185.231.233.173
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F300其他5-ES | ⬇️ 2.5MB/s"
-    network: tcp
-    port: 15470
-    reality-opts:
-      public-key: Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY
-      short-id: e08a28
-    server: 45.12.150.145
-    tls: true
-    type: vless
-    udp: true
-    uuid: ecc97810-557a-44ef-9957-ba078d0ac414
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E8\U0001F1E6加拿大2 | ⬇️ 5.2MB/s"
-    network: tcp
-    port: 8081
-    reality-opts:
-      public-key: C4lraeO0FAYyFmDWbRmHmX53xTf4XMalv5kGefeWBmA
-      short-id: 4662ad
-    server: 51.222.87.29
-    tls: true
-    type: vless
-    udp: true
-    uuid: 40d9faec-3130-4e69-bb77-210193e65598
-    xudp: true
-    servername: yahoo.com
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 4.1MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 193.29.139.235
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰4 | ⬇️ 3.1MB/s"
-    password: qscavF5UviIL-8V-E4raBA
-    port: 2222
-    server: 185.21.14.103
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰5 | ⬇️ 2.1MB/s"
-    password: cvII85TrW6n0OGyfpHVS1u
-    port: 8080
-    server: 45.87.175.166
-    type: ss
-    udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1E8\U0001F1E6加拿大3 | ⬇️ 2.9MB/s"
-    network: tcp
-    port: 42610
-    server: 51.79.86.182
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e0957ca6-f613-4017-ff3c-effd1da8871a
-    xudp: true
-  - cipher: rc4-md5
-    name: "优选\U0001F1FA\U0001F1F8美国15 | ⬇️ 2.6MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 107.151.182.253
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他6-SK | ⬇️ 4.2MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 156.146.40.194
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国8 | ⬇️ 3.6MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 91.107.164.161
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国9 | ⬇️ 3.1MB/s"
-    network: tcp
-    port: 20087
-    server: 91.107.178.242
-    type: vless
-    udp: true
-    uuid: f2c44225-736e-45a4-9cfb-490fa34e15a0
-    xudp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EF\U0001F1F5日本3 | ⬇️ 4.5MB/s"
-    password: shadowsocks
-    port: 443
-    server: 149.22.87.241
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国16 | ⬇️ 3.9MB/s"
-    password: shadowsocks
-    port: 443
-    server: 173.244.56.6
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他7-BG | ⬇️ 4.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 37.19.203.147
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他8-AT | ⬇️ 5.3MB/s"
-    password: eUh4lSpi7nOYj0vSrqLUh0
-    port: 8506
-    server: 95.163.176.37
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E9\U0001F1EA德国10 | ⬇️ 3.0MB/s"
-    password: oXGp1+ihlfKg826H
-    port: 1866
-    server: 185.177.229.245
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EF\U0001F1F5日本4 | ⬇️ 5.0MB/s"
-    password: '10086'
-    port: 10087
-    server: 153.121.43.183
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 2.4MB/s"
-    network: tcp
-    port: 443
-    server: free-server.techsonic.cloud
-    tls: true
-    type: vless
-    udp: true
-    uuid: a4cb890e-8251-488e-9439-3403c9a58e55
-    xudp: true
-    servername: free-server.techsonic.cloud
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国17 | ⬇️ 7.0MB/s"
-    password: shadowsocks
-    port: 443
-    server: 37.19.198.244
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他9-SE | ⬇️ 2.6MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 121.127.46.147
-    type: ss
-    udp: true
-  - name: "优选\U0001F1E9\U0001F1EA德国11 | ⬇️ 2.9MB/s"
-    network: ws
-    port: 2030
-    server: cpu.dynet.com
-    type: vless
-    udp: true
-    uuid: f63ed48d-7b05-435f-86ca-717264522fc9
-    ws-opts:
-      headers:
-        Host: skyroom.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /?ed=2048
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他10-PY | ⬇️ 2.4MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 38.165.233.18
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他11-VN | ⬇️ 3.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 103.163.218.2
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "优选\U0001F1FA\U0001F1F8美国18 | ⬇️ 2.4MB/s"
-    network: ws
-    port: 21275
-    server: ula347.tiri-viri.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 678a8311-6184-4a1f-a651-84be3cc82e37
-    ws-opts:
-      headers:
-        Host: ula347.tiri-viri.com
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: /
-    xudp: true
-    servername: ula347.tiri-viri.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国19 | ⬇️ 2.6MB/s"
-    password: shadowsocks
-    port: 443
-    server: 173.244.56.9
-    type: ss
-    udp: true
-  - name: "优选\U0001F1EC\U0001F1E7英国7 | ⬇️ 8.1MB/s"
-    network: ws
-    port: 80
-    server: 104.16.1.106
-    type: vless
-    udp: true
-    uuid: 2c6fb912-2f75-403e-f30d-110728483d93
-    ws-opts:
-      headers:
-        Host: eng.vinamarketcenter.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /
-    xudp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1E8\U0001F1ED瑞士1 | ⬇️ 3.9MB/s"
-    password: shadowsocks
-    port: 443
-    server: 156.146.62.162
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1EB\U0001F1EE芬兰2 | ⬇️ 5.2MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: fhacrLdXUT3a0PjnL5EVARAmGiNBn_0ysfCJfL3n_gQ
-      short-id: 4be4130078ebed0a
-    server: 176.125.254.91
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7fae47b1-6bcc-4ebc-8713-f6fb59dc613a
-    xudp: true
-    servername: fil.vpber.store
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰6 | ⬇️ 4.0MB/s"
-    password: 4a2rfixophdjffa8KVA4Aa
-    port: 8080
-    server: 45.87.175.154
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他12-MD | ⬇️ 4.1MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 192.121.87.89
-    type: ss
-    udp: true
-  - name: "优选\U0001F300其他13-AM | ⬇️ 4.8MB/s"
-    network: ws
-    port: 20200
-    server: 93.115.240.88
-    type: vless
-    udp: true
-    uuid: 78a9db78-4ba2-4286-9a0c-057be49c380b
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /
-    xudp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F1EB\U0001F1EE芬兰3 | ⬇️ 3.1MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 37.143.129.230
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1E8\U0001F1ED瑞士2 | ⬇️ 4.7MB/s"
-    password: shadowsocks
-    port: 443
-    server: 156.146.62.164
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E8\U0001F1E6加拿大4 | ⬇️ 2.7MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 64.74.163.218
-    type: ss
-    udp: true
-  - name: "优选\U0001F1FA\U0001F1F8美国20 | ⬇️ 3.9MB/s"
-    network: tcp
-    port: 24199
-    server: 45.82.161.120
-    type: vless
-    udp: true
-    uuid: 0bbfb014-66b9-412d-ec3f-5ecb4aabbbb2
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F300其他14-CZ | ⬇️ 2.4MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 195.181.160.6
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰7 | ⬇️ 5.4MB/s"
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 193.29.139.227
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国8 | ⬇️ 3.7MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.81
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 2.9MB/s"
-    network: tcp
-    port: 26424
-    reality-opts:
-      public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-      short-id: 23103e1e
-    server: 45.12.75.242
-    tls: true
-    type: vless
-    udp: true
-    uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
-    xudp: true
-    servername: ya.ru
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1EB\U0001F1EE芬兰4 | ⬇️ 3.4MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 185.200.190.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1EE\U0001F1F3印度1 | ⬇️ 3.1MB/s"
-    network: tcp
-    port: 13948
-    reality-opts:
-      public-key: 3WaqmMzd6ibQGO1XLtYugHNBcfqlYJeNUOZgmOe2ygs
-      short-id: 581ea7fe
-    server: 172.105.57.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: ecd5a5f8-16ac-4526-bd92-8870b4f2dadf
-    xudp: true
-    servername: www.nokia.com
-  - cipher: rc4-md5
-    name: "优选\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 3.4MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 68.183.227.4
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "优选\U0001F300其他15-CZ | ⬇️ 3.9MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 45.83.130.133
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国9 | ⬇️ 5.1MB/s"
-    password: shadowsocks
-    port: 443
-    server: 141.98.101.179
-    type: ss
-    udp: true
-  - cipher: aes-128-cfb
-    name: "优选\U0001F1F3\U0001F1F1荷兰8 | ⬇️ 7.3MB/s"
+    name: "优选\U0001F300其他1-未识别 | ⬇️ 2.5MB/s"
     password: shadowsocks
     port: 443
     server: 109.201.152.181
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰9 | ⬇️ 3.0MB/s"
-    password: 4a2rfixophdjffa8KVA4Aa
-    port: 8080
-    server: 151.242.251.144
-    type: ss
-    udp: true
   - cipher: aes-256-cfb
-    name: "优选\U0001F1EB\U0001F1F7法国1 | ⬇️ 2.7MB/s"
+    name: "优选\U0001F300其他2-未识别 | ⬇️ 3.8MB/s"
     password: f8f7aCzcPKbsF8p3
     port: 989
-    server: 195.154.185.174
+    server: 37.143.129.230
     type: ss
     udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国10 | ⬇️ 3.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.195
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1FA\U0001F1F8美国21 | ⬇️ 4.5MB/s"
-    password: shadowsocks
-    port: 443
-    server: 37.19.198.160
-    type: ss
-    udp: true
-  - cipher: rc4-md5
-    name: "优选\U0001F1F8\U0001F1EC新加坡5 | ⬇️ 7.3MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 68.183.235.122
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰10 | ⬇️ 4.4MB/s"
-    password: 4a2rfixophdjffa8KVA4Aa
-    port: 8080
-    server: 45.87.175.192
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "优选\U0001F1E9\U0001F1EA德国12 | ⬇️ 4.9MB/s"
+  - delay: 835
+    name: "优选\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 2.6MB/s"
     network: tcp
-    port: 18702
-    reality-opts:
-      public-key: pbi5k9j7ugmPIwxxaYSI5cvkVwW7eaVRMrjjGlm8BwE
-      short-id: afa469f10771
-    server: 51.195.101.116
-    tls: true
+    port: 59967
+    server: 38.47.176.134
     type: vless
     udp: true
-    uuid: 71705031-92d3-4dc5-8011-e48a59e6c88b
+    uuid: a19fd311-c343-4b54-9ca3-fe6dcd84c0fc
     xudp: true
-    servername: yahoo.com
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1EC\U0001F1E7英国11 | ⬇️ 2.4MB/s"
-    password: jMsh0stsWBPyaZcEUZbNGJ
-    port: 8594
-    server: 77.105.166.12
-    type: ss
-    udp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "优选\U0001F1E9\U0001F1EA德国13 | ⬇️ 4.5MB/s"
+  - client-fingerprint: random
+    delay: 1335
+    name: "优选\U0001F1FA\U0001F1F8美国1 | ⬇️ 3.2MB/s"
     network: ws
     port: 443
-    server: 172.66.168.215
+    server: 104.18.211.225
+    skip-cert-verify: true
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 63c865a4-aedb-43eb-9177-828519561ea9
+    uuid: d88937d0-ce43-4bf8-9df6-d632810ba9ff
     ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
       headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Chrome/12.0.742.100 Safari/534.30
-      path: /ws
-    xudp: true
-    servername: DE-FulL.prIVatEIP.neT
+        Host: 007.xingfu.qzz.io
+      max-early-data: 2560
+      path: /
+    servername: 007.xingfu.qzz.io
   - client-fingerprint: chrome
     http-opts:
       headers: {}
       path:
         - /
-    name: "优选\U0001F1FA\U0001F1F8美国22 | ⬇️ 3.1MB/s"
+    name: "优选\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 4.3MB/s"
     network: tcp
     port: 34045
     reality-opts:
       public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
       short-id: e8ab71d0
-    server: 72.18.81.226
+    server: 45.143.166.82
     tls: true
     type: vless
     udp: true
     uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
     xudp: true
     servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  - name: "优选\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 80
+    server: 172.66.40.99
+    type: vless
+    udp: true
+    uuid: b059c282-ea15-458a-bf72-08296d9f95fe
+    ws-opts:
+      headers:
+        Host: a.joIn.zEdMoDeOn.oNl.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: >-
+        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    xudp: true
+  - name: "优选\U0001F300其他3-BG | ⬇️ 2.5MB/s"
+    network: ws
+    port: 15946
+    server: 89.44.197.77
+    type: vless
+    udp: true
+    uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰11 | ⬇️ 4.3MB/s"
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 45.158.171.146
+    name: "优选\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 3.8MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 79.127.233.170
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1E8\U0001F1ED瑞士3 | ⬇️ 2.3MB/s"
-    password: oXGp1+ihlfKg826H
-    port: 1866
-    server: 204.136.10.115
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "优选\U0001F300其他16-AT | ⬇️ 3.5MB/s"
-    password: 'TG:@Enkelte_notif&&TG:@Notif_Chat'
-    port: 34045
-    server: 152.53.2.128
+  - cipher: aes-128-gcm
+    name: "优选\U0001F1EC\U0001F1E7英国1 | ⬇️ 2.4MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.197
     type: ss
     udp: true
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "优选\U0001F1FA\U0001F1F8美国23 | ⬇️ 2.8MB/s"
-    network: tcp
-    port: 10088
-    reality-opts:
-      public-key: CWO043TqIdMiwVVNBydNwdVuzKz3K8p9IIEynpR_dFs
-      short-id: 20182bcc0f3415d9
-    server: 172.245.33.163
+    name: "优选\U0001F1FA\U0001F1F8美国2 | ⬇️ 3.0MB/s"
+    network: ws
+    port: 443
+    server: v2ray.codefyinc.com
     tls: true
     type: vless
     udp: true
-    uuid: 4cb539cb-7e01-4c00-90a1-b89b66881e73
+    uuid: 0417be58-2ea8-49de-8083-9eff9b0137e5
+    ws-opts:
+      headers:
+        Host: v2ray.codefyinc.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /vlessws
     xudp: true
-    servername: learn.microsoft.com
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1F3\U0001F1F1荷兰12 | ⬇️ 4.9MB/s"
-    password: qscavF5UviIL-8V-E4raBA
-    port: 2222
-    server: 91.84.104.133
+    servername: v2ray.codefyinc.com
+  - cipher: aes-128-gcm
+    name: "优选\U0001F1EF\U0001F1F5日本1 | ⬇️ 5.5MB/s"
+    password: '10086'
+    port: 10087
+    server: 153.121.51.214
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    name: "优选\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 3.3MB/s"
+    network: tcp
+    port: 34045
+    reality-opts:
+      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+      short-id: e8ab71d0
+    server: 80.76.34.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    xudp: true
+    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  - alterId: 0
+    cipher: auto
+    name: "优选\U0001F1FA\U0001F1F8美国3 | ⬇️ 2.4MB/s"
+    network: ws
+    port: 20086
+    server: 82.29.132.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b2c61f53-a359-429c-900e-255f02def6be
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "优选\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 2.8MB/s"
+    password: 4a2rfixophdjffa8KVA4Aa
+    port: 8080
+    server: 45.87.175.188
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "优选\U0001F300其他4-LV | ⬇️ 3.9MB/s"
+    password: 360e21d21977dc11
+    port: 57456
+    server: 216.173.70.187
+    type: ss
+    udp: true
+  - cipher: aes-128-gcm
+    name: "优选\U0001F1EC\U0001F1E7英国2 | ⬇️ 5.7MB/s"
+    password: shadowsocks
+    port: 443
+    server: 212.102.53.198
+    type: ss
+    udp: true
+  - name: "优选\U0001F1EE\U0001F1F3印度1 | ⬇️ 2.5MB/s"
+    network: tcp
+    port: 2321
+    server: 172.105.57.184
+    type: vless
+    udp: true
+    uuid: da1668a7-3a7f-405d-874e-c28652c68c4d
+    xudp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     http-opts:
       headers: {}
       path:
         - /
-    name: "优选\U0001F1EE\U0001F1F3印度2 | ⬇️ 2.2MB/s"
+    name: "优选\U0001F1E9\U0001F1EA德国2 | ⬇️ 4.4MB/s"
     network: tcp
-    port: 8080
+    port: 443
     reality-opts:
-      public-key: raES8OUSF_bmOvcHfuPIm-Fu-hlpd-9SLWCWmrRCW2M
-      short-id: 89a6e02cde6cea
-    server: 178.212.35.210
+      public-key: nm1ZhMktJbHTcJv0gqV8l0s_c9BWfQe5d02qhpSkKWo
+      short-id: 7fd4
+    server: 1794532.shatak.top
     tls: true
     type: vless
     udp: true
-    uuid: c988e2e4-3e72-48e0-894f-c458f03246a7
+    uuid: fe1888f8-2361-11f0-9970-45e1d80c4039
     xudp: true
-    servername: yahoo.com
-  - cipher: aes-128-gcm
-    name: "优选\U0001F1EC\U0001F1E7英国12 | ⬇️ 2.7MB/s"
-    password: shadowsocks
-    port: 443
-    server: 212.102.53.194
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他17-VN | ⬇️ 3.1MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.22
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "优选\U0001F300其他18-VN | ⬇️ 3.6MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.20
-    type: ss
-    udp: true
+    servername: images.apple.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
