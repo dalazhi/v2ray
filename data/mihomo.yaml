@@ -1,11 +1,36 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "优选\U0001F1ED\U0001F1F0香港1 | ⬇️ 4.3MB/s"
-    password: a60e982a-9c08-43f0-9afb-1c3882f1c905
-    port: 23764
-    server: tun.tuzivip.pw
-    type: ss
+  - name: "优选\U0001F300其他1-TR | ⬇️ 3.2MB/s"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
+    type: vless
     udp: true
+    uuid: a83b75d7-6b87-4201-a12a-8105fad6a8da
+    ws-opts:
+      headers:
+        Host: rAyAn-cOnFiG-TeLeGrAm-cLuB-6.RaYaN-6.ClOuDnS.ClUb
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /@Rayan_Config
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "优选\U0001F1EE\U0001F1F3印度1 | ⬇️ 2.1MB/s"
+    network: ws
+    port: 80
+    server: 152.67.8.205
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
