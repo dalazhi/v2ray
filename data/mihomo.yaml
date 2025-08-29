@@ -1,5 +1,5 @@
 proxies:
-  - name: "优选\U0001F300其他1-TR | ⬇️ 3.2MB/s"
+  - name: "优选\U0001F300其他1-AM | ⬇️ 4.3MB/s"
     network: ws
     port: 2082
     server: www.speedtest.net
@@ -14,23 +14,33 @@ proxies:
           (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
       path: /@Rayan_Config
     xudp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "优选\U0001F1EE\U0001F1F3印度1 | ⬇️ 2.1MB/s"
+  - delay: 585
+    name: "优选\U0001F300其他2-未识别 | ⬇️ 4.2MB/s"
     network: ws
-    port: 80
-    server: 152.67.8.205
-    skip-cert-verify: false
+    port: 8880
+    server: 185.148.107.3
     tls: false
-    type: vmess
+    type: vless
     udp: true
-    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
     ws-opts:
-      headers: {}
-      path: /
-    xudp: true
+      headers:
+        Host: bitget1.asdasd.click
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    servername: Telegram-channel-WangCai2
+  - delay: 2653
+    name: "优选\U0001F300其他3-未识别 | ⬇️ 5.6MB/s"
+    network: ws
+    password: ttfang
+    port: 2096
+    server: 45.80.110.216
+    sni: ttfang.fange.me
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ttfang.fange.me
+      path: >-
+        /Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
