@@ -1,80 +1,84 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 5
-    server: 106.14.75.114
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+    server: 39.107.155.11
+    port: 30302
     type: vmess
-    country: 🇨🇳CN
-    port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
+    tls: false
     skip-cert-verify: true
-    delay: 593
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+    delay: 144
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
     server: 39.100.81.215
-    type: vmess
-    country: 🇨🇳CN
     port: 50002
+    type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
+    tls: false
     skip-cert-verify: true
-    delay: 655
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 4
-    server: 125.229.191.103
+    delay: 159
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12
+    server: 114.33.53.213
+    port: 10037
     type: ss
-    country: 🇹🇼TW
-    port: 10023
-    password: ce510ed8-72f8-4458-8f5a-90fa3f483ea4
     cipher: chacha20-ietf-poly1305
-    delay: 2897
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 8
-    server: 112.132.215.12
+    password: ed7b6c5e-4658-426e-9764-13226b4256d8
+    udp: true
+    delay: 151
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+    server: 59.126.32.59
+    port: 10066
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9
+    udp: true
+    delay: 149
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 14
+    server: 59.126.32.59
+    port: 10066
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 140e4cb2-a874-414b-a58b-c0300720fa7d
+    udp: true
+    delay: 1252
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+    server: 112.132.215.34
+    port: 50007
     type: vmess
-    country: 🇨🇳 CN
-    port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
-    network: tcp
-    servername: ury-unit-c030ehei8.poget71138.workers.dev
-    http-opts: {}
-    h2-opts: {}
+    tls: false
     skip-cert-verify: true
-    delay: 815
-  - name: 中国 - 广州市 - China Mobile communications corporation - 2
+    delay: 261
+  - name: 中国 - 广州市 - China Mobile communications corporation - 4
     server: 120.210.205.59
-    type: vmess
-    country: 🇨🇳CN
     port: 50002
+    type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
+    tls: false
     skip-cert-verify: true
-    delay: 405
+    delay: 207
   - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
     server: 120.26.55.225
     type: vmess
-    country: 🇨🇳CN
+    country: 🇨🇳 CN
     port: 50112
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     network: tcp
+    ws-path: /
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 371
-  - name: 中国 - 臺北市 - Global Communication Network Limited - 3
+    delay: 200
+  - name: 中国 - 臺北市 - Global Communication Network Limited - 5
     server: 103.115.109.250
     type: vmess
     port: 40762
@@ -84,19 +88,15 @@ proxies:
     network: none
     http-opts: {}
     h2-opts: {}
-    delay: 688
-  - name: 中国 - 香港 - Vapeline Technology(HK)Co - 1
-    server: 154.219.96.212
+    delay: 1514
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+    server: 139.129.20.6
+    port: 50002
     type: vmess
-    port: 20109
-    uuid: 22b454dc-fd88-45fd-c335-916ff88c22d2
-    alterId: 0
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
-    network: none
-    http-opts: {}
-    h2-opts: {}
-    delay: 976
-  - name: 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-    server: 77.83.245.50
-    type: ss
-    country: 🇵🇱PL
+    tls: false
+    skip-cert-verify: true
+    delay: 182
+  - name: 中国 - 香港 - Akari Networks Limited - 11
