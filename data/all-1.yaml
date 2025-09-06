@@ -3,25 +3,32 @@ proxies:
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s"
       network: ws
-      port: 21014
-      server: 107.149.134.165
+      port: 443
+      server: api.jquery.com
+      servername: admin.kasrax.ir
+      tls: true
       type: vmess
-      uuid: ff373066-b8b9-4537-a6a6-b7455e9b8cdf
+      uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
       ws-opts:
-        path: /arki?ed=2048
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1F3 TW"
-      name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s"
-      password: 0de6dbb6-daf7-4869-aca5-f470f1fa6814
-      port: 10079
-      server: 125.231.70.82
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1F0SK"
-      name: "\U0001F1F8\U0001F1F0SK_1|1.3MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
+        headers:
+            Host: admin.kasrax.ir
+        path: /us.kkp.me.eu.org/aa
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      network: ws
+      port: 2052
+      server: hk.bethebest.eu.org
+      servername: us7.123417.xyz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 32d3795c-7e38-425a-8a8c-9d195d1cb351
+      ws-opts:
+        headers:
+            HOST: us7.123417.xyz
+        path: /
