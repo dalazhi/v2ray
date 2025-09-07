@@ -3,10 +3,10 @@ proxies:
     cipher: auto
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
     network: ws
     port: 8880
-    server: 69.84.182.249
+    server: 108.165.152.249
     skip-cert-verify: true
     type: vmess
     uuid: 41660e17-03e4-37aa-b222-8ed4418e2739
@@ -16,35 +16,13 @@ proxies:
       path: "/dabai&Telegram\U0001F1E8\U0001F1F3@WangCai2/"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F1\U0001F1F9 LT"
-    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 45.87.175.192
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F3\U0001F1F4 NO"
-    name: "\U0001F1F3\U0001F1F4NO_1|1.1MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 185.213.23.226
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
+  - cipher: aes-128-gcm
     country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
     name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-    network: ws
-    port: 20086
-    server: 70.39.196.85
-    skip-cert-verify: true
-    type: vmess
-    uuid: e38fd8d3-c6b4-4d6d-9088-792107b0dc9b
-    ws-opts:
-      path: /
+    password: shadowsocks
+    port: 443
+    server: 156.146.38.169
+    type: ss
 rule-providers:
   private:
     url: >-
