@@ -1,55 +1,295 @@
 proxies:
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 2245
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
       network: ws
-      password: slch2024
-      port: 2096
-      server: 199.34.229.87
-      skip-cert-verify: true
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
       ws-opts:
         headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "Telegram\U0001F1E8\U0001F1F3"
+            Host: hkt.gotochinatown.net
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F4 CO"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
+      network: none
+      port: 56018
+      server: 83.147.12.99
+      type: vmess
+      uuid: ddb1f976-4239-4086-833f-f9b275f637a0
+    - cipher: aes-128-gcm
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_2|1.1MB/s"
+      password: 01721e43-5389-4f97-b21c-900abb2bda9e
+      port: 12008
+      server: awes35lesl.blhao0o.dpdns.org
+      tfo: false
+      type: ss
+    - auth: f73aa49a-2be7-4b2d-bb73-6ee95259c8bb
+      client-fingerprint: chrome
+      down: 100
+      name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
+      password: f73aa49a-2be7-4b2d-bb73-6ee95259c8bb
+      port: 9443
+      server: uk-001.xiaoxiaobujidao.xyz
+      skip-cert-verify: true
+      sni: uk-001.xiaoxiaobujidao.xyz
+      type: hysteria2
+      up: 100
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7GB_2|1.2MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+        short-id: ""
+      server: 146.19.140.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s"
       network: ws
       password: slch2024
       port: "2096"
-      server: 185.221.160.195
+      server: 198.202.211.195
       skip-cert-verify: false
       sni: ocost-dy.wmlefl.cc
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /Telegram
-    - name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
-      network: ws
-      port: "2082"
-      server: www.speedtest.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: Telegram@ShadowProxy66
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
+        short-id: ""
+      server: 45.148.233.10
+      servername: speed.cloudflare.com
+      tls: true
       type: vless
       udp: true
-      uuid: 1e80d6d5-5e21-4d55-9277-1e3e987d48ea
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      network: ws
+      password: slch2024
+      port: "2096"
+      server: 185.18.184.195
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
             User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+        path: "Telegram\U0001F1E8\U0001F1F3"
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+      network: ws
+      password: slch2024
+      port: "2096"
+      server: 192.169.220.195
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: Telegram@ShadowProxy66
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F7\U0001F1FARU_1|1.1MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
+        short-id: ""
+      server: 62.233.39.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F7\U0001F1FARU_2|1.2MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE
+        short-id: ""
+      server: 213.232.123.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
+        short-id: ""
+      server: 45.148.233.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_4|1.4MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+        short-id: ""
+      server: 185.77.221.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_5|1.0MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+        short-id: ""
+      server: 185.77.221.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: n30AYfTZG1BDHwN09E0CgK8f57iapkHe9uJx_z4oFUA
+        short-id: ""
+      server: 193.233.210.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_7|1.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: QHkMTl1hdagEIqAb-o0UubqxctDrBUUYKQ2jawa6oX4
+        short-id: ""
+      server: 176.126.111.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F0\U0001F1F7KR_1|1.1MB/s"
+      network: http
+      port: "50099"
+      server: 45.141.136.218
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 15120c96-0184-40b0-8f7d-ef05f45e295a
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_8|1.3MB/s"
+      network: tcp
+      port: "1443"
+      reality-opts:
+        public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
+        short-id: ""
+      server: 45.159.23.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
       xudp: true
