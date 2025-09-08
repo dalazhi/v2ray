@@ -1,28 +1,32 @@
 proxies:
     - alterId: 0
       cipher: auto
+      country: "\U0001F1F0\U0001F1F7KR"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-      port: 443
-      server: 165.140.216.141
+      name: "\U0001F1F0\U0001F1F7KR_1|1.3MB/s"
+      network: tcp
+      port: 8888
+      server: 146.56.112.110
+      skip-cert-verify: true
       type: vmess
-      uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+      uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+    - cipher: aes-128-gcm
+      country: "\U0001F1FA\U0001F1F8 US"
+      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      password: shadowsocks
+      port: 443
+      server: 156.146.38.167
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
-      network: ws
-      port: 443
-      server: 104.18.149.76
-      servername: us.kkp.me.eu.org
+      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+      network: tcp
+      port: 40878
+      server: 85.195.101.122
       skip-cert-verify: true
-      tls: true
       type: vmess
-      uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-      ws-opts:
-        headers:
-            HOST: us.kkp.me.eu.org
-        path: /aa
+      uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7
