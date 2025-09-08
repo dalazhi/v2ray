@@ -1,46 +1,45 @@
 proxies:
   - alterId: 0
     cipher: auto
+    country: "\U0001F1FA\U0001F1F8 US"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-    network: ws
-    port: 8880
-    server: 69.84.182.249
-    skip-cert-verify: true
-    type: vmess
-    uuid: 41660e17-03e4-37aa-b222-8ed4418e2739
-    ws-opts:
-      headers:
-        Host: TG.WangCai2.s2.db-link02.top
-      path: "/dabai&Telegram\U0001F1E8\U0001F1F3@WangCai2/"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - cipher: aes-128-gcm
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-    password: shadowsocks
-    port: 443
-    server: 173.244.56.9
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F3C1ZZ"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-    network: ws
-    port: 443
-    server: 104.18.149.76
+    name: "\U0001F1F6\U0001F1E6QA_1|1.1MB/s"
+    network: none
+    port: 36236
+    server: 156.244.46.198
     skip-cert-verify: true
     tls: true
     type: vmess
-    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    uuid: a1fd1ab8-09c2-49a7-9cf0-dd5a04c666a1
+  - cipher: chacha20-ietf
+    name: ❓Other_1|1.4MB/s
+    password: asd123456
+    port: 8388
+    server: 103.36.91.32
+    type: ss
+  - auth: 04a24f06-17fa-464b-a799-90600783499f
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
+    password: 04a24f06-17fa-464b-a799-90600783499f
+    port: 37771
+    server: dg1.xiaohuolongjc.top
+    skip-cert-verify: false
+    sni: dg1.xiaohuolongjc.top
+    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+    network: ws
+    port: 45991
+    server: 62.3.15.230
+    tls: false
+    type: vmess
+    uuid: 2d46cbd3-4a13-4af4-989b-ae7c0a3a8b0c
     ws-opts:
-      headers:
-        HOST: us.kkp.me.eu.org
-      path: /aa
-    servername: us.kkp.me.eu.org
+      path: /arki
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
 rule-providers:
   private:
     url: >-
