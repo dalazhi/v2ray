@@ -1,35 +1,47 @@
 proxies:
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8 US"
+    name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 104.192.226.106
+    type: ss
+    udp: true
   - alterId: 0
     cipher: auto
-    country: "\U0001F1F0\U0001F1F7KR"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1F0\U0001F1F7KR_1|1.3MB/s"
-    network: tcp
-    port: 8888
-    server: 146.56.112.110
-    skip-cert-verify: true
+    name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
+    port: 16416
+    server: 172.233.171.224
     type: vmess
-    uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  - cipher: aes-128-gcm
+    udp: true
+    uuid: 8c1b9bea-cb51-43bb-a65c-0af31bbbf145
+  - cipher: chacha20-ietf-poly1305
     country: "\U0001F1FA\U0001F1F8 US"
-    name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
-    password: shadowsocks
-    port: 443
-    server: 156.146.38.167
+    name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 64.74.163.130
     type: ss
   - alterId: 0
     cipher: auto
     country: "\U0001F3C1ZZ"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
-    network: tcp
-    port: 40878
-    server: 85.195.101.122
+    name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s"
+    network: ws
+    port: 443
+    server: 104.18.149.76
     skip-cert-verify: true
+    tls: true
     type: vmess
-    uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7
+    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    ws-opts:
+      headers:
+        HOST: us.kkp.me.eu.org
+      path: /aa
+    servername: us.kkp.me.eu.org
 rule-providers:
   private:
     url: >-
