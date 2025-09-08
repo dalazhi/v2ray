@@ -1,31 +1,11 @@
 proxies:
-  - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-    name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s"
-    password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-    port: 27015
-    server: hyleet.fitness
-    skip-cert-verify: false
-    sni: hyleet.fitness
-    type: hysteria2
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8 US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s"
-    network: none
-    port: 43172
-    server: 47.86.164.48
-    type: vmess
-    uuid: 4d00d253-ae0b-4081-97b9-7a9d5187c730
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     delay: 2245
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
     obfs: ''
     port: 15010
     protocol: ''
@@ -34,38 +14,24 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '100'
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
-    password: 8994d231-e38e-4e20-b7fe-0c6acff1cb81
-    port: 10118
-    server: 1.170.14.70
-    type: ss
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
-    network: ws
-    port: 8880
-    server: 172.66.40.99
-    type: vless
-    udp: true
-    uuid: 954d1793-c8f9-45df-942e-04e98ecdcc72
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.python.carwash-vip.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: >-
-        /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
     network: ws
     password: slch2024
     port: 2096
-    server: 198.202.211.195
+    server: 199.34.229.87
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.221.160.195
     skip-cert-verify: false
     sni: ocost-dy.wmlefl.cc
     type: trojan
@@ -73,9 +39,27 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /Telegram@ShadowProxy66
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /Telegram
+  - name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
+    type: vless
+    udp: true
+    uuid: 1e80d6d5-5e21-4d55-9277-1e3e987d48ea
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
+    xudp: true
 rule-providers:
   private:
     url: >-
