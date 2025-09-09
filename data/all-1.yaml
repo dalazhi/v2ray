@@ -1,10 +1,25 @@
 proxies:
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 2245
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
     - alterId: 2
       cipher: auto
       country: "\U0001F1ED\U0001F1F0 HK"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK_1|1.7MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
       network: ws
       port: 80
       server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -16,24 +31,10 @@ proxies:
         headers:
             HOST: broadcastlv.chat.bilibili.com
         path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s"
-      network: ws
-      password: slch2024
-      port: "2096"
-      server: 192.169.220.195
-      skip-cert-verify: false
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: Telegram@ShadowProxy66
     - alterId: 2
       cipher: auto
       client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_2|1.6MB/s"
       network: ws
       port: 80
       server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -46,26 +47,26 @@ proxies:
         headers:
             Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
         path: /
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 2143
-      name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s"
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_3|1.4MB/s"
       network: ws
-      password: slch2024
-      port: 2096
-      server: 193.124.224.195
-      skip-cert-verify: true
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      udp: true
+      port: 80
+      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+      servername: "\U0001F1ED\U0001F1F0HK-219.79.157.184-0282 | 11.701MB"
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
       ws-opts:
         headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
+            Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
       network: ws
       password: slch2024
       port: 2096
-      server: 185.148.104.195
+      server: 185.59.218.195
       skip-cert-verify: false
       sni: ocost-dy.wmlefl.cc
       type: trojan
@@ -74,31 +75,14 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: "/Telegram\U0001F1E8\U0001F1F3"
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F8\U0001F1EASE_1|1.7MB/s"
-      obfs: salamander
-      obfs-password: U1wBrYQyFm
-      password: 80747420-96c4-4a2f-83e6-eea4e46beb09
-      port: "20335"
-      server: 70.34.215.221
-      skip-cert-verify: true
-      sni: drhystuichdfy.samanidempire.org
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8US_4|1.0MB/s"
-      network: ws
-      password: slch2024
-      port: 2096
-      server: 194.53.53.195
-      skip-cert-verify: false
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s"
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
+      password: 01721e43-5389-4f97-b21c-900abb2bda9e
+      port: 12006
+      server: awes35lesl.blhao0o.dpdns.org
+      type: ss
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s"
       network: ws
       password: slch2024
       port: 2096
@@ -110,84 +94,66 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: "/Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_6|1.8MB/s"
+    - cipher: chacha20-ietf
+      name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
+      password: asd123456
+      port: 8388
+      server: 103.36.91.32
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
       network: ws
       password: slch2024
       port: 2096
-      server: 193.124.224.87
+      server: 185.148.105.195
       skip-cert-verify: false
       sni: ocost-dy.wmlefl.cc
       type: trojan
       ws-opts:
         headers:
             Host: ocost-dy.wmlefl.cc
-        path: "Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_7|1.1MB/s"
-      network: ws
-      password: slch2024
-      port: 2096
-      server: 188.42.145.87
-      skip-cert-verify: false
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_8|1.0MB/s"
-      network: ws
-      password: slch2024
-      port: 2096
-      server: 198.62.62.195
-      skip-cert-verify: false
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ocost-dy.wmlefl.cc
-        path: '%2F%E7%94%B1%E9%9B%B6%E5%BC%80%E5%A7%8B'
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9|1.1MB/s"
-      network: none
-      port: 17333
-      server: 216.167.38.10
-      tls: false
-      type: vmess
-      uuid: a56cefc5-fded-4112-dc72-7377678ef941
-    - auth: e33b95f1-4363-40d4-afdd-1ce468882df4
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10|1.1MB/s"
-      password: e33b95f1-4363-40d4-afdd-1ce468882df4
-      port: 37771
-      server: dg1.xiaohuolongjc.top
-      skip-cert-verify: false
-      sni: dg1.xiaohuolongjc.top
-      type: hysteria2
+        path: '%2FTelegram'
     - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
       client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1F9AT_1|2.4MB/s"
+      name: "\U0001F1E6\U0001F1F9AT_1|1.4MB/s"
       password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
       port: 27015
       server: hyleet.fitness
       skip-cert-verify: false
       sni: hyleet.fitness
       type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1|2.9MB/s"
       network: ws
       port: "443"
-      server: 198.62.62.2
-      servername: o2.gerlemondns.info
+      server: 104.26.6.89
+      servername: parsdl.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 598b4251-fd03-48fe-b12d-630ac3adf2e5
+      uuid: 3e948331-4f63-49a1-b74f-83f6aa548071
       ws-opts:
         headers:
-            Host: o2.gerlemondns.info
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: /hjgfdws
+            Host: nb-de.parsdl.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /hajmi?ed=2050
+      xudp: true
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-service-name: twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice
+      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+      network: grpc
+      port: "443"
+      reality-opts:
+        public-key: e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8
+        short-id: 7a28ae
+      server: step.dissertationhelpspecialist.com
+      servername: tgju.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9c43a284-1e91-45ff-94a2-0416ff34542b
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
@@ -195,9 +161,9 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1E6\U0001F1EAAE_1|1.2MB/s"
+      name: "\U0001F1E6\U0001F1EAAE_1|1.3MB/s"
       network: tcp
-      port: "443"
+      port: "1443"
       reality-opts:
         public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
         short-id: ""
@@ -209,40 +175,34 @@ proxies:
       uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
       xudp: true
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1F7\U0001F1FARU_1|1.3MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
-        short-id: ""
-      server: 62.233.39.10
-      servername: speed.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
+      name: "\U0001F1E9\U0001F1EADE_3|1.4MB/s"
       network: ws
       port: "443"
-      server: JOIN-BEDE-RAIV2MMR.koyeb.app
+      server: 198.62.62.2
+      servername: o2.gerlemondns.info
       tls: true
       type: vless
       udp: true
-      uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+      uuid: 598b4251-fd03-48fe-b12d-630ac3adf2e5
       ws-opts:
         headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
+            Host: o2.gerlemondns.info
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /hjgfdws
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_1|1.7MB/s"
+      network: ws
+      port: "443"
+      server: 198.62.62.2
+      servername: ali2.gerlemondns.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 598b4251-fd03-48fe-b12d-630ac3adf2e5
+      ws-opts:
+        headers:
+            Host: ali2.gerlemondns.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+        path: /hjgfdws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
       xudp: true
