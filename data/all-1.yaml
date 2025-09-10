@@ -1,33 +1,57 @@
 proxies:
-    - auth: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
-      password: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-      port: 37011
-      server: yg.foldjc.top
-      skip-cert-verify: true
-      sni: yg.foldjc.top
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
       network: ws
       password: slch2024
-      port: "2096"
-      server: 216.205.52.195
+      port: 2096
+      server: 199.34.229.87
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      ws-opts:
+        headers:
+            Host: ocost-dy.wmlefl.cc
+        path: "Telegram\U0001F1E8\U0001F1F3"
+    - name: "\U0001F1FA\U0001F1F8US_2|3.4MB/s"
+      network: ws
+      port: 2083
+      server: 27.50.48.186
+      servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 019931aa-7f0a-821e-5769-1d7800969d32
+      ws-opts:
+        headers:
+            host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
+        path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1F9AT_1|1.1MB/s"
+      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      port: 27015
+      server: hyleet.fitness
+      skip-cert-verify: false
+      sni: hyleet.fitness
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
+      network: ws
+      password: slch2024
+      port: 2096
+      server: 185.251.80.195
       skip-cert-verify: false
       sni: ocost-dy.wmlefl.cc
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: Telegram
-    - name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
+            Host: ocost-dy.wmlefl.cc
+        path: "/Telegram\U0001F1E8\U0001F1F3"
+    - name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s"
       network: ws
       password: slch2024
       port: 2096
-      server: 185.176.24.195
+      server: 185.156.19.195
       skip-cert-verify: false
       sni: ocost-dy.wmlefl.cc
       type: trojan
@@ -36,7 +60,46 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: /TelegramU0001F1E8U0001F1F3
-    - name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
+      network: ws
+      password: slch2024
+      port: 2096
+      server: 185.174.138.195
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: ocost-dy.wmlefl.cc
+        path: /Telegram
+    - name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s"
+      network: ws
+      password: slch2024
+      port: 2096
+      server: 192.200.160.195
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: ocost-dy.wmlefl.cc
+        path: "/Telegram\U0001F1E8\U0001F1F3"
+    - name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s"
+      network: ws
+      password: slch2024
+      port: 2096
+      server: 185.148.106.195
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: ocost-dy.wmlefl.cc
+        path: /Telegram
+    - name: "\U0001F1FA\U0001F1F8US_8|1.3MB/s"
       network: ws
       password: slch2024
       port: 2096
@@ -49,11 +112,33 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: /Telegram
-    - name: "\U0001F1FA\U0001F1F8US_5|1.8MB/s"
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
+      password: qscavF5UviIL-8V-E4raBA
+      port: 2222
+      server: 185.245.107.250
+      type: ss
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 2245
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - delay: 1603
+      name: "\U0001F1FA\U0001F1F8US_9|1.4MB/s"
       network: ws
       password: slch2024
       port: 2096
-      server: 185.148.104.195
+      server: 195.13.44.195
       skip-cert-verify: false
       sni: ocost-dy.wmlefl.cc
       type: trojan
@@ -64,35 +149,28 @@ proxies:
         path: "/Telegram\U0001F1E8\U0001F1F3"
     - alpn:
         - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 2245
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
+      disable-sni: false
+      name: "\U0001F1E8\U0001F1E6CA_1|1.1MB/s"
+      password: 871f77eb-3bf6-4faa-ad2b-79e0b9f1a284
+      port: 16897
+      reduce-rtt: false
+      request-timeout: 0
+      server: 40.233.77.57
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1244
-      name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s"
-      network: ws
-      password: slch2024
-      port: 2096
-      server: 216.24.57.195
+      sni: www.bing.com
+      type: tuic
+      uuid: 871f77eb-3bf6-4faa-ad2b-79e0b9f1a284
+    - auth: 4b9f800f-d6bd-43e1-8a53-93be1d371cdb
+      name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
+      password: 4b9f800f-d6bd-43e1-8a53-93be1d371cdb
+      port: 50000
+      ports: 50000-55000
+      server: 45.11.1.62
       skip-cert-verify: true
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
+      sni: www.microsoft.com
+      type: hysteria2
       udp: true
-      ws-opts:
-        headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_7|1.1MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_10|2.5MB/s"
       network: ws
       password: slch2024
       port: 2096
@@ -105,32 +183,7 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: "/Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s"
-      network: ws
-      password: slch2024
-      port: 2096
-      server: 185.238.228.195
-      skip-cert-verify: false
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "/Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_9|1.9MB/s"
-      network: ws
-      password: slch2024
-      port: 2096
-      server: 205.233.181.87
-      skip-cert-verify: true
-      sni: ocost-dy.wmlefl.cc
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ocost-dy.wmlefl.cc
-        path: "Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_10|1.2MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_11|1.8MB/s"
       network: ws
       password: slch2024
       port: 2096
@@ -142,7 +195,19 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: "Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1FA\U0001F1F8US_11|2.4MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_12|1.1MB/s"
+      network: ws
+      password: slch2024
+      port: 2096
+      server: 190.93.247.87
+      skip-cert-verify: true
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      ws-opts:
+        headers:
+            Host: ocost-dy.wmlefl.cc
+        path: "Telegram\U0001F1E8\U0001F1F3"
+    - name: "\U0001F1FA\U0001F1F8US_13|1.7MB/s"
       network: ws
       password: slch2024
       port: 2096
@@ -154,24 +219,10 @@ proxies:
         headers:
             Host: ocost-dy.wmlefl.cc
         path: "Telegram\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
-      network: ws
-      port: 443
-      server: 46.232.108.217
-      servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 019931aa-7f0a-821e-5769-1d7800969d32
-      ws-opts:
-        headers:
-            host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-        path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    - name: "\U0001F1FA\U0001F1F8US_12|1.4MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_14|1.3MB/s"
       network: ws
       port: 2087
-      server: 27.50.49.209
+      server: 92.243.75.49
       servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
       skip-cert-verify: true
       tls: true
@@ -182,10 +233,10 @@ proxies:
         headers:
             host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
         path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.1MB/s"
       network: ws
-      port: 443
-      server: 46.3.101.128
+      port: 18036
+      server: 175.211.129.76
       servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
       skip-cert-verify: true
       tls: true
@@ -196,10 +247,10 @@ proxies:
         headers:
             host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
         path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    - name: "\U0001F1EF\U0001F1F5JP_2|1.3MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_15|2.3MB/s"
       network: ws
-      port: 6010
-      server: 47.79.88.21
+      port: 2083
+      server: 103.116.7.103
       servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
       skip-cert-verify: true
       tls: true
@@ -210,60 +261,46 @@ proxies:
         headers:
             host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
         path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
+    - auth: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_16|2.4MB/s"
+      password: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
+      port: 37011
+      server: yg.foldjc.top
+      skip-cert-verify: true
+      sni: yg.foldjc.top
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_17|1.8MB/s"
       network: ws
-      port: 50001
-      server: 175.200.121.85
-      servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-      skip-cert-verify: true
-      tls: true
-      type: vless
+      password: slch2024
+      port: "2096"
+      server: 190.93.247.195
+      skip-cert-verify: false
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
       udp: true
-      uuid: 019931aa-7f0a-821e-5769-1d7800969d32
       ws-opts:
         headers:
-            host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-        path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    - name: "\U0001F1F0\U0001F1F7KR_2|1.1MB/s"
-      network: ws
-      port: 50001
-      server: 175.212.228.178
-      servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 019931aa-7f0a-821e-5769-1d7800969d32
-      ws-opts:
-        headers:
-            host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-        path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    - name: "\U0001F1FA\U0001F1F8US_13|2.5MB/s"
-      network: ws
-      port: 14105
-      server: 80.251.219.120
-      servername: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 019931aa-7f0a-821e-5769-1d7800969d32
-      ws-opts:
-        headers:
-            host: 0000yhv0isl1mpt5cndd.cdu9m7washx.mrs.wq2h5qddvaj.v2kddjzpi4oo.gp1n47j.kibwh.qk9lzis9t.f0z9t.9ox.k7kyvd5yxrjsn6ulir5oa8bda.neib.cn
-        path: /snippets?ip=proxyip:port(443)&nat64=6to4
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: "/Telegram\U0001F1E8\U0001F1F3"
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1F7GR_1|1.2MB/s"
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F7\U0001F1FARU_1|1.3MB/s"
       network: tcp
-      port: "443"
+      port: "1443"
       reality-opts:
-        public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-        short-id: 0fa84b90
-      server: 185.39.207.121
-      servername: outlook.office.com
+        public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
+        short-id: ""
+      server: 213.232.120.10
+      servername: speed.cloudflare.com
       tls: true
       type: vless
       udp: true
-      uuid: 6035325d-399a-5148-9126-29cedfd5966a
+      uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
       xudp: true
