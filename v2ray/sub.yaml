@@ -1,16 +1,6 @@
 proxies:
 proxies:
-  - name: undefined - undefined - undefined - 1
-    server: 220.126.185.107
-    type: trojan
-    country: 🇰🇷KR
-    port: 30019
-    password: Aimer
-    sni: ngepz.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    udp: true
-    delay: 541
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 12
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
     server: 106.14.75.114
     type: vmess
     country: 🇨🇳CN
@@ -22,8 +12,8 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 217
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+    delay: 198
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
     server: 39.107.155.11
     type: vmess
     country: 🇨🇳CN
@@ -35,51 +25,12 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 127
-  - name: 中国 - 台湾 - Sunoaki Network LLC - 7
-    server: 140.235.38.89
-    type: vmess
-    port: 6474
-    uuid: 96a69037-7bf8-43f8-bd62-4beb8f1f36e2
-    alterId: 0
-    cipher: auto
-    network: ws
-    http-opts: {}
-    h2-opts: {}
-    ws-opts:
-      path: /arki?ed=2048
-    delay: 862
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 14
-    server: 112.132.215.12
+    delay: 149
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+    server: 39.100.81.215
     type: vmess
     country: 🇨🇳CN
     port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 228
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 8
-    server: 112.132.215.34
-    type: vmess
-    country: 🇨🇳CN
-    port: 50007
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 308
-  - name: 中国 - 广州市 - China Mobile - 6
-    server: 183.236.51.36
-    type: vmess
-    country: 🇨🇳 CN
-    port: 59003
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
@@ -87,9 +38,58 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 420
-  - name: 中国 - 广州市 - China Mobile communications corporation - 5
-    server: 120.210.205.59
+    delay: 229
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 8
+    server: pub.ap-wifi6.xyz
+    type: vmess
+    country: 🇯🇵JP
+    port: 64018
+    uuid: 7ae7fbc5-3994-3b9a-9053-544b84540aa1
+    alterId: 0
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 2681
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
+    type: vmess
+    server: 112.132.215.12
+    port: 50002
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    tls: false
+    client-fingerprint: ''
+    delay: 232
+  - alterId: 0
+    cipher: auto
+    name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+    network: ws
+    port: 20521
+    server: 119.29.98.43
+    tls: false
+    type: vmess
+    uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
+    ws-opts:
+      path: /
+    delay: 421
+  - alterId: 0
+    cipher: auto
+    name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
+    network: ws
+    port: 11399
+    server: 119.29.98.43
+    tls: false
+    type: vmess
+    uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
+    ws-opts:
+      path: /arki
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    delay: 396
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+    server: 139.129.20.6
     type: vmess
     country: 🇨🇳CN
     port: 50002
