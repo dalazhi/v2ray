@@ -1,19 +1,6 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3
-    server: 106.14.75.114
-    type: vmess
-    country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 327
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
     server: 39.100.81.215
     type: vmess
     country: 🇨🇳CN
@@ -25,7 +12,7 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 306
+    delay: 1458
   - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
     server: 39.107.155.11
     type: vmess
@@ -38,21 +25,22 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 541
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-    server: 112.132.215.34
-    type: vmess
-    country: 🇨🇳 CN
-    port: 50007
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
+    delay: 1290
+  - alterId: 0
     cipher: auto
-    network: tcp
-    http-opts: {}
+    country: 🇨🇳 CN
     h2-opts: {}
+    http-opts: {}
+    name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+    network: tcp
+    port: 50007
+    server: 112.132.215.34
     skip-cert-verify: true
-    delay: 406
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    ws-path: /
+    delay: 340
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
     server: 119.29.98.43
     type: vmess
     port: 11399
@@ -64,21 +52,8 @@ proxies:
     h2-opts: {}
     ws-opts:
       path: /arki?ed=2048
-    delay: 1526
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-    server: 119.29.98.43
-    type: vmess
-    port: 48536
-    uuid: 057caba1-2237-41e6-a54d-ec03509898a5
-    alterId: 0
-    cipher: auto
-    network: ws
-    http-opts: {}
-    h2-opts: {}
-    ws-opts:
-      path: /arki?ed=2048
-    delay: 414
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+    delay: 1551
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6
     server: 119.29.98.43
     type: vmess
     port: 56532
@@ -90,9 +65,9 @@ proxies:
     h2-opts: {}
     ws-opts:
       path: /arki?ed=2048
-    delay: 1502
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
-    server: 139.129.20.6
+    delay: 1425
+  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+    server: 120.26.137.112
     type: vmess
     country: 🇨🇳CN
     port: 50002
@@ -100,3 +75,28 @@ proxies:
     alterId: 64
     cipher: auto
     network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 364
+  - name: 中国 - 香港 - Akile LTD - 11
+    server: 106.126.3.24
+    port: 1321
+    type: ssr
+    cipher: chacha20-ietf
+    password: MAYING
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 21138:3veJGX
+    obfs-param: ''
+    udp: true
+    delay: 253
+  - name: 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 8
+    server: 47.83.10.70
+    type: vmess
+    country: 🇺🇸US
+    port: 53544
+    uuid: e7b88e16-7480-4ec1-e1f2-523b45462467
+    alterId: 0
+    cipher: auto
+    network: none
