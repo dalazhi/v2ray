@@ -1,46 +1,6 @@
 proxies:
 proxies:
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    name: 中国 - 乌恰 - Baxet Group Inc. - 104
-    password: 0494e68d-e085-4237-b274-5e65574ad7c2
-    port: 61532
-    server: 212.192.12.234
-    skip-cert-verify: true
-    sni: apple.com
-    type: tuic
-    udp: true
-    udp-relay-mode: native
-    uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
-    version: 5
-    delay: 788
-  - name: 中国 - 乌恰 - Baxet Group Inc. - 105
-    obfs: salamander
-    obfs-password: CDDQ1dntNm3j0K9i
-    password: 0494e68d-e085-4237-b274-5e65574ad7c2
-    port: 44463
-    server: 212.192.12.234
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria2
-    delay: 2410
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    name: 中国 - 乌恰 - Baxet Group Inc. - 111
-    password: 0494e68d-e085-4237-b274-5e65574ad7c2
-    port: 51562
-    server: 212.192.12.234
-    skip-cert-verify: true
-    sni: apple.com
-    type: tuic
-    udp: true
-    udp-relay-mode: native
-    uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
-    version: 5
-    delay: 1039
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
     server: 39.100.81.215
     type: vmess
     country: 🇨🇳CN
@@ -52,51 +12,91 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 397
-  - name: 中国 - 台湾 - Acck LLC - 149
-    password: 6ccf8b74-2f0d-4373-8615-2b98e12c918e
-    port: 50113
-    server: 45.196.239.142
+    delay: 2000
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+    server: 39.107.155.11
+    port: 30302
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: yahoo.com
-    type: anytls
     udp: true
-    delay: 1395
-  - name: 中国 - 台湾 - Acck LLC - 150
-    password: 6ccf8b74-2f0d-4373-8615-2b98e12c918e
-    port: 50114
-    server: 45.196.238.117
+    delay: 880
+  - alterId: 2
+    cipher: auto
+    name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12
+    network: ws
+    port: 18080
+    server: tw1.ap-yuko.work
+    type: vmess
+    udp: true
+    uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
+    ws-opts:
+      headers:
+        Host: tw1.ap-yuko.work
+      path: /dc92fabb723b0f7910c33efbd4e6429117bd7d0c
+    delay: 1530
+  - alpn:
+      - http/1.1
+    name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 9
+    network: tcp
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    servername: twmoon1-cdn-route.couldflare-cdn.com
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    tfo: false
+    tls: true
+    type: http
+    udp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    delay: 783
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+    server: 112.132.215.34
+    port: 50007
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: yahoo.com
-    type: anytls
-    udp: true
-    delay: 840
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 103
-    password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-    port: 443
-    server: 79c5b5a8-t2ov40-ta5nd4-e06r.tw3.p5pv.com
-    tls: true
-    type: http
-    username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-    sni: 79c5b5a8-t2ov40-ta5nd4-e06r.tw3.p5pv.com
-    delay: 1526
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 112
-    password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
-    port: 443
-    server: eb7672b3-t2skg0-teqqcv-1rc6n.tw3.p5pv.com
-    tls: true
-    type: http
-    username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
-    sni: eb7672b3-t2skg0-teqqcv-1rc6n.tw3.p5pv.com
-    delay: 1758
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 114
-    password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-    port: 443
-    server: c4eaf915-t2skg0-ta5nd4-e06r.tw3.p5pv.com
-    tls: true
-    type: http
-    username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-    sni: c4eaf915-t2skg0-ta5nd4-e06r.tw3.p5pv.com
-    delay: 1792
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 119
-    password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+    delay: 1951
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+    server: 112.132.215.12
+    type: vmess
+    country: 🇨🇳 CN
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    servername: ury-unit-c030ehei8.poget71138.workers.dev
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 399
+  - name: 中国 - 广州市 - China Mobile communications corporation - 4
+    server: 120.210.205.59
+    type: vmess
+    country: 🇨🇳CN
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 2865
+  - name: 中国 - 香港 - Alibaba Cloud LLC - 7
+    server: 47.243.245.143
+    type: vmess
+    country: 🇭🇰HK
+    port: 11455
+    uuid: 06e10e0b-57ae-48db-a37a-f2fd207e3b11
+    alterId: 0
+    cipher: auto
+    network: none
+    http-opts: {}
