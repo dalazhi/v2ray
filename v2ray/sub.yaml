@@ -1,6 +1,17 @@
 proxies:
 proxies:
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 50
+    server: 39.107.155.11
+    port: 30302
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+    delay: 121
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 52
     server: 39.100.81.215
     type: vmess
     country: 🇨🇳CN
@@ -12,91 +23,80 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 2000
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-    server: 39.107.155.11
-    port: 30302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
+    delay: 139
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 1
+    server: 36.234.115.227
+    type: ss
+    port: 10003
     udp: true
-    delay: 880
-  - alterId: 2
-    cipher: auto
-    name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12
-    network: ws
-    port: 18080
-    server: tw1.ap-yuko.work
-    type: vmess
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 1293
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 10
+    server: 114.35.114.182
+    type: ss
+    port: 10129
     udp: true
-    uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
-    ws-opts:
-      headers:
-        Host: tw1.ap-yuko.work
-      path: /dc92fabb723b0f7910c33efbd4e6429117bd7d0c
-    delay: 1530
-  - alpn:
-      - http/1.1
-    name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 9
-    network: tcp
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    servername: twmoon1-cdn-route.couldflare-cdn.com
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tfo: false
-    tls: true
-    type: http
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 420
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 11
+    server: 36.234.127.28
+    type: ss
+    port: 10067
     udp: true
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    delay: 783
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-    server: 112.132.215.34
-    port: 50007
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 1951
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
-    server: 112.132.215.12
-    type: vmess
-    country: 🇨🇳 CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    servername: ury-unit-c030ehei8.poget71138.workers.dev
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 399
-  - name: 中国 - 广州市 - China Mobile communications corporation - 4
-    server: 120.210.205.59
-    type: vmess
-    country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 2865
-  - name: 中国 - 香港 - Alibaba Cloud LLC - 7
-    server: 47.243.245.143
-    type: vmess
-    country: 🇭🇰HK
-    port: 11455
-    uuid: 06e10e0b-57ae-48db-a37a-f2fd207e3b11
-    alterId: 0
-    cipher: auto
-    network: none
-    http-opts: {}
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 412
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12
+    server: 125.231.83.177
+    type: ss
+    port: 10076
+    udp: true
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 420
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+    server: 36.234.88.193
+    type: ss
+    port: 10048
+    udp: true
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 160
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 14
+    server: 125.231.74.223
+    type: ss
+    port: 10080
+    udp: true
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 188
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 15
+    server: 36.232.71.172
+    type: ss
+    port: 10150
+    udp: true
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 459
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 16
+    server: 36.232.77.166
+    type: ss
+    port: 10123
+    udp: true
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 1171
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 17
+    server: 118.170.254.14
+    type: ss
+    port: 10039
+    udp: true
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+    cipher: chacha20-ietf-poly1305
+    delay: 156
+  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 18
+    server: 36.235.13.17
+    type: ss
+    port: 10152
