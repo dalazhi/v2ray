@@ -1,24 +1,26 @@
 proxies:
-  - client-fingerprint: randomized
-    delay: 1267
-    name: "59\U0001F1F8\U0001F1ECSG_1|8.2MB/s"
-    network: ws
-    port: 2095
-    server: openai.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 1192
+    down: '100'
+    name: "59\U0001F1FA\U0001F1F8US_1|5.9MB/s"
+    port: 38845
+    protocol: udp
+    server: 208.87.243.151
     skip-cert-verify: true
-    type: vless
+    sni: www.bing.com
+    type: hysteria
     udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: freedom.pusytroller.cf
-      path: /
+    up: '100'
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "59\U0001F1EB\U0001F1EEFI_1|2.4MB/s"
+    name: "59\U0001F1EB\U0001F1EEFI_1|2.2MB/s"
     network: ws
     port: 2087
     server: www.researchgate.net
@@ -37,39 +39,6 @@ proxies:
       max-early-data: 2048
     xudp: true
     servername: interimrita.shividpolo.store
-  - country: "\U0001F3C1ZZ"
-    delay: 1065
-    fingerprint: randomized
-    name: "59\U0001F1FA\U0001F1F8US_1|3.1MB/s"
-    network: ws
-    packet-encoding: ''
-    port: 2095
-    server: blog.cloudflare.com
-    skip-cert-verify: true
-    type: vless
-    udp: true
-    uuid: ''
-    ws-opts:
-      headers:
-        Host: freedom.pusytroller.cf
-      path: /
-    servername: freedom.pusytroller.cf
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 1192
-    down: '100'
-    name: "59\U0001F1FA\U0001F1F8US_2|2.6MB/s"
-    port: 38845
-    protocol: udp
-    server: 208.87.243.151
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria
-    udp: true
-    up: '100'
   - alpn:
       - h3
     auth-str: dongtaiwang.com
@@ -77,7 +46,7 @@ proxies:
     country: "\U0001F1EB\U0001F1F7FR"
     delay: 2364
     down: '55'
-    name: "59\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
+    name: "59\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
     port: 35511
     protocol: udp
     server: 62.210.127.217
@@ -86,20 +55,25 @@ proxies:
     type: hysteria
     udp: true
     up: '11'
-  - client-fingerprint: randomized
-    delay: 1605
-    name: "59\U0001F1F8\U0001F1ECSG_2|6.5MB/s"
+  - client-fingerprint: chrome
+    name: "59\U0001F1E9\U0001F1EADE_1|3.7MB/s"
     network: ws
-    port: 2095
-    server: www.wto.org
+    port: 443
+    server: net2026.zanddynastyofpersia.org
     skip-cert-verify: true
+    tfo: true
+    tls: true
     type: vless
     udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
     ws-opts:
       headers:
-        Host: freedom.pusytroller.cf
-      path: /
+        Host: net2026.zanddynastyofpersia.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/120.0.0.0 Safari/537.36
+      path: /eJsVXFVZ6iavNx1EFxOyH861WH
+    servername: net2026.zanddynastyofpersia.org
 proxy-groups:
   - name: 节点选择
     icon: >-
