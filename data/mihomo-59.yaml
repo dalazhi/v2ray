@@ -6,7 +6,7 @@ proxies:
     country: "\U0001F1FA\U0001F1F8US"
     delay: 1192
     down: '100'
-    name: "59\U0001F1FA\U0001F1F8US_1|5.9MB/s"
+    name: "59\U0001F1FA\U0001F1F8US_1|1.7MB/s"
     port: 38845
     protocol: udp
     server: 208.87.243.151
@@ -22,7 +22,7 @@ proxies:
     country: "\U0001F1EB\U0001F1F7FR"
     delay: 2364
     down: '55'
-    name: "59\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
+    name: "59\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
     port: 35511
     protocol: udp
     server: 62.210.127.217
@@ -31,6 +31,21 @@ proxies:
     type: hysteria
     udp: true
     up: '11'
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1204
+    down: 55
+    name: "59\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
 proxy-groups:
   - name: 节点选择
     icon: >-
