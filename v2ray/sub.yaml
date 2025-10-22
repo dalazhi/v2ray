@@ -1,16 +1,16 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 5
-    server: 106.14.75.114
-    port: 50002
+  - name: 中国 - 佛山市 - China Mobile - 3
+    server: 183.236.51.36
+    port: 59003
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 193
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+    delay: 328
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
     server: 39.107.155.11
     port: 30302
     type: vmess
@@ -20,9 +20,56 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-    delay: 149
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
+    delay: 197
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
     server: 39.100.81.215
+    port: 50002
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 271
+  - name: 中国 - 台湾 - Cloudflare, Inc. - 8
+    server: 60.249.114.181
+    type: vless
+    country: 🇹🇼TW
+    port: 26398
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+    delay: 1357
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+    server: 112.132.215.34
+    port: 50007
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 292
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
+    server: 119.29.98.43
+    port: 20521
+    type: vmess
+    uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+    delay: 385
+  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+    server: 120.26.137.112
     type: vmess
     country: 🇨🇳CN
     port: 50002
@@ -33,70 +80,23 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 666
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-    server: 112.132.215.34
-    port: 50007
+    delay: 322
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+    server: 139.129.20.6
+    port: 50002
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 967
-  - name: 中国 - 广州市 - China Mobile - 6
-    server: 183.236.51.36
-    port: 59003
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
+    udp: true
+    delay: 290
+  - name: 中国 - 香港 - YOUTHIDC - 9
+    server: nat-hk-37465.strongpipe.cloud
+    port: 20443
+    type: http
+    username: dd247fc262
+    password: 80c9752a41
+    tls: true
     skip-cert-verify: true
-    delay: 762
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-    server: 119.29.98.43
-    type: vmess
-    port: 48536
-    uuid: 057caba1-2237-41e6-a54d-ec03509898a5
-    alterId: 0
-    cipher: auto
-    network: ws
-    http-opts: {}
-    h2-opts: {}
-    ws-opts:
-      path: /arki?ed=2048
-    delay: 996
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 11
-    server: 119.29.98.43
-    type: vmess
-    country: 🇨🇳 CN
-    port: 20521
-    uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-    alterId: 0
-    cipher: auto
-    network: ws
-    http-opts: {}
-    h2-opts: {}
-    ws-opts: {}
-    delay: 996
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-    server: 119.29.98.43
-    port: 56532
-    type: vmess
-    uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /arki?ed=2048
-    delay: 560
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
-    server: 119.29.98.43
-    type: vmess
-    country: 🇨🇳CN
-    port: 11399
-    uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
-    alterId: 0
-    cipher: auto
