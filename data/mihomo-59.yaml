@@ -1,48 +1,47 @@
 proxies:
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "59\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+  - name: "59\U0001F1F0\U0001F1F7KR_1|2.0MB/s"
     network: ws
-    port: 45979
-    server: 216.167.34.251
-    type: vmess
-    uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-    ws-opts:
-      path: /test
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E7\U0001F1EABE"
-    h2-opts: {}
-    http-opts: {}
-    name: "59\U0001F1E9\U0001F1EADE_1|2.4MB/s"
-    network: ws
-    port: 443
-    server: 57.129.28.214
-    skip-cert-verify: true
+    port: 16030
+    server: 222.113.18.207
+    skip-cert-verify: false
     tls: true
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     ws-opts:
       headers:
-        HOST: kampong.org
-      path: /linkvws
-    servername: kampong.org
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8 US"
-    h2-opts: {}
-    http-opts: {}
-    name: "59\U0001F1FA\U0001F1F8US_2|3.4MB/s"
-    network: none
-    port: 43646
-    server: 216.167.34.251
-    type: vmess
-    uuid: 74ceedb3-f3d0-48c1-9348-78683a978aa9
+        Host: gaosir.unfeeling.sbs
+      path: /X@节点狂魔
+    servername: gaosir.unfeeling.sbs
+  - name: "59\U0001F1ED\U0001F1F0HK_1|6.4MB/s"
+    password: 80c9752a41
+    port: 20443
+    server: nat-hk-37465.strongpipe.cloud
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: dd247fc262
+    sni: nat-hk-37465.strongpipe.cloud
+  - name: "59\U0001F1ED\U0001F1F0HK_2|3.5MB/s"
+    password: '123'
+    port: 10862
+    server: 47.76.175.67
+    type: http
+    username: '123'
+  - name: "59\U0001F1F0\U0001F1F7KR_2|3.9MB/s"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
   - auth: 71c2c03a-a52e-4559-b674-dcc9a77f9719
     down: 50
-    name: "59\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
+    name: "59\U0001F1ED\U0001F1F0HK_3|2.9MB/s"
     password: 71c2c03a-a52e-4559-b674-dcc9a77f9719
     port: 7009
     server: cn.eans.top
@@ -51,6 +50,73 @@ proxies:
     type: hysteria2
     udp: true
     up: 50
+  - cipher: rc4-md5
+    country: "\U0001F1E8\U0001F1E6 CA"
+    name: "59\U0001F1E8\U0001F1E6CA_1|2.8MB/s"
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    server: 137.184.174.93
+    type: ss
+  - country: "\U0001F1F8\U0001F1EC SG"
+    name: "59\U0001F1FA\U0001F1F8US_1|2.5MB/s"
+    password: G9CHhXltVx
+    port: 12646
+    server: 96.9.213.108
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1F0\U0001F1F7KR_3|2.5MB/s"
+    network: ws
+    port: 30067
+    server: 112.156.154.95
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /X@节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: gaosir.unfeeling.sbs
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1F0\U0001F1F7KR_4|2.6MB/s"
+    network: ws
+    port: 50001
+    server: 222.96.197.31
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/"
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: gaosir.unfeeling.sbs
+  - client-fingerprint: chrome
+    name: "59\U0001F1ED\U0001F1F0HK_4|6.4MB/s"
+    password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15
+    port: 13008
+    server: naiu-hk.05vr9nyqg5.download
+    skip-cert-verify: false
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    type: trojan
+    udp: true
 proxy-groups:
   - name: 节点选择
     icon: >-
