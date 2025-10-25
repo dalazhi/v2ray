@@ -1,50 +1,59 @@
 proxies:
 proxies:
+  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3
+    server: 106.14.75.114
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 336
   - name: 中国 - 佛山市 - China Mobile - 5
     server: 183.236.51.36
-    port: 59003
     type: vmess
+    country: 🇨🇳CN
+    port: 59003
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
-    tls: false
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
     skip-cert-verify: true
-    delay: 439
+    delay: 1158
   - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
     server: 39.107.155.11
+    type: vmess
     port: 30302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
     udp: true
-    delay: 128
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-    server: 39.100.81.215
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 330
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-    server: 112.132.215.34
-    port: 50007
-    type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
-    tls: false
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
     skip-cert-verify: true
-    delay: 364
+    delay: 294
   - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
     server: 119.29.98.43
     type: vmess
-    country: 🇨🇳CN
+    port: 48536
+    uuid: 057caba1-2237-41e6-a54d-ec03509898a5
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    ws-opts:
+      path: /arki?ed=2048
+    delay: 225
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
+    server: 119.29.98.43
+    type: vmess
     port: 56532
     uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
     alterId: 0
@@ -52,51 +61,42 @@ proxies:
     network: ws
     http-opts: {}
     h2-opts: {}
-    skip-cert-verify: true
     ws-opts:
       path: /arki?ed=2048
-    delay: 662
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 8
-    server: 119.29.98.43
+    delay: 1596
+  - name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+    server: c251f6b5-sv2sg0-swjbgr-1kcpe.hk.p5pv.com
     type: vmess
-    country: 🇨🇳CN
-    port: 11399
-    uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
-    alterId: 0
+    country: 🇭🇰HK
+    port: 80
+    uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+    alterId: 2
     cipher: auto
     network: ws
+    servername: broadcastlv.chat.bilibili.com
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
     ws-opts:
-      path: /arki?ed=2048
-    delay: 401
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-    server: 120.26.137.112
-    port: 50002
+      path: /
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+    delay: 860
+  - name: 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 6
+    server: 103.243.26.209
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 188
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-    server: 139.129.20.6
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    port: 10086
+    uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-    delay: 179
-  - name: 中国 - 香港 - CommuniLink - 9
-    server: 43.252.167.94
-    port: 8081
-    type: http
-    username: >-
-      afY491o7YfK00koaXQD9ka-Gp5qBWDcQMmL6KAZBiqF3gU4OCz4Nenn5LFHP2DPPoXw609MC0WdYefYZbCn32A==
-    password: 1
-    tls: false
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    h2-opts: {}
+    delay: 880
+  - name: 中国 - 香港 - Hytron Network Services Limited - 10
+    server: baigou1.kkieo555.cn
+    type: trojan
+    country: 🇨🇳CN
