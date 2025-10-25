@@ -1,24 +1,25 @@
 proxies:
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1314
-      down: 55 Mbps
-      name: "宿舍\U0001F1FA\U0001F1F8US_1|1.8MB/s"
-      port: 38845
-      server: 208.87.243.151
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria
-      up: 11 Mbps
+    - name: "宿舍\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+      network: ws
+      port: 2096
+      server: 188.42.145.253
+      servername: gaosir.unfeeling.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1411
       down: "55"
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
+      name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.3MB/s"
       obfs: ""
       port: 49003
       protocol: ""
@@ -27,57 +28,68 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "11"
-    - cipher: aes-256-cfb
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
-      password: amazonskr05
-      port: 443
-      server: 15.237.118.240
-      type: ss
-      udp: true
-    - auth: 30585750-f3e8-4de8-af72-3a9d642cbb02
-      down: 50
-      name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
-      password: 30585750-f3e8-4de8-af72-3a9d642cbb02
-      port: 7009
-      server: cn.eans.top
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1314
+      down: 55 Mbps
+      name: "宿舍\U0001F1FA\U0001F1F8US_2|2.2MB/s"
+      port: 38845
+      server: 208.87.243.151
       skip-cert-verify: true
-      sni: h.eans.top
-      type: hysteria2
-      udp: true
-      up: 50
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
-      password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-      port: 12412
-      server: 37.202.200.11
-      skip-cert-verify: false
-      sni: wjp04.weyaf9sdoh2h.space
-      type: trojan
-    - name: "宿舍\U0001F1E9\U0001F1EADE_1|1.1MB/s"
-      network: ws
-      port: "4040"
-      server: fastly2024.parsgit.com
-      type: vless
-      udp: true
-      uuid: ed4a0257-5554-4688-ac1d-8e7eccff5838
-      ws-opts:
-        headers:
-            Host: webfl.parsgit.com.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-        path: /admin?ed=1024--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN--SKYPRO_VPN
-      xudp: true
+      sni: www.bing.com
+      type: hysteria
+      up: 11 Mbps
     - client-fingerprint: chrome
-      name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.9MB/s"
+      name: "宿舍\U0001F1F1\U0001F1FBLV_1|3.1MB/s"
       network: ws
       port: "443"
-      server: digitalocean.com
-      servername: rAyAn-cOnFiG-fr-2.pArIsA.DpDnS.OrG
+      server: nodegcf.azurka.org
+      servername: nodegcf.azurka.org
       tls: true
       type: vless
       udp: true
-      uuid: 4710b85a-66e6-411b-b492-0e0f7366ad21
+      uuid: ff84dbed-bbfb-42d8-b397-b0ec025fb570
       ws-opts:
         headers:
-            Host: rAyAn-cOnFiG-fr-2.pArIsA.DpDnS.OrG
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            Host: nodegcf.azurka.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
         path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "宿舍\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+      network: tcp
+      port: "11000"
+      reality-opts:
+        public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+        short-id: ""
+      server: de.pg.gozarino.com
+      servername: refersion.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 326ee258-7381-43c9-bd5c-4e1edf6b2470
+      xudp: true
+    - alpn:
+        - http/1.1
+      alterId: "0"
+      cipher: chacha20-poly1305
+      http-opts:
+        headers:
+            Host:
+                - parssafe.com
+        path:
+            - /m7bPG9H2WQsuuhfQLV5QdPRZuuMI
+      name: "宿舍\U0001F1E9\U0001F1EADE_2|1.5MB/s"
+      network: http
+      port: "80"
+      server: tech.soroushvip.site
+      servername: parssafe.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a12a477f-b968-4eb0-ab86-371333b2bb48
       xudp: true
