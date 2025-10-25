@@ -1,13 +1,106 @@
 proxies:
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "59\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18095
-    server: jp01.weyaf9sdoh2h.space
+  - name: "59\U0001F1ED\U0001F1F0HK_1|3.7MB/s"
+    password: BxceQaOe
+    port: 4451
+    server: 36.151.251.23
     skip-cert-verify: true
-    sni: TG.WangCai2
     type: trojan
     udp: true
+  - name: "59\U0001F1F8\U0001F1ECSG_1|3.6MB/s"
+    password: BxceQaOe
+    port: 24392
+    server: 36.151.251.35
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1448
+    down: 55
+    name: "59\U0001F1F3\U0001F1F1NL_1|3.2MB/s"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1F0\U0001F1F7KR_1|2.2MB/s"
+    network: ws
+    port: 14443
+    server: 222.113.18.211
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /x@节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: gaosir.unfeeling.sbs
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1F0\U0001F1F7KR_2|2.3MB/s"
+    network: ws
+    port: 50001
+    server: 220.72.245.245
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /X@节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: gaosir.unfeeling.sbs
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1ED\U0001F1F0HK_2|2.8MB/s"
+    network: ws
+    port: 35951
+    server: 36.50.90.241
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: /X@freecodes/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: gaosir.unfeeling.sbs
+  - alterId: 2
+    cipher: auto
+    name: "59\U0001F1EE\U0001F1F9IT_1|5.1MB/s"
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 proxy-groups:
   - name: 节点选择
     icon: >-
