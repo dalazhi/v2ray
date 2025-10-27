@@ -1,67 +1,20 @@
 proxies:
 proxies:
-  - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 10
-    server: 106.14.75.114
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 337
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-    server: 39.107.155.11
-    port: 30302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-    delay: 364
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
-    server: 39.100.81.215
+  - name: 中国 - 佛山市 - China Mobile - 2
+    server: 183.236.51.36
     type: vmess
     country: 🇨🇳CN
-    port: 50002
+    port: 59003
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     network: tcp
+    servername: trojan.burgerip.co.uk
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 315
-  - name: 中国 - 台湾 - Data Center Network Limited - 13
-    server: 185.189.161.137
-    port: 8081
-    type: http
-    username: >-
-      afY491o7YfK00koaXQD9kWJIm83Df76QWVdaew1w0yzSqthnqeiAtpdmWZp1fITMoXw609MC0WdYefYZbCn32A==
-    password: 1
-    tls: false
-    delay: 864
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-    server: 112.132.215.34
-    port: 50007
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    delay: 341
-  - name: 中国 - 广州市 - CHINANET Guangdong province network - 11
-    server: 14.18.106.88
-    type: ss
-    country: 🇨🇳CN
-    port: 6100
-    password: '123'
-    cipher: aes-256-gcm
-    delay: 375
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
+    delay: 319
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
     server: 119.29.98.43
     port: 56532
     type: vmess
@@ -72,31 +25,78 @@ proxies:
     network: ws
     ws-opts:
       path: /arki?ed=2048
-    delay: 581
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
-    server: 119.29.98.43
-    port: 48536
+    delay: 334
+  - name: 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
+    server: 103.243.26.209
     type: vmess
-    uuid: 057caba1-2237-41e6-a54d-ec03509898a5
+    country: 🇭🇰 HK
+    port: 8080
+    uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
+    alterId: 0
+    cipher: auto
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    h2-opts: {}
+    delay: 2442
+  - name: 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
+    server: 103.243.26.209
+    type: vmess
+    country: 🇭🇰 HK
+    port: 10086
+    uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+    alterId: 0
+    cipher: auto
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    h2-opts: {}
+    delay: 2599
+  - name: 中国 - 香港 - Ipxo LLC - 4
+    server: cdnfire.xiaomispeed.com
+    type: trojan
+    country: 🇹🇼TW
+    port: 21102
+    password: 70400248-8aed-49c1-8ddf-2f6a722a2942
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+    delay: 1231
+  - name: 亚美尼亚 - Yerevan - Telecom Armenia OJSC - 1
+    server: 178.160.211.182
+    type: vless
+    country: 🇦🇲AM
+    port: 20155
+    udp: true
+    uuid: dc28e2d3-7c69-47c6-b5b0-f76914454294
+    network: tcp
+    delay: 1012
+  - name: 德国 - 法兰克福 - Voxility LLP - 1
+    server: 104.18.240.238
+    port: 80
+    type: vmess
+    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
     alterId: 0
     cipher: auto
     tls: false
+    servername: TABRIZ.NET
     network: ws
     ws-opts:
-      path: /arki?ed=2048
-    delay: 225
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-    server: 119.29.98.43
-    port: 20521
-    type: vmess
-    uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-    delay: 439
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 8
-    server: 120.26.137.112
-    type: vmess
+      path: >-
+        /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
+        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    delay: 1509
+  - name: 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
+    server: 185.153.197.5
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    delay: 745
+  - name: 新加坡 - 新加坡 - Akile LTD - 4
