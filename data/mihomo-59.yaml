@@ -1,237 +1,7 @@
 proxies:
-  - delay: 575
-    name: "59\U0001F1ED\U0001F1F0HK_1|2.8MB/s"
-    password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-    port: 20021
-    server: oss-cn-shanghai.letssepub.com
-    skip-cert-verify: true
-    sni: dingding-doc.com
-    type: trojan
-    udp: true
-  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    client-fingerprint: chrome
-    name: "59\U0001F1FA\U0001F1F8US_1|3.2MB/s"
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    port: 1743
-    server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    sni: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
-  - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    client-fingerprint: chrome
-    name: "59\U0001F1FA\U0001F1F8US_2|3.2MB/s"
-    password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    port: 1743
-    server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-    skip-cert-verify: false
-    sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-    type: hysteria2
-  - client-fingerprint: chrome
-    name: "59\U0001F1EF\U0001F1F5JP_1|4.5MB/s"
-    password: BxceQaOe
-    port: 1821
-    server: 36.150.215.237
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "59\U0001F1FA\U0001F1F8US_3|4.0MB/s"
-    password: BxceQaOe
-    port: 27409
-    server: 36.150.215.241
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1891
-    down: 55 Mbps
-    name: "59\U0001F1EB\U0001F1F7FR_1|2.3MB/s"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - cipher: aes-256-cfb
-    name: "59\U0001F1F8\U0001F1F0SK_1|2.5MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 156.146.40.194
-    type: ss
-  - name: "59\U0001F1ED\U0001F1F0HK_2|2.7MB/s"
-    network: tcp
-    port: 11443
-    server: 183.240.252.102
-    skip-cert-verify: true
-    tls: false
-    type: vless
-    udp: true
-    uuid: df245bf8-8253-4029-90d8-ef30cfac75f4
-  - cipher: aes-256-cfb
-    name: "59\U0001F1FB\U0001F1F3VN_1|2.3MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.67
-    type: ss
-  - auth: 712bdc36-24be-11ee-be53-f23c9313b177
-    name: "59\U0001F1FA\U0001F1F8US_4|4.6MB/s"
-    password: 712bdc36-24be-11ee-be53-f23c9313b177
-    port: 1743
-    server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
-  - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    name: "59\U0001F1FA\U0001F1F8US_5|3.7MB/s"
-    password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    port: 1743
-    ports: 20000-50000
-    server: 16004295-t4x400-t4zzea-d6ar.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: 16004295-t4x400-t4zzea-d6ar.la.shifen.uk
-  - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-    name: "59\U0001F1FA\U0001F1F8US_6|3.5MB/s"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 1743
-    ports: 20000-50000
-    server: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
-  - alterId: 2
-    cipher: auto
-    name: "59\U0001F1ED\U0001F1F0HK_3|5.9MB/s"
-    network: ws
-    port: 80
-    server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com
-    tls: false
-    type: vmess
-    udp: true
-    uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
   - client-fingerprint: chrome
     encryption: none
-    grpc-opts:
-      grpc-service-name: 91.98.164.168
-    name: "59\U0001F1E9\U0001F1EADE_1|4.2MB/s"
-    network: grpc
-    port: 40647
-    reality-opts:
-      public-key: dsFL3Ypar4thZW8n9trOS3lsRJUhkCiLqrzHRMZS7Bk
-      short-id: 534b3f
-    server: 91.98.164.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: c3980834-0e40-43a5-9d8c-ce9389ab9d70
-    xudp: true
-    servername: iranhost.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "59\U0001F1E8\U0001F1EDCH_1|2.3MB/s"
-    network: tcp
-    port: 8089
-    reality-opts:
-      public-key: Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU
-      short-id: 828348fc6d8e49cf
-    server: switzerland.marzxo.biz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8e311363-ffa6-ada3-6838-6283d896da4e
-    xudp: true
-    servername: refersion.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1EB\U0001F1F7FR_2|3.6MB/s"
-    network: ws
-    port: 443
-    server: www.visa.com.br
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4710b85a-66e6-411b-b492-0e0f7366ad21
-    ws-opts:
-      headers:
-        Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/32.0.1700.107 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
-  - encryption: none
-    name: "59\U0001F1E9\U0001F1EADE_2|4.6MB/s"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 0d4dc7c4-d85e-4619-fe5d-4f4bda54a210
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1F3\U0001F1F1NL_1|2.1MB/s"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 22-COPE-AZ-KANAL-JKVPN-JKVPN
-    ws-opts:
-      headers:
-        Host: jokervip.ahang-alpha.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: >-
-        /TELEGRAM--BYA--CHANEL--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "59\U0001F1E7\U0001F1ECBG_1|2.4MB/s"
-    network: tcp
-    port: 8090
-    reality-opts:
-      public-key: Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU
-      short-id: 828348fc6d8e49cf
-    server: sweden.marzxo.biz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8e311363-ffa6-ada3-6838-6283d896da4e
-    xudp: true
-    servername: refersion.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1EB\U0001F1F7FR_3|4.6MB/s"
+    name: "59\U0001F1EB\U0001F1F7FR_1|3.3MB/s"
     network: ws
     port: 443
     server: colin.ns.cloudflare.com
@@ -248,231 +18,80 @@ proxies:
       path: /fiedpnws
     xudp: true
     servername: 638971674693810969.brussels-prmpl-aaaad.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "59\U0001F1EB\U0001F1EEFI_1|2.8MB/s"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 175d
-    server: fin01-vlr02.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 466cdb16-8d8a-46f8-b61d-fcd226a820fd
-    xudp: true
-    servername: stats.vk-portal.net
-  - client-fingerprint: random
-    encryption: none
-    name: 59❓Other_1|14.8MB/s
-    network: ws
-    port: 8443
-    server: www.visa.com.sg
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: azadnet-dbi.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: azadnet-dbi.pages.dev
-  - client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1F3\U0001F1F1NL_2|2.7MB/s"
-    network: ws
-    port: 2083
-    server: 172.67.151.188
-    tls: true
-    type: vless
-    udp: true
-    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-    ws-opts:
-      headers:
-        Host: ex.sue.x10.mx
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: ex.sue.x10.mx
-  - alpn:
-      - h3
+  - auth: 712bdc36-24be-11ee-be53-f23c9313b177
     client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_7|2.2MB/s"
-    network: ws
-    port: 443
-    server: 104.17.2.63
-    tls: true
-    type: vless
-    udp: true
-    uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-    ws-opts:
-      headers:
-        Host: vless1-bu3.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /
-    xudp: true
-    servername: vless1-bu3.pages.dev
-  - encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_8|3.1MB/s"
-    network: ws
-    port: 2082
-    server: 159.112.235.174
-    type: vless
-    udp: true
-    uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
-    ws-opts:
-      headers:
-        Host: workerr.schodog1.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - client-fingerprint: randomized
-    encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_9|2.7MB/s"
-    network: ws
-    port: 2096
-    server: 104.17.128.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-    ws-opts:
-      headers:
-        Host: azadnet-1ml.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-      path: /azadnet-1ml.pages.dev/?ed=2560&PROT_TYPE=vless
-    xudp: true
-    servername: azadnet-1ml.pages.dev
-  - name: "59\U0001F1FA\U0001F1F8US_10|3.1MB/s"
-    network: ws
-    port: 8880
-    server: 74.49.215.247
-    type: vless
-    udp: true
-    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-    ws-opts:
-      headers:
-        Host: ex.sue.x10.mx
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3"
-    xudp: true
-    servername: ex.sue.x10.mx
-  - alpn:
-      - h2
-      - http/1.1
+    name: "59\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    port: 1743
+    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
     client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1EB\U0001F1EEFI_2|2.1MB/s"
-    network: ws
-    port: 2087
-    server: www.researchgate.net
-    tls: true
-    type: vless
+    name: "59\U0001F1FA\U0001F1F8US_2|2.2MB/s"
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    port: 1743
+    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US_3|2.7MB/s"
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    port: 1743
+    server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
+  - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US_4|2.7MB/s"
+    password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+    port: 1743
+    server: 6a9773b0-t3bpc0-t3cj5q-d6ar.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 6a9773b0-t3bpc0-t3cj5q-d6ar.la.shifen.uk
+  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US_5|2.3MB/s"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 1743
+    server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+  - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US_6|2.2MB/s"
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    port: 1743
+    server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+  - alterId: 2
+    cipher: auto
+    name: "59\U0001F1F0\U0001F1F7KR_1|2.1MB/s"
+    port: 23614
+    server: 14.mamamajd.site
+    skip-cert-verify: true
+    tls: false
+    type: vmess
     udp: true
-    uuid: cd7f3c2f-8d6d-4ad8-98eb-fb10e0f6da9e
-    ws-opts:
-      headers:
-        Host: interimrita.shividpolo.store
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /downloader
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: interimrita.shividpolo.store
-  - encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_11|2.7MB/s"
-    network: ws
-    port: 8880
-    server: 135.84.76.113
-    type: vless
+    uuid: fba293b0-52da-3e82-a291-dd5e8f1d6a5a
+  - alterId: 2
+    cipher: auto
+    name: "59\U0001F1E9\U0001F1EADE_1|2.9MB/s"
+    port: 23616
+    server: 16.mamamajd.site
+    skip-cert-verify: true
+    tls: false
+    type: vmess
     udp: true
-    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-    ws-opts:
-      headers:
-        Host: ex.sue.x10.mx
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: "/telegram\U0001F1E8\U0001F1F3 @wangcai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG_1|6.7MB/s"
-    network: ws
-    port: 8880
-    server: 108.162.196.113
-    type: vless
-    udp: true
-    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-    ws-opts:
-      headers:
-        Host: ex.sue.x10.mx
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.125 Safari/537.36
-      path: "/telegram\U0001F1E8\U0001F1F3 @wangcai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_12|6.8MB/s"
-    network: ws
-    port: 8880
-    server: 104.234.239.247
-    type: vless
-    udp: true
-    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-    ws-opts:
-      headers:
-        Host: ex.sue.x10.mx
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: "/telegram\U0001F1E8\U0001F1F3"
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "59\U0001F1E6\U0001F1EAAE_1|2.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: RDAZYkEO3l0_jrv5O5edQ6zsMYrxKLp1GPV339ZTDSk
-      short-id: ec7212a8
-    server: 38.180.26.205
-    tls: true
-    type: vless
-    udp: true
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    xudp: true
-    servername: nspk.ru
+    uuid: fba293b0-52da-3e82-a291-dd5e8f1d6a5a
 proxy-groups:
   - name: 节点选择
     icon: >-
