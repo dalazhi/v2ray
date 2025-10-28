@@ -1,18 +1,17 @@
 proxies:
-    - name: "宿舍\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-      network: ws
-      port: 2096
-      server: 188.42.145.253
-      servername: gaosir.unfeeling.sbs
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1314
+      down: 55 Mbps
+      name: "宿舍\U0001F1FA\U0001F1F8US_1|3.5MB/s"
+      port: 38845
+      server: 208.87.243.151
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria
+      up: 11 Mbps
     - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
       name: "宿舍\U0001F1FA\U0001F1F8US_2|2.8MB/s"
       password: a16d62f6-048d-11f0-af5a-f23c93136cb3
@@ -21,44 +20,102 @@ proxies:
       sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
       type: hysteria2
       udp: true
-    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      name: "宿舍\U0001F1FA\U0001F1F8US_3|2.6MB/s"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: 697c3dc5-t4v9c0-t4zzea-d6ar.la.shifen.uk
-      type: hysteria2
-      udp: true
     - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
-      name: "宿舍\U0001F1FA\U0001F1F8US_4|2.2MB/s"
+      name: "宿舍\U0001F1FA\U0001F1F8US_3|2.0MB/s"
       password: 94931862-1484-11f0-9ab7-f23c95b6f51d
       port: 1743
       server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
       type: hysteria2
       udp: true
+    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      name: "宿舍\U0001F1FA\U0001F1F8US_4|1.8MB/s"
+      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      port: 1743
+      server: 697c3dc5-t4v9c0-t4zzea-d6ar.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      delay: 2011
+      name: "宿舍\U0001F1FA\U0001F1F8US_5|2.6MB/s"
+      network: ws
+      port: 2096
+      server: wangcai52.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
-      delay: 1314
-      down: 55 Mbps
-      name: "宿舍\U0001F1FA\U0001F1F8US_5|1.2MB/s"
-      port: 38845
-      server: 208.87.243.151
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria
-      up: 11 Mbps
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 2060
-      down: 55 Mbps
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
-      port: 50011
+      delay: 1547
+      down: 55
+      name: "宿舍\U0001F1F3\U0001F1F1NL_1|3.8MB/s"
+      port: 49003
       protocol: udp
-      server: 62.210.127.217
+      server: 51.159.226.1
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
-      up: 11 Mbps
+      udp: true
+      up: 11
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1F8\U0001F1ECSG_1|2.3MB/s"
+      network: ws
+      port: 2096
+      server: wangcai10.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    - auth: 705d13b5-2c8c-4bbd-abe8-4064c9bb1b15
+      name: "宿舍\U0001F1FA\U0001F1F8US_6|1.2MB/s"
+      password: 705d13b5-2c8c-4bbd-abe8-4064c9bb1b15
+      port: 57300
+      server: sfjmg4.sufujia.top
+      skip-cert-verify: true
+      sni: sfjmg4.sufujia.top
+      type: hysteria2
+      udp: true
+    - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
+      name: "宿舍\U0001F1FA\U0001F1F8US_7|1.8MB/s"
+      password: 16955d72-1794-11f0-a035-f23c95b6f51d
+      port: 1743
+      ports: 20000-50000
+      server: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - auth: 712bdc36-24be-11ee-be53-f23c9313b177
+      name: "宿舍\U0001F1FA\U0001F1F8US_8|1.7MB/s"
+      password: 712bdc36-24be-11ee-be53-f23c9313b177
+      port: 1743
+      server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: randomized
+      name: "宿舍\U0001F1FA\U0001F1F8US_9|1.1MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: "8443"
+      server: koma-yt.pages.dev
+      skip-cert-verify: false
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /tro8sFW1S91B6sZrM1?ed=2560
