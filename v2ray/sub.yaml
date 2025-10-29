@@ -3,29 +3,29 @@ proxies:
   - name: 中国 - 上海 - Hangzhou Alibaba Advertising Co - 8
     server: 106.14.75.114
     type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 773
-  - name: 中国 - 佛山市 - China Mobile - 6
-    server: 183.236.51.36
-    type: vmess
     country: 🇨🇳CN
-    port: 59003
+    port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     network: tcp
-    servername: trojan.burgerip.co.uk
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 210
+    delay: 431
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+    server: 39.107.155.11
+    type: vmess
+    country: 🇨🇳CN
+    port: 30302
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 256
   - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
     server: 39.100.81.215
     type: vmess
@@ -38,35 +38,45 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 159
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
-    server: 39.107.155.11
-    type: vmess
-    country: 🇨🇳CN
-    port: 30302
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 145
-  - name: 中国 - 台湾 - Pittqiao Network Information Co., Ltd. - 14
-    network: tcp
-    port: 3443
-    server: 183.240.252.82
-    skip-cert-verify: true
-    tls: false
-    type: vless
+    delay: 404
+  - cipher: aes-128-gcm
+    name: 中国 - 台湾 - Akari Networks Limited - 16
+    password: b74518fb49bd645e6ce7
+    plugin: obfs
+    plugin-opts:
+      host: 215996dd9f1c3db1e54b.microsoft.com
+      mode: http
+    port: 45915
+    server: 103.219.103.32
+    type: ss
     udp: true
-    uuid: 3c7a1d84-2f9e-4c13-a5b2-8d9e7f4c2a66
-    delay: 1358
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
+    delay: 340
+  - cipher: aes-128-gcm
+    name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 17
+    password: 3e26a8cfb09fda219b36
+    plugin: obfs
+    plugin-opts:
+      host: 215996dd9f1c3db1e54b.microsoft.com
+      mode: http
+    port: 45573
+    server: 103.219.103.32
+    type: ss
+    udp: true
+    delay: 360
+  - name: 中国 - 台湾 - Pittqiao Network Information Co., Ltd. - 2
+    server: f10011.flyflylflyflyssssnode.sbs
+    type: trojan
+    port: 19949
+    password: e7313acb-7af6-4fee-8483-eeaded7cf3a2
+    sni: tw01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+    delay: 932
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
     server: 119.29.98.43
     type: vmess
-    port: 11399
-    uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
+    port: 56532
+    uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
     alterId: 0
     cipher: auto
     network: ws
@@ -74,29 +84,19 @@ proxies:
     h2-opts: {}
     ws-opts:
       path: /arki?ed=2048
-    delay: 1446
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-    server: 120.26.137.112
+    delay: 1202
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6
+    server: 119.29.98.43
     type: vmess
-    country: 🇨🇳 CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 198
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
-    server: 139.129.20.6
-    type: vmess
-    port: 50002
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    country: 🇨🇳CN
+    port: 20521
+    uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
+    ws-opts:
+      path: /
+    delay: 669
