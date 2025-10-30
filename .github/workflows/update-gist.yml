@@ -24,6 +24,9 @@ jobs:
           curl -L -o data/all-59.yaml https://gist.githubusercontent.com/dalazhi/00911343ab05017bdb181c377b3776f4/raw/all.yaml
           curl -L -o data/base64-59.txt https://gist.githubusercontent.com/dalazhi/00911343ab05017bdb181c377b3776f4/raw/base64.txt
           curl -L -o data/mihomo-59.yaml https://gist.githubusercontent.com/dalazhi/00911343ab05017bdb181c377b3776f4/raw/mihomo.yaml
+          curl -L -o data/all-12.yaml https://gist.githubusercontent.com/dalazhi/6be48247c7cb84dd9c3a37fd4e5a81a0/raw/all.yaml
+          curl -L -o data/base64-12.txt https://gist.githubusercontent.com/dalazhi/6be48247c7cb84dd9c3a37fd4e5a81a0/raw/base64.txt
+          curl -L -o data/mihomo-12.yaml https://gist.githubusercontent.com/dalazhi/6be48247c7cb84dd9c3a37fd4e5a81a0/raw/mihomo.yam
           echo "下载完成"
           
       - name: 检查文件是否有更新
@@ -48,4 +51,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
   
+
 
