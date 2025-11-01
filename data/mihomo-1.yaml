@@ -5,28 +5,70 @@ proxies:
     auth_str: dongtaiwang.com
     delay: 1314
     down: 55 Mbps
-    name: "宿舍\U0001F1FA\U0001F1F8US_1|3.9MB/s"
+    name: "宿舍\U0001F1FA\U0001F1F8US_1|2.7MB/s"
     port: 38845
     server: 208.87.243.151
     skip-cert-verify: true
     sni: www.bing.com
     type: hysteria
     up: 11 Mbps
-  - name: "宿舍\U0001F1EB\U0001F1EEFI_1|3.2MB/s"
-    network: ws
-    port: 8080
-    server: 104.17.147.22
-    type: vless
+  - auth: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+    name: 宿舍❓Other_1|1.8MB/s
+    password: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: af2dbaa2-t53wg0-t7u86c-1s2ks.us.hyhuawei.com
+    type: hysteria2
     udp: true
-    uuid: Parsashonam-Bot-34
+    sni: af2dbaa2-t53wg0-t7u86c-1s2ks.us.hyhuawei.com
+  - alterId: 2
+    cipher: auto
+    name: "宿舍\U0001F1ED\U0001F1F0HK_1|3.4MB/s"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
     ws-opts:
       headers:
-        Host: Fi.Parsashonam.CfD.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.101 Safari/537.36
+        Host: hkt.gotochinatown.net
+      path: /
+  - alterId: 2
+    cipher: auto
+    name: "宿舍\U0001F1ED\U0001F1F0HK_2|2.2MB/s"
+    network: ws
+    port: 80
+    server: 90a42379-t4ssg0-t6ntyb-1irfn.hkt.gotochinatown.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: a33115b6-75fa-11ed-8826-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 90a42379-t4ssg0-t6ntyb-1irfn.hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+    network: ws
+    port: 80
+    server: 77.37.33.67
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
       path: >-
-        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056//telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN--MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN
+        /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
+        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
     xudp: true
 rule-providers:
   private:
