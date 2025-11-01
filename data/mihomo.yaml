@@ -1,19 +1,119 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "op\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
-    password: bca467b8c15211d189008a93c7519d3b
-    port: 5321
-    server: 117.172.176.24
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 193.29.139.235
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
+    network: ws
+    port: 80
+    server: 93933a41-sv0xs0-t1jamc-1fvdh.hk3.p5pv.com
     skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-  - client-fingerprint: chrome
-    name: "op\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
-    password: BxceQaOe
-    port: 194
-    server: 36.151.192.242
-    skip-cert-verify: true
-    type: trojan
+    tls: false
+    type: vmess
+    uuid: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_2|3.2MB/s"
+    network: ws
+    port: 20521
+    server: 45.136.12.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
+    ws-opts:
+      path: /
+  - alterId: 2
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_3|1.3MB/s"
+    network: ws
+    port: 80
+    server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_4|1.8MB/s"
+    network: ws
+    port: 80
+    server: 2cfe5adb-sv4n40-tbvl5i-1mebs.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 2cfe5adb-sv4n40-tbvl5i-1mebs.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_1|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.58
+    type: ss
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_2|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.168
+    type: ss
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_3|1.3MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.142
+    type: ss
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_4|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.206
+    type: ss
+  - encryption: none
+    name: "op\U0001F1ED\U0001F1F0HK_5|1.1MB/s"
+    network: ws
+    port: 443
+    server: 172.66.46.236
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: 0ef0630e-544c-4ed0-a4de-861f14695f37
+    ws-opts:
+      headers:
+        Host: M2-1CM.paGes.DeV
+      path: /ognicwivyrkxih6r
+    servername: m2-1cm.pages.dev
+  - name: "op\U0001F1ED\U0001F1F0HK_6|1.3MB/s"
+    network: ws
+    port: 2096
+    server: 185.251.81.253
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+    ws-opts:
+      headers:
+        Host: fast01.0860852.xyz
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    servername: fast01.0860852.xyz
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
