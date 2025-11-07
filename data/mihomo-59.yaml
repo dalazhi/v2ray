@@ -1,6 +1,22 @@
 proxies:
   - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_1|6.3MB/s|KeepSucced"
+    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_1|1.7MB/s|KeepSucced"
+    network: ws
+    port: 80
+    server: 108.162.195.200
+    type: vless
+    udp: true
+    uuid: df301b32-1152-4526-9a63-beedd93d3156
+    ws-opts:
+      headers:
+        Host: vl.dalazhi.cloudns.biz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /%2F%3Fed%3D2048
+    xudp: true
+  - encryption: none
+    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_2|6.1MB/s|KeepSucced"
     network: ws
     port: 80
     server: 104.18.46.69
@@ -16,7 +32,7 @@ proxies:
       path: /%2F%3Fed%3D2048
     xudp: true
   - encryption: none
-    name: "59\U0001F1FA\U0001F1F8US¹-HK⁰_1|3.0MB/s|KeepSucced"
+    name: "59\U0001F1FA\U0001F1F8US¹-HK⁰_1|4.2MB/s|KeepSucced"
     network: ws
     port: 80
     server: 104.16.38.185
@@ -31,35 +47,8 @@ proxies:
           like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /%2F%3Fed%3D2048
     xudp: true
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 1000
-    fast-open: true
-    name: "59\U0001F1F3\U0001F1F1NL²_1|1.9MB/s|KeepSucced"
-    port: 48429
-    ports: 10000-20000
-    protocol: udp
-    server: 109.104.154.97
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 1000
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "59\U0001F1EB\U0001F1F7FR²_1|1.2MB/s|KeepSucced"
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
   - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_2|8.9MB/s|KeepHistory"
+    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_3|2.6MB/s|KeepSucced"
     network: ws
     port: 80
     server: 162.159.16.180
@@ -74,65 +63,13 @@ proxies:
           Gecko) Chrome/45.0.2454.85 Safari/537.36
       path: /%2F%3Fed%3D2048
     xudp: true
-  - encryption: none
-    name: "59\U0001F1E9\U0001F1EADE²_1|3.0MB/s"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 6faa7b80-2e14-45fb-e665-a65cae7ec5b0
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG²_1|1.0MB/s"
-    network: ws
-    port: 8080
-    server: partner.zoom.us
-    type: vless
-    udp: true
-    uuid: 65955e03-cb70-4791-8850-00e79e5badd7
-    ws-opts:
-      headers:
-        Host: vip.senu-zer.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /SenuXzVip
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_3|9.3MB/s|KeepHistory"
-    network: ws
-    port: 80
-    server: 108.162.195.200
-    type: vless
-    udp: true
-    uuid: df301b32-1152-4526-9a63-beedd93d3156
-    ws-opts:
-      headers:
-        Host: vl.dalazhi.cloudns.biz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /%2F%3Fed%3D2048
-    xudp: true
   - alterId: 0
     cipher: auto
     country: "\U0001F1FA\U0001F1F8US"
     delay: 2201
     h2-opts: {}
     http-opts: {}
-    name: "59\U0001F1FA\U0001F1F8US²_1|2.3MB/s|KeepHistory"
+    name: "59\U0001F1FA\U0001F1F8US²_1|4.2MB/s|KeepSucced"
     network: ws
     port: 443
     server: wto.org
@@ -147,6 +84,268 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     servername: floral-vol-lexington-liverpool.trycloudflare.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "59\U0001F1EB\U0001F1F7FR²_1|1.8MB/s|KeepSucced"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "59\U0001F1EB\U0001F1EEFI²_1|1.4MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: PibTHd_8WQ7AKYULLX7boeQsMBd5UI0JBwXIKrVEUy4
+      short-id: b735e8d1c332a164
+    server: 46.62.202.135
+    tls: true
+    type: vless
+    udp: true
+    uuid: cfd98140-4747-46b8-9618-606b21617b47
+    xudp: true
+    servername: cdn.jsdelivr.net
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "59\U0001F1EB\U0001F1F7FR²_2|2.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: jVZNjr5dXzki9VxDHWg_zsiUjSrplC0mnZrG8tuP_2c
+      short-id: 149adb1c3cb9ed11
+    server: 62.60.157.37
+    tls: true
+    type: vless
+    udp: true
+    uuid: d48ba610-6ef1-475b-9d33-be2a0db96f87
+    xudp: true
+    servername: st.ozone.ru
+  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US²_2|1.3MB/s|KeepHistory"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 1743
+    ports: 20000-50000
+    server: 026b10f5-t4whs0-t5vo4i-4550.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 026b10f5-t4whs0-t5vo4i-4550.la.shifen.uk
+  - encryption: none
+    name: "59\U0001F1FA\U0001F1F8US¹-HK⁰_2|2.6MB/s|KeepHistory"
+    network: ws
+    port: 80
+    server: 104.16.27.134
+    type: vless
+    udp: true
+    uuid: df301b32-1152-4526-9a63-beedd93d3156
+    ws-opts:
+      headers:
+        Host: vl.dalazhi.cloudns.biz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /%2F%3Fed%3D2048
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1EB\U0001F1F7FR²_3|6.1MB/s"
+    network: ws
+    port: 443
+    server: delilah.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8b69546f-56eb-4fb7-a3a9-642a0c259f3d
+    ws-opts:
+      headers:
+        Host: 638980501945994339.insight-amshb.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /mdtduaws
+    xudp: true
+    servername: 638980501945994339.insight-amshb.com
+  - cipher: aes-256-cfb
+    name: "59\U0001F1FB\U0001F1F3VN²_1|1.5MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.48
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1EB\U0001F1EEFI²_2|3.1MB/s"
+    network: tcp
+    port: 2095
+    reality-opts:
+      public-key: PKNz6SVs71AGbnFRUckMsOZQQtGqliK7kkt0K55k8l0
+      short-id: 676ea4c3ecb7
+    server: bm.boulvarmoein.shop
+    tls: true
+    type: vless
+    udp: true
+    uuid: '@v2rayng_76'
+    xudp: true
+    servername: bm.boulvarmoein.shop
+  - auth: 712bdc36-24be-11ee-be53-f23c9313b177
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US²_3|1.4MB/s|KeepHistory"
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    port: 1743
+    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  - cipher: aes-256-cfb
+    name: "59\U0001F1FB\U0001F1F3VN²_2|1.7MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.53
+    type: ss
+  - encryption: none
+    name: "59\U0001F1FA\U0001F1F8US¹-HK⁰_3|2.6MB/s|KeepHistory"
+    network: ws
+    port: 80
+    server: 104.18.168.174
+    type: vless
+    udp: true
+    uuid: df301b32-1152-4526-9a63-beedd93d3156
+    ws-opts:
+      headers:
+        Host: vl.dalazhi.cloudns.biz
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: /%2F%3Fed%3D2048
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "59\U0001F1EB\U0001F1F7FR²_4|3.3MB/s|KeepHistory"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+      short-id: ee6f3e8f44b1f0b6
+    server: 62.60.148.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+    xudp: true
+    servername: st.ozone.ru
+  - encryption: none
+    name: "59\U0001F1E9\U0001F1EADE²_1|3.9MB/s"
+    network: ws
+    port: 8080
+    server: 104.17.147.22
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-35
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    client-fingerprint: chrome
+    name: "59\U0001F1FA\U0001F1F8US²_4|1.1MB/s|KeepHistory"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 1743
+    server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+  - cipher: aes-256-cfb
+    name: "59\U0001F1FB\U0001F1F3VN²_3|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.194
+    type: ss
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    delay: 1208
+    down: '100'
+    name: "59\U0001F1EB\U0001F1F7FR²_5|2.7MB/s|KeepHistory"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: '100'
+  - encryption: none
+    name: "59\U0001F1FA\U0001F1F8US²_5|1.9MB/s"
+    network: ws
+    port: 8880
+    server: 104.17.147.22
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-35
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - cipher: chacha20-ietf
+    name: "59\U0001F1ED\U0001F1F0HK²_1|3.1MB/s|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.183.154
+    type: ss
+  - cipher: aes-256-cfb
+    name: "59\U0001F1FB\U0001F1F3VN²_4|1.6MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.172
+    type: ss
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    delay: 1968
+    down: '55'
+    name: "59\U0001F1F3\U0001F1F1NL²_1|5.1MB/s|KeepHistory"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: '11'
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
