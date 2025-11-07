@@ -1,31 +1,54 @@
 proxies:
-    - name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
-      network: tcp
-      password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-      port: 20021
-      server: oss-cn-shanghai.letssepub.com
-      sni: dingding-doc.com
-      tls: true
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 151.242.251.133
-      type: ss
-    - client-fingerprint: chrome
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
+    - encryption: none
+      name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_1|1.5MB/s|KeepSucced"
       network: ws
-      port: "443"
-      server: delilah.ns.cloudflare.com
-      servername: 638980501945994339.insight-amshb.com
+      port: "80"
+      server: 162.159.16.180
+      type: vless
+      udp: true
+      uuid: df301b32-1152-4526-9a63-beedd93d3156
+      ws-opts:
+        headers:
+            Host: vl.dalazhi.cloudns.biz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+        path: '%2F%3Fed%3D2048'
+      xudp: true
+    - encryption: none
+      name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_2|1.7MB/s|KeepSucced"
+      network: ws
+      port: "80"
+      server: 108.162.195.200
+      type: vless
+      udp: true
+      uuid: df301b32-1152-4526-9a63-beedd93d3156
+      ws-opts:
+        headers:
+            Host: vl.dalazhi.cloudns.biz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: '%2F%3Fed%3D2048'
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "59\U0001F1FA\U0001F1F8US¹⁺_1|5.9MB/s|KeepHistory"
+      port: 17597
+      server: usvless.yydzx.xyz
+      servername: usvless.yydzx.xyz
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 8b69546f-56eb-4fb7-a3a9-642a0c259f3d
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - encryption: none
+      name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_3|2.6MB/s|KeepSucced"
+      network: ws
+      port: "80"
+      server: 104.18.46.69
+      type: vless
+      udp: true
+      uuid: df301b32-1152-4526-9a63-beedd93d3156
       ws-opts:
         headers:
-            Host: 638980501945994339.insight-amshb.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /mdtduaws
+            Host: vl.dalazhi.cloudns.biz
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: '%2F%3Fed%3D2048'
       xudp: true
