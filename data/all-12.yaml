@@ -1,7 +1,7 @@
 proxies:
     - down: ""
       fingerprint: ""
-      name: "fn\U0001F1E8\U0001F1E6CA²_1|2.0MB/s|KeepSucced"
+      name: "fn\U0001F1E8\U0001F1E6CA²_1|2.8MB/s|KeepSucced"
       obfs: ""
       obfs-password: ""
       password: 338ce171-d764-4610-8fd5-6688b0d321f0
@@ -13,7 +13,7 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "fn\U0001F1E7\U0001F1F7BR²_1|1.0MB/s|KeepSucced"
+      name: "fn\U0001F1E7\U0001F1F7BR²_1|1.2MB/s|KeepSucced"
       obfs: ""
       obfs-password: ""
       password: 338ce171-d764-4610-8fd5-6688b0d321f0
@@ -23,31 +23,96 @@ proxies:
       sni: ""
       type: hysteria2
       up: ""
-    - client-fingerprint: chrome
-      name: "fn\U0001F1FA\U0001F1F8US⁻¹_1|1.0MB/s"
-      network: ws
-      password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
-      port: "2053"
-      server: 65.109.227.138
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1968
+      down: "55"
+      name: "fn\U0001F1F3\U0001F1F1NL²_1|1.7MB/s|KeepHistory"
+      port: 49003
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
+      up: "11"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "fn\U0001F1EB\U0001F1F7FR²_1|1.3MB/s|KeepHistory"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "fn\U0001F1EB\U0001F1F7FR²_1|1.7MB/s"
-      port: 33009
+      name: "fn\U0001F1FA\U0001F1F8US²_1|1.4MB/s"
+      port: 443
       reality-opts:
-        public-key: vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0
-        short-id: c0d304da0c4dcadc
-      server: 195.154.42.111
-      servername: www.yahoo.com
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: 4c02bbbfa833b3b6
+      server: fis.jykvpn.com
+      servername: cdnjs.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    - client-fingerprint: chrome
+      name: "fn\U0001F1E9\U0001F1EADE²_1|2.5MB/s"
+      network: ws
+      port: 443
+      server: net2026cd.zanddynastyofpersia.org
+      servername: net2026cd.zanddynastyofpersia.org
+      skip-cert-verify: true
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
+      ws-opts:
+        headers:
+            Host: net2026cd.zanddynastyofpersia.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /eJsVXFVZ6iavNx1EFxOyH861WH
+    - down: ""
+      fingerprint: ""
+      name: "fn\U0001F1E8\U0001F1E6CA²_2|1.6MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+      port: "13805"
+      server: 192.18.155.21
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1570
+      name: "fn\U0001F1FA\U0001F1F8US²_2|4.0MB/s"
+      password: BxceQaOe
+      port: 4094
+      server: 116.49.237.130
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "fn\U0001F1EB\U0001F1F7FR²_2|2.6MB/s|KeepHistory"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: "5355"
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
