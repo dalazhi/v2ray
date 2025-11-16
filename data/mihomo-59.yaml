@@ -1,6 +1,6 @@
 proxies:
   - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_1|6.2MB/s|KeepSucced"
+    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_1|5.9MB/s|KeepSucced"
     network: ws
     port: 80
     server: 108.162.195.200
@@ -16,7 +16,7 @@ proxies:
       path: /%2F%3Fed%3D2048
     xudp: true
   - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_2|5.2MB/s|KeepSucced"
+    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_2|2.2MB/s|KeepSucced"
     network: ws
     port: 80
     server: 162.159.16.180
@@ -32,7 +32,7 @@ proxies:
       path: /%2F%3Fed%3D2048
     xudp: true
   - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_3|1.0MB/s|KeepHistory"
+    name: "59\U0001F1F8\U0001F1ECSG¹-HK⁰_3|3.6MB/s|KeepSucced"
     network: ws
     port: 80
     server: 104.18.46.69
@@ -47,6 +47,61 @@ proxies:
           like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /%2F%3Fed%3D2048
     xudp: true
+  - encryption: none
+    name: "59\U0001F1E9\U0001F1EADE¹-HK⁰_1|4.3MB/s|KeepHistory"
+    network: ws
+    port: 80
+    server: vl.dalazhi.cloudns.biz
+    type: vless
+    udp: true
+    uuid: df301b32-1152-4526-9a63-beedd93d3156
+    ws-opts:
+      headers:
+        Host: vl.dalazhi.cloudns.biz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /%2F%3Fed%3D2048
+    xudp: true
+  - name: "59\U0001F1F8\U0001F1ECSG²_1|1.9MB/s"
+    password: BxceQaOe
+    port: 3579
+    server: 116.49.237.130
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "59\U0001F1F8\U0001F1EASE²_1|3.4MB/s"
+    network: tcp
+    port: 5228
+    server: dd.openaccessnode.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "59\U0001F1F8\U0001F1EASE²_2|1.1MB/s"
+    network: tcp
+    port: 5228
+    server: dir.lightnright.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 6202ab997f570a6a180ae980b41f5789
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "59\U0001F1FB\U0001F1F3VN²_1|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.44
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
