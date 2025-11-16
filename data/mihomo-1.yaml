@@ -1,42 +1,9 @@
 proxies:
-  - name: "宿舍\U0001F1F9\U0001F1FCTW_1|5.3MB/s"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EB\U0001F1F7FR_1|3.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 5355
-    server: 163.172.21.105
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1E8\U0001F1E6CA_1|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 338ce171-d764-4610-8fd5-6688b0d321f0
-    port: 30102
-    server: 140.238.137.165
-    skip-cert-verify: true
-    sni: du.wish.ml
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: '55'
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
+    name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -44,29 +11,12 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '11'
-  - cipher: chacha20-ietf-poly1305
-    delay: 507
-    name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
-    password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
-    port: 443
-    server: 51.158.204.165
-    type: ss
-    udp: true
-  - auth: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-    name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.3MB/s"
-    password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-    port: 443
-    ports: 30000-60000
-    server: 970d5510-t5vog0-tonrmx-8n27.hk2.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 970d5510-t5vog0-tonrmx-8n27.hk2.hyhuawei.com
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 80
-    name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.8MB/s"
+    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -75,123 +25,6 @@ proxies:
     type: hysteria
     udp: true
     up: 50
-  - alpn:
-      - h2%2Chttp%2F1.1
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: www.bing.com
-    name: "宿舍\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-    network: grpc
-    port: 32252
-    server: 3.143.235.221
-    tls: true
-    type: vless
-    udp: true
-    uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
-    servername: 3.143.235.221
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1E7\U0001F1F7BR_1|2.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 338ce171-d764-4610-8fd5-6688b0d321f0
-    port: 30102
-    server: 132.226.162.10
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
-  - alterId: 2
-    cipher: auto
-    name: "宿舍\U0001F1EE\U0001F1F9IT_1|3.2MB/s"
-    port: 30805
-    server: v5.heduian.link
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '100'
-    name: "宿舍\U0001F1EB\U0001F1F7FR_3|3.2MB/s"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1FA\U0001F1F8US_2|3.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-      short-id: 07e904766d29b958
-    server: 77.110.119.225
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    xudp: true
-    servername: st.ozone.ru
-  - name: "宿舍\U0001F1E9\U0001F1EADE_1|3.6MB/s"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: a6f5aa72-d000-4a05-b175-f18a47f3605a
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1FA\U0001F1F8US_3|1.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: 4c02bbbfa833b3b6
-    server: pl.jykvpn.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-    xudp: true
-    servername: cdnjs.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "宿舍\U0001F1EB\U0001F1F7FR_4|1.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-      short-id: ee6f3e8f44b1f0b6
-    server: 62.60.148.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
-    xudp: true
-    servername: st.ozone.ru
 rule-providers:
   private:
     url: >-
