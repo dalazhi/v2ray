@@ -1,61 +1,339 @@
 proxies:
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1086
-      down: "100"
-      name: "fn\U0001F1EB\U0001F1F7FR²_1|1.1MB/s|KeepHistory"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
+    - name: "fn\U0001F1ED\U0001F1F0HK¹-JP⁰_1|4.1MB/s"
+      network: ws
+      port: 443
+      server: 149.104.31.162
+      servername: www.x-aniu-jp.netlib.re
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - down: ""
-      fingerprint: ""
-      name: "fn\U0001F1E8\U0001F1E6CA²_1|1.1MB/s|KeepHistory"
-      obfs: ""
-      obfs-password: ""
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: "30102"
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-      up: ""
-    - alterId: 0
-      cipher: auto
-      name: "fn\U0001F1FA\U0001F1F8US²_1|2.1MB/s"
-      network: none
-      port: 18659
-      server: 38.71.119.142
-      tls: false
-      type: vmess
-      uuid: 4946c814-15b6-4a1d-c110-433b46c373f7
-    - cipher: auto
-      name: "fn\U0001F1F9\U0001F1EDTH²_1|1.2MB/s"
-      network: none
-      port: 23290
-      server: 27.254.83.171
-      tls: false
+      tls: true
       type: vless
-      uuid: feff9c65-0559-480f-f0e7-c8b635dab47a
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-jp.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1F3\U0001F1F1NL¹-SG⁰_1|3.3MB/s"
+      network: ws
+      port: 2096
+      server: ip.164746.xyz
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹-SG⁰_1|1.8MB/s"
+      network: ws
+      port: 443
+      server: 34.92.14.55
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹-SG⁰_2|1.5MB/s"
+      network: ws
+      port: 443
+      server: 83.229.126.199
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹-TW⁰_1|3.9MB/s"
+      network: ws
+      port: 443
+      server: 83.229.122.72
+      servername: www.x-aniu-tw.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-tw.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹⁺_1|1.2MB/s"
+      network: ws
+      port: 443
+      server: 83.229.120.177
+      servername: www.x-aniu-hk.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-hk.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1FA\U0001F1F8US¹-TW⁰_1|1.6MB/s"
+      network: ws
+      port: 443
+      server: 104.18.79.52
+      servername: www.x-aniu-tw.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-tw.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1FA\U0001F1F8US¹-TW⁰_2|1.7MB/s"
+      network: ws
+      port: 443
+      server: 104.16.14.211
+      servername: www.x-aniu-tw.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-tw.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "fn\U0001F1E6\U0001F1F9AT²_1|1.2MB/s"
+      network: tcp
+      port: "30268"
+      reality-opts:
+        public-key: GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM
+        short-id: 50bcccfb
+      server: greenwolf.fonixapp.org
+      servername: indeed.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f99cc0f1-d1a3-45f9-a13b-b33c8d3e0f10
+      xudp: true
+    - name: "fn\U0001F1EF\U0001F1F5JP¹⁺_1|1.3MB/s"
+      network: ws
+      port: 443
+      server: 4.215.220.38
+      servername: www.x-aniu-jp.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-jp.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1EC\U0001F1E7GB²_1|3.8MB/s"
+      network: ws
+      port: 443
+      server: norman.ns.cloudflare.com
+      servername: 638989641550992554.sonata-amshx.info
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+      ws-opts:
+        headers:
+            host: 638989641550992554.sonata-amshx.info
+        path: /cahttingws
+    - name: "fn\U0001F1EF\U0001F1F5JP¹⁺_2|2.1MB/s"
+      network: ws
+      port: 443
+      server: 46.3.41.11
+      servername: www.x-aniu-jp.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-jp.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1F8\U0001F1ECSG¹⁺_1|3.8MB/s"
+      network: ws
+      port: 2087
+      server: 162.159.35.249
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1FA\U0001F1F8US¹-HK⁰_1|1.7MB/s"
+      network: ws
+      port: 443
+      server: 104.19.189.82
+      servername: www.x-aniu-hk.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-hk.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1F8\U0001F1ECSG¹-HK⁰_1|2.3MB/s"
+      network: ws
+      port: 8443
+      server: www.wto.org
+      servername: www.x-aniu-hk.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-hk.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹-SG⁰_3|1.3MB/s"
+      network: ws
+      port: 443
+      server: 38.55.198.164
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹⁺_2|3.1MB/s"
+      network: ws
+      port: 443
+      server: 149.104.30.135
+      servername: www.x-aniu-hk.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-hk.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1F8\U0001F1ECSG²_1|1.9MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 2673
+      server: 116.49.237.130
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "fn\U0001F1F8\U0001F1ECSG¹⁺_2|4.4MB/s"
+      network: ws
+      port: 2087
+      server: 162.159.19.89
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1F3\U0001F1F1NL¹-HK⁰_1|3.8MB/s"
+      network: ws
+      port: 443
+      server: 104.21.78.156
+      servername: www.x-aniu-hk.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-hk.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1FA\U0001F1F8US²_1|2.8MB/s"
+      password: b300badf-ed18-49fc-8ad0-02812e238c5d
+      port: 58330
+      server: mla6.maliaojc.top
+      skip-cert-verify: true
+      sni: mla6.maliaojc.top
+      tls: false
+      type: hysteria2
+    - name: "fn\U0001F1F8\U0001F1ECSG¹-TW⁰_1|2.0MB/s"
+      network: ws
+      port: 2087
+      server: 162.159.61.233
+      servername: www.x-aniu-tw.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-tw.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1ED\U0001F1F0HK¹-SG⁰_4|3.7MB/s"
+      network: ws
+      port: 443
+      server: 149.104.26.240
+      servername: www.x-aniu-sg.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-sg.netlib.re
+        path: /?ed=2560
+    - name: "fn\U0001F1F8\U0001F1ECSG¹-JP⁰_1|2.7MB/s"
+      network: ws
+      port: 443
+      server: 52.187.44.100
+      servername: www.x-aniu-jp.netlib.re
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            host: www.x-aniu-jp.netlib.re
+        path: /?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1968
-      down: "55"
-      name: "fn\U0001F1F3\U0001F1F1NL²_1|1.2MB/s|KeepHistory"
-      port: 49003
+      down: 55 Mbps
+      name: "fn\U0001F1EB\U0001F1F7FR²_1|1.2MB/s|KeepHistory"
+      port: 50011
       protocol: udp
-      server: 51.159.226.1
+      server: 62.210.10.186
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
-      udp: true
-      up: "11"
+      up: 11 Mbps
