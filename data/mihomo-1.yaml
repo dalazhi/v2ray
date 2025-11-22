@@ -1,26 +1,98 @@
 proxies:
+  - name: "宿舍\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
+    password: BxceQaOe
+    port: 1691
+    server: 116.49.237.130
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
   - alpn:
       - h3
     auth-str: dongtaiwang.com
-    down: '55'
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
-    port: 49003
+    down: 55 Mbps
+    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
+    port: 50011
     protocol: udp
-    server: 51.159.226.1
+    server: 62.210.10.186
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
-    up: '11'
-  - auth: f03c2b3b-4c2b-46ae-a99c-b079384c3b42
-    name: "宿舍\U0001F1EE\U0001F1F3IN_1|1.0MB/s"
-    password: f03c2b3b-4c2b-46ae-a99c-b079384c3b42
-    port: 51000
-    ports: 51000-53000
-    server: 141.148.222.181
-    skip-cert-verify: true
-    sni: cn.cremedelamer.com
-    type: hysteria2
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.3MB/s"
+    network: ws
+    port: 7000
+    server: 202.85.53.54
+    tls: true
+    type: vless
     udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: kuangbao.xiejiang.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1ED\U0001F1F0HK_2|1.0MB/s"
+    network: ws
+    port: 7000
+    server: 202.85.53.160
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: kuangbao.xiejiang.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1ED\U0001F1F0HK_3|2.5MB/s"
+    network: ws
+    port: 7000
+    server: 202.85.53.77
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: kuangbao.xiejiang.dpdns.org
+  - encryption: none
+    name: "宿舍\U0001F1F8\U0001F1ECSG_2|3.0MB/s"
+    network: ws
+    port: 2095
+    server: www.wto.org
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fuckingfangbinxing.pusytroller.cf
+      path: /
+    servername: fuckingfangbinxing.pusytroller.cf
 rule-providers:
   private:
     url: >-
