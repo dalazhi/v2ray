@@ -1,44 +1,67 @@
 proxies:
-    - encryption: none
-      name: "fn\U0001F1FA\U0001F1F8US¹⁺_1|3.3MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1968
+      down: "55"
+      name: "fn\U0001F1F3\U0001F1F1NL²_1|3.0MB/s|KeepSucced"
+      port: 49003
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: "11"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "fn\U0001F1EF\U0001F1F5JP²_1|1.9MB/s"
+      port: 12378
+      reality-opts:
+        public-key: LWbiUFGdrri1ZmImDbU1BrnBTT7rjSkvr5tkwE9uFXw
+      server: 23.249.25.53
+      servername: aws.amazon.com
+      skip-cert-verify: false
       tls: true
       type: vless
+      udp: true
+      uuid: abcca489-d0ad-4d77-a6ce-5b633118b9ad
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "fn\U0001F1EB\U0001F1F7FR²_1|1.5MB/s|KeepSucced"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_1|3.1MB/s"
+      network: ws
+      port: 443
+      server: 54.249.169.40
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
       uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - name: "fn\U0001F1FA\U0001F1F8US⁻¹_1|1.2MB/s"
-      network: ws
-      password: abb96ae5-8337-4719-b300-fc3b2efbd14d
-      port: 21575
-      server: 47.89.150.45
-      sni: joss.gpj1.web.id
-      tls: true
-      type: trojan
-      ws-opts:
-        headers:
-            Host: joss.gpj1.web.id
-        path: /Free-VPN-CF-Geo-Project/47.89.150.45=21575
+    - cipher: aes-256-cfb
+      name: "fn\U0001F1FB\U0001F1F3VN²_1|2.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.237
+      type: ss
     - encryption: none
-      name: "fn\U0001F1FA\U0001F1F8US¹⁺_2|1.4MB/s"
-      network: ws
-      port: 443
-      server: 54.95.79.44
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - encryption: none
-      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_1|4.8MB/s"
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_2|3.9MB/s"
       network: ws
       port: 2096
       server: 108.162.198.24
@@ -50,51 +73,66 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1E9\U0001F1EADE²_1|1.5MB/s"
-      network: tcp
-      port: 13159
-      reality-opts:
-        public-key: II6xvXxpAqNrzZgYqKKHsg30aeLm--kf7LV35n5jzH8
-        short-id: ce
-      server: dl.darkterror.fonixapp.org
-      servername: expedia.com
+    - name: "fn\U0001F1F7\U0001F1FARU¹-US⁰_1|3.5MB/s"
+      network: ws
+      port: 2053
+      server: 80.90.187.190
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 71e0088d-809d-4c59-b09c-a7cc652d62d8
-    - alterId: 0
-      cipher: auto
-      name: "fn\U0001F1ED\U0001F1F0HK²_1|5.3MB/s"
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "fn\U0001F1FB\U0001F1F3VN²_2|1.0MB/s|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.204
+      type: ss
+    - name: "fn\U0001F1EC\U0001F1E7GB¹-US⁰_1|2.9MB/s"
       network: ws
       port: 443
-      server: n1748490466.kzxds.cn
-      servername: n1748490466.kzxds.cn
+      server: 167.99.86.115
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
       tls: true
-      type: vmess
-      uuid: 789ce45e-a936-405c-9ec8-22c915e55788
-      ws-opts:
-        headers:
-            Host: n1748490466.kzxds.cn
-        path: /
-    - encryption: none
-      name: "fn\U0001F1FA\U0001F1F8US²_1|1.7MB/s"
-      network: ws
-      port: 80
-      server: www.speedtest.net
-      servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
       type: vless
-      uuid: 9397b007-452a-437f-9e6c-15981e4ed30f
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
-            Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    - encryption: none
-      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_2|2.4MB/s"
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "fn\U0001F1FA\U0001F1F8US¹⁺_1|3.3MB/s"
       network: ws
       port: 443
-      server: 54.249.169.40
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "fn\U0001F1FA\U0001F1F8US²_1|2.2MB/s"
+      password: "907560230"
+      port: "17847"
+      server: clr.ducks.tel
+      type: ss
+      udp: true
+    - encryption: none
+      name: "fn\U0001F1ED\U0001F1F0HK¹-US⁰_1|1.6MB/s"
+      network: ws
+      port: 443
+      server: 8.217.180.234
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -103,28 +141,66 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1086
+      down: "100"
+      name: "fn\U0001F1EB\U0001F1F7FR²_2|1.1MB/s|KeepHistory"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
     - encryption: none
-      name: "fn\U0001F1EB\U0001F1F7FR²_1|1.1MB/s"
+      name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_1|2.9MB/s"
       network: ws
       port: 443
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
+      server: 139.185.34.131
+      servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
-      uuid: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
-    - name: "fn\U0001F1F3\U0001F1F1NL⁻¹_1|1.1MB/s"
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "fn\U0001F1FA\U0001F1F8US²_2|2.0MB/s"
+      password: "907560230"
+      port: "17844"
+      server: clr.ducks.tel
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 2504
+      down: 55
+      name: "fn\U0001F1EB\U0001F1F7FR²_3|1.8MB/s"
+      port: 35511
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 11
+    - encryption: none
+      name: "fn\U0001F1E6\U0001F1EAAE¹-US⁰_1|2.3MB/s"
       network: ws
-      password: 6e6191a3-9a93-4617-859a-8d0ea0fce937
-      port: 443
-      server: joss.gpj1.web.id
-      sni: joss.gpj1.web.id
+      port: 12648
+      server: 193.123.90.82
+      servername: kuangbao.xiejiang.dpdns.org
       tls: true
-      type: trojan
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
-            Host: joss.gpj1.web.id
-        path: /Free-VPN-CF-Geo-Project/81.91.214.85=443
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
