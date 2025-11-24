@@ -1,328 +1,6 @@
 proxies:
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '100'
-    name: "宿舍\U0001F1EB\U0001F1F7FR_1|2.9MB/s"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '55'
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-  - name: "宿舍\U0001F1FA\U0001F1F8US_1|2.3MB/s"
-    network: ws
-    port: 443
-    server: 193.124.18.13
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - name: "宿舍\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
-    network: ws
-    port: 443
-    server: 52.68.194.189
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - alterId: 2
-    cipher: auto
-    delay: 1419
-    name: "宿舍\U0001F1EE\U0001F1F9IT_1|2.3MB/s"
-    port: 30805
-    server: v5.heduian.link
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 2504
-    down: 55
-    name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.2MB/s"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
-    network: ws
-    port: 443
-    server: n1761184283.74qxv.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2ebf5fe9-8cb1-4095-bd91-9b06991fb52f
-    ws-opts:
-      headers:
-        Host: n1761184283.74qxv.top
-      path: /2ebf5fe9-8cb1-4095-bd91-9b06991fb52f
-    servername: n1761184283.74qxv.top
-  - alterId: 0
-    cipher: auto
-    name: "宿舍\U0001F1ED\U0001F1F0HK_2|3.6MB/s"
-    network: ws
-    port: 443
-    server: n1761296886.lie5d.cyou
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 697ece59-37c9-4a61-b986-705cad56057b
-    ws-opts:
-      headers:
-        Host: n1761296886.lie5d.cyou
-      path: /
-    servername: n1761296886.lie5d.cyou
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "宿舍\U0001F1EB\U0001F1F7FR_3|1.1MB/s"
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11 Mbps
-  - name: "宿舍\U0001F1ED\U0001F1F0HK_3|1.1MB/s"
-    network: ws
-    port: 443
-    server: n1761184272.74qxv.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a50b9235-4ed4-46ad-b875-f8a4b7979207
-    ws-opts:
-      headers:
-        Host: n1761184272.74qxv.top
-      path: /a50b9235-4ed4-46ad-b875-f8a4b7979207
-    servername: n1761184272.74qxv.top
-  - name: "宿舍\U0001F1EF\U0001F1F5JP_2|2.7MB/s"
-    network: ws
-    port: 443
-    server: 54.95.79.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - name: "宿舍\U0001F1FA\U0001F1F8US_2|2.7MB/s"
-    password: tzjz55
-    port: 8443
-    server: 155.94.145.166
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "宿舍\U0001F1FA\U0001F1F8US_3|1.8MB/s"
-    password: '907560230'
-    port: 17847
-    server: clr.ducks.tel
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1E8\U0001F1E6CA_1|1.0MB/s"
-    network: ws
-    port: 443
-    server: 69.28.82.253
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0930fe32-e429-4f37-b8ec-92ac52b40f6e
-    ws-opts:
-      headers:
-        Host: joss.gpj1.web.id
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
-    xudp: true
-    servername: joss.gpj1.web.id
   - encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_4|2.7MB/s"
-    network: ws
-    port: 80
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: de2d1494-1676-41fe-a250-fe033ec8d451
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.6MB/s"
-    password: '907560230'
-    port: 17844
-    server: clr.ducks.tel
-    type: ss
-    udp: true
-  - encryption: none
-    name: "宿舍\U0001F1EB\U0001F1EEFI_1|2.5MB/s"
-    network: ws
-    port: 8080
-    server: 104.17.147.22
-    type: vless
-    udp: true
-    uuid: Parsashonam-Bot-38
-    ws-opts:
-      headers:
-        Host: Fi.Parsashonam.CfD.
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-      path: >-
-        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2056
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
-    network: ws
-    port: 7000
-    server: 202.85.53.77
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1E9\U0001F1EADE_2|1.2MB/s"
-    network: ws
-    port: 443
-    server: 142.132.140.130
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_5|1.6MB/s"
-    network: ws
-    port: 443
-    server: 5.34.222.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: safari
-    encryption: none
-    grpc-opts:
-      grpc-service-name: 78e691d782c9b9b2cd3c5621
-    name: "宿舍\U0001F1EE\U0001F1F3IN_1|1.7MB/s"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: L3UuY_lketYWBrW_naLct9-VFIAGwdtMplkubdHdEHQ
-      short-id: ce874361e8dfcd4e
-    server: 194.61.31.126
-    tls: true
-    type: vless
-    uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
-    servername: www.microsoft.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1FA\U0001F1F8US_6|1.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-      short-id: 07e904766d29b958
-    server: 77.110.119.225
-    tls: true
-    type: vless
-    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    servername: st.ozone.ru
-  - encryption: none
-    name: "宿舍\U0001F1EF\U0001F1F5JP_3|4.7MB/s"
+    name: "宿舍\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
     network: ws
     port: 2096
     server: 108.162.198.24
@@ -336,198 +14,10 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: chrome
-    fingerprint: ''
-    name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.0MB/s"
-    network: ws
-    port: 2083
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: false
-    uuid: 7123ee00-628a-44ad-ab1c-7cef83f28c25
-    ws-opts:
-      headers:
-        Host: golestan.hajalwi.ir.
-      path: >-
-        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 8080
-    servername: golestan.hajalwi.ir.
-  - client-fingerprint: chrome
-    fingerprint: ''
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "宿舍\U0001F1EB\U0001F1F7FR_4|1.0MB/s"
-    network: grpc
-    port: 46353
-    server: 141.227.170.6
-    tls: false
-    type: vless
-    udp: false
-    uuid: 85dabec7-47ef-4fda-b332-83d723cc2487
-  - name: "宿舍\U0001F1E9\U0001F1EADE_3|1.7MB/s"
-    network: ws
-    port: 80
-    server: usa.fastlynew.hosting-ip.com
-    type: vless
-    udp: true
-    uuid: b7c88dc6-1513-49c0-be12-1cfe37bcd25b
-    ws-opts:
-      headers:
-        Host: cd123.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "宿舍\U0001F1F3\U0001F1F1NL_3|2.4MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-      short-id: e8ab71d0
-    server: 5.61.50.192
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - alpn:
-      - h3
-    client-fingerprint: random
-    encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_7|2.5MB/s"
-    network: ws
-    port: 443
-    server: 130.33.68.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    ws-opts:
-      headers:
-        Host: s3.sni565.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /proxyip=tw.sni2025.netlib.re
-    xudp: true
-    servername: s3.sni565.netlib.re
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "宿舍\U0001F1EB\U0001F1F7FR_5|1.2MB/s"
-    network: grpc
-    port: 41640
-    server: 57.130.29.181
-    type: vless
-    udp: true
-    uuid: 1e8e5607-1dae-45de-bb64-613701313479
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1EB\U0001F1EEFI_2|1.8MB/s"
-    network: ws
-    port: 2087
-    server: www.researchgate.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: cd7f3c2f-8d6d-4ad8-98eb-fb10e0f6da9e
-    ws-opts:
-      headers:
-        Host: interimrita.shividpolo.store
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: /downloader
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: interimrita.shividpolo.store
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1EB\U0001F1F7FR_6|1.8MB/s"
-    network: ws
-    port: 443
-    server: 172.64.144.20
-    tls: true
-    type: vless
-    udp: true
-    uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
-    ws-opts:
-      headers:
-        Host: ayanamirei.11160321.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: '/http://37.187.124.25:8187/'
-    xudp: true
-    servername: ayanamirei.11160321.xyz
-  - client-fingerprint: random
-    encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_8|2.5MB/s"
-    network: tcp
-    port: 34045
-    reality-opts:
-      public-key: n8EQpGZysAuZAAqdtwYEa6Ssj0XR7biJ_ONPgaRtRwQ
-      short-id: cb2e50ca28
-    server: vps.azdevops.io
-    tls: true
-    type: vless
-    udp: true
-    uuid: e479d314-159a-4c42-9de2-56bb9e7cf53c
-    xudp: true
-    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - client-fingerprint: chrome
-    encryption: none
-    name: 宿舍❓Other_1|2.3MB/s
-    network: ws
-    port: 443
-    server: delilah.ns.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: ad0a1c58-c267-405a-b7b6-f2c419f4010b
-    ws-opts:
-      headers:
-        Host: 638992899155750157.sylphy-amsid.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /uywlzkws
-    xudp: true
-    servername: 638992899155750157.sylphy-amsid.info
   - alpn:
       - http/1.1
     client-fingerprint: random
-    name: "宿舍\U0001F1F8\U0001F1ECSG_1|3.7MB/s"
-    network: ws
-    password: '0'
-    port: 443
-    server: 162.159.42.58
-    skip-cert-verify: true
-    sni: c03237cb.ba73fe85.netlib.re
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/57.0.2987.133 Safari/537.36
-      path: /
-  - alpn:
-      - http/1.1
-    client-fingerprint: random
-    name: "宿舍\U0001F1F8\U0001F1ECSG_2|2.4MB/s"
+    name: "宿舍\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
     network: ws
     password: '0'
     port: 443
@@ -542,23 +32,71 @@ proxies:
           Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
           Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /
-  - client-fingerprint: firefox
-    encryption: none
-    grpc-opts:
-      grpc-service-name: '@ShikaVPN-@ShikaVPN-@ShikaVPN'
-    name: "宿舍\U0001F1F3\U0001F1F1NL_4|1.1MB/s"
-    network: grpc
-    port: 80
-    reality-opts:
-      public-key: auO272-_OexAycHNbiFJCPjdAiujfj2XgjqyAvL5ewo
-      short-id: 7ace7f5f
-    server: 46.8.231.189
+  - alpn:
+      - http/1.1
+    client-fingerprint: random
+    name: "宿舍\U0001F1F8\U0001F1ECSG_2|2.5MB/s"
+    network: ws
+    password: '0'
+    port: 443
+    server: 162.159.42.58
+    skip-cert-verify: true
+    sni: c03237cb.ba73fe85.netlib.re
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/57.0.2987.133 Safari/537.36
+      path: /
+  - encryption: none
+    name: "宿舍\U0001F1EF\U0001F1F5JP_2|3.0MB/s"
+    network: ws
+    port: 2096
+    server: 108.162.198.11
     tls: true
     type: vless
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - name: "宿舍\U0001F1EF\U0001F1F5JP_3|2.7MB/s"
+    network: ws
+    password: 12345678-1234-1234-1234-123456789123
+    port: 2096
+    server: wangcai.cf.877774.xyz
+    skip-cert-verify: false
+    sni: joss.gpj1.web.id
+    type: trojan
     udp: true
-    uuid: 31b8c9e2-4ff4-4541-978a-99f6a45475e8
-    xudp: true
-    servername: www.cloudflare.com
+    ws-opts:
+      headers:
+        Host: joss.gpj1.web.id
+      path: "/Free-VPN-CF-Geo-Project/HK?Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - auth: 82508c48-c489-4a30-845f-e51c97ed0ec7
+    name: "宿舍\U0001F1FA\U0001F1F8US_1|1.9MB/s"
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
+    port: 51000
+    ports: 51000-53000
+    server: 129.159.97.206
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    udp: true
+  - auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    name: "宿舍\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+    password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
 rule-providers:
   private:
     url: >-
