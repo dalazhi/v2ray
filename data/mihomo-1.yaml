@@ -1,30 +1,6 @@
 proxies:
   - encryption: none
-    name: "宿舍\U0001F1EF\U0001F1F5JP_1|2.8MB/s"
-    network: ws
-    port: 2096
-    server: 108.162.198.24
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
-    name: "宿舍\U0001F1FA\U0001F1F8US_1|2.9MB/s"
-    password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-    port: 443
-    ports: 30000-60000
-    server: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
-  - encryption: none
-    name: "宿舍\U0001F1EF\U0001F1F5JP_2|2.4MB/s"
+    name: "宿舍\U0001F1FA\U0001F1F8US_1|4.1MB/s"
     network: ws
     port: 2096
     server: 108.162.198.11
@@ -38,102 +14,13 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - name: "宿舍\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+  - encryption: none
+    name: "宿舍\U0001F1EF\U0001F1F5JP_1|2.1MB/s"
     network: ws
-    port: 443
-    server: 193.124.18.13
-    skip-cert-verify: false
+    port: 2096
+    server: 108.162.198.24
     tls: true
     type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - name: "宿舍\U0001F1F7\U0001F1FARU_1|1.1MB/s"
-    network: ws
-    port: 2053
-    server: 80.90.187.190
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - name: "宿舍\U0001F1E6\U0001F1EAAE_1|1.6MB/s"
-    network: ws
-    port: 14594
-    server: 139.185.50.5
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - auth: 65852730-7cfe-4aca-96f3-71e23e9ce7b5
-    name: "宿舍\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-    obfs: salamander
-    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: 65852730-7cfe-4aca-96f3-71e23e9ce7b5
-    port: 40000
-    ports: 40000-40050
-    server: dg.jgpyjc.top
-    skip-cert-verify: false
-    sni: dg.jgpyjc.top
-    type: hysteria2
-    udp: true
-  - name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
-    network: ws
-    port: 443
-    server: 149.104.28.139
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu--jp.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu--jp.netlib.re
-  - name: "宿舍\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-    network: ws
-    port: 2087
-    server: 172.64.38.213
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu--jp.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu--jp.netlib.re
-  - name: "宿舍\U0001F1FA\U0001F1F8US_4|1.2MB/s"
-    network: ws
-    port: 443
-    server: 54.95.79.44
-    tls: true
-    type: vless
-    udp: true
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     ws-opts:
       headers:
@@ -145,74 +32,22 @@ proxies:
   - alpn:
       - h3
     client-fingerprint: chrome
-    name: "宿舍\U0001F1F0\U0001F1F7KR_1|1.3MB/s"
+    encryption: none
+    name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.7MB/s"
     network: ws
-    port: 50003
-    server: 211.195.83.140
+    port: 443
+    server: 8.218.189.27
     tls: true
     type: vless
-    udp: true
     uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
     ws-opts:
       headers:
         Host: s3.sni565.netlib.re
       path: /proxyip=tw.sni2025.netlib.re
     servername: s3.sni565.netlib.re
-  - name: "宿舍\U0001F1FA\U0001F1F8US_5|1.3MB/s"
-    network: ws
-    port: 443
-    server: 104.16.143.134
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu--hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu--hk.netlib.re
-  - encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_6|2.1MB/s"
-    network: ws
-    port: 80
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: 0267b737-c79b-4092-95ad-74694cbbce32
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
-  - encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_7|1.8MB/s"
-    network: ws
-    port: 80
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 0267b737-c79b-4092-95ad-74694cbbce32
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "宿舍\U0001F1ED\U0001F1F0HK_2|2.2MB/s"
+    name: "宿舍\U0001F1ED\U0001F1F0HK_2|1.2MB/s"
     network: ws
     port: 7000
     server: 202.85.53.54
@@ -231,102 +66,11 @@ proxies:
       max-early-data: 2560
     xudp: true
     servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1ED\U0001F1F0HK_3|1.9MB/s"
-    network: ws
-    port: 7000
-    server: 202.85.53.77
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
-    network: ws
-    port: 443
-    server: 68.64.176.135
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: kuangbao.xiejiang.dpdns.org
   - alpn:
       - h3
     client-fingerprint: chrome
     encryption: none
-    name: "宿舍\U0001F1ED\U0001F1F0HK_5|1.4MB/s"
-    network: ws
-    port: 443
-    server: 8.218.189.27
-    tls: true
-    type: vless
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    ws-opts:
-      headers:
-        Host: s3.sni565.netlib.re
-      path: /proxyip=tw.sni2025.netlib.re
-    servername: s3.sni565.netlib.re
-  - alterId: 0
-    cipher: auto
-    name: "宿舍\U0001F1FA\U0001F1F8US_8|1.1MB/s"
-    network: none
-    port: 53487
-    server: 38.84.201.21
-    tls: false
-    type: vmess
-    uuid: c3c1ec05-df2c-4975-9b42-e9b007564eb1
-  - alterId: 0
-    cipher: auto
-    name: "宿舍\U0001F1F9\U0001F1F7TR_1|1.2MB/s"
-    network: none
-    port: 31167
-    server: 91.228.186.242
-    tls: false
-    type: vmess
-    uuid: 74a3b3ea-b5f9-438f-d885-1a193d2ead4f
-  - name: "宿舍\U0001F1EF\U0001F1F5JP_3|1.0MB/s"
-    password: v0L8JmtZtQ
-    port: 59383
-    server: 13.159.96.207
-    type: http
-    username: VWKQSlCYbs
-  - alterId: 0
-    cipher: auto
-    name: "宿舍\U0001F1F9\U0001F1F7TR_2|1.2MB/s"
-    network: none
-    port: 53858
-    server: 91.228.186.242
-    tls: false
-    type: vmess
-    uuid: 17c6ee92-0c6d-43be-851b-ff5415a0b067
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1F0\U0001F1F7KR_2|2.4MB/s"
+    name: "宿舍\U0001F1F0\U0001F1F7KR_1|2.1MB/s"
     network: ws
     port: 50000
     server: 106.242.64.238
@@ -338,30 +82,118 @@ proxies:
         Host: s2.sni565.netlib.re
       path: /proxyip=tw.sni2025.netlib.re
     servername: s2.sni565.netlib.re
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1EF\U0001F1F5JP_4|1.3MB/s"
+  - name: "宿舍\U0001F1F9\U0001F1FCTW_1|2.9MB/s"
     network: ws
-    port: 443
-    server: 130.33.68.45
+    port: 43
+    server: 220.128.110.108
     tls: true
     type: vless
+    udp: true
     uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
     ws-opts:
       headers:
         Host: s3.sni565.netlib.re
       path: /proxyip=tw.sni2025.netlib.re
     servername: s3.sni565.netlib.re
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "宿舍\U0001F1EB\U0001F1EEFI_1|1.0MB/s"
+    port: 443
+    reality-opts:
+      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+      short-id: c2a0b2d60a7fc300
+    server: auto.happvpn.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9a12e2e5-7038-4ed8-91f3-a94d9b2d465f
+    network: tcp
+    servername: cdnjs.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - cipher: chacha20-ietf
+    name: "宿舍\U0001F1ED\U0001F1F0HK_3|2.0MB/s"
+    password: asd123456
+    port: 8388
+    server: 103.149.183.200
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: ebCoS9P5o6dm9v8Dxbe-lEuEzS-R9rPH0IaimuAIKDg
+      short-id: 25f8f93d
+    server: 185.121.134.113
+    tls: true
+    type: vless
+    udp: true
+    uuid: 22eb7060-d314-49d6-9d24-5a3ee72488cd
+    servername: torretobarbershop.de
+  - alpn:
+      - h3
+    client-fingerprint: chrome
+    name: "宿舍\U0001F1F0\U0001F1F7KR_2|1.4MB/s"
+    network: ws
+    port: 33143
+    server: 222.104.213.148
+    tls: true
+    type: vless
+    udp: true
+    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+    ws-opts:
+      headers:
+        Host: s3.sni565.netlib.re
+      path: /proxyip=tw.sni2025.netlib.re
+    servername: s3.sni565.netlib.re
+  - name: "宿舍\U0001F1FA\U0001F1F8US_2|1.4MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 172.66.44.230
+    skip-cert-verify: false
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /tro8sFW1S91B6sZrM1
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "宿舍\U0001F1FA\U0001F1F8US_3|2.8MB/s"
+    password: c1854182-5014-4cd5-b024-022302480ba1
+    port: 63427
+    server: ociuszz5.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: ociuszz5.9966663.xyz
   - alpn:
       - h3
     client-fingerprint: random
     encryption: none
-    name: "宿舍\U0001F1F0\U0001F1F7KR_3|1.9MB/s"
+    name: "宿舍\U0001F1F0\U0001F1F7KR_3|1.7MB/s"
     network: ws
-    port: 30017
-    server: 121.151.58.209
+    port: 50001
+    server: 59.2.75.64
     tls: true
     type: vless
     udp: true
@@ -370,38 +202,268 @@ proxies:
       headers:
         Host: s2.sni565.netlib.re
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
       path: /proxyip=tw.sni2025.netlib.re
     xudp: true
     servername: s2.sni565.netlib.re
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1E6\U0001F1EAAE_2|2.1MB/s"
-    network: tcp
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '100'
+    name: "宿舍\U0001F1EB\U0001F1F7FR_2|3.3MB/s"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '55'
+    name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.5MB/s"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+  - cipher: aes-256-cfb
+    country: "\U0001F1EB\U0001F1F7FR"
+    delay: 1580
+    name: "宿舍\U0001F1EB\U0001F1F7FR_3|1.0MB/s"
+    password: amazonskr05
     port: 443
-    reality-opts:
-      public-key: My4NYF1x_I4nnRhgQXjpKl6BQVtgBWklHP6a3ejmOxU
-      short-id: aa2fa10da2d1
-    server: 31.56.227.93
+    server: 13.38.88.41
+    type: ss
+  - cipher: aes-256-cfb
+    delay: 2567
+    name: "宿舍\U0001F1EE\U0001F1EAIE_1|1.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 18.203.224.78
+    type: ss
+  - cipher: chacha20-ietf
+    name: "宿舍\U0001F1ED\U0001F1F0HK_4|3.3MB/s"
+    password: asd123456
+    port: 8388
+    server: 103.149.183.154
+    type: ss
+  - alpn:
+      - h3
+    client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1ED\U0001F1F0HK_5|1.1MB/s"
+    network: ws
+    port: 443
+    server: 95.40.61.115
     tls: true
     type: vless
     udp: true
-    uuid: 1966b89a-3bcf-48a0-926d-71d3b8a03b37
+    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+    ws-opts:
+      headers:
+        Host: s3.sni565.netlib.re
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /proxyip=tw.sni2025.netlib.re
     xudp: true
-    servername: yahoo.com
-  - encryption: none
+    servername: s3.sni565.netlib.re
+  - name: "宿舍\U0001F1F9\U0001F1FCTW_2|3.0MB/s"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  - name: "宿舍\U0001F1ED\U0001F1F0HK_6|1.5MB/s"
+    password: VCYBW8pH4z
+    port: 36735
+    server: 47.238.199.39
+    type: http
+    username: 2XPTvGKBjj
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "宿舍\U0001F1EB\U0001F1F7FR_4|1.2MB/s"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - client-fingerprint: safari
+    encryption: none
     grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+      grpc-service-name: 78e691d782c9b9b2cd3c5621
+    name: "宿舍\U0001F1EE\U0001F1F3IN_1|1.4MB/s"
     network: grpc
-    port: 53024
-    server: 141.227.130.86
+    port: 443
+    reality-opts:
+      public-key: L3UuY_lketYWBrW_naLct9-VFIAGwdtMplkubdHdEHQ
+      short-id: ce874361e8dfcd4e
+    server: 194.61.31.126
+    tls: true
+    type: vless
+    uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+    servername: www.microsoft.com
+  - client-fingerprint: random
+    fingerprint: ''
+    name: "宿舍\U0001F1EF\U0001F1F5JP_2|2.0MB/s"
+    network: ws
+    port: 443
+    server: 64.110.104.30
+    tls: true
+    type: vless
+    udp: false
+    uuid: 6923b959-c65f-764c-b072-94711382d716
+    ws-opts:
+      headers:
+        Host: s2.sni565.netlib.re
+      path: /proxyip=tw.sni2025.netlib.re
+    servername: s2.sni565.netlib.re
+  - encryption: none
+    name: "宿舍\U0001F1EF\U0001F1F5JP_3|3.4MB/s"
+    network: ws
+    port: 2096
+    server: freeyx.cloudflare88.eu.org
+    tls: true
+    type: vless
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - alpn:
+      - http/1.1
+    alterId: '0'
+    cipher: auto
+    name: "宿舍\U0001F1FA\U0001F1F8US_4|2.3MB/s"
+    network: ws
+    port: 443
+    server: 107.174.82.102.sslip.io
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: bb824a22-b7ce-427b-9ed6-1adf0751da02
+    ws-opts:
+      headers:
+        Host: 107.174.82.102.sslip.io
+      path: /Ov7HrgwlEcRugowKV
+    xudp: true
+    servername: 107.174.82.102.sslip.io
+  - client-fingerprint: chrome
+    name: "宿舍\U0001F1FA\U0001F1F8US_5|2.3MB/s"
+    network: ws
+    password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+    port: 443
+    server: 104.21.14.54
+    skip-cert-verify: false
+    sni: 6666YHjU.777159.xYz
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /dilyfCPEmLvYr5hYXD
+  - cipher: aes-256-cfb
+    name: "宿舍\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 63.177.227.124
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1E9\U0001F1EADE_3|1.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: UJOoR_vbXzL72OQOad3GD7w7jpzhAPsue3j8aldt-hg
+      short-id: 3c3d
+    server: 80.253.251.62
+    tls: true
     type: vless
     udp: true
-    uuid: 2d25edaa-c0fc-4d84-bd60-60c4df335ab3
+    uuid: 39b37ef4-f81b-468a-b830-e9fa8a4833a7
     xudp: true
+    servername: yahoo.com
+  - alpn:
+      - h3
+    client-fingerprint: random
+    encryption: none
+    name: "宿舍\U0001F1F0\U0001F1F7KR_4|2.3MB/s"
+    network: ws
+    port: 50001
+    server: 118.38.232.222
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6923b959-c65f-764c-b072-94711382d716
+    ws-opts:
+      headers:
+        Host: s2.sni565.netlib.re
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /proxyip=tw.sni2025.netlib.re
+    xudp: true
+    servername: s2.sni565.netlib.re
+  - cipher: aes-256-cfb
+    name: "宿舍\U0001F1EB\U0001F1F7FR_5|1.5MB/s"
+    password: amazonskr05
+    port: 443
+    server: 15.236.37.219
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: xyz
+    name: "宿舍\U0001F1ED\U0001F1FAHU_1|2.4MB/s"
+    network: grpc
+    port: 443
+    reality-opts:
+      public-key: FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI
+      short-id: 123abc
+    server: 217.13.111.94
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    xudp: true
+    servername: cloudflare.com
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-health-stream
+    name: "宿舍\U0001F1EB\U0001F1F7FR_6|2.7MB/s"
+    network: grpc
+    port: 443
+    server: different-lulu-khsteshodim-34f24d72.koyeb.app
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+    xudp: true
+    servername: different-lulu-khsteshodim-34f24d72.koyeb.app
 rule-providers:
   private:
     url: >-
