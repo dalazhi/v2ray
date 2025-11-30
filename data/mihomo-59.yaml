@@ -1,46 +1,10 @@
 proxies:
-  - name: "59\U0001F1FA\U0001F1F8US_1|2.4MB/s"
-    network: ws
-    port: 443
-    server: 193.124.18.13
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EB\U0001F1F7FR"
-    delay: 1478
-    h2-opts: {}
-    http-opts: {}
-    name: "59\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
-    network: ws
-    port: 443
-    server: 91.134.8.101
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    ws-opts:
-      headers:
-        HOST: fapeng.org
-      path: /linkvws
-    servername: fapeng.org
-  - name: "59\U0001F1EF\U0001F1F5JP_1|3.7MB/s"
+  - name: "59\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
     network: ws
     port: 2096
-    server: freeyx.cloudflare88.eu.org
+    server: 108.162.198.24
     tls: true
     type: vless
-    udp: true
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     ws-opts:
       headers:
@@ -49,113 +13,43 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "59\U0001F1F3\U0001F1F1NL_1|2.7MB/s"
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
+  - auth: 767ed51d-2358-4981-9447-a807c1419e93
+    name: "59\U0001F1EA\U0001F1F8ES_1|1.6MB/s"
+    password: 767ed51d-2358-4981-9447-a807c1419e93
+    port: 50000
+    ports: 50000-53000
+    server: 158.179.214.33
     skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
+    sni: fastcdn.hoyoverse.com
+    type: hysteria2
     udp: true
-    up: 11
-  - name: "59\U0001F1FA\U0001F1F8US_2|1.0MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: koma-yt.pages.dev
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
+  - auth: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+    name: "59\U0001F1FA\U0001F1F8US_1|1.3MB/s"
+    password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 70490f00-t6ngg0-t7pmvm-17xo8.us.hyhuawei.com
+    type: hysteria2
     udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: /tro8sFW1S91B6sZrM1
-  - cipher: chacha20-ietf-poly1305
-    name: "59\U0001F1F3\U0001F1F1NL_2|2.5MB/s"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.179
-    type: ss
-  - alterId: '0'
-    cipher: auto
-    name: "59\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
-    network: tcp
-    port: 30812
-    server: v12.hdacd.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: 70490f00-t6ngg0-t7pmvm-17xo8.us.hyhuawei.com
+  - auth: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    name: "59\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 109e3179-t6ngg0-t6lp0p-1lkt0.us.hyhuawei.com
+    type: hysteria2
     udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_3|2.6MB/s"
-    network: ws
-    port: 80
-    server: www.speedtest.net
-    type: vless
+    sni: 109e3179-t6ngg0-t6lp0p-1lkt0.us.hyhuawei.com
+  - auth: b02327ac-a49a-11ef-a673-f23c913c8d2b
+    name: "59\U0001F1FA\U0001F1F8US_3|1.0MB/s"
+    password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+    port: 443
+    ports: 30000-60000
+    server: 975661bf-t6ngg0-t7udc0-1pqhp.us.hyhuawei.com
+    type: hysteria2
     udp: true
-    uuid: 0b18b2ce-67db-4a43-882d-8ec72fbb4f7f
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
-  - encryption: none
-    name: "59\U0001F1FA\U0001F1F8US_4|2.5MB/s"
-    network: ws
-    port: 80
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: 0b18b2ce-67db-4a43-882d-8ec72fbb4f7f
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "59\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-    network: tcp
-    port: 44144
-    reality-opts:
-      public-key: R-p92Ot1K9sL-_biDhao1v-0SVbi89Di7r65CzZQURk
-      short-id: 3fd623
-    server: graygoat.fonixapp.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
-    xudp: true
-    servername: smallpdf.com
-  - encryption: none
-    name: "59\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
-    network: tcp
-    port: 8080
-    server: 144.31.1.122
-    type: vless
-    udp: true
-    uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-    xudp: true
+    sni: 975661bf-t6ngg0-t7udc0-1pqhp.us.hyhuawei.com
 rule-providers:
   private:
     url: >-
