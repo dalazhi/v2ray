@@ -1,22 +1,31 @@
 proxies:
-- name: fn🇺🇸US¹⁺_1|1.8MB/s
-  network: ws
-  port: 443
-  server: 193.124.18.13
-  servername: kuangbao.xiejiang.dpdns.org
-  tls: true
-  type: vless
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: fn🇸🇪SE¹-US⁰_1|1.0MB/s
+  flow: xtls-rprx-vision
+  name: fn🇵🇱PL²_1|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  server: autos.jykvpn.com
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b0735b5-672b-468f-af98-d6901d620e50
+  xudp: true
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_1|1.6MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.78
+  type: ss
+- client-fingerprint: chrome
+  name: fn🇩🇪DE¹-US⁰_1|1.8MB/s
   network: ws
-  port: 8443
-  server: 83.147.255.67
+  port: 443
+  server: 49.12.210.182
   servername: kuangbao.xiejiang.dpdns.org
   tls: true
   type: vless
@@ -25,25 +34,74 @@ proxies:
   ws-opts:
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /?ed=2560
   xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: fn🇫🇷FR²_1|1.3MB/s|KeepSucceed
+  port: 50011
+  protocol: udp
+  server: 62.210.10.186
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- down: ""
+  fingerprint: ""
+  name: fn🇸🇪SE²_1|2.6MB/s
+  obfs: salamander
+  obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
+  password: 77238c49bd20e407f05e0c073ad08fdb
+  port: 989
+  server: dd.openaccessnode.com
+  skip-cert-verify: false
+  sni: dd.ircybersec.org
+  type: hysteria2
+  up: ""
+- name: fn🇫🇷FR²_2|1.4MB/s
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  port: 8443
+  server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
 - client-fingerprint: chrome
-  name: fn🇸🇬SG²_1|2.1MB/s
+  name: fn🇺🇸US²_1|4.9MB/s
   password: BxceQaOe
-  port: 1196
-  server: 43.199.161.175
+  port: 1112
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   tls: true
   type: trojan
   udp: true
-- name: fn🇩🇪DE¹-US⁰_1|1.7MB/s
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  country: 🇫🇷FR
+  delay: 1968
+  down: "55"
+  name: fn🇳🇱NL²_1|2.2MB/s|KeepSucceed
+  port: 49003
+  protocol: udp
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: "11"
+- client-fingerprint: chrome
+  name: fn🇦🇪AE¹-US⁰_1|2.5MB/s|KeepSucceed
   network: ws
-  port: 443
-  server: 77.221.157.32
+  port: 12648
+  server: 193.123.90.82
   servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -51,9 +109,33 @@ proxies:
   ws-opts:
     headers:
       Host: kuangbao.xiejiang.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /?ed=2560
+  xudp: true
+- name: fn🇹🇼TW²_1|3.1MB/s|KeepSucceed
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: fn🇺🇸US²_2|3.6MB/s
+  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+  port: 443
+  server: 71f0c743-t6e740-t7t5pe-1s0a7.us.hyhuawei.com
+  sni: 71f0c743-t6e740-t7t5pe-1s0a7.us.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: fn🇺🇸US²_3|3.5MB/s
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
+  sni: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: fn🇯🇵JP¹-US⁰_1|3.7MB/s|KeepHistory
+  name: fn🇯🇵JP¹-US⁰_1|3.6MB/s|KeepSucceed
   network: ws
   port: 2096
   server: freeyx.cloudflare88.eu.org
@@ -69,105 +151,12 @@ proxies:
     path: /?ed=2560
   xudp: true
 - cipher: aes-256-cfb
-  name: fn🇭🇰HK²_1|1.0MB/s
+  name: fn🇻🇳VN²_2|1.4MB/s|KeepHistory
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 216.250.97.82
+  server: 103.186.155.42
   type: ss
-  udp: true
-- name: fn🇹🇼TW²_1|4.3MB/s|KeepHistory
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- encryption: none
-  name: fn🇵🇱PL²_1|1.4MB/s|KeepHistory
-  network: tcp
-  port: 8080
-  server: 144.31.1.122
-  type: vless
-  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-- name: fn🇭🇰HK²_2|1.6MB/s
-  password: "1"
-  port: 36674
-  server: 154.219.119.183
-  tls: false
-  type: http
-  username: "1"
-- client-fingerprint: chrome
-  name: fn🇦🇪AE¹-US⁰_1|2.3MB/s|KeepHistory
-  network: ws
-  port: 12648
-  server: 193.123.90.82
-  servername: kuangbao.xiejiang.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  country: 🇫🇷FR
-  delay: 1968
-  down: "55"
-  name: fn🇳🇱NL²_1|2.0MB/s|KeepSucceed
-  port: 49003
-  protocol: udp
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: "11"
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇷🇺RU²_1|1.5MB/s|KeepHistory
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-    short-id: a9725715bf4c62ff
-  server: ru2.ultima.foundation
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: fn🇫🇷FR²_1|1.1MB/s|KeepHistory
-  port: 50011
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- down: ""
-  fingerprint: ""
-  name: fn🇫🇷FR²_2|2.1MB/s
-  obfs: ""
-  obfs-password: ""
-  password: dongtaiwang.com
-  port: 33880
-  server: 195.154.206.231
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: ""
-- name: fn🇯🇵JP¹-US⁰_2|5.6MB/s|KeepHistory
+- name: fn🇯🇵JP¹-US⁰_2|4.7MB/s|KeepSucceed
   network: ws
   port: 2096
   server: 108.162.198.24
