@@ -1,10 +1,12 @@
 proxies:
-  - name: "59\U0001F1EF\U0001F1F5JP_1|4.5MB/s"
+  - name: "59\U0001F1FA\U0001F1F8US_1|2.4MB/s"
     network: ws
-    port: 2096
-    server: 108.162.198.24
+    port: 443
+    server: 193.124.18.13
+    skip-cert-verify: false
     tls: true
     type: vless
+    udp: true
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     ws-opts:
       headers:
@@ -13,40 +15,26 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - cipher: chacha20-ietf-poly1305
-    name: "59\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    password: 7243745919d6de49a5db
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45578
-    server: hk077.jd.kunlunpx.com
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "59\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
-    password: c9fa2bcffa379937679e
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45582
-    server: ch087.jd.kunlunpx.com
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "59\U0001F1F9\U0001F1FCTW_1|1.7MB/s"
-    password: 3e26a8cfb09fda219b36
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45573
-    server: tw080.jd.kunlunpx.com
-    type: ss
-    udp: true
-  - name: "59\U0001F1EF\U0001F1F5JP_2|2.0MB/s"
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7FR"
+    delay: 1478
+    h2-opts: {}
+    http-opts: {}
+    name: "59\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
+    network: ws
+    port: 443
+    server: 91.134.8.101
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    ws-opts:
+      headers:
+        HOST: fapeng.org
+      path: /linkvws
+    servername: fapeng.org
+  - name: "59\U0001F1EF\U0001F1F5JP_1|3.7MB/s"
     network: ws
     port: 2096
     server: freeyx.cloudflare88.eu.org
@@ -61,72 +49,113 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - cipher: aes-128-gcm
-    name: "59\U0001F1EF\U0001F1F5JP_3|1.7MB/s"
-    password: 722a54414ae6ee706ac9
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45572
-    server: jp07.jd.kunlunpx.com
-    type: ss
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "59\U0001F1F3\U0001F1F1NL_1|2.7MB/s"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
     udp: true
-  - cipher: aes-128-gcm
-    name: "59\U0001F1EF\U0001F1F5JP_4|1.3MB/s"
-    password: 6014caa3a323920c7fd0
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45581
-    server: jp083.jd.kunlunpx.com
-    type: ss
+    up: 11
+  - name: "59\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: koma-yt.pages.dev
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
     udp: true
-  - cipher: aes-128-gcm
-    name: "59\U0001F1EF\U0001F1F5JP_5|1.2MB/s"
-    password: 69dc0306f1bfb1af49a5
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45911
-    server: jp027.jd.kunlunpx.com
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /tro8sFW1S91B6sZrM1
+  - cipher: chacha20-ietf-poly1305
+    name: "59\U0001F1F3\U0001F1F1NL_2|2.5MB/s"
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.179
     type: ss
+  - alterId: '0'
+    cipher: auto
+    name: "59\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
+    network: tcp
+    port: 30812
+    server: v12.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - cipher: aes-128-gcm
-    name: "59\U0001F1F2\U0001F1FEMY_1|1.3MB/s"
-    password: fe51727afe2fca582ebf
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45576
-    server: my075.jd.kunlunpx.com
-    type: ss
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - encryption: none
+    name: "59\U0001F1FA\U0001F1F8US_3|2.6MB/s"
+    network: ws
+    port: 80
+    server: www.speedtest.net
+    type: vless
     udp: true
-  - cipher: aes-128-gcm
-    name: "59\U0001F1FA\U0001F1F8US_1|2.3MB/s"
-    password: 2b7df6aadc759756b0cd
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45923
-    server: us039.jd.kunlunpx.com
-    type: ss
+    uuid: 0b18b2ce-67db-4a43-882d-8ec72fbb4f7f
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    xudp: true
+  - encryption: none
+    name: "59\U0001F1FA\U0001F1F8US_4|2.5MB/s"
+    network: ws
+    port: 80
+    server: 172.66.156.81
+    type: vless
     udp: true
-  - cipher: aes-128-gcm
-    name: "59\U0001F1FB\U0001F1F3VN_1|1.4MB/s"
-    password: 3e79196cf9e970671245
-    plugin: obfs
-    plugin-opts:
-      host: 215996dd9f1c3db1e54b.microsoft.com
-      mode: http
-    port: 45931
-    server: vn047.jd.kunlunpx.com
-    type: ss
+    uuid: 0b18b2ce-67db-4a43-882d-8ec72fbb4f7f
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "59\U0001F1E9\U0001F1EADE_1|2.2MB/s"
+    network: tcp
+    port: 44144
+    reality-opts:
+      public-key: R-p92Ot1K9sL-_biDhao1v-0SVbi89Di7r65CzZQURk
+      short-id: 3fd623
+    server: graygoat.fonixapp.org
+    tls: true
+    type: vless
     udp: true
+    uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
+    xudp: true
+    servername: smallpdf.com
+  - encryption: none
+    name: "59\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
+    network: tcp
+    port: 8080
+    server: 144.31.1.122
+    type: vless
+    udp: true
+    uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
+    xudp: true
 rule-providers:
   private:
     url: >-
