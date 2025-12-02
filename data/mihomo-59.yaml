@@ -1,8 +1,23 @@
 proxies:
-  - name: "59\U0001F1EF\U0001F1F5JP_1|3.3MB/s"
+  - name: "59\U0001F1EF\U0001F1F5JP_1|3.1MB/s"
     network: ws
     port: 2096
     server: 108.162.198.24
+    tls: true
+    type: vless
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - name: "59\U0001F1EF\U0001F1F5JP_2|2.5MB/s"
+    network: ws
+    port: 2096
+    server: 108.162.198.11
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
@@ -14,8 +29,20 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
+  - auth: f4d7ccca-2109-4a6a-ba59-a6c119e0554b
+    name: "59\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: f4d7ccca-2109-4a6a-ba59-a6c119e0554b
+    port: 40000
+    ports: 40000-40050
+    server: dg.jgpyjc.top
+    skip-cert-verify: false
+    sni: dg.jgpyjc.top
+    type: hysteria2
+    udp: true
   - client-fingerprint: chrome
-    name: "59\U0001F1EF\U0001F1F5JP_2|3.2MB/s"
+    name: "59\U0001F1EF\U0001F1F5JP_3|3.5MB/s"
     network: ws
     port: 2096
     server: freeyx.cloudflare88.eu.org
@@ -30,32 +57,6 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - name: "59\U0001F1EF\U0001F1F5JP_3|2.9MB/s"
-    network: ws
-    port: 2096
-    server: 108.162.198.11
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - auth: 32e0f82e-ce8c-4219-9edb-9952f2ea9ba4
-    down: 100
-    name: "59\U0001F1E6\U0001F1F9AT_1|2.5MB/s"
-    password: 32e0f82e-ce8c-4219-9edb-9952f2ea9ba4
-    port: 65535
-    server: usf.node.cross666.top
-    skip-cert-verify: true
-    sni: www.yahoo.com
-    type: hysteria2
-    udp: true
-    up: 100
 rule-providers:
   private:
     url: >-
