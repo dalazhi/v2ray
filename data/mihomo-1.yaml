@@ -3,7 +3,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: QToNrKDvQT5AfnFM
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.1MB/s"
+    name: "宿舍\U0001F1F3\U0001F1F1NL_1|3.0MB/s"
     network: grpc
     port: 8443
     reality-opts:
@@ -16,11 +16,17 @@ proxies:
     uuid: 793099c5-0712-4ea0-bbe1-455da88fc671
     xudp: true
     servername: maviks.ru
+  - name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
+    password: VCYBW8pH4z
+    port: 36735
+    server: 47.238.199.39
+    type: http
+    username: 2XPTvGKBjj
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
+    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -28,116 +34,9 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EC\U0001F1E7GB"
-    delay: 416
-    name: "宿舍\U0001F1FA\U0001F1F8US_1|1.3MB/s"
-    password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
-    port: 443
-    server: 185.193.48.157
-    type: ss
-  - congestion-controller: cubic
-    disable-sni: false
-    name: "宿舍\U0001F1EB\U0001F1EEFI_1|1.6MB/s"
-    password: 9cff1be8-fe5a-48fb-ac87-6d2f5deba4de
-    port: 5097
-    reduce-rtt: false
-    request-timeout: 0
-    server: fi1.bot-hosting.net
-    skip-cert-verify: true
-    sni: example.com
-    type: tuic
-    uuid: 9cff1be8-fe5a-48fb-ac87-6d2f5deba4de
-    version: 5
-  - auth: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
-    name: "宿舍\U0001F1FA\U0001F1F8US_2|3.3MB/s"
-    password: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
-    port: 35000
-    ports: 35000-39000
-    server: 134.195.101.191
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    udp: true
-  - client-fingerprint: random
-    name: "宿舍\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
-    network: ws
-    port: 50001
-    server: 121.178.121.161
-    tls: true
-    type: vless
-    udp: true
-    uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-    ws-opts:
-      headers:
-        Host: ak.suoni.nyc.mn
-      path: /proxyip=sjc.o00o.ooo
-    servername: ak.suoni.nyc.mn
-  - alterId: 0
-    cipher: auto
-    name: "宿舍\U0001F1FA\U0001F1F8US_3|2.6MB/s"
-    port: 11133
-    server: 198.181.34.22
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
   - client-fingerprint: chrome
     encryption: none
-    name: "宿舍\U0001F1FA\U0001F1F8US_4|2.7MB/s"
-    network: ws
-    port: 443
-    server: delilah.ns.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5b687f17-0176-495e-84a1-0835f8feec91
-    ws-opts:
-      headers:
-        Host: 639002592262919469.sentra-amsir.info
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /egakxows
-    xudp: true
-    servername: 639002592262919469.sentra-amsir.info
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1EB\U0001F1F7FR_2|2.4MB/s"
-    network: ws
-    port: 443
-    server: norman.ns.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-    ws-opts:
-      headers:
-        Host: 639001966536690941.prius-amsiq.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /cahttingws
-    xudp: true
-    servername: 639001966536690941.prius-amsiq.info
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
-    network: tcp
-    port: 49943
-    reality-opts:
-      public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-      short-id: ffffffffff
-    server: s3.nobaddays.site
-    tls: true
-    type: vless
-    udp: true
-    uuid: _911331
-    xudp: true
-    servername: ietf.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1E9\U0001F1EADE_1|2.3MB/s"
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.8MB/s"
     network: ws
     port: 2096
     server: 25.25.25.253
@@ -154,60 +53,170 @@ proxies:
       path: /
     xudp: true
     servername: alanconf.info
-  - name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.3MB/s"
-    password: VCYBW8pH4z
-    port: 36735
-    server: 47.238.199.39
-    type: http
-    username: 2XPTvGKBjj
+  - auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+    name: "宿舍\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
+    password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+    port: 24591
+    server: hk1.shiyuandian.shop
+    skip-cert-verify: false
+    sni: hk1.shiyuandian.shop
+    type: hysteria2
+    udp: true
+  - auth: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    name: "宿舍\U0001F1ED\U0001F1F0HK_3|1.4MB/s"
+    password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 93040ae8-t6t0g0-t781gb-1fqef.hk1.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 93040ae8-t6t0g0-t781gb-1fqef.hk1.hyhuawei.com
   - alterId: 2
     cipher: auto
-    name: "宿舍\U0001F1ED\U0001F1F0HK_2|1.6MB/s"
+    name: "宿舍\U0001F1ED\U0001F1F0HK_4|1.0MB/s"
     network: ws
     port: 80
-    server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
+    server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
     skip-cert-verify: false
     tls: false
     type: vmess
-    udp: true
-    uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+    uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
     ws-opts:
       headers:
-        Host: broadcastlv.chat.bilibili.com
+        Host: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
       path: /
-    xudp: true
+    servername: "\U0001F1ED\U0001F1F0HK-58.153.215.176-0451 | 15.37MB"
+  - name: "宿舍\U0001F1FA\U0001F1F8US_1|1.6MB/s"
+    password: http
+    port: 8080
+    server: 107.173.31.37
+    type: http
+    username: http
   - encryption: none
-    name: "宿舍\U0001F1F3\U0001F1F1NL_3|1.0MB/s"
-    network: ws
-    port: 8880
-    server: 104.21.31.4
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.2MB/s"
+    network: grpc
+    port: 56089
+    server: 141.227.172.96
     type: vless
     udp: true
-    uuid: 0a5ab719-2407-4398-b507-8437ef365023
-    ws-opts:
-      headers:
-        Host: underthegun.cfd.
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: >-
-        /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
+    uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
     xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "宿舍\U0001F1F9\U0001F1F7TR_1|1.4MB/s"
-    network: tcp
-    port: 32690
-    reality-opts:
-      public-key: 5C6bZsJKoDICwBbNH4VFlOk2uW1YYoR1vrPHgNURcns
-      short-id: 6b5c55d3bfc0356f
-    server: 77.83.245.194
+    name: "宿舍\U0001F1EB\U0001F1F7FR_3|2.5MB/s"
+    network: ws
+    port: 443
+    server: norman.ns.cloudflare.com
     tls: true
     type: vless
     udp: true
-    uuid: 0f24429c-bcf6-4011-8a1b-a3e5eda7452a
+    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+    ws-opts:
+      headers:
+        Host: 639001966559968893.yaris-amsiq.info
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /cahttingws
     xudp: true
-    servername: yandex.ru
+    servername: 639001966559968893.yaris-amsiq.info
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "宿舍\U0001F1EB\U0001F1F7FR_4|1.6MB/s"
+    network: grpc
+    port: 21425
+    server: 141.227.132.7
+    type: vless
+    udp: true
+    uuid: 4c3e4950-5c09-4a19-a25f-ce6294115275
+    xudp: true
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "宿舍\U0001F1EE\U0001F1F9IT_1|1.8MB/s"
+    network: grpc
+    port: 23990
+    server: 141.227.140.217
+    type: vless
+    udp: true
+    uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1EB\U0001F1F7FR_5|2.4MB/s"
+    network: ws
+    port: 443
+    server: norman.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+    ws-opts:
+      headers:
+        Host: 639001966559981133.yaris-amsiq.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /cahttingws
+    xudp: true
+    servername: 639001966559981133.yaris-amsiq.info
+  - alterId: '0'
+    cipher: auto
+    name: "宿舍\U0001F1FA\U0001F1F8US_2|2.3MB/s"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9
+    ws-opts:
+      headers:
+        Host: imafake.locker
+      path: /speedtest
+    xudp: true
+    servername: imafake.locker
+  - alterId: '0'
+    cipher: auto
+    name: "宿舍\U0001F1FA\U0001F1F8US_3|2.3MB/s"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
+    ws-opts:
+      headers:
+        Host: imafake.locker
+      path: /speedtest
+    xudp: true
+    servername: imafake.locker
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: wPH8Kr--gB8qb0g1FMu8lTLu9u-weNElJN2Fvr5iVyg
+      short-id: f0
+    server: 146.103.106.128
+    tls: true
+    type: vless
+    udp: true
+    uuid: dcf409cc-f8b1-4f39-b8aa-a47854ede624
+    xudp: true
+    servername: sun6-22.userapi.com
 rule-providers:
   private:
     url: >-
