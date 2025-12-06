@@ -1,40 +1,246 @@
 proxies:
-    - auth: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-      name: "59\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
-      password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-      port: 443
-      ports: 30000-60000
-      server: 17f0bfad-t6uv40-t8be2y-1ryup.hk1.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - name: "59\U0001F1F8\U0001F1ECSG_1|5.0MB/s"
-      password: 13eb9352-7d04-4523-af91-4d7e84066a95
-      port: 12205
-      server: oss-ydniddsasa-3.7.baidu.jjuu.shrestart.com
-      skip-cert-verify: true
-      sni: m.ctrip.com
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "59\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-      network: http
-      port: 21056
-      server: 74.211.109.190
-      skip-cert-verify: false
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "59\U0001F1EB\U0001F1F7FR_1|3.2MB/s"
+      network: grpc
+      port: 25687
+      server: 141.227.136.51
       tls: false
-      type: vmess
+      type: vless
       udp: true
-      uuid: a6ee2a6b-e0ab-4383-b74f-4aa7457c3aa5
-    - name: "59\U0001F1F8\U0001F1ECSG_2|1.9MB/s"
-      password: 13eb9352-7d04-4523-af91-4d7e84066a95
-      port: 12206
-      server: oss-ydniddsasa-3.7.baidu.jjuu.shrestart.com
+      uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
+    - alpn:
+        - h3
+      congestion-controller: cubic
+      disable-sni: false
+      name: "59\U0001F1E8\U0001F1E6CA_1|1.2MB/s"
+      password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+      port: 52434
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 40.233.77.57
       skip-cert-verify: true
-      sni: m.ctrip.com
+      sni: www.bing.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    - name: "59\U0001F1ED\U0001F1F0HK_1|1.5MB/s"
+      network: tcp
+      password: 79314e99f0a473fe86efc7827942ad00
+      port: 443
+      server: 58.152.110.154
+      skip-cert-verify: false
+      sni: www.nintendogames.net
       type: trojan
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 55
+      name: "59\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+      port: 49003
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
+      up: 11
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1ED\U0001F1F0HK_2|4.7MB/s"
+      network: ws
+      port: "10003"
+      server: 47.242.1.219
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
+      network: ws
+      port: "60002"
+      server: 119.64.242.60
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1F0\U0001F1F7KR_2|2.6MB/s"
+      network: ws
+      port: "50001"
+      server: 115.94.122.118
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1EC\U0001F1E7GB_1|1.8MB/s"
+      network: ws
+      port: "443"
+      server: 67.226.223.224
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1ED\U0001F1F0HK_3|2.4MB/s"
+      network: ws
+      port: "443"
+      server: 8.218.189.27
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
+      network: ws
+      port: "443"
+      server: 38.207.130.5
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "59\U0001F1EF\U0001F1F5JP_2|2.0MB/s"
+      password: ZjZmYjhhMTM3MTYwYzk4ZQ==:ODM0NTUxMzYtMGM0OS00NQ==
+      port: "22002"
+      server: 103.82.20.59
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+      network: ws
+      port: "443"
+      server: 38.59.241.155
+      servername: act12.sni565.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 69310d96-7045-c206-a2d0-f8ae6e49b726
+      ws-opts:
+        headers:
+            Host: act12.sni565.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1F0\U0001F1F7KR_3|1.2MB/s"
+      network: ws
+      port: "50001"
+      server: 39.123.97.116
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1ED\U0001F1F0HK_4|2.5MB/s"
+      network: ws
+      port: "443"
+      server: 8.212.57.67
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "59\U0001F1FA\U0001F1F8US_2|2.7MB/s"
+      network: ws
+      port: "35522"
+      server: 185.186.147.38
+      servername: s3.sni2010.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6932aea6-ddb8-724b-92b6-cd16b24d72ae
+      ws-opts:
+        headers:
+            Host: s3.sni2010.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /proxyip=tw.sni2025.netlib.re
+      xudp: true
