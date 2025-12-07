@@ -1,66 +1,8 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "宿舍\U0001F1ED\U0001F1F0HK_1|7.0MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-      port: "443"
-      server: a6cd7b1e-t6r5s0-tcr97d-2b2n.hk2.hyhuawei.com
-      skip-cert-verify: false
-      sni: a6cd7b1e-t6r5s0-tcr97d-2b2n.hk2.hyhuawei.com
+    - auth: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+      name: "宿舍\U0001F1ED\U0001F1F0HK_1|7.6MB/s"
+      password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+      port: 443
+      server: e624a61b-t77ts0-tb592v-4lg6.hk2.hyhuawei.com
       type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|3.1MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: "33880"
-      server: 195.154.206.231
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-      up: ""
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
-      port: 50011
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "55"
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
-      obfs: ""
-      port: "49003"
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "11"
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.0MB/s"
-      network: tcp
-      port: "2443"
-      reality-opts:
-        public-key: IgaNLuUg1JOIoUdX4CegMU_XBU35B5RAYRL_-KZfpSY
-        short-id: c84a28bb05989ff4
-      server: 5.180.46.81
-      servername: ya.ru
-      tls: true
-      type: vless
       udp: true
-      uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
-      xudp: true
