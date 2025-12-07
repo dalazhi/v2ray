@@ -1,94 +1,72 @@
 proxies:
-- encryption: none
-  name: fn🇳🇱NL¹-SG⁰_1|1.1MB/s
-  network: ws
-  port: 443
-  server: 104.21.30.124
-  servername: www.x-aniu-s-g.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-s-g.netlib.re
-    path: /?ed=2560
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: "55"
+  name: fn🇳🇱NL²_1|1.3MB/s|KeepSucceed
+  obfs: ""
+  port: 49003
+  protocol: udp
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: "11"
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: fn🇧🇬BG²_1|2.3MB/s
+  name: fn🇩🇪DE²_1|1.0MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 48720c
-  server: bgr01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: 0_FWbcTe6tvBuSZ7_7PrMaNmg44a8VxYRXPKjZuERwQ
+    short-id: a150dff4
+  server: node2.svoy.run
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 9beab868-ab67-48a4-b84e-0155b7965d33
+  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
   xudp: true
-- name: fn🇭🇰HK²_1|2.0MB/s
-  password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+- encryption: none
+  name: fn🇩🇪DE¹⁺_1|1.9MB/s
+  network: ws
   port: 443
-  server: ea74117f-t6ngg0-thd0h1-1rz5s.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: ea74117f-t6ngg0-thd0h1-1rz5s.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
+  server: visa.com
+  servername: ziyong.boringdad.netlib.re
+  tls: true
+  type: vless
+  uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+  ws-opts:
+    headers:
+      Host: ziyong.boringdad.netlib.re
+    path: /
 - down: ""
   fingerprint: ""
-  name: fn🇭🇰HK²_2|3.7MB/s|KeepHistory
+  name: fn🇭🇰HK²_1|2.8MB/s|KeepHistory
   obfs: ""
   obfs-password: ""
-  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
   port: 443
-  server: 432f44d7-t55r40-t94bdb-mrtr.hk1.hyhuawei.com
+  server: 4904cf65-t53wg0-t7scm6-1o20w.hk1.hyhuawei.com
   skip-cert-verify: false
-  sni: 432f44d7-t55r40-t94bdb-mrtr.hk1.hyhuawei.com
+  sni: 4904cf65-t53wg0-t7scm6-1o20w.hk1.hyhuawei.com
   type: hysteria2
   up: ""
-- down: ""
-  fingerprint: ""
-  name: fn🇭🇰HK²_3|2.7MB/s|KeepHistory
-  obfs: ""
-  obfs-password: ""
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 443
-  server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
+- alterId: 2
+  cipher: auto
+  name: fn🇭🇰HK²_2|2.2MB/s
+  network: ws
+  port: 80
+  server: 95092c03-t6r5s0-tc0fos-8skf.hkt.gotochinatown.net
   skip-cert-verify: false
-  sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
-  type: hysteria2
-  up: ""
-- congestion-controller: bbr
-  name: fn🇯🇵JP²_1|5.0MB/s|KeepSucceed
-  password: 4e084535-bd62-458b-84a2-a0dc57c957aa
-  port: 14081
-  server: jptuic01.yydzx.xyz
-  sni: jptuic01.yydzx.xyz
-  type: tuic
-  udp: true
-  uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
-- name: fn🇫🇷FR²_1|1.1MB/s
-  password: dongtaiwang.com
-  port: 33880
-  server: 195.154.206.231
-  skip-cert-verify: true
-  sni: apple.com
   tls: false
-  type: hysteria2
-- auth: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  name: fn🇭🇰HK²_4|5.0MB/s|KeepSucceed
-  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  port: 443
-  server: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
-  skip-cert-verify: false
-  sni: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
-  type: hysteria2
+  type: vmess
+  uuid: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 95092c03-t6r5s0-tc0fos-8skf.hkt.gotochinatown.net
+    path: /
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -96,7 +74,7 @@ proxies:
   country: 🇫🇷FR
   delay: 1968
   down: "55"
-  name: fn🇳🇱NL²_1|3.5MB/s|KeepHistory
+  name: fn🇳🇱NL²_2|2.2MB/s|KeepSucceed
   port: 49003
   protocol: udp
   server: 51.159.226.1
@@ -109,7 +87,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: fn🇫🇷FR²_2|1.2MB/s
+  name: fn🇫🇷FR²_1|1.1MB/s|KeepSucceed
   obfs: ""
   port: 50011
   protocol: udp
@@ -118,58 +96,63 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: fn🇭🇰HK²_5|1.4MB/s
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
-  port: 443
-  server: 99d80c6b-t57ls0-t8kd6j-1c9em.hk2.hyhuawei.com
+- name: fn🇫🇷FR²_2|1.7MB/s|KeepSucceed
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  port: 8443
+  server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com
   skip-cert-verify: true
-  sni: 99d80c6b-t57ls0-t8kd6j-1c9em.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: fn🇭🇰HK²_6|1.2MB/s
-  password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
-  port: 443
-  server: 2fe149f1-t53wg0-taksay-1tcuf.hk2.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2fe149f1-t53wg0-taksay-1tcuf.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: fn🇳🇱NL²_2|2.2MB/s|KeepHistory
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.153
-  type: ss
+  tls: true
+  type: http
   udp: true
+  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+- alterId: 2
+  cipher: auto
+  name: fn🇺🇸US²_1|3.6MB/s
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
-  name: fn🇺🇸US¹-HK⁰_1|1.3MB/s|KeepSucceed
+  name: fn🇫🇮FI²_1|2.1MB/s
   network: ws
+  port: 8080
+  server: 104.17.147.22
+  type: vless
+  udp: true
+  uuid: Parsashonam-Bot-40
+  ws-opts:
+    headers:
+      Host: Fi.Parsashonam.CfD.
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
+  xudp: true
+- auth: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+  name: fn🇭🇰HK²_3|2.9MB/s|KeepSucceed
+  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
   port: 443
-  server: 104.18.77.53
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: fn🇸🇬SG¹-HK⁰_1|2.8MB/s|KeepSucceed
+  server: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
+  skip-cert-verify: false
+  sni: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: fn🇭🇰HK²_4|1.9MB/s
   network: ws
-  port: 2096
-  server: x.cf.090227.xyz
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  type: vmess
+  uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
   ws-opts:
     headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
+      Host: hkt.gotochinatown.net
+    path: /
 - down: ""
   fingerprint: ""
-  name: fn🇫🇷FR²_3|2.3MB/s|KeepHistory
+  name: fn🇫🇷FR²_3|2.9MB/s|KeepSucceed
   obfs: ""
   obfs-password: ""
   password: dongtaiwang.com
@@ -179,7 +162,22 @@ proxies:
   sni: apple.com
   type: hysteria2
   up: ""
-- name: fn🇫🇷FR²_4|1.2MB/s|KeepHistory
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: fn🇩🇪DE²_2|2.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw
+    short-id: 6590cb
+    spider-x: /
+  server: antimage.fonixapp.org
+  servername: ajax.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
+- name: fn🇫🇷FR²_4|1.0MB/s|KeepSucceed
   password: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
   port: 8443
   server: fd7388fc-t5bb40-tdvaex-1ixuf.fr.cdnkuaishou.com
@@ -188,38 +186,3 @@ proxies:
   type: http
   udp: true
   username: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: "55"
-  name: fn🇳🇱NL²_3|1.8MB/s
-  obfs: ""
-  port: 49003
-  protocol: udp
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: "11"
-- name: fn🇫🇷FR²_5|2.2MB/s|KeepSucceed
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 8443
-  server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- encryption: none
-  name: fn🇯🇵JP¹-HK⁰_1|5.5MB/s
-  network: ws
-  port: 443
-  server: 54.248.56.163
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
