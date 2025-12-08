@@ -1,14 +1,6 @@
 proxies:
-    - name: "宿舍\U0001F1EC\U0001F1E7GB_1|3.1MB/s"
-      password: 29a82cb3-7bb3-4077-bf76-160db6a7c102
-      port: 59018
-      server: gdcloud.xissyun.com
-      skip-cert-verify: true
-      sni: k71.tudou211.com
-      type: trojan
-      udp: true
     - auth: be52060e-7934-4bc6-89b3-0b6cf4cda789
-      name: "宿舍\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+      name: "宿舍\U0001F1FA\U0001F1F8US_1|2.9MB/s"
       password: be52060e-7934-4bc6-89b3-0b6cf4cda789
       port: 35000
       ports: 35000-39000
@@ -17,22 +9,11 @@ proxies:
       sni: www.apple.com
       type: hysteria2
       udp: true
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "宿舍\U0001F1EE\U0001F1F9IT_1|1.2MB/s"
-      network: grpc
-      port: 23991
-      server: 141.227.140.217
-      tls: false
-      type: vless
-      udp: true
-      uuid: d016da91-83a9-42dc-a246-b27c192e40af
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "55"
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
+      name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
       obfs: ""
       port: "49003"
       protocol: udp
@@ -41,3 +22,92 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "11"
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "宿舍\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
+      password: 33201095-a59e-4f4d-bfc6-3de921adb8d3
+      port: 20132
+      server: chor.9966663.xyz
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+      password: o5osZg269v5zHpYjr1xY9s
+      port: 8080
+      server: 151.242.251.137
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: -@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--
+      name: "宿舍\U0001F1F8\U0001F1EASE_1|1.7MB/s"
+      network: grpc
+      port: "443"
+      reality-opts:
+        public-key: vo3IPWJCrDQ3fnrQ8zzh40xRM2vy-9w30UuiHLjZbn4
+        short-id: ""
+      server: legendary.zooboming.com
+      servername: docker.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: Chanel---V2RAYNGCLOUD---
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "宿舍\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
+      network: ws
+      port: "443"
+      server: 69.84.182.13
+      servername: fr-1-fr-1.aiopen.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: be52060e-7934-4bc6-89b3-0b6cf4cda789
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+        path: /kbjc/fr1
+      xudp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
+      network: none
+      port: 18063
+      server: 8.210.255.93
+      type: vmess
+      uuid: 492a4c84-c62b-4a7d-dd01-30f3e5bb2c73
+    - client-fingerprint: safari
+      grpc-opts:
+        grpc-service-name: 8959780c31813fd40c6beecf
+      name: "宿舍\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
+      network: grpc
+      port: "443"
+      reality-opts:
+        public-key: F4KWtAmQsQrJ0AyVED81hZQq5GQL64pXHG2SWBEpfFg
+        short-id: b2580c3d0fae6019
+      server: 38.134.189.186
+      servername: www.microsoft.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+      xudp: true
