@@ -1,12 +1,48 @@
 proxies:
-  - auth: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-    name: "宿舍\U0001F1ED\U0001F1F0HK_1|7.6MB/s"
-    password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-    port: 443
-    server: e624a61b-t77ts0-tb592v-4lg6.hk2.hyhuawei.com
+  - name: "宿舍\U0001F1EC\U0001F1E7GB_1|3.1MB/s"
+    password: 29a82cb3-7bb3-4077-bf76-160db6a7c102
+    port: 59018
+    server: gdcloud.xissyun.com
+    skip-cert-verify: true
+    sni: k71.tudou211.com
+    type: trojan
+    udp: true
+  - auth: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    name: "宿舍\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+    password: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    port: 35000
+    ports: 35000-39000
+    server: 134.195.101.191
+    skip-cert-verify: true
+    sni: www.apple.com
     type: hysteria2
     udp: true
-    sni: e624a61b-t77ts0-tb592v-4lg6.hk2.hyhuawei.com
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "宿舍\U0001F1EE\U0001F1F9IT_1|1.2MB/s"
+    network: grpc
+    port: 23991
+    server: 141.227.140.217
+    tls: false
+    type: vless
+    udp: true
+    uuid: d016da91-83a9-42dc-a246-b27c192e40af
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
 rule-providers:
   private:
     url: >-

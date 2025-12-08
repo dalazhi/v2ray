@@ -1,65 +1,41 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇮🇱IL²_1|3.2MB/s
-  network: tcp
-  port: 24170
-  reality-opts:
-    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-    short-id: 2fb2106a629b
-    spider-x: /
-  server: 185.136.132.171
-  servername: speedtest.net
-  tls: true
-  type: vless
-  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇦🇹AT²_1|4.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DJ1l1bgvwpj-SoHuC6eLVfzd3rp1zQmCV76fdVazMgc
-    short-id: 173c58
-    spider-x: /
-  server: lifestealer.fonixapp.org
-  servername: configuration.apple.com
-  tls: true
-  type: vless
-  uuid: e3af49ba-6a41-4fa1-8f21-f40d1f154c68
 - cipher: aes-256-cfb
-  name: fn🇻🇳VN²_1|1.3MB/s|KeepHistory
+  name: fn🇻🇳VN²_1|2.5MB/s|KeepHistory
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.154.195
+  server: 103.186.154.233
   type: ss
-- name: fn🇹🇼TW²_1|1.6MB/s|KeepHistory
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇯🇵JP²_1|2.4MB/s
-  network: tcp
-  port: 39975
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 116.80.58.239
-  servername: cloudcircus.jp
-  tls: true
+- encryption: none
+  name: fn🇫🇷FR²_1|2.7MB/s
+  network: ws
+  port: 2052
+  server: 104.16.1.106
   type: vless
-  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
+  udp: true
+  uuid: 35c423cd-6f69-4186-8d80-92fd898382b2
+  ws-opts:
+    headers:
+      Host: WwW.FraNce.PlaNet88InFo.Com.
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPNed=2052
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: fn🇫🇷FR²_2|1.5MB/s
+  network: grpc
+  port: 23991
+  server: 141.227.140.217
+  type: vless
+  udp: true
+  uuid: d016da91-83a9-42dc-a246-b27c192e40af
+  xudp: true
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: fn🇫🇷FR²_1|1.6MB/s|KeepHistory
+  name: fn🇫🇷FR²_3|1.3MB/s|KeepSucceed
+  obfs: ""
   port: 50011
   protocol: udp
   server: 62.210.10.186
@@ -67,6 +43,23 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
+- delay: 2011
+  name: fn🇺🇸US¹-NL⁰_1|3.5MB/s|KeepHistory
+  network: ws
+  password: "8r<[9'l6hAO#8ZQi"
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -74,7 +67,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: fn🇳🇱NL²_1|2.2MB/s
+  name: fn🇳🇱NL²_1|2.2MB/s|KeepSucceed
   network: tcp
   port: 8443
   reality-opts:
@@ -87,94 +80,6 @@ proxies:
   udp: true
   uuid: 55975415-43c0-461c-8752-d5b8013364e3
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇩🇪DE²_1|1.1MB/s|KeepSucceed
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw
-    short-id: 6590cb
-    spider-x: /
-  server: antimage.fonixapp.org
-  servername: ajax.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
-- client-fingerprint: chrome
-  name: fn🇭🇰HK²_1|5.4MB/s
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 203.198.122.13
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: fn🇫🇷FR²_2|1.5MB/s|KeepSucceed
-  obfs: ""
-  port: 50011
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 614
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_2|2.7MB/s
-  network: ws
-  port: 80
-  server: 303e6664-t6r5s0-t7vzvm-1j0a4.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 288
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_3|1.0MB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  delay: 316
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_4|1.1MB/s
-  network: ws
-  port: 80
-  server: 8c41940a-t66sg0-t7kvg3-1mij.hkt.gotochinatown.net
-  type: vmess
-  udp: true
-  uuid: c2c634e8-ab9e-11ef-97e0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -182,7 +87,7 @@ proxies:
   country: 🇫🇷FR
   delay: 1968
   down: "55"
-  name: fn🇳🇱NL²_2|4.6MB/s|KeepSucceed
+  name: fn🇳🇱NL²_2|4.7MB/s|KeepSucceed
   port: 49003
   protocol: udp
   server: 51.159.226.1
@@ -191,172 +96,79 @@ proxies:
   type: hysteria
   udp: true
   up: "11"
-- encryption: none
-  name: fn🇩🇪DE²_2|2.6MB/s
-  network: ws
-  port: 2095
-  server: joKer.mEmBerGolaBi.IR
-  type: vless
-  udp: true
-  uuid: TEL--JKVPN--JKVPN-36
-  ws-opts:
-    headers:
-      Host: joKer.mEmBerGolaBi.IR
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /TELEGRAM-BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: fn🇸🇬SG²_1|2.7MB/s
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  servername: green2.cdntencentmusic.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 318
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_5|1.5MB/s
-  network: ws
-  port: 80
-  server: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: fn🇳🇱NL²_3|2.0MB/s
+  name: fn🇳🇱NL²_3|1.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gbP2G_j0cmFvgmWaWLpzZavEzQiPzky-fApmbF2BWxU
+    short-id: 5ad114a9
+  server: 144.124.252.20
+  servername: pimg.mycdn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: fn🇩🇪DE²_1|1.7MB/s
   network: tcp
   port: 8443
   reality-opts:
-    public-key: CmG1fB3Ztbyt2-CpJkL1hQmPk9ywpMFnIVT5L08GOT4
-    short-id: 6a3fcffa50bffa
-  server: msk.stat-ozon.ru
-  servername: www.ozon.ru
-  tls: true
-  type: vless
-  uuid: 09a8d899-6f08-4379-8270-f3834d91e358
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: b9720c24283c344dfd50f51c
-  name: fn🇩🇪DE²_3|1.3MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: sSz9j4pI0b323dE7yRd0dF_3XDJx69MZMcoLpNtniV4
-    short-id: 72a037d8726a1428
-  server: 148.251.132.120
-  servername: www.google.com
+    public-key: 73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU
+    short-id: aea104e730
+  server: 176.123.162.253
+  servername: pimg.mycdn.me
   tls: true
   type: vless
   udp: true
-  uuid: 5c52ef02-dbee-4b4a-a608-9fcdcc23d5f5
+  uuid: 2a2a6062-003c-0004-b293-ee0d0416afee
   xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 574
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_6|1.6MB/s
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_2|2.1MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.139
+  type: ss
+- encryption: none
+  name: fn🇩🇪DE²_2|1.0MB/s
   network: ws
-  port: 80
-  server: 6512b515-t6r5s0-t7qy26-14g76.hkt.gotochinatown.net
-  servername: 6512b515-t6r5s0-t7qy26-14g76.hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  port: 2082
+  server: www.speedtest.net
+  type: vless
+  udp: true
+  uuid: 27ffeaad-e076-422c-b416-ee34ff4869e0
   ws-opts:
     headers:
-      HOST: 6512b515-t6r5s0-t7qy26-14g76.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 589
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_7|1.2MB/s
-  network: ws
-  port: 80
-  server: 3469f372-t70f40-t7enwo-1f1f1.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: 8959780c31813fd40c6beecf
-  name: fn🇸🇬SG²_2|2.1MB/s
-  network: grpc
-  port: 443
+  flow: xtls-rprx-vision
+  name: fn🇷🇺RU²_1|2.5MB/s
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: F4KWtAmQsQrJ0AyVED81hZQq5GQL64pXHG2SWBEpfFg
-    short-id: b2580c3d0fae6019
-  server: 38.134.189.186
-  servername: www.microsoft.com
+    public-key: 73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU
+    short-id: 7c9cc821
+  server: 176.123.162.253
+  servername: pimg.mycdn.me
   tls: true
   type: vless
   udp: true
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
   xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 388
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_8|1.2MB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 632
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_9|1.9MB/s
-  network: ws
-  port: 80
-  server: eb894086-t70f40-t7luxf-tng5.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: "55"
-  name: fn🇳🇱NL²_4|2.5MB/s|KeepSucceed
+  name: fn🇳🇱NL²_4|1.9MB/s|KeepSucceed
   obfs: ""
   port: 49003
   protocol: udp
@@ -365,3 +177,83 @@ proxies:
   sni: apple.com
   type: hysteria
   up: "11"
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: fn🇦🇹AT²_1|3.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MrCEmqtF6MdAfyvwu7VWipCvi_8P0RjI8TF571XT6l0
+    short-id: 209f
+  server: greenwolf.fonixapp.org
+  servername: fonts.gstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9fe667f5-ffea-4272-a0b6-3abd73941c52
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1086
+  down: "100"
+  name: fn🇫🇷FR²_4|3.4MB/s|KeepHistory
+  obfs: ""
+  port: 15010
+  protocol: ""
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: "100"
+- name: fn🇰🇷KR²_1|2.4MB/s|KeepHistory
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_3|1.7MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.183
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: fn🇫🇮FI²_1|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
+    short-id: "50"
+  server: 158.160.206.7
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7456a064-ba90-4383-aa73-074749bdfead
+  xudp: true
+- encryption: none
+  name: fn🇫🇮FI²_2|1.5MB/s|KeepHistory
+  network: ws
+  port: 8080
+  server: 104.17.147.22
+  type: vless
+  udp: true
+  uuid: Parsashonam-Bot-40
+  ws-opts:
+    headers:
+      Host: Fi.Parsashonam.CfD.
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
+  xudp: true
