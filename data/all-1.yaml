@@ -1,49 +1,9 @@
 proxies:
-    - auth: be52060e-7934-4bc6-89b3-0b6cf4cda789
-      name: "宿舍\U0001F1FA\U0001F1F8US_1|2.9MB/s"
-      password: be52060e-7934-4bc6-89b3-0b6cf4cda789
-      port: 35000
-      ports: 35000-39000
-      server: 134.195.101.191
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "55"
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
-      obfs: ""
-      port: "49003"
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "11"
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "宿舍\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
-      password: 33201095-a59e-4f4d-bfc6-3de921adb8d3
-      port: 20132
-      server: chor.9966663.xyz
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
-      password: o5osZg269v5zHpYjr1xY9s
-      port: 8080
-      server: 151.242.251.137
-      type: ss
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: -@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--
-      name: "宿舍\U0001F1F8\U0001F1EASE_1|1.7MB/s"
+      name: "宿舍\U0001F1F8\U0001F1EASE_1|2.4MB/s"
       network: grpc
       port: "443"
       reality-opts:
@@ -57,57 +17,56 @@ proxies:
       uuid: Chanel---V2RAYNGCLOUD---
       xudp: true
     - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
-      network: ws
-      port: "443"
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
+      flow: xtls-rprx-vision
+      name: "宿舍\U0001F1F7\U0001F1FARU_1|1.7MB/s"
+      port: 4443
+      reality-opts:
+        public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+        short-id: aa7e96542880027a
+      server: 89.23.123.8
+      servername: github.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: be52060e-7934-4bc6-89b3-0b6cf4cda789
+      uuid: 3121850a-24aa-41f9-936d-dbdf10a3b31f
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1FA\U0001F1F8US_1|1.0MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: "8443"
+      server: koma-yt.pages.dev
+      skip-cert-verify: false
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: fr-1-fr-1.aiopen.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /kbjc/fr1
-      xudp: true
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /tro8sFW1S91B6sZrM1?ed=2560
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1FA\U0001F1F8US_2|2.5MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: "8443"
+      server: 172.66.44.230
+      skip-cert-verify: false
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /tro8sFW1S91B6sZrM1?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
-      port: 50011
+      down: "100"
+      name: "宿舍\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
+      port: 15010
       protocol: udp
-      server: 62.210.10.186
+      server: 195.154.200.40
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
-      up: 11 Mbps
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
-      network: none
-      port: 18063
-      server: 8.210.255.93
-      type: vmess
-      uuid: 492a4c84-c62b-4a7d-dd01-30f3e5bb2c73
-    - client-fingerprint: safari
-      grpc-opts:
-        grpc-service-name: 8959780c31813fd40c6beecf
-      name: "宿舍\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
-      network: grpc
-      port: "443"
-      reality-opts:
-        public-key: F4KWtAmQsQrJ0AyVED81hZQq5GQL64pXHG2SWBEpfFg
-        short-id: b2580c3d0fae6019
-      server: 38.134.189.186
-      servername: www.microsoft.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
-      xudp: true
+      up: "100"
