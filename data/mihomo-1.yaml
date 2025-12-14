@@ -2,22 +2,49 @@ proxies:
   - alpn:
       - h3
     auth-str: dongtaiwang.com
-    down: 55 Mbps
+    down: '100'
     name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
-    port: 50011
+    port: 15010
     protocol: udp
-    server: 62.210.10.186
+    server: 195.154.200.40
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
-    up: 11 Mbps
-  - cipher: aes-256-cfb
-    name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.7MB/s"
-    password: amazonskr05
-    port: 443
-    server: 35.180.54.218
-    type: ss
+    up: '100'
+  - encryption: none
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
+    type: vless
     udp: true
+    uuid: 08f6be12-e78b-4424-9a74-75d5cd07b38f
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
+    xudp: true
+  - encryption: none
+    name: 宿舍❓Other_1|3.3MB/s
+    network: ws
+    port: 443
+    server: cdncdn.aikunapp.com
+    tls: true
+    type: vless
+    uuid: cb69a805-b484-49af-80a0-a0a082bef80f
+    ws-opts:
+      headers:
+        Host: cdn-hgc2.jst-gw.top
+      path: /vless_ws/smjc/index
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 4096
+    servername: r-dSAnSV9AaKrlDdMC.jst-gw.top
 rule-providers:
   private:
     url: >-
