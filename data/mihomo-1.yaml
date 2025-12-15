@@ -3,7 +3,7 @@ proxies:
       - h3
     auth-str: dongtaiwang.com
     down: '100'
-    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
+    name: "宿舍\U0001F1EB\U0001F1F7FR_1|3.2MB/s"
     port: 15010
     protocol: udp
     server: 195.154.200.40
@@ -11,40 +11,290 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '100'
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    client-fingerprint: chrome
+    delay: 2586
+    down: 55 Mbps
+    name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.0MB/s"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - name: "宿舍\U0001F1F8\U0001F1ECSG_1|3.6MB/s"
+    network: ws
+    port: 2095
+    server: www.shopify.com
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: snippets.pusytroller.cf
+      path: /
+    servername: snippets.pusytroller.cf
+  - name: "宿舍\U0001F1F8\U0001F1ECSG_2|2.6MB/s"
+    network: ws
+    port: 2095
+    server: ns.cloudflare.com
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: snippets.pusytroller.cf
+      path: /
+    servername: snippets.pusytroller.cf
+  - client-fingerprint: chrome
+    name: "宿舍\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
+    network: ws
+    port: 443
+    server: 69.84.182.13
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    ws-opts:
+      headers:
+        Host: jp1-jp1.aiopen.sbs
+      path: /kbjc/jp1
+    servername: jp1-jp1.aiopen.sbs
+  - name: "宿舍\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 172.66.44.230
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /tro8sFW1S91B6sZrM1
+  - name: "宿舍\U0001F1FA\U0001F1F8US_2|2.5MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: koma-yt.pages.dev
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /tro8sFW1S91B6sZrM1
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '55'
+    name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+  - alterId: 0
+    cipher: auto
+    name: "宿舍\U0001F1FA\U0001F1F8US_3|3.0MB/s"
+    port: 180
+    server: 82.198.246.97
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  - alterId: '2'
+    cipher: auto
+    name: "宿舍\U0001F1FA\U0001F1F8US_4|2.5MB/s"
+    network: tcp
+    port: 30808
+    server: v8.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "宿舍\U0001F1EB\U0001F1F7FR_3|1.2MB/s"
+    obfs: ''
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - alterId: 0
+    cipher: auto
+    http-opts:
+      method: GET
+      path:
+        - /
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|2.1MB/s"
+    network: http
+    port: 19751
+    server: 43.165.7.71
+    tls: false
+    type: vmess
+    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+  - name: "宿舍\U0001F1EB\U0001F1F7FR_4|2.1MB/s"
+    network: ws
+    port: 80
+    server: hajimamadvpnjoinsho.fast199.hosting-ip.com
+    type: vless
+    udp: true
+    uuid: b727aa5e-27bd-4fe5-bd95-7db682992637
+    ws-opts:
+      headers:
+        Host: downloadha.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: >-
+        /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
+    network: ws
+    port: 443
+    server: brenna.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4a5b69b4-8f1c-48b8-a7d1-2f00ddb2e2d5
+    ws-opts:
+      headers:
+        Host: 639013098070217402.macan-amsjd.info
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /zmiuyqws
+    xudp: true
+    servername: 639013098070217402.macan-amsjd.info
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1E9\U0001F1EADE_2|1.2MB/s"
+    network: ws
+    port: 2087
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d6c0f0e-9409-48b3-9e10-bdc7f2a57d25
+    ws-opts:
+      headers:
+        Host: dl4.hajalwi.ir.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: >-
+        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 8080
+    xudp: true
+    servername: dl4.hajalwi.ir.
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1EC\U0001F1E7GB_2|2.7MB/s"
+    network: ws
+    port: 443
+    server: cosmin.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: b5605766-6abe-4f5f-85e1-0f6f447eae66
+    ws-opts:
+      headers:
+        Host: 639013098070588901.macan-amsjd.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /hdwvmtws
+    xudp: true
+    servername: 639013098070588901.macan-amsjd.info
   - encryption: none
-    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+    name: "宿舍\U0001F1E9\U0001F1EADE_3|2.6MB/s"
     network: ws
     port: 2082
     server: www.speedtest.net
     type: vless
     udp: true
-    uuid: 08f6be12-e78b-4424-9a74-75d5cd07b38f
+    uuid: 3c97e0e0-77c2-426d-d786-a543117a7e62
     ws-opts:
       headers:
         Host: >-
           novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
       path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2082
     xudp: true
+  - client-fingerprint: chrome
+    name: "宿舍\U0001F1EE\U0001F1F9IT_1|1.2MB/s"
+    password: blhwsknjxmfuydz0vhfv
+    port: 53809
+    server: 146.70.73.211
+    skip-cert-verify: true
+    sni: www.vk.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "宿舍\U0001F1EE\U0001F1EAIE_1|1.4MB/s"
+    password: t1k169n5zmvvwn96r9ft
+    port: 57452
+    server: 146.70.90.198
+    skip-cert-verify: true
+    sni: www.vk.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "宿舍\U0001F1EE\U0001F1F9IT_2|2.3MB/s"
+    password: blhwsknjxmfuydz0vhfv
+    port: 53809
+    server: 146.70.73.212
+    skip-cert-verify: true
+    sni: www.vk.com
+    type: trojan
+    udp: true
   - encryption: none
-    name: 宿舍❓Other_1|3.3MB/s
+    name: "宿舍\U0001F1E9\U0001F1EADE_4|1.3MB/s"
     network: ws
-    port: 443
-    server: cdncdn.aikunapp.com
-    tls: true
+    port: 2095
+    server: namemc.com
     type: vless
-    uuid: cb69a805-b484-49af-80a0-a0a082bef80f
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: cdn-hgc2.jst-gw.top
-      path: /vless_ws/smjc/index
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 4096
-    servername: r-dSAnSV9AaKrlDdMC.jst-gw.top
+        Host: 114514.pusytroller.cf
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /
+    xudp: true
 rule-providers:
   private:
     url: >-
