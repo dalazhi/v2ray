@@ -4,7 +4,7 @@ proxies:
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.9MB/s"
+    name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
     port: 26691
     protocol: udp
     server: 62.210.196.68
@@ -13,39 +13,68 @@ proxies:
     type: hysteria
     udp: true
     up: 11 Mbps
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EC\U0001F1E7GB"
-    delay: 746
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|3.0MB/s"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.208
-    type: ss
-  - alterId: 0
-    cipher: auto
-    name: "宿舍\U0001F1FA\U0001F1F8US_1|1.1MB/s"
-    network: tcp
-    port: 180
-    server: 82.198.246.97
-    type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    servername: img14.360buyimg.com
+  - auth: 6b6fcd63-0c8b-4b82-be9e-bbbece208fa2
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.9MB/s"
+    password: 6b6fcd63-0c8b-4b82-be9e-bbbece208fa2
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - encryption: none
+    name: "宿舍\U0001F1E9\U0001F1EADE_2|2.1MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+    ws-opts:
+      headers:
+        Host: khiar.mrconfigur.site
+      path: /
+    servername: khiar.mrconfigur.site
+  - encryption: none
+    name: "宿舍\U0001F1E9\U0001F1EADE_3|1.6MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+    ws-opts:
+      headers:
+        Host: kivi.mrconfigur.site
+      path: /
+    servername: kivi.mrconfigur.site
+  - client-fingerprint: chrome
+    name: "宿舍\U0001F1F8\U0001F1EASE_1|1.1MB/s"
+    password: 57ilz74461jfayyqbb83
+    port: 58499
+    server: 194.59.250.52
+    skip-cert-verify: true
+    sni: ads.x5.ru
+    type: trojan
+    udp: true
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-    network: tcp
-    port: 443
+    grpc-opts:
+      grpc-service-name: xraygrpc
+    name: "宿舍\U0001F1F1\U0001F1FBLV_1|1.2MB/s"
+    network: grpc
+    port: 11009
     reality-opts:
-      public-key: XWP3eu958tmcTzF5TvelcQMxfKd632VaNlG6nrqHwRU
-      short-id: 4cd45277ddedbf1f
-    server: nl.vpnpplvpn.top
+      public-key: 2-JBR_gIAup5_dncA72fNulNlVCWv-tS1OSAjQ5gS2Q
+      short-id: 61fb6c0d
+    server: subreb.xraypro.sbs
     tls: true
     type: vless
     udp: true
-    uuid: 16c0d635-5084-49fa-950a-0d6fc81cfc71
+    uuid: 9d117530-31d5-75dc-43cb-7271ed6cdd5b
     xudp: true
-    servername: vpnforppl.top
+    servername: www.bunny.net
 rule-providers:
   private:
     url: >-
