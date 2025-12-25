@@ -1,5 +1,20 @@
 proxies:
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_1|2.4MB/s"
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1EF\U0001F1F5JP_1|1.4MB/s"
+      network: ws
+      port: 443
+      server: 172.64.229.205
+      servername: snippets.kkii.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
       network: ws
       password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
       port: 443
@@ -10,24 +25,11 @@ proxies:
       type: trojan
       ws-opts:
         path: /
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_2|2.0MB/s"
-      network: ws
-      port: 443
-      server: cf.zhetengsha.eu.org
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
+    - name: "宿舍\U0001F1F8\U0001F1ECSG_2|1.0MB/s"
       network: ws
       password: 5a2c16f9
       port: 443
-      server: freeyx.cloudflare88.eu.org
+      server: 162.159.24.131
       skip-cert-verify: false
       sni: snippets.kkii.eu.org
       type: trojan
@@ -36,19 +38,7 @@ proxies:
         headers:
             Host: snippets.kkii.eu.org
         path: /
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
-      port: 50011
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_2|3.0MB/s"
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_2|1.2MB/s"
       network: ws
       port: 443
       server: 108.162.198.185
@@ -62,20 +52,7 @@ proxies:
         headers:
             Host: snippets.kkii.eu.org
         path: /
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_3|3.2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 162.159.24.131
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_3|2.6MB/s"
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_3|1.3MB/s"
       network: ws
       password: 5a2c16f9
       port: 443
@@ -88,236 +65,8 @@ proxies:
         headers:
             Host: snippets.kkii.eu.org
         path: /
-    - client-fingerprint: chrome
-      name: "宿舍\U0001F1EF\U0001F1F5JP_4|3.1MB/s"
-      network: ws
-      port: 443
-      server: 172.64.229.205
-      servername: snippets.kkii.eu.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_4|2.8MB/s"
-      network: ws
-      password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-      port: 443
-      server: cf.zhetengsha.eu.org
-      skip-cert-verify: false
-      sni: _acme-challenge.2go.cloudns.be
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: _acme-challenge.2go.cloudns.be
-        path: /
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_5|1.9MB/s"
-      network: ws
-      password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-      port: 2083
-      server: cf.090227.xyz
-      skip-cert-verify: false
-      sni: cm2-bpg.filegear-sg.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: cm2-bpg.filegear-sg.me
-        path: /proxyip=210.61.97.241:81
-    - client-fingerprint: chrome
-      name: "宿舍\U0001F1FA\U0001F1F8US_1|2.1MB/s"
-      network: ws
-      port: 2053
-      server: quick-edit.devprod.cloudflare.dev
-      servername: sni.111000.dynv6.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560
-    - name: "宿舍\U0001F1FA\U0001F1F8US_2|2.4MB/s"
-      network: ws
-      password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-      port: 443
-      server: ct.877774.xyz
-      skip-cert-verify: false
-      sni: cm2-bpg.filegear-sg.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: cm2-bpg.filegear-sg.me
-        path: /proxyip=210.61.97.241:81
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "宿舍\U0001F1F8\U0001F1ECSG_6|1.1MB/s"
-      network: ws
-      port: 2083
-      server: 104.18.36.0
-      servername: vless.hubp.de
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-        path: /
-    - client-fingerprint: chrome
-      name: "宿舍\U0001F1FA\U0001F1F8US_3|1.8MB/s"
-      network: ws
-      port: 2053
-      server: convera.com
-      servername: saasorg.saaas.ccwu.cc
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 694899b7-3e90-f695-efde-abe17d0bb1da
-      ws-opts:
-        headers:
-            Host: saasorg.saaas.ccwu.cc
-        path: /proxyip=sjc.o00o.ooo
-    - delay: 962
-      name: "宿舍\U0001F1FA\U0001F1F8US_4|2.0MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.19.55.205
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        path: /
-    - client-fingerprint: chrome
-      delay: 2343
-      name: "宿舍\U0001F1FA\U0001F1F8US_5|1.6MB/s"
-      network: ws
-      port: 443
-      server: shops.myshopify.com
-      servername: saasorg.saaas.ccwu.cc
-      tls: true
-      type: vless
-      uuid: 694899b7-3e90-f695-efde-abe17d0bb1da
-      ws-opts:
-        headers:
-            Host: saasorg.saaas.ccwu.cc
-        path: /proxyip=sjc.o00o.ooo
-    - alterId: 2
-      cipher: auto
-      delay: 1425
-      name: "宿舍\U0001F1FA\U0001F1F8US_6|1.5MB/s"
-      port: 30808
-      server: v8.hdacd.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - client-fingerprint: chrome
-      name: "宿舍\U0001F1FA\U0001F1F8US_7|2.6MB/s"
-      network: ws
-      port: 443
-      server: shops.myshopify.com
-      servername: stall.saass.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6949ea89-4825-1b47-3b03-113cede87254
-      ws-opts:
-        headers:
-            Host: stall.saass.ccwu.cc
-        path: /proxyip=sjc.o00o.ooo
-    - client-fingerprint: chrome
-      name: "宿舍\U0001F1FA\U0001F1F8US_8|1.2MB/s"
-      network: ws
-      port: 2053
-      server: china.embassy.gov.au
-      servername: saasorg.saaas.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: 694899b7-3e90-f695-efde-abe17d0bb1da
-      ws-opts:
-        headers:
-            Host: saasorg.saaas.ccwu.cc
-        path: /proxyip=sjc.o00o.ooo
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_5|3.5MB/s"
-      network: ws
-      password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-      port: 443
-      server: sub.danfeng.eu.org
-      skip-cert-verify: true
-      sni: _acme-challenge.2go.cloudns.be
-      tls: true
-      type: trojan
-      ws-opts:
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_9|2.1MB/s"
-      network: ws
-      port: "443"
-      server: 104.19.39.97
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_10|1.6MB/s"
-      network: ws
-      port: "443"
-      server: 104.17.202.10
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_11|2.5MB/s"
-      network: ws
-      port: "2053"
-      server: port.api-music-fa.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d9ec6fd2-4de0-4109-acfa-1f54278988ce
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /J5aLQOY1R9ONWYCM
-      xudp: true
     - encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_12|1.1MB/s"
+      name: "宿舍\U0001F1FA\U0001F1F8US_1|1.1MB/s"
       network: ws
       port: "2086"
       server: 141.101.120.143
@@ -333,134 +82,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_13|1.0MB/s"
-      network: ws
-      port: "2096"
-      server: 74.49.215.61
-      servername: vless.hubp.de
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12345678-1234-1234-1234-123456789123
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /snippets
-      xudp: true
-    - encryption: none
-      name: "宿舍\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
-      network: ws
-      port: "443"
-      server: 144.31.5.179
-      type: vless
-      udp: true
-      uuid: 98cb33a8-d6f7-41f0-8796-e4b471d65df8
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: ""
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1E9\U0001F1EADE_1|2.7MB/s"
-      network: ws
-      port: "443"
-      server: 162.159.152.2
-      servername: asuka.boringdad.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: asuka.boringdad.netlib.re
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_14|2.0MB/s"
-      network: ws
-      port: "443"
-      server: yd.3.hhhhh.eu.org
-      servername: sp1.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1a0d2a22-7304-462c-9bab-bf2ad1cd24c2
-      ws-opts:
-        headers:
-            Host: sp1.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
-        path: /?proxyip=proxyip.sg.cmliussss.net
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_15|1.1MB/s"
-      network: ws
-      port: "2096"
-      server: 167.68.42.61
-      servername: vless.hubp.de
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12345678-1234-1234-1234-123456789123
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /snippets
-      xudp: true
-    - encryption: none
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
-      network: ws
-      port: "2095"
-      server: 172.67.145.95
-      servername: vless.hubp.de
-      type: vless
-      udp: true
-      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      xudp: true
-    - encryption: none
-      name: "宿舍\U0001F1E9\U0001F1EADE_2|1.5MB/s"
-      network: ws
-      port: "8080"
-      server: 104.24.87.93
-      servername: vless.hubp.de
-      type: vless
-      udp: true
-      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      xudp: true
-    - encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_16|3.2MB/s"
-      network: ws
-      port: "2086"
-      server: 141.101.120.187
-      servername: vless.hubp.de
-      type: vless
-      udp: true
-      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
-        path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1F8\U0001F1ECSG_7|2.9MB/s"
+      name: "宿舍\U0001F1F8\U0001F1ECSG_3|3.7MB/s"
       network: ws
       port: "2096"
       server: 188.164.248.61
@@ -475,58 +97,252 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
         path: /snippets
       xudp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "宿舍\U0001F1F2\U0001F1E9MD_1|2.5MB/s"
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_4|3.1MB/s"
       network: ws
-      port: "443"
-      server: 104.17.148.22
-      servername: i.arfilter2.blog
+      password: 5a2c16f9
+      port: 443
+      server: cf.130519.xyz
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      network: ws
+      port: 80
+      server: 77.37.33.169
+      servername: vless.hubp.de
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+      ws-opts:
+        headers:
+            Host: vless.hubp.de
+        path: /
+    - name: "宿舍\U0001F1FA\U0001F1F8US_3|2.1MB/s"
+      network: ws
+      port: 2053
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: telegram-id-Arfilter
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
       ws-opts:
         headers:
-            Host: i.arfilter2.blog
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "宿舍\U0001F1FA\U0001F1F8US_17|2.5MB/s"
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      delay: 828
+      name: "宿舍\U0001F1F8\U0001F1ECSG_4|3.0MB/s"
       network: ws
-      port: "443"
-      server: sssssssxxxx.2032.pp.ua
-      skip-cert-verify: false
+      port: 2087
+      server: 162.159.4.135
+      servername: qqq-3t8.pages.dev
       tls: true
-      type: vmess
-      udp: true
-      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: sssssssxxxx.2032.pp.ua
-        path: /6We3U9Df1WGxgFnoFPw1
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "宿舍\U0001F1FA\U0001F1F8US_18|2.2MB/s"
+            Host: qqq-3t8.pages.dev
+        path: /
+    - delay: 678
+      name: "宿舍\U0001F1EF\U0001F1F5JP_5|3.1MB/s"
+      network: ws
+      password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+      port: 2087
+      server: cf.877774.xyz
+      skip-cert-verify: true
+      sni: cm2-bpg.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: cm2-bpg.filegear-sg.me
+        path: /proxyip=210.61.97.241:81
+    - client-fingerprint: chrome
+      delay: 968
+      name: "宿舍\U0001F1EF\U0001F1F5JP_6|2.6MB/s"
       network: ws
       port: 443
-      server: ssssssssssssfffffffgh.2032.pp.ua
-      servername: ssssssssssssfffffffgh.2032.pp.ua
-      skip-cert-verify: false
+      server: 172.64.53.226
+      servername: snippets.kkii.eu.org
       tls: true
-      type: vmess
-      udp: true
-      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      type: vless
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
       ws-opts:
         headers:
-            Host: ssssssssssssfffffffgh.2032.pp.ua
-        path: /6We3U9Df1WGxgFnoFPw1
+            Host: snippets.kkii.eu.org
+        path: /
+    - delay: 990
+      name: "宿舍\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
+      network: ws
+      port: 443
+      server: 104.19.49.192
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1F8\U0001F1ECSG_5|4.8MB/s"
+      network: ws
+      password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+      port: 443
+      server: cmcc.090227.xyz
+      skip-cert-verify: false
+      sni: cm2-bpg.filegear-sg.me
+      type: trojan
+      ws-opts:
+        headers:
+            Host: cm2-bpg.filegear-sg.me
+        path: /proxyip=210.61.97.241:81
+    - name: "宿舍\U0001F1F8\U0001F1ECSG_6|2.7MB/s"
+      network: ws
+      password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+      port: 2096
+      server: mfa.gov.ua
+      skip-cert-verify: false
+      sni: cm2-bpg.filegear-sg.me
+      type: trojan
+      ws-opts:
+        headers:
+            Host: cm2-bpg.filegear-sg.me
+        path: /proxyip=210.61.97.241:81
+    - name: "宿舍\U0001F1F8\U0001F1ECSG_7|2.6MB/s"
+      network: ws
+      password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+      port: 2053
+      server: www.shopify.com
+      skip-cert-verify: false
+      sni: cm2-bpg.filegear-sg.me
+      type: trojan
+      ws-opts:
+        headers:
+            Host: cm2-bpg.filegear-sg.me
+        path: /proxyip=210.61.97.241:81
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1EF\U0001F1F5JP_7|4.8MB/s"
+      network: ws
+      port: 443
+      server: cdn.204910.best
+      servername: snippets.kkii.eu.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_8|3.2MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 777.ai7777777.xyz
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: '%2F'
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1FA\U0001F1F8US_4|1.8MB/s"
+      network: ws
+      port: 2053
+      server: convera.com
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      encryption: none
+      name: "宿舍\U0001F1EF\U0001F1F5JP_9|1.5MB/s"
+      network: ws
+      port: "443"
+      server: ali.nonull.pp.ua
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /
       xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "宿舍\U0001F1FA\U0001F1F8US_5|1.2MB/s"
+      network: ws
+      port: "443"
+      server: 104.16.65.1
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1FA\U0001F1F8US_6|1.5MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 104.17.167.134
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "宿舍\U0001F1EF\U0001F1F5JP_10|1.0MB/s"
+      network: ws
+      port: 2087
+      server: 162.159.38.100
+      servername: qqq-3t8.pages.dev
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: qqq-3t8.pages.dev
+        path: /
+    - encryption: none
+      name: "宿舍\U0001F1F8\U0001F1ECSG_8|3.2MB/s"
+      network: ws
+      port: 2087
+      server: 162.159.3.195
+      servername: qqq-3t8.pages.dev
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: qqq-3t8.pages.dev
+        path: /
