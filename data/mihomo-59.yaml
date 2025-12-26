@@ -1,368 +1,598 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "59\U0001F1FB\U0001F1F3VN²_1|2.2MB/s|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.28
-    type: ss
-  - cipher: aes-256-cfb
-    name: "59\U0001F1FB\U0001F1F3VN²_2|2.2MB/s|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.44
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "59\U0001F1F3\U0001F1F1NL²_1|5.3MB/s"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.202
-    type: ss
-    udp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG⁻¹_1|5.8MB/s|KeepHistory"
+  - name: "59\U0001F1F8\U0001F1ECSG_1|5.9MB/s"
     network: ws
-    port: 2083
-    server: 104.18.36.0
+    password: 5a2c16f9
+    port: 443
+    server: 162.159.24.131
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%25252F
+  - name: "59\U0001F1EF\U0001F1F5JP_1|4.8MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: cf.130519.xyz
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - client-fingerprint: chrome
+    name: "59\U0001F1EF\U0001F1F5JP_2|5.1MB/s"
+    network: ws
+    port: 443
+    server: 172.64.229.205
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
     ws-opts:
       headers:
-        Host: vless.hubp.de
+        Host: snippets.kkii.eu.org
+      path: /
+    servername: snippets.kkii.eu.org
+  - name: "59\U0001F1EF\U0001F1F5JP_3|4.0MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.205
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "59\U0001F1EB\U0001F1F7FR_1|2.4MB/s"
+    port: 26691
+    protocol: udp
+    server: 62.210.196.68
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    name: "59\U0001F1EF\U0001F1F5JP_4|4.3MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 777.ai7777777.xyz
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1F8\U0001F1ECSG_2|5.0MB/s"
+    network: ws
+    port: 443
+    server: nrtcfdns.zone.id
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: snippets.kkii.eu.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1EF\U0001F1F5JP_5|4.1MB/s"
+    network: ws
+    port: 443
+    server: 108.162.198.185
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /
+    xudp: true
+    servername: snippets.kkii.eu.org
+  - encryption: none
+    name: "59\U0001F1EF\U0001F1F5JP_6|3.3MB/s"
+    network: ws
+    port: 8880
+    server: wangcai.cf.877774.xyz
+    type: vless
+    udp: true
+    uuid: 67e631dd-9566-457f-82f1-9a06cafa6dc8
+    ws-opts:
+      headers:
+        Host: snip.062797.xyz
         User-Agent: >-
           Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
           Chrome/12.0.742.100 Safari/534.30
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    xudp: true
-    servername: vless.hubp.de
-  - cipher: aes-256-cfb
-    name: "59\U0001F3F4‍☠_1\U0001F1FB\U0001F1F3VN²_3|1.2MB/s|2.6MB/s|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.240
-    type: ss
-  - encryption: none
-    name: "59\U0001F1F8\U0001F1ECSG⁻¹_2|6.0MB/s|KeepSucceed"
-    network: ws
-    port: 80
-    server: 104.18.46.69
-    type: vless
-    udp: true
-    uuid: df301b32-1152-4526-9a63-beedd93d3156
-    ws-opts:
-      headers:
-        Host: vl.dalazhi.cloudns.biz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: /%2F%3Fed%3D2048
+      path: /?ed=2560&Telegram@freecodes
     xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "59\U0001F1FA\U0001F1F8US⁻¹_1|2.4MB/s|KeepHistory"
-    network: ws
-    port: 2096
-    server: 94.247.142.61
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: vless.hubp.de
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /snippets
-    xudp: true
-    servername: vless.hubp.de
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "59\U0001F1FA\U0001F1F8US⁻¹_2|1.2MB/s|KeepHistory"
+    name: "59\U0001F1EF\U0001F1F5JP_7|2.8MB/s"
     network: ws
     port: 443
-    server: 104.18.82.55
+    server: 172.64.53.226
     tls: true
     type: vless
     udp: true
-    uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
     ws-opts:
       headers:
-        Host: vless.hubp.de
+        Host: snippets.kkii.eu.org
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /fp=chrome
+    xudp: true
+    servername: snippets.kkii.eu.org
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: "59\U0001F1EC\U0001F1E7GB_1|3.5MB/s"
+    network: ws
+    port: 443
+    server: delilah.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: false
+    uuid: 39a192ed-7e78-42f4-b956-2f0ea17f677f
+    ws-opts:
+      headers:
+        Host: 639018301854287215.camry-amsjk.info
+      path: /rbjisuws
+    servername: 639018301854287215.camry-amsjk.info
+  - name: "59\U0001F1EF\U0001F1F5JP_8|2.1MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.131
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      path: /
+  - name: "59\U0001F1EF\U0001F1F5JP_9|2.9MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.150
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      path: /
+  - name: "59\U0001F1EF\U0001F1F5JP_10|2.5MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.47
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      path: /
+  - name: "59\U0001F1EF\U0001F1F5JP_11|2.4MB/s"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.2
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      path: /
+  - down: ''
+    fingerprint: ''
+    name: "59\U0001F1F8\U0001F1EASE_1|2.5MB/s"
+    obfs: salamander
+    obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+    password: e20cc63dc06088fba56bf786860aadaf
+    port: 989
+    server: dd.openaccessnode.com
+    skip-cert-verify: true
+    sni: dd.ircybersec.org
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "59\U0001F1F8\U0001F1ECSG_3|3.2MB/s"
+    network: ws
+    port: 2083
+    server: 172.64.151.166
+    tls: true
+    type: vless
+    udp: true
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    ws-opts:
+      headers:
+        Host: hk-ase.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-    servername: vless.hubp.de
+    servername: hk-ase.pages.dev
 proxy-groups:
-  - name: "\U0001F680 节点选择"
+  - name: 节点选择
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: select
     proxies:
-      - ♻️ 自动选择
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
       - DIRECT
-  - name: "\U0001F680 手动切换"
+  - name: 手动切换
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
     type: select
-  - name: ♻️ 自动选择
+  - name: 自动选择
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     include-all: true
     interval: 300
     tolerance: 50
-  - name: "\U0001F4F2 电报消息"
+  - name: 电报消息
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
       - DIRECT
-  - name: "\U0001F4AC Ai平台"
+  - name: OpenAi
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
     type: select
     proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
       - DIRECT
-  - name: "\U0001F4F9 油管视频"
+  - name: 油管视频
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
     proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
       - DIRECT
-  - name: "\U0001F3A5 奈飞视频"
+  - name: 奈飞视频
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
     proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F3A5 奈飞节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
+      - 节点选择
+      - 自动选择
+      - 奈飞节点
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
       - DIRECT
-  - name: "\U0001F4FA 巴哈姆特"
+  - name: 巴哈姆特
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
     proxies:
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F680 节点选择"
-      - "\U0001F680 手动切换"
+      - 台湾节点
+      - 节点选择
+      - 手动切换
       - DIRECT
-  - name: "\U0001F4FA 哔哩哔哩"
+  - name: 哔哩哔哩
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-  - name: "\U0001F30D 国外媒体"
+      - 全球直连
+      - 台湾节点
+      - 香港节点
+  - name: 国外媒体
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
     proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
+      - 节点选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
       - DIRECT
-  - name: "\U0001F30F 国内媒体"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F4E2 谷歌FCM"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: Ⓜ️ 微软Bing
+  - name: 国内媒体
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
     type: select
     proxies:
       - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: Ⓜ️ 微软云盘
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 手动切换
+  - name: 谷歌FCM
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
     proxies:
       - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - DIRECT
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F34E 苹果服务"
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 微软Bing
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
     type: select
     proxies:
       - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F3AE 游戏平台"
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 微软云盘
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
     proxies:
       - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F3B6 网易音乐"
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 微软服务
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+    type: select
+    proxies:
+      - 节点选择
+      - DIRECT
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 苹果服务
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 游戏平台
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 网易音乐
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
     type: select
     include-all: true
     filter: (?i)网易|音乐|NetEase|Music
     proxies:
       - DIRECT
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-  - name: "\U0001F3AF 全球直连"
+      - 节点选择
+      - 自动选择
+  - name: 全球直连
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
     type: select
     proxies:
       - DIRECT
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-  - name: "\U0001F6D1 广告拦截"
+      - 节点选择
+      - 自动选择
+  - name: 广告拦截
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: "\U0001F343 应用净化"
+  - name: 应用净化
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: "\U0001F41F 漏网之鱼"
+  - name: 漏网之鱼
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
     proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
+      - 节点选择
+      - 自动选择
       - DIRECT
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F1ED\U0001F1F0 香港节点"
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
+  - name: 香港节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
     interval: 300
     tolerance: 50
-  - name: "\U0001F1EF\U0001F1F5 日本节点"
+  - name: 日本节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     type: url-test
     interval: 300
     tolerance: 50
-  - name: "\U0001F1FA\U0001F1F2 美国节点"
+  - name: 美国节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
     type: url-test
     interval: 300
     tolerance: 50
-  - name: "\U0001F1E8\U0001F1F3 台湾节点"
+  - name: 台湾节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
     type: url-test
     interval: 300
     tolerance: 50
-  - name: "\U0001F1F8\U0001F1EC 狮城节点"
+  - name: 狮城节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
     type: url-test
     interval: 300
     tolerance: 50
-  - name: "\U0001F1F0\U0001F1F7 韩国节点"
+  - name: 韩国节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
     type: url-test
     interval: 300
     tolerance: 50
-  - name: "\U0001F3A5 奈飞节点"
+  - name: 奈飞节点
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
+  - name: GLOBAL
+    icon: >-
+      https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    type: select
+    proxies:
+      - 节点选择
+      - 手动切换
+      - 自动选择
+      - 电报消息
+      - OpenAi
+      - 油管视频
+      - 奈飞视频
+      - 巴哈姆特
+      - 哔哩哔哩
+      - 国外媒体
+      - 国内媒体
+      - 谷歌FCM
+      - 微软Bing
+      - 微软云盘
+      - 微软服务
+      - 苹果服务
+      - 游戏平台
+      - 网易音乐
+      - 全球直连
+      - 广告拦截
+      - 应用净化
+      - 漏网之鱼
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+      - 韩国节点
+      - 奈飞节点
 rule-providers:
   LocalAreaNetwork:
     url: >-
@@ -452,14 +682,6 @@ rule-providers:
     url: >-
       https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
     path: ./ruleset/Telegram.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  AI:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
-    path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
     format: text
@@ -588,7 +810,7 @@ rule-providers:
     url: >-
       https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
     path: ./ruleset/ChinaDomain.list
-    behavior: classical
+    behavior: domain
     interval: 86400
     format: text
     type: http
@@ -596,7 +818,7 @@ rule-providers:
     url: >-
       https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
     path: ./ruleset/ChinaCompanyIp.list
-    behavior: classical
+    behavior: ipcidr
     interval: 86400
     format: text
     type: http
@@ -609,37 +831,35 @@ rule-providers:
     format: text
     type: http
 rules:
-  - "PROCESS-NAME,subs-check.exe,\U0001F3AF 全球直连"
-  - "PROCESS-NAME,subs-check,\U0001F3AF 全球直连"
-  - "RULE-SET,LocalAreaNetwork,\U0001F3AF 全球直连"
-  - "RULE-SET,UnBan,\U0001F3AF 全球直连"
-  - "RULE-SET,BanAD,\U0001F6D1 广告拦截"
-  - "RULE-SET,BanProgramAD,\U0001F343 应用净化"
-  - "RULE-SET,GoogleFCM,\U0001F4E2 谷歌FCM"
-  - "RULE-SET,GoogleCN,\U0001F3AF 全球直连"
-  - "RULE-SET,SteamCN,\U0001F3AF 全球直连"
-  - 'RULE-SET,Bing,Ⓜ️ 微软Bing'
-  - 'RULE-SET,OneDrive,Ⓜ️ 微软云盘'
-  - 'RULE-SET,Microsoft,Ⓜ️ 微软服务'
-  - "RULE-SET,Apple,\U0001F34E 苹果服务"
-  - "RULE-SET,Telegram,\U0001F4F2 电报消息"
-  - "RULE-SET,AI,\U0001F4AC Ai平台"
-  - "RULE-SET,NetEaseMusic,\U0001F3B6 网易音乐"
-  - "RULE-SET,Epic,\U0001F3AE 游戏平台"
-  - "RULE-SET,Origin,\U0001F3AE 游戏平台"
-  - "RULE-SET,Sony,\U0001F3AE 游戏平台"
-  - "RULE-SET,Steam,\U0001F3AE 游戏平台"
-  - "RULE-SET,Nintendo,\U0001F3AE 游戏平台"
-  - "RULE-SET,YouTube,\U0001F4F9 油管视频"
-  - "RULE-SET,Netflix,\U0001F3A5 奈飞视频"
-  - "RULE-SET,Bahamut,\U0001F4FA 巴哈姆特"
-  - "RULE-SET,BilibiliHMT,\U0001F4FA 哔哩哔哩"
-  - "RULE-SET,Bilibili,\U0001F4FA 哔哩哔哩"
-  - "RULE-SET,ChinaMedia,\U0001F30F 国内媒体"
-  - "RULE-SET,ProxyMedia,\U0001F30D 国外媒体"
-  - "RULE-SET,ProxyGFWlist,\U0001F680 节点选择"
-  - "RULE-SET,ChinaDomain,\U0001F3AF 全球直连"
-  - "RULE-SET,ChinaCompanyIp,\U0001F3AF 全球直连"
-  - "RULE-SET,Download,\U0001F3AF 全球直连"
-  - "GEOIP,CN,\U0001F3AF 全球直连"
-  - "MATCH,\U0001F41F 漏网之鱼"
+  - 'RULE-SET,LocalAreaNetwork,全球直连'
+  - 'RULE-SET,UnBan,全球直连'
+  - 'RULE-SET,BanAD,广告拦截'
+  - 'RULE-SET,BanProgramAD,应用净化'
+  - 'RULE-SET,GoogleFCM,谷歌FCM'
+  - 'RULE-SET,GoogleCN,全球直连'
+  - 'RULE-SET,SteamCN,全球直连'
+  - 'RULE-SET,Bing,微软Bing'
+  - 'RULE-SET,OneDrive,微软云盘'
+  - 'RULE-SET,Microsoft,微软服务'
+  - 'RULE-SET,Apple,苹果服务'
+  - 'RULE-SET,Telegram,电报消息'
+  - 'RULE-SET,OpenAi,OpenAi'
+  - 'RULE-SET,NetEaseMusic,网易音乐'
+  - 'RULE-SET,Epic,游戏平台'
+  - 'RULE-SET,Origin,游戏平台'
+  - 'RULE-SET,Sony,游戏平台'
+  - 'RULE-SET,Steam,游戏平台'
+  - 'RULE-SET,Nintendo,游戏平台'
+  - 'RULE-SET,YouTube,油管视频'
+  - 'RULE-SET,Netflix,奈飞视频'
+  - 'RULE-SET,Bahamut,巴哈姆特'
+  - 'RULE-SET,BilibiliHMT,哔哩哔哩'
+  - 'RULE-SET,Bilibili,哔哩哔哩'
+  - 'RULE-SET,ChinaMedia,国内媒体'
+  - 'RULE-SET,ProxyMedia,国外媒体'
+  - 'RULE-SET,ProxyGFWlist,节点选择'
+  - 'RULE-SET,ChinaDomain,全球直连'
+  - 'RULE-SET,ChinaCompanyIp,全球直连'
+  - 'RULE-SET,Download,全球直连'
+  - 'GEOIP,CN,全球直连'
+  - 'MATCH,漏网之鱼'
