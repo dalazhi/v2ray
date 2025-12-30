@@ -1,218 +1,5 @@
 proxies:
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_1|1.7MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.86
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      tls: true
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_2|1.5MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.11
-      sni: snippets.kkii.eu.org
-      tls: true
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1FA\U0001F1F8US_1|1.0MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: one.cf.cdn.hyli.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "宿舍\U0001F1EB\U0001F1F7FR_1|3.0MB/s"
-      port: 26691
-      protocol: udp
-      server: 62.210.196.68
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - delay: 2434
-      name: "宿舍\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 162.159.24.131
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "55"
-      name: "宿舍\U0001F1EB\U0001F1F7FR_2|1.5MB/s"
-      port: 35511
-      protocol: udp
-      server: 62.210.10.186
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "11"
-    - name: "宿舍\U0001F1F9\U0001F1FCTW_1|3.2MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - alterId: "0"
-      cipher: auto
-      name: "宿舍\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-      network: none
-      port: 34128
-      server: 216.167.26.220
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
-      xudp: true
-    - alterId: "0"
-      cipher: auto
-      name: "宿舍\U0001F1F7\U0001F1FARU_1|1.5MB/s"
-      network: none
-      port: "34895"
-      server: 2.56.242.210
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
-      password: 53db9c44-94a1-4976-8682-5d1c3642058d
-      port: 10043
-      server: hn.yuyan.vin
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1ED\U0001F1F0HK_2|1.3MB/s"
-      password: 53db9c44-94a1-4976-8682-5d1c3642058d
-      port: 10005
-      server: hn.yuyan.vin
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1EF\U0001F1F5JP_3|3.2MB/s"
-      password: 53db9c44-94a1-4976-8682-5d1c3642058d
-      port: 10009
-      server: hd.yuyan.vin
-      type: ss
-      udp: true
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_4|2.5MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.44
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_5|1.0MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.82
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1F8\U0001F1ECSG_2|1.4MB/s"
-      password: 53db9c44-94a1-4976-8682-5d1c3642058d
-      port: 10033
-      server: hn.yuyan.vin
-      type: ss
-      udp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "宿舍\U0001F1F3\U0001F1F1NL_1|2.4MB/s"
-      password: c8962740-02d1-4d3f-ba03-cad8e801c600
-      port: 20135
-      server: nlor2.9966663.xyz
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "宿舍\U0001F1F8\U0001F1ECSG_3|2.0MB/s"
-      password: c8962740-02d1-4d3f-ba03-cad8e801c600
-      port: 20134
-      server: sgzz.9966663.xyz
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "宿舍\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-      password: c8962740-02d1-4d3f-ba03-cad8e801c600
-      port: 20133
-      server: usp.9966663.xyz
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1FA\U0001F1F8US_4|1.2MB/s"
-      password: 53db9c44-94a1-4976-8682-5d1c3642058d
-      port: 10014
-      server: hd.yuyan.vin
-      type: ss
-      udp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "宿舍\U0001F1FA\U0001F1F8US_5|2.3MB/s"
-      password: c8962740-02d1-4d3f-ba03-cad8e801c600
-      port: 20132
-      server: usp.9966663.xyz
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_6|1.6MB/s"
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_1|1.4MB/s"
       network: ws
       password: 5a2c16f9
       port: 443
@@ -225,11 +12,24 @@ proxies:
         headers:
             Host: snippets.kkii.eu.org
         path: /
-    - name: "宿舍\U0001F1FA\U0001F1F8US_6|1.5MB/s"
+    - delay: 2321
+      name: "宿舍\U0001F1EF\U0001F1F5JP_2|1.8MB/s"
+      network: ws
+      port: 443
+      server: nrtcfdns.zone.id
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_3|2.1MB/s"
       network: ws
       password: 5a2c16f9
       port: 443
-      server: 104.16.246.188
+      server: 172.64.229.43
       skip-cert-verify: true
       sni: snippets.kkii.eu.org
       type: trojan
@@ -238,199 +38,103 @@ proxies:
         headers:
             Host: snippets.kkii.eu.org
         path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_7|3.1MB/s"
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_4|1.1MB/s"
       network: ws
       password: 5a2c16f9
       port: 443
-      server: 172.64.229.33
-      sni: snippets.kkii.eu.org
-      tls: true
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_8|3.5MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.65
-      sni: snippets.kkii.eu.org
-      tls: true
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_9|2.3MB/s"
-      password: BxceQaOe
-      port: 4012
-      server: 54.248.22.131
+      server: 172.64.229.135
       skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
+      sni: snippets.kkii.eu.org
       type: trojan
-    - cipher: chacha20-ietf-poly1305
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_5|2.3MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: freeyx.cloudflare88.eu.org
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_6|1.1MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.2
+      skip-cert-verify: true
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "宿舍\U0001F1EF\U0001F1F5JP_7|2.0MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.6
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - client-fingerprint: chrome
+      name: "宿舍\U0001F1EF\U0001F1F5JP_8|1.1MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 172.64.229.64
+      skip-cert-verify: true
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "宿舍\U0001F1EF\U0001F1F5JP_9|1.5MB/s"
+      network: ws
+      port: "443"
+      server: 108.162.198.185
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
       name: "宿舍\U0001F1EF\U0001F1F5JP_10|2.0MB/s"
-      password: 53db9c44-94a1-4976-8682-5d1c3642058d
-      port: 10007
-      server: 14.17.71.67
-      type: ss
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_4|2.4MB/s"
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 3901
-      server: 160.16.144.208
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "宿舍\U0001F1F8\U0001F1ECSG_5|2.0MB/s"
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 3901
-      server: 160.16.233.76
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "宿舍\U0001F1FA\U0001F1F8US_7|1.2MB/s"
-      password: f36f4495b4b26cc2fe346cfa23e05b1b
-      port: 1281
-      server: 160.16.233.76
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "宿舍\U0001F1FA\U0001F1F8US_8|1.1MB/s"
-      password: BxceQaOe
-      port: 2173
-      server: 54.46.50.55
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - cipher: chacha20-ietf
-      name: "宿舍\U0001F1ED\U0001F1F0HK_3|2.3MB/s"
-      password: asd123456
-      port: 8388
-      server: 103.149.183.154
-      type: ss
-    - name: "宿舍\U0001F1EF\U0001F1F5JP_11|1.5MB/s"
-      password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-      port: 25010
-      server: 37.202.200.19
-      skip-cert-verify: true
-      sni: 37.202.200.19
-      type: trojan
-    - encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_9|1.1MB/s"
       network: ws
-      port: "80"
-      server: 172.66.156.81
+      port: "443"
+      server: ali.nonull.pp.ua
+      servername: snippets.kkii.eu.org
+      tls: true
       type: vless
       udp: true
-      uuid: b5bd5a92-a4e2-4ff9-b99f-eabbba3cde5f
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
       ws-opts:
         headers:
-            Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "宿舍\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
-      network: tcp
-      port: "4443"
-      reality-opts:
-        public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-        short-id: aa7e96542880027a
-      server: 144.124.228.129
-      servername: github.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ddffda27-8c5f-4f53-8450-4d11a1e0b368
-      xudp: true
-    - encryption: none
-      name: "宿舍\U0001F1FA\U0001F1F8US_10|2.4MB/s"
-      network: ws
-      port: "80"
-      server: www.speedtest.net
-      type: vless
-      udp: true
-      uuid: b5bd5a92-a4e2-4ff9-b99f-eabbba3cde5f
-      ws-opts:
-        headers:
-            Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
-        path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "宿舍\U0001F1E9\U0001F1EADE_1|2.5MB/s"
-      password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ
-      port: "2050"
-      server: 144.31.84.76
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "宿舍\U0001F1FA\U0001F1F8US_11|1.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 86e999a2cdc2
-      server: us01-vlr01-gmn03.vpnvezdehod.net
-      servername: hls-svod.itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e9dbc178-3656-40f8-8833-5023f306ef1d
-      xudp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: www.bing.com
-      name: "宿舍\U0001F1EE\U0001F1EAIE_1|2.2MB/s"
-      network: grpc
-      port: "48056"
-      server: 34.254.224.37
-      servername: 34.254.224.37
-      tls: true
-      type: vless
-      udp: true
-      uuid: d811ecf9-4029-4794-a43e-3611c3575b9e
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "宿舍\U0001F1EB\U0001F1EEFI_1|1.6MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: aCIjONksX6QbTfFBxN1eFqf5caspiR7QyttJ3kDH9yY
-        short-id: ""
-      server: 185.92.183.112
-      servername: vkru.outlinekeys.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
-      xudp: true
-    - name: "宿舍\U0001F1FA\U0001F1F8US_12|2.2MB/s"
-      password: nX51bl545I
-      port: 38003
-      server: 64.81.34.56
-      type: http
-      username: UgpWOagagJ
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "宿舍\U0001F1FA\U0001F1F8US_13|2.1MB/s"
-      network: tcp
-      port: 30829
-      server: v29.hdacd.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
