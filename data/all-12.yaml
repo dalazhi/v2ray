@@ -1,287 +1,19 @@
 proxies:
-- name: fn🇯🇵JP¹-TW⁰_1|5.5MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.43
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: fn🇯🇵JP¹-TW⁰_2|3.7MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.83
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: fn🇲🇩MD²_1|3.1MB/s
-  network: ws
-  port: 443
-  server: 104.17.147.22
-  servername: u.arfilter2.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: telegram-id-Arfilter
-  ws-opts:
-    headers:
-      Host: u.arfilter2.blog
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: fn🇺🇸US¹-TW⁰_1|3.5MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.55.205
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇷🇺RU²_1|1.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: khabarovsk.geodema.network
-  servername: khabarovsk.geodema.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: fn🇫🇷FR²_1|1.1MB/s|KeepSucceed
-  port: 26691
-  protocol: udp
-  server: 62.210.196.68
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- cipher: chacha20-ietf
-  name: fn🇭🇰HK²_1|3.3MB/s|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.182.38
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 655
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇺🇸US²_1|2.9MB/s
-  network: none
-  port: 19724
-  server: 154.44.14.244
-  type: vmess
-  uuid: c393d530-034b-4df7-a90d-fb4cbc553a99
-- client-fingerprint: chrome
-  name: fn🇩🇪DE⁻¹_1|3.1MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
-- name: fn🇯🇵JP⁻¹_1|2.9MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_1|5.1MB/s|KeepHistory
   network: ws
   password: 5a2c16f9
   port: 443
   server: cf.130519.xyz
+  skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: //
-- name: fn🇯🇵JP¹-TW⁰_3|5.1MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.113
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: fn🇯🇵JP⁻¹_2|2.5MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: 172.64.53.226
-  servername: snippets.kkii.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
   udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- cipher: aes-256-cfb
-  name: fn🇻🇳VN²_1|1.0MB/s
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.41
-  type: ss
-- name: fn🇰🇷KR²_1|1.4MB/s|KeepHistory
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- encryption: none
-  name: fn🇷🇺RU²_2|1.9MB/s
-  network: tcp
-  port: 30072
-  server: 213.226.114.143
-  type: vless
-  udp: true
-  uuid: 2fd3f869-9725-407f-8092-129b81495442
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: fn🇲🇩MD²_2|1.4MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: 104.17.148.22
-  servername: u.arfilter2.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: telegram-id-Arfilter
-  ws-opts:
-    headers:
-      Host: u.arfilter2.blog
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-  xudp: true
-- name: fn🇫🇮FI²_1|1.5MB/s
-  network: ws
-  port: 8080
-  server: 104.17.147.22
-  type: vless
-  udp: true
-  uuid: Parsashonam-Bot-38
-  ws-opts:
-    headers:
-      Host: Fi.Parsashonam.CfD.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: fn🇲🇩MD²_3|2.9MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 205.233.181.73
-  servername: u.arfilter2.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: telegram-id-Arfilter
-  ws-opts:
-    headers:
-      Host: u.arfilter2.blog
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: fn🇺🇸US⁻¹_1|1.2MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.17.69.244
-  servername: snippets.kkii.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- encryption: none
-  name: fn🇯🇵JP¹-TW⁰_4|5.6MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: ali.nonull.pp.ua
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇯🇵JP⁻¹_3|4.4MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: 172.64.53.226
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: fn🇯🇵JP⁻¹_4|1.5MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_2|2.7MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
@@ -292,279 +24,67 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: fn🇯🇵JP¹-TW⁰_5|3.1MB/s|KeepSucceed
+- encryption: none
+  name: fn🇯🇵JP¹⁺_1|2.1MB/s
+  network: ws
+  port: 47248
+  server: 43.239.249.177
+  servername: sni.111000.cc.cd
+  tls: true
+  type: vless
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  ws-opts:
+    headers:
+      Host: sni.111000.cc.cd
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_3|2.8MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 172.64.229.33
+  server: 172.64.229.27
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   ws-opts:
-    path: /
-- delay: 2673
-  name: fn🇯🇵JP¹-TW⁰_6|3.1MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: nrtcfdns.zone.id
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
     path: /
 - client-fingerprint: chrome
-  name: fn🇯🇵JP¹-TW⁰_7|5.0MB/s|KeepSucceed
+  name: fn🇯🇵JP¹-TW⁰_4|4.9MB/s
   network: ws
+  password: 5a2c16f9
   port: 443
-  server: 172.64.229.205
-  servername: snippets.kkii.eu.org
+  server: 172.64.229.32
   skip-cert-verify: true
+  sni: snippets.kkii.eu.org
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /
-- encryption: none
-  name: fn🇺🇸US¹-TW⁰_2|1.7MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.16.65.1
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: fn🇺🇸US¹-TW⁰_3|1.7MB/s|KeepHistory
+- name: fn🇯🇵JP⁻¹_1|5.2MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 104.19.220.22
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: //
-- name: fn🇺🇸US¹-TW⁰_4|3.5MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.167.134
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: //
-- encryption: none
-  name: fn🇯🇵JP¹-TW⁰_8|2.1MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: nrtcfdns.zone.id
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /fp=chrome
-- name: fn🇺🇸US⁻¹_2|2.3MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- name: fn🇺🇸US¹-TW⁰_5|2.1MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.167.134
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- name: fn🇯🇵JP¹-TW⁰_9|3.4MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.150
+  server: 172.64.229.21
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: fn🇺🇸US²_2|1.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: t.me%2Fripaojiedian
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: fn🇯🇵JP⁻¹_5|3.4MB/s|KeepSucceed
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_1|1.9MB/s|KeepHistory
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.229
+  type: ss
+- name: fn🇩🇪DE⁻¹_1|2.1MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 777.ai7777777.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: //
-- name: fn🇺🇸US¹-TW⁰_6|3.3MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.162.3
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: fn🇯🇵JP¹-TW⁰_10|1.5MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.65
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: fn🇯🇵JP⁻¹_6|2.7MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.205
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: fn🇩🇪DE¹-TW⁰_1|2.3MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.128.253
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: //
-- name: fn🇺🇸US⁻¹_3|3.5MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: 104.19.212.207
-  servername: snippets.kkii.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- encryption: none
-  name: fn🇫🇮FI²_2|1.6MB/s
-  network: tcp
-  port: 7936
-  server: fiand-vipbig12oolpfon.mongral.ir
-  type: vless
-  udp: true
-  uuid: c484633b-127d-4e22-a2cd-3377b20465ba
-  xudp: true
-- name: fn🇺🇸US⁻¹_4|3.5MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- client-fingerprint: chrome
-  delay: 2578
-  name: fn🇺🇸US¹-TW⁰_7|1.5MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.17.202.10
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- encryption: none
-  name: fn🇺🇸US¹-TW⁰_8|3.0MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.19.220.22
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /fp=chrome
-- name: fn🇹🇼TW²_1|3.0MB/s|KeepHistory
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: fn🇺🇸US⁻¹_5|2.2MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
+  server: 104.26.1.110
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
@@ -573,8 +93,77 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: "%2F%2F"
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_2|2.2MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.66
+  type: ss
+- name: fn🇯🇵JP¹-TW⁰_5|3.4MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.127
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: fn🇺🇸US⁻¹_1|2.1MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - client-fingerprint: chrome
-  name: fn🇺🇸US¹-TW⁰_9|4.1MB/s|KeepHistory
+  name: fn🇯🇵JP⁻¹_2|3.9MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.39
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+- name: fn🇸🇬SG⁻¹_1|3.7MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: fn🇯🇵JP¹-TW⁰_6|4.0MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.11
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: chrome
+  name: fn🇺🇸US¹-TW⁰_1|3.1MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
@@ -588,22 +177,11 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: //
-- name: fn🇯🇵JP¹-TW⁰_11|2.5MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_7|5.0MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 172.64.229.82
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: fn🇯🇵JP⁻¹_7|3.4MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.21
+  server: 172.64.229.113
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
@@ -611,106 +189,54 @@ proxies:
   ws-opts:
     path: /
 - encryption: none
-  name: fn🇳🇱NL²_1|1.2MB/s
+  name: fn🇯🇵JP¹⁺_2|4.3MB/s
   network: ws
-  port: 80
-  server: 172.66.40.99
+  port: 8443
+  server: 45.142.166.146
+  servername: sni.111000.cc.cd
+  tls: true
   type: vless
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  ws-opts:
+    headers:
+      Host: sni.111000.cc.cd
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_8|4.9MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.169
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
   udp: true
-  uuid: 3694b5d0-31d3-471f-9c2a-49924cec748f
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.Shahin.vegaskala.com.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN
-  xudp: true
-- name: fn🇯🇵JP⁻¹_8|4.2MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- name: fn🇯🇵JP⁻¹_9|3.4MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.10
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: fn🇩🇪DE⁻¹_2|1.4MB/s|KeepSucceed
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_3|1.6MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.165
+  type: ss
+- name: fn🇯🇵JP¹-TW⁰_9|4.2MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 104.26.1.110
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- alterId: 0
-  cipher: auto
-  name: fn🇬🇧GB²_1|4.2MB/s
-  network: none
-  port: 21289
-  server: 212.135.120.63
-  tls: false
-  type: vmess
-  uuid: 6bb0016d-c76d-4b75-c710-4b9aa4ccec0b
-- name: fn🇯🇵JP⁻¹_10|3.9MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.86
+  server: 172.64.229.65
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: fn🇸🇬SG²_1|1.1MB/s|KeepHistory
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  servername: t.me/ripaojiedian
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: fn🇺🇸US⁻¹_6|3.4MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.16.65.1
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: fn🇯🇵JP⁻¹_11|3.4MB/s|KeepSucceed
+- name: fn🇩🇪DE⁻¹_2|2.9MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 777.ai7777777.xyz
+  server: 162.159.128.253
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
@@ -718,8 +244,8 @@ proxies:
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: "%2F%2F"
-- name: fn🇯🇵JP⁻¹_12|3.1MB/s|KeepSucceed
+    path: "%2F"
+- name: fn🇯🇵JP⁻¹_3|3.4MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
@@ -730,184 +256,76 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: fn🇯🇵JP¹-TW⁰_12|3.3MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.33
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- name: fn🇯🇵JP¹-TW⁰_13|3.9MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.205
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- name: fn🇯🇵JP¹-TW⁰_14|4.0MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.6
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: fn🇲🇩MD²_4|3.3MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: u.arfilter2.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: telegram-id-Arfilter
-  ws-opts:
-    headers:
-      Host: u.arfilter2.blog
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: fn🇯🇵JP²_1|1.2MB/s
-  network: none
-  port: 33534
-  server: 172.192.57.157
-  tls: false
-  type: vmess
-  uuid: d304d622-d950-4108-f4dc-492c241ed1ba
-- delay: 2462
-  name: fn🇯🇵JP¹-TW⁰_15|2.2MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: fn🇯🇵JP⁻¹_13|3.8MB/s|KeepSucceed
+- client-fingerprint: chrome
+  name: fn🇯🇵JP¹-TW⁰_10|5.0MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
   server: 777.ai7777777.xyz
+  skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- encryption: none
-  name: fn🇺🇸US⁻¹_7|2.9MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.17.202.10
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /fp=chrome
-- encryption: none
-  name: fn🇯🇵JP⁻¹_14|2.2MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: wangcai.24av.top
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: Telegram🇨🇳 @WangCai2
-- name: fn🇯🇵JP¹-TW⁰_16|3.9MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.25
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: fn🇯🇵JP¹-TW⁰_17|3.7MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.103
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: fn🇺🇸US¹-TW⁰_10|2.7MB/s|KeepHistory
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.237.219
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: "55"
-  name: fn🇫🇷FR²_2|1.6MB/s|KeepSucceed
-  port: 35511
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: "11"
-- name: fn🇯🇵JP⁻¹_15|3.4MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.27
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: //
 - client-fingerprint: chrome
-  name: fn🇺🇸US¹-TW⁰_11|1.3MB/s|KeepHistory
+  name: fn🇯🇵JP⁻¹_4|3.3MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.83
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_11|2.6MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.73
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- delay: 2473
+  name: fn🇸🇬SG¹-TW⁰_1|3.6MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: fn🇩🇪DE⁻¹_3|1.2MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: //
+- client-fingerprint: chrome
+  name: fn🇺🇸US⁻¹_2|1.3MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
@@ -921,98 +339,113 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: //
-- client-fingerprint: chrome
-  name: fn🇯🇵JP⁻¹_16|4.9MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: 108.162.198.185
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /fp=randomized
-  xudp: true
-- name: fn🇺🇸US⁻¹_8|3.4MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_12|2.5MB/s|KeepHistory
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 104.17.162.3
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- name: fn🇸🇬SG⁻¹_1|2.0MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.24.131
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: www.bing.com
-  name: fn🇮🇪IE²_1|2.6MB/s
-  network: grpc
-  port: 48056
-  server: 34.254.224.37
-  servername: 34.254.224.37
-  tls: true
-  type: vless
-  udp: true
-  uuid: d811ecf9-4029-4794-a43e-3611c3575b9e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇺🇸US¹-TW⁰_12|2.9MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 104.19.39.97
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: fn🇯🇵JP¹-TW⁰_18|3.2MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.73
+  server: 172.64.229.69
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   ws-opts:
     path: /
-- name: fn🇺🇸US¹-TW⁰_13|2.1MB/s|KeepHistory
+- name: fn🇯🇵JP⁻¹_5|3.9MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 104.17.167.134
+  server: cf.130519.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: //
+- encryption: none
+  name: fn🇺🇸US²_1|1.7MB/s
+  network: ws
+  port: 443
+  server: 172.67.130.204
+  servername: HHhhhHhhhhH.777198.xYz
+  tls: true
+  type: vless
+  uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  ws-opts:
+    headers:
+      Host: hhhhhhhhhhh.777198.xyz
+    path: /OjdW89Bpg4ykd4O
+- name: fn🇯🇵JP¹-TW⁰_13|1.5MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: fn🇺🇸US⁻¹_3|2.5MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- client-fingerprint: chrome
+  name: fn🇯🇵JP⁻¹_6|3.9MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.3
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_14|3.4MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: fn🇺🇸US⁻¹_4|1.8MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.16.245.77
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: fn🇺🇸US¹-TW⁰_2|1.8MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
@@ -1020,23 +453,34 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: fn🇩🇪DE¹-TW⁰_2|2.3MB/s|KeepHistory
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: //
+- name: fn🇩🇪DE¹-TW⁰_1|3.1MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 162.159.128.253
+  server: 104.26.1.110
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: fn🇯🇵JP¹-TW⁰_15|2.3MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.6
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: fn🇯🇵JP¹-TW⁰_19|4.6MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_16|3.9MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1049,39 +493,186 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: "%2F"
-- delay: 2473
-  name: fn🇸🇬SG¹-TW⁰_1|3.9MB/s|KeepSucceed
+- name: fn🇺🇸US¹-TW⁰_3|1.4MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 162.159.24.131
-  skip-cert-verify: false
+  server: 104.17.162.3
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: fn🇯🇵JP⁻¹_7|5.6MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.33
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: fn🇩🇪DE⁻¹_4|2.1MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.128.253
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: //
+- name: fn🇯🇵JP¹-TW⁰_17|5.2MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.177
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: fn🇳🇱NL¹-TW⁰_1|1.3MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.21.94.161
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: fn🇯🇵JP¹-TW⁰_18|2.6MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.5
+  skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: "55"
-  name: fn🇫🇷FR²_3|1.3MB/s|KeepHistory
-  obfs: ""
-  port: 35511
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: "11"
-- name: fn🇩🇪DE¹-TW⁰_3|2.7MB/s|KeepHistory
+- name: fn🇯🇵JP¹-TW⁰_19|3.9MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 162.159.128.253
+  server: 172.64.229.43
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_4|2.5MB/s|KeepHistory
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+- encryption: none
+  name: fn🇫🇮FI²_1|1.6MB/s
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: 51a043fe-2de3-4b9c-a0f6-513ccffe6c06
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+  xudp: true
+- encryption: none
+  name: fn🇺🇸US²_2|3.4MB/s
+  network: ws
+  port: 443
+  server: cdncdn.aikunapp.com
+  servername: r-pBcPyqr8Em6usq6A.jst-gw.top
+  tls: true
+  type: vless
+  uuid: 572f748c-c343-4a8d-94e3-b2664c23fcda
+  ws-opts:
+    headers:
+      Host: cdn-sg2.jst-gw.top
+    path: /vless_ws/smjc/index
+- name: fn🇺🇸US¹-TW⁰_4|2.3MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F%2F"
+- client-fingerprint: chrome
+  name: fn🇯🇵JP⁻¹_8|3.7MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.135
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_20|2.5MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.25
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_21|2.5MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 777.ai7777777.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_22|2.9MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.150
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: fn🇺🇸US⁻¹_5|1.1MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.162.3
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
@@ -1090,37 +681,83 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: "%2F"
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇯🇵JP¹-TW⁰_20|3.4MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_23|4.9MB/s|KeepHistory
   network: ws
+  password: 5a2c16f9
   port: 443
-  server: 108.162.198.185
-  servername: snippets.kkii.eu.org
+  server: 172.64.229.131
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
   tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- encryption: none
+  name: fn🇩🇪DE²_1|2.4MB/s
+  network: ws
+  port: 2082
+  server: www.speedtest.net
   type: vless
   udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  uuid: 9bdf7356-c1c6-46dd-c53d-b6183187de0a
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- encryption: none
-  name: fn🇺🇸US¹-TW⁰_14|1.1MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_24|3.9MB/s|KeepSucceed
   network: ws
+  password: 5a2c16f9
   port: 443
-  server: 104.19.49.192
-  servername: snippets.kkii.eu.org
+  server: 172.64.229.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
   tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: fn🇺🇸US⁻¹_6|1.6MB/s|KeepHistory
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F%2F"
+- name: fn🇯🇵JP¹-TW⁰_25|3.0MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.10
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: fn🇯🇵JP⁻¹_17|3.4MB/s|KeepSucceed
+- name: fn🇯🇵JP⁻¹_9|3.4MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.86
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: fn🇯🇵JP¹-TW⁰_26|3.5MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1133,87 +770,49 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: fn🇫🇷FR²_4|1.0MB/s|KeepSucceed
-  obfs: ""
-  port: 50011
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- name: fn🇺🇸US¹-TW⁰_15|2.1MB/s|KeepHistory
+- name: fn🇯🇵JP¹-TW⁰_27|2.6MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: one.cf.cdn.hyli.xyz
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: fn🇯🇵JP⁻¹_18|2.9MB/s|KeepSucceed
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.177
+  server: 172.64.229.82
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   ws-opts:
     path: /
-- encryption: none
-  name: fn🇯🇵JP¹-TW⁰_21|1.8MB/s|KeepSucceed
-  network: ws
-  port: 443
-  server: cdn.204910.best
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /fp=chrome
-- name: fn🇯🇵JP⁻¹_19|2.9MB/s|KeepSucceed
+- name: fn🇯🇵JP¹-TW⁰_28|5.4MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 172.64.229.11
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- client-fingerprint: chrome
-  name: fn🇺🇸US⁻¹_9|2.6MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: cdn.204910.best
-  servername: snippets.kkii.eu.org
+  server: 172.64.229.205
   skip-cert-verify: false
+  sni: snippets.kkii.eu.org
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: fn🇩🇪DE¹-TW⁰_4|4.7MB/s|KeepHistory
+- name: fn🇺🇸US¹-TW⁰_5|2.3MB/s|KeepSucceed
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 104.26.1.110
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: fn🇯🇵JP⁻¹_10|3.5MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 777.ai7777777.xyz
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
@@ -1222,3 +821,73 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: "%2F%2F"
+- cipher: aes-256-cfb
+  country: 🇻🇳VN
+  delay: 871
+  name: fn🇻🇳VN²_5|1.8MB/s|KeepHistory
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.205
+  type: ss
+- name: fn🇯🇵JP¹-TW⁰_29|4.0MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.103
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: fn🇺🇸US⁻¹_7|4.7MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.85
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+- delay: 2462
+  name: fn🇯🇵JP¹-TW⁰_30|3.9MB/s|KeepSucceed
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- encryption: none
+  name: fn🇯🇵JP¹⁺_3|2.8MB/s
+  network: ws
+  port: 41607
+  server: 45.159.48.37
+  servername: sni.111000.cc.cd
+  tls: true
+  type: vless
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  ws-opts:
+    headers:
+      Host: sni.111000.cc.cd
+    path: /
+- name: fn🇹🇼TW²_1|1.7MB/s|KeepSucceed
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
