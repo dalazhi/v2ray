@@ -1,26 +1,6 @@
 proxies:
   - encryption: none
-    name: "宿舍\U0001F1F8\U0001F1ECSG_1|1.3MB/s"
-    network: ws
-    port: 8080
-    server: 198.41.222.50
-    type: vless
-    udp: true
-    uuid: 27950cc1-85b4-4ecc-ad3a-4507360504af
-    ws-opts:
-      headers:
-        Host: 031.electrocellco-cf-031.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: >-
-        /eyJqdW5rIjoiQjE1UDBKNGN6UnEzNjg2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: 198.41.222.50
-  - encryption: none
-    name: "宿舍\U0001F1F8\U0001F1ECSG_2|4.7MB/s"
+    name: "宿舍\U0001F1F8\U0001F1ECSG_1|3.1MB/s"
     network: ws
     port: 443
     server: cloudflare.182682.xyz
@@ -36,7 +16,44 @@ proxies:
     servername: l.ayovo.netlib.re
   - client-fingerprint: chrome
     encryption: none
-    name: "宿舍\U0001F1EF\U0001F1F5JP_1|3.0MB/s"
+    name: "宿舍\U0001F1F8\U0001F1ECSG_2|1.9MB/s"
+    network: ws
+    port: 443
+    server: 162.159.16.63
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers:
+        Host: l.ayovo.netlib.re
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: l.ayovo.netlib.re
+  - client-fingerprint: chrome
+    delay: 595
+    name: "宿舍\U0001F1EF\U0001F1F5JP_1|1.8MB/s"
+    network: ws
+    port: 443
+    server: 162.159.45.232
+    tls: true
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: l.ayovo.netlib.re
+      max-early-data: 2560
+      path: /
+    servername: l.ayovo.netlib.re
+  - client-fingerprint: chrome
+    encryption: none
+    name: "宿舍\U0001F1EF\U0001F1F5JP_2|1.8MB/s"
     network: ws
     port: 443
     server: 162.159.44.142
@@ -56,436 +73,45 @@ proxies:
     xudp: true
     servername: l.ayovo.netlib.re
   - client-fingerprint: chrome
-    delay: 595
-    name: "宿舍\U0001F1EF\U0001F1F5JP_2|3.0MB/s"
+    name: "宿舍\U0001F1FA\U0001F1F8US_1|4.4MB/s"
     network: ws
-    port: 443
-    server: 162.159.45.232
-    tls: true
-    type: vless
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: l.ayovo.netlib.re
-      max-early-data: 2560
-      path: /
-    servername: l.ayovo.netlib.re
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1F8\U0001F1ECSG_3|2.4MB/s"
-    network: ws
-    port: 443
-    server: 162.159.16.63
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: l.ayovo.netlib.re
-  - name: "宿舍\U0001F1EF\U0001F1F5JP_3|2.3MB/s"
-    network: ws
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    udp: true
-    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-    ws-opts:
-      headers:
-        Host: mitivpn.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.111 Safari/537.36
-      path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-    xudp: true
-  - encryption: none
-    name: "宿舍\U0001F1EB\U0001F1EEFI_1|2.3MB/s"
-    network: ws
-    port: 8080
-    server: 173.245.59.254
-    type: vless
-    udp: true
-    uuid: 5583f734-f94c-45f8-9339-21d1eed95da7
-    ws-opts:
-      headers:
-        Host: Fanla0.ghAfGh.Ir.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /cdn
-    xudp: true
-  - name: "宿舍\U0001F1FA\U0001F1F8US_1|2.9MB/s"
-    network: ws
-    password: Aimer
     port: 2053
-    server: 167.68.4.199
-    sni: epge.muarua.filegear-sg.me
-    type: trojan
+    server: nrt.xxxxxxxx.nyc.mn
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
       headers:
-        Host: epge.muarua.filegear-sg.me
-      path: /
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
-    port: 443
-    reality-opts:
-      public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-      short-id: d923
-    server: uk1.miyazono-kaori.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-    network: tcp
-    servername: www.bp.com
-  - auth: xtGIM7iEx9
-    delay: 2166
-    name: "宿舍\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-    obfs: salamander
-    obfs-password: KLSADFIU43#$
-    password: xtGIM7iEx9
-    port: 8443
-    server: 91.107.190.166
-    skip-cert-verify: true
-    sni: dash.cloudflare.com
-    type: hysteria2
-    udp: true
-  - auth: 274691f9-e6c0-46ff-82f2-3a9062872a04
-    delay: 1504
-    name: "宿舍\U0001F1F0\U0001F1F7KR_1|2.2MB/s"
-    obfs: salamander
-    obfs-password: MKsqfibVxwhZ3pCf
-    password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-    port: 42574
-    ports: 40000-50000
-    server: kr1.miyazono-kaori.com
-    skip-cert-verify: false
-    sni: kr1.miyazono-kaori.com
-    type: hysteria2
-    udp: true
-  - auth: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    name: "宿舍\U0001F1F0\U0001F1F7KR_2|2.2MB/s"
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21585
-    server: fq-kr.mxtn.net
-    skip-cert-verify: false
-    type: hysteria2
-    udp: true
-    sni: fq-kr.mxtn.net
-  - auth: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21934
-    server: fq-nl.mxtn.net
-    skip-cert-verify: false
-    type: hysteria2
-    udp: true
-    sni: fq-nl.mxtn.net
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1F9\U0001F1FCTW_1|1.9MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
-      short-id: c0d856ec
-    server: tw1.miyazono-kaori.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 274691f9-e6c0-46ff-82f2-3a9062872a04
-    servername: www.apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "宿舍\U0001F1F7\U0001F1FARU_1|1.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-      short-id: 1ed136481e0ede74
-    server: 91.243.82.82
-    tls: true
-    type: vless
-    udp: true
-    uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-    xudp: true
-    servername: khabarovsk.geodema.network
-  - name: "宿舍\U0001F1EB\U0001F1EEFI_2|1.4MB/s"
-    network: ws
-    port: 80
-    server: 146.75.119.82
-    type: vless
-    udp: true
-    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-    ws-opts:
-      headers:
-        Host: welcomtofreeboarders.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: >-
-        /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1E9\U0001F1EADE_2|2.1MB/s"
-    network: ws
-    port: 443
-    server: api.dark-coffe.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-    ws-opts:
-      headers:
-        Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /
-    xudp: true
-    servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1F7\U0001F1FARU_2|2.5MB/s"
-    network: ws
-    port: 2096
-    server: lord.kokopit.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    ws-opts:
-      headers:
-        Host: 18XaCgNj9C.bAsErTy.InFo
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: 18XaCgNj9C.bAsErTy.InFo
-  - cipher: aes-256-cfb
-    name: "宿舍\U0001F1F0\U0001F1F7KR_3|4.9MB/s"
-    password: qwerREWQ@@
-    port: 52713
-    server: 125.141.26.12
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "宿舍\U0001F1F5\U0001F1F1PL_1|1.8MB/s"
-    network: tcp
-    port: 443
-    server: plcdn17.suio.me
-    tls: true
-    type: vless
-    udp: true
-    uuid: 21f8d9aa-8ec7-4340-aa0a-7ce19f244adc
-    xudp: true
-    servername: plcdn17.suio.me
-  - cipher: chacha20-ietf
-    name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    password: asd123456
-    port: 8388
-    server: 103.149.182.158
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: "宿舍\U0001F1E9\U0001F1EADE_3|1.3MB/s"
-    network: grpc
-    port: 22955
-    reality-opts:
-      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-      short-id: 6ba85179e30d4fc2
-    server: octopusss5.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-    xudp: true
-    servername: one-piece.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "宿舍\U0001F1EB\U0001F1EEFI_3|1.7MB/s"
-    network: tcp
-    port: 47539
-    reality-opts:
-      public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-      short-id: 82a55f31981ea6be
-    server: 178.17.53.28
-    tls: true
-    type: vless
-    udp: true
-    uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-    xudp: true
-    servername: yandex.ru
-  - client-fingerprint: chrome
-    name: "宿舍\U0001F1FA\U0001F1F8US_2|2.5MB/s"
-    network: ws
-    port: 443
-    server: us-003.shopping-1688.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: 60510065-6006-44df-a6e0-6c75968d739c
-    ws-opts:
-      headers:
-        Host: us-003.shopping-1688.com
-      path: /detailsws
-    servername: us-003.shopping-1688.com
-  - client-fingerprint: chrome
-    name: "宿舍\U0001F1F7\U0001F1FARU_3|1.4MB/s"
-    port: 443
-    reality-opts:
-      public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-      short-id: 4d4421a0bac569
-    server: 51.250.4.181
-    tls: true
-    type: vless
-    uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-    network: tcp
-    servername: eh.vk.com
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EB\U0001F1F7FR_1|3.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21627
-    server: fq-fr.mxtn.net
-    skip-cert-verify: true
-    sni: fq-fr.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EB\U0001F1F7FR_2|3.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21149
-    server: fq-fr.mxtn.net
-    skip-cert-verify: true
-    sni: fq-fr.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EC\U0001F1E7GB_2|2.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21814
-    server: fq-uk.mxtn.net
-    skip-cert-verify: true
-    sni: fq-uk.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EB\U0001F1F7FR_3|1.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21018
-    server: fq-fr.mxtn.net
-    skip-cert-verify: true
-    sni: fq-fr.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1FA\U0001F1F8US_3|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21457
-    server: fq-us.mxtn.net
-    skip-cert-verify: true
-    sni: fq-us.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1FA\U0001F1F8US_4|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21771
-    server: fq-us.mxtn.net
-    skip-cert-verify: true
-    sni: fq-us.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EC\U0001F1E7GB_3|2.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21929
-    server: fq-uk.mxtn.net
-    skip-cert-verify: true
-    sni: fq-uk.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EB\U0001F1F7FR_4|2.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21212
-    server: fq-fr.mxtn.net
-    skip-cert-verify: true
-    sni: fq-fr.mxtn.net
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "宿舍\U0001F1EB\U0001F1F7FR_5|1.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-    port: 21557
-    server: fq-fr.mxtn.net
-    skip-cert-verify: true
-    sni: fq-fr.mxtn.net
-    type: hysteria2
-    up: ''
-  - alterId: 2
+        Host: ss1.f1w.de5.net
+      path: /proxyip=sjc.o00o.ooo
+    servername: ss1.f1w.de5.net
+  - alpn:
+      - ''
+    alterId: '0'
     cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "宿舍\U0001F1FA\U0001F1F8US_5|2.3MB/s"
+    name: "宿舍\U0001F1ED\U0001F1F0HK_1|1.9MB/s"
     network: tcp
-    port: 30829
-    server: v29.hdacd.com
-    skip-cert-verify: true
+    port: 47081
+    server: tunnel1.qqa678.com
+    skip-cert-verify: false
+    tls: false
     type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    udp: true
+    uuid: f80301d3-4aa6-4a9a-a0a4-2d5fb7cfd480
+    xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "宿舍\U0001F1E8\U0001F1E6CA_1|1.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: c8ab9b2e-d27f-4eb5-b443-b995fdc01b5f
+    port: 25200
+    server: xjp.kaixincloud.top
+    skip-cert-verify: true
+    sni: xjp.kaixincloud.top
+    type: hysteria2
+    up: ''
 rule-providers:
   private:
     url: >-
