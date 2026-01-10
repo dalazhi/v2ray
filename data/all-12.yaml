@@ -1,187 +1,78 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 804
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_1|1.2MB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2289
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_2|1.1MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: 0b0c6db6-t70f40-tbe46y-1la7v.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2397
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_3|1.1MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: 8a441d34-t6r5s0-taj9mo-1tco3.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 589
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_4|1.3MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: 3469f372-t70f40-t7enwo-1f1f1.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: aes-256-cfb
+- alpn:
+  - h3
+  - h2
   client-fingerprint: chrome
-  name: fn🇰🇷KR²_1|1.6MB/s
-  password: qwerREWQ@@
-  port: 52713
-  server: 125.141.26.12
-  tfo: true
-  type: ss
-  udp: true
-- client-fingerprint: random
   encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇵🇭PH²_1|1.2MB/s
-  network: tcp
-  port: 443
-  server: s460.okgg.top
-  servername: u726759u6422s460.okgg.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
-  xudp: true
-- name: fn🇫🇷FR²_1|1.8MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21557
-  server: fq-fr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-fr.mxtn.net
-  tls: false
-  type: hysteria2
-- down: ""
-  fingerprint: ""
-  name: fn🇺🇸US²_1|2.3MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21457
-  server: fq-us.mxtn.net
-  skip-cert-verify: true
-  sni: fq-us.mxtn.net
-  type: hysteria2
-  up: ""
-- name: fn🇺🇸US²_2|2.6MB/s
-  password: dc031685-c641-49c5-a620-d15f8412b753
-  port: 25200
-  server: us1.kaixincloud.top
-  skip-cert-verify: true
-  sni: us1.kaixincloud.top
-  tls: false
-  type: hysteria2
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇺🇸US²_3|1.0MB/s
-  network: tcp
-  port: 443
-  server: s508.ccgfw.top
-  servername: u726759ub4eds508.ccgfw.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇩🇪DE²_1|3.2MB/s|KeepSucceed
+  name: fn🇫🇷FR²_1|2.4MB/s
   network: ws
-  port: 8443
-  server: api.dark-coffe.com
-  servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
+  port: 443
+  server: 37.153.171.253
+  servername: Ggjd.digikala.lat
   tls: true
   type: vless
   udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
   ws-opts:
     headers:
-      Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      Host: private.digikala.lat
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
   xudp: true
-- down: ""
-  fingerprint: ""
-  name: fn🇬🇧GB²_1|2.6MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21732
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  type: hysteria2
-  up: ""
 - client-fingerprint: chrome
   encryption: none
-  name: fn🇩🇪DE²_2|2.4MB/s|KeepSucceed
-  network: ws
-  port: 2087
-  server: api.dark-coffe.com
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: fn🇬🇧GB²_1|2.2MB/s|KeepHistory
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: "20"
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
   tls: true
   type: vless
   udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+  xudp: true
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_1|1.5MB/s|KeepHistory
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.49
+  type: ss
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: fn🇵🇭PH²_1|1.6MB/s
+  network: tcp
+  port: 443
+  server: s459.okgg.top
+  servername: u726759ucfb5s459.okgg.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
+  xudp: true
+- client-fingerprint: chrome
+  name: fn🇩🇪DE²_1|3.2MB/s
+  network: ws
+  port: 443
+  server: 5.10.214.5
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  tls: true
+  type: vless
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  xudp: true
+      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+    path: /
 - delay: 633
-  name: fn🇯🇵JP¹-US⁰_1|1.5MB/s|KeepSucceed
+  name: fn🇯🇵JP¹-US⁰_1|5.1MB/s|KeepSucceed
   network: ws
   port: 443
   server: 162.159.45.232
@@ -195,265 +86,8 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: fn🇺🇸US¹⁺_1|2.1MB/s
-  network: ws
-  port: 443
-  server: 104.17.25.173
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇰🇷KR²_2|4.4MB/s
-  network: tcp
-  port: 443
-  server: s458.okgg.top
-  servername: u726759ua7f6s458.okgg.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
-  xudp: true
-- name: fn🇯🇵JP⁻¹_1|1.1MB/s|KeepSucceed
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  tls: false
-  type: vless
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇷🇺RU²_1|2.1MB/s|KeepHistory
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: khabarovsk.geodema.network
-  servername: khabarovsk.geodema.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-  xudp: true
-- down: ""
-  fingerprint: ""
-  name: fn🇬🇧GB²_2|1.9MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21929
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  type: hysteria2
-  up: ""
-- down: ""
-  fingerprint: ""
-  name: fn🇨🇦CA²_1|2.6MB/s
-  obfs: ""
-  obfs-password: ""
-  password: 4ff3bf11-3f76-4a8e-b8fc-edc4bc05d46c
-  port: 25200
-  server: xjp.kaixincloud.top
-  skip-cert-verify: true
-  sni: xjp.kaixincloud.top
-  type: hysteria2
-  up: ""
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇰🇷KR²_3|3.6MB/s
-  network: tcp
-  port: 443
-  server: s456.okgg.top
-  servername: u726759ufae3s456.okgg.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
-  xudp: true
-- down: ""
-  fingerprint: ""
-  name: fn🇫🇷FR²_2|2.5MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21266
-  server: fq-de.mxtn.net
-  skip-cert-verify: true
-  sni: fq-de.mxtn.net
-  type: hysteria2
-  up: ""
-- name: fn🇫🇷FR²_3|2.3MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21437
-  server: fq-de.mxtn.net
-  skip-cert-verify: true
-  sni: fq-de.mxtn.net
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3h2
-  client-fingerprint: chrome
-  encryption: none
-  name: fn🇩🇪DE²_3|3.8MB/s|KeepSucceed
-  network: ws
-  port: 2087
-  server: api.dark-coffe.com
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1315
-  name: fn🇭🇰HK²_5|1.3MB/s
-  network: ws
-  port: 80
-  server: 293beaf2-t8nog0-tk4rx8-1n7d9.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- client-fingerprint: chrome
-  delay: 1654
-  name: fn🇫🇮FI²_1|5.0MB/s
-  network: ws
-  port: 8080
-  server: 173.245.59.254
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5583f734-f94c-45f8-9339-21d1eed95da7
-  ws-opts:
-    headers:
-      Host: Fanla0.ghAfGh.Ir.
-    path: /cdn
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: fn🇷🇺RU²_2|1.7MB/s|KeepHistory
-  port: 443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: khabarovsk.geodema.network
-  servername: khabarovsk.geodema.network
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-- cipher: aes-128-gcm
-  delay: 796
-  name: fn🇺🇸US²_4|2.7MB/s
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: fn🇻🇳VN²_1|1.2MB/s
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.164
-  type: ss
-- down: ""
-  fingerprint: ""
-  name: fn🇰🇷KR²_4|1.8MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21368
-  server: fq-kr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-kr.mxtn.net
-  type: hysteria2
-  up: ""
-- cipher: aes-256-cfb
-  name: fn🇻🇳VN²_2|2.8MB/s
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.221
-  type: ss
-- name: fn🇯🇵JP²_1|2.3MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21458
-  server: fq-jp.mxtn.net
-  skip-cert-verify: true
-  sni: fq-jp.mxtn.net
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: fn🇬🇧GB²_3|2.4MB/s|KeepHistory
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-  xudp: true
-- client-fingerprint: chrome
-  delay: 398
-  name: fn🇸🇬SG¹-US⁰_1|2.6MB/s
-  network: ws
-  port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- name: fn🇺🇸US²_5|3.7MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21771
-  server: fq-us.mxtn.net
-  skip-cert-verify: true
-  sni: fq-us.mxtn.net
-  tls: false
-  type: hysteria2
 - encryption: none
-  name: fn🇫🇮FI²_2|1.7MB/s|KeepSucceed
+  name: fn🇫🇮FI²_1|3.6MB/s|KeepSucceed
   network: ws
   port: 8080
   server: 173.245.59.254
@@ -466,67 +100,38 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /cdn
   xudp: true
-- down: ""
-  fingerprint: ""
-  name: fn🇺🇸US²_6|2.1MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21771
-  server: fq-us.mxtn.net
-  skip-cert-verify: true
-  sni: fq-us.mxtn.net
-  type: hysteria2
-  up: ""
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: fn🇰🇷KR²_5|1.4MB/s
-  password: qwerREWQ@@
-  port: 11815
-  server: 121.170.203.148
-  tfo: true
-  type: ss
-  udp: true
-- name: fn🇺🇸US²_7|1.7MB/s|KeepSucceed
-  password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
-  port: 41951
-  server: 192.3.60.176
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: fn🇺🇸US²_8|1.7MB/s
-  password: 4ff3bf11-3f76-4a8e-b8fc-edc4bc05d46c
-  port: 25200
-  server: us1.kaixincloud.top
-  skip-cert-verify: true
-  sni: us1.kaixincloud.top
-  tls: false
-  type: hysteria2
-- name: fn🇯🇵JP²_2|1.9MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21855
-  server: fq-jp.mxtn.net
-  skip-cert-verify: true
-  sni: fq-jp.mxtn.net
-  tls: false
-  type: hysteria2
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇺🇸US²_9|2.3MB/s
-  network: tcp
+- name: fn🇺🇸US¹⁺_1|1.9MB/s|KeepSucceed
+  network: ws
   port: 443
-  server: s671.okgg.top
-  servername: u726759u276es671.okgg.top
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: fn🇸🇬SG¹-US⁰_1|3.9MB/s|KeepHistory
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
   tls: true
   type: vless
   udp: true
-  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: fn🇫🇮FI²_3|1.8MB/s
+  name: fn🇫🇮FI²_2|1.2MB/s|KeepSucceed
   network: tcp
   port: 47539
   reality-opts:
@@ -539,138 +144,49 @@ proxies:
   udp: true
   uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
   xudp: true
-- down: ""
-  fingerprint: ""
-  name: fn🇫🇷FR²_4|1.2MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21149
-  server: fq-fr.mxtn.net
+- name: fn🇨🇦CA²_1|2.2MB/s
+  password: f9504f36-66bf-48ff-bb38-c73ffe2d6b96
+  port: 20000
+  server: jnd.dabache.top
   skip-cert-verify: true
-  sni: fq-fr.mxtn.net
-  type: hysteria2
-  up: ""
-- down: ""
-  fingerprint: ""
-  name: fn🇺🇸US²_10|2.8MB/s
-  obfs: ""
-  obfs-password: ""
-  password: dc031685-c641-49c5-a620-d15f8412b753
-  port: 25200
-  server: us1.kaixincloud.top
-  skip-cert-verify: true
-  sni: us1.kaixincloud.top
-  type: hysteria2
-  up: ""
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 2094
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_6|4.5MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b
-  ws-opts:
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: fn🇯🇵JP²_3|2.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: japan.geodema.network
-  servername: japan.geodema.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: fn🇻🇳VN²_3|4.7MB/s
-  network: tcp
-  port: 443
-  server: s534.okgfw.top
-  servername: u726759uce41s534.okgfw.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ea4c8e3-0f76-3231-b5c8-27fed8bbe326
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2806
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_7|1.5MB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- down: ""
-  fingerprint: ""
-  name: fn🇫🇷FR²_5|1.3MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21212
-  server: fq-fr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-fr.mxtn.net
-  type: hysteria2
-  up: ""
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: fn🇷🇺RU²_3|3.3MB/s
-  password: c5fcdf7829112cb4
-  port: 10081
-  server: 45.140.169.225
-  tfo: true
-  type: ss
-  udp: true
-- name: fn🇨🇦CA²_2|3.5MB/s
-  password: 4ff3bf11-3f76-4a8e-b8fc-edc4bc05d46c
-  port: 25200
-  server: xjp.kaixincloud.top
-  skip-cert-verify: true
-  sni: xjp.kaixincloud.top
+  sni: jnd.dabache.top
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  down: ""
+  fingerprint: ""
+  name: fn🇩🇪DE²_2|1.2MB/s|KeepHistory
+  obfs: salamander
+  obfs-password: "KLSADFIU43#$"
+  password: xtGIM7iEx9
+  port: 8443
+  server: 91.107.190.166
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  type: hysteria2
+  up: ""
 - down: ""
   fingerprint: ""
-  name: fn🇫🇷FR²_6|2.1MB/s
+  name: fn🇭🇰HK²_1|1.6MB/s|KeepSucceed
   obfs: ""
   obfs-password: ""
   password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21627
-  server: fq-fr.mxtn.net
+  port: 21574
+  server: fq-hk.mxtn.net
   skip-cert-verify: true
-  sni: fq-fr.mxtn.net
+  sni: fq-hk.mxtn.net
   type: hysteria2
   up: ""
+- delay: 1957
+  name: fn🇩🇪DE²_3|1.7MB/s|KeepSucceed
+  password: "@193.233.254.7:"
+  port: 1080
+  server: 193.233.254.7
+  type: socks5
+  username: Og@193.233.254.7
 - delay: 617
-  name: fn🇯🇵JP¹-US⁰_2|2.2MB/s|KeepSucceed
+  name: fn🇯🇵JP¹-US⁰_2|4.8MB/s|KeepSucceed
   network: ws
   port: 443
   server: 162.159.44.142
@@ -684,133 +200,28 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: fn🇰🇷KR²_6|1.6MB/s
+- name: fn🇫🇷FR²_2|2.8MB/s|KeepSucceed
   password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21265
-  server: fq-kr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-kr.mxtn.net
-  tls: false
-  type: hysteria2
-- down: ""
-  fingerprint: ""
-  name: fn🇯🇵JP²_4|3.0MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21458
-  server: fq-jp.mxtn.net
-  skip-cert-verify: true
-  sni: fq-jp.mxtn.net
-  type: hysteria2
-  up: ""
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇩🇪DE²_4|2.5MB/s|KeepHistory
-  network: ws
-  port: 2096
-  server: api.dark-coffe.com
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: fn🇸🇬SG¹-US⁰_2|4.6MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: fn🇬🇧GB²_4|1.5MB/s|KeepHistory
-  port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-- down: ""
-  fingerprint: ""
-  name: fn🇭🇰HK²_8|2.7MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21672
-  server: fq-hk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-hk.mxtn.net
-  type: hysteria2
-  up: ""
-- name: fn🇫🇷FR²_7|2.4MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21627
+  port: 21557
   server: fq-fr.mxtn.net
   skip-cert-verify: true
   sni: fq-fr.mxtn.net
   tls: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇺🇸US²_11|1.1MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: fn🇰🇷KR²_7|3.2MB/s|KeepSucceed
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 2223
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_9|1.4MB/s
+- name: fn🇳🇱NL²_1|3.3MB/s
   network: ws
   port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  server: bastion.h3.speed.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 👉👉BanV2ray👈👈
   ws-opts:
-    path: /
+    headers:
+      Host: visvuev-272526281716252527717252.poshakhowdy.ir.
+    path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: fn🇺🇸US²_12|3.0MB/s|KeepHistory
+  name: fn🇺🇸US²_1|1.1MB/s|KeepSucceed
   port: 443
   reality-opts:
     public-key: hlWe8scaGpy5T-NUM9TdgY6LOJWlKDw3uldtar0Yfls
@@ -822,29 +233,63 @@ proxies:
   type: vless
   udp: true
   uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-- name: fn🇰🇷KR²_8|1.0MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21368
-  server: fq-kr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-kr.mxtn.net
-  tls: false
-  type: hysteria2
-- down: ""
-  fingerprint: ""
-  name: fn🇸🇬SG²_1|2.6MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21437
-  server: fq-de.mxtn.net
-  skip-cert-verify: true
-  sni: fq-de.mxtn.net
-  type: hysteria2
-  up: ""
 - client-fingerprint: chrome
   encryption: none
-  name: fn🇯🇵JP¹-US⁰_3|3.5MB/s|KeepSucceed
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: fn🇧🇬BG²_1|1.5MB/s|KeepHistory
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: d3b13f31
+  server: bgr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f13b15a6-d235-4161-b57a-274676335502
+  xudp: true
+- client-fingerprint: chrome
+  name: fn🇫🇮FI²_3|2.2MB/s|KeepSucceed
+  port: 47539
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: 82a55f31981ea6be
+  server: 178.17.53.28
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_2|1.3MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.71
+  type: ss
+- delay: 2011
+  name: fn🇺🇸US¹-NL⁰_1|1.4MB/s|KeepHistory
+  network: ws
+  password: "8r<[9'l6hAO#8ZQi"
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  encryption: none
+  name: fn🇯🇵JP¹-US⁰_3|5.0MB/s|KeepSucceed
   network: ws
   port: 443
   server: 162.159.44.142
@@ -859,273 +304,43 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /?ed=2560
   xudp: true
-- down: ""
-  fingerprint: ""
-  name: fn🇮🇳IN²_1|1.3MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21594
-  server: fq-in.mxtn.net
-  skip-cert-verify: true
-  sni: fq-in.mxtn.net
-  type: hysteria2
-  up: ""
-- delay: 1957
-  name: fn🇩🇪DE²_5|1.7MB/s|KeepSucceed
-  password: "@193.233.254.7:"
-  port: 1080
-  server: 193.233.254.7
-  type: socks5
-  username: Og@193.233.254.7
-- name: fn🇬🇧GB²_5|2.7MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21732
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  tls: false
-  type: hysteria2
-- down: ""
-  fingerprint: ""
-  name: fn🇫🇷FR²_8|3.4MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21405
-  server: fq-de.mxtn.net
-  skip-cert-verify: true
-  sni: fq-de.mxtn.net
-  type: hysteria2
-  up: ""
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 736
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_10|1.9MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- auth: 274691f9-e6c0-46ff-82f2-3a9062872a04
-  delay: 1504
-  name: fn🇰🇷KR²_9|2.8MB/s
-  obfs: salamander
-  obfs-password: MKsqfibVxwhZ3pCf
-  password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-  port: 42574
-  ports: 40000-50000
-  server: kr1.miyazono-kaori.com
-  skip-cert-verify: false
-  sni: kr1.miyazono-kaori.com
-  type: hysteria2
-  udp: true
-- name: fn🇬🇧GB²_6|2.1MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21814
-  server: fq-uk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-uk.mxtn.net
-  tls: false
-  type: hysteria2
-- down: ""
-  fingerprint: ""
-  name: fn🇭🇰HK²_11|2.0MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21574
-  server: fq-hk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-hk.mxtn.net
-  type: hysteria2
-  up: ""
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2459
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_12|1.3MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: 0da0d02c-t70f40-t7j1ub-g3b3.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- client-fingerprint: chrome
-  name: fn🇭🇰HK²_13|3.4MB/s
-  password: 61d8077bfb174e171b8283f155a555ad
-  port: 443
-  server: 112.118.116.123
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  down: ""
-  fingerprint: ""
-  name: fn🇺🇸US²_13|1.0MB/s|KeepHistory
-  obfs: ""
-  obfs-password: ""
-  password: f19823db-48e6-44fc-8a6a-372ce3611763
-  port: 26902
-  server: 170.9.63.232
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  type: hysteria2
-  up: ""
-- alpn:
-  - h3h2
-  client-fingerprint: chrome
-  encryption: none
-  name: fn🇲🇩MD²_1|1.1MB/s|KeepHistory
-  network: ws
-  port: 2096
-  server: lord.kokopit.info
-  servername: 18XaCgNj9C.bAsErTy.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-  ws-opts:
-    headers:
-      Host: 18XaCgNj9C.bAsErTy.InFo
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1649
-  name: fn🇭🇰HK²_14|1.1MB/s
-  network: ws
-  port: 80
-  server: 256a53b2-t8pj40-tm3dx0-1r9dt.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- down: ""
-  fingerprint: ""
-  name: fn🇰🇷KR²_10|2.8MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21265
-  server: fq-kr.mxtn.net
-  skip-cert-verify: true
-  sni: fq-kr.mxtn.net
-  type: hysteria2
-  up: ""
-- client-fingerprint: chrome
-  name: fn🇺🇸US²_14|2.9MB/s|KeepHistory
-  network: ws
-  port: 443
-  server: us-003.shopping-1688.com
-  servername: us-003.shopping-1688.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 60510065-6006-44df-a6e0-6c75968d739c
-  ws-opts:
-    headers:
-      Host: us-003.shopping-1688.com
-    path: /detailsws
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_3|1.5MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.8
+  type: ss
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: fn🇷🇺RU²_4|1.5MB/s|KeepSucceed
-  network: tcp
+  name: fn🇺🇸US²_2|2.5MB/s|KeepHistory
   port: 443
   reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: 91.243.82.82
-  servername: khabarovsk.geodema.network
+    public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
+    short-id: d77c4204
+  server: us1.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: fn🇭🇰HK²_15|5.2MB/s
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+- client-fingerprint: chrome
+  encryption: none
+  name: fn🇸🇬SG¹-US⁰_2|3.1MB/s|KeepSucceed
   network: ws
   port: 443
-  server: n1761214905.wpg27.xyz
-  servername: n1761214905.wpg27.xyz
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
   tls: true
-  type: vmess
-  uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
-  ws-opts:
-    headers:
-      Host: n1761214905.wpg27.xyz
-    path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: fn🇫🇷FR²_9|2.7MB/s|KeepSucceed
-  obfs: ""
-  port: 26691
-  protocol: udp
-  server: 62.210.196.68
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- down: ""
-  fingerprint: ""
-  name: fn🇯🇵JP²_5|2.3MB/s
-  obfs: ""
-  obfs-password: ""
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21142
-  server: fq-jp.mxtn.net
-  skip-cert-verify: true
-  sni: fq-jp.mxtn.net
-  type: hysteria2
-  up: ""
-- alterId: 2
-  cipher: auto
-  delay: 1129
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_16|1.1MB/s|KeepHistory
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  type: vmess
+  type: vless
   udp: true
-  uuid: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /?ed=2560
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: fn🇯🇵JP¹-US⁰_4|3.2MB/s|KeepSucceed
@@ -1143,137 +358,243 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: fn🇸🇬SG²_2|1.9MB/s
+- client-fingerprint: chrome
+  name: fn🇺🇸US²_3|2.0MB/s
+  network: ws
+  port: 8443
+  server: 104.21.3.219
+  servername: ovhwuxian.pai50288.uk
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+    path: /57ba2ab1
+- client-fingerprint: chrome
+  encryption: none
+  name: fn🇩🇪DE²_4|1.5MB/s|KeepSucceed
+  network: ws
+  port: 2096
+  server: api.dark-coffe.com
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: fn🇦🇱AL²_1|2.6MB/s|KeepHistory
+  obfs: salamander
+  obfs-password: Parsashonam
+  password: S1XZDIaoUX
+  port: 50163
+  server: 193.108.112.6
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- down: ""
+  fingerprint: ""
+  name: fn🇸🇬SG²_1|2.9MB/s|KeepSucceed
+  obfs: ""
+  obfs-password: ""
   password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21929
+  port: 21732
   server: fq-uk.mxtn.net
   skip-cert-verify: true
   sni: fq-uk.mxtn.net
-  tls: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1595
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇭🇰HK²_17|2.0MB/s|KeepHistory
+  up: ""
+- client-fingerprint: chrome
+  delay: 1654
+  name: fn🇫🇮FI²_4|4.8MB/s|KeepSucceed
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1223
-  name: fn🇭🇰HK²_18|1.2MB/s
-  network: ws
-  port: 80
-  server: 0312be33-t8pj40-t9zvpd-f1v1.hkt.gotochinatown.net
+  port: 8080
+  server: 173.245.59.254
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
+  uuid: 5583f734-f94c-45f8-9339-21d1eed95da7
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- name: fn🇭🇰HK²_19|2.6MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21574
-  server: fq-hk.mxtn.net
-  skip-cert-verify: true
-  sni: fq-hk.mxtn.net
-  tls: false
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: fn🇺🇸US²_15|1.3MB/s|KeepHistory
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      Host: Fanla0.ghAfGh.Ir.
+    path: /cdn
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: fn🇬🇧GB²_2|1.6MB/s|KeepSucceed
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: d923
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
 - client-fingerprint: chrome
-  name: fn🇩🇪DE²_6|2.1MB/s|KeepHistory
+  name: fn🇺🇸US¹⁺_2|2.6MB/s
   network: ws
   port: 443
+  server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: fn🇯🇵JP¹-KR⁰_1|2.8MB/s|KeepSucceed
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  tls: false
+  type: vless
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: fn🇫🇷FR²_3|3.5MB/s
+  network: ws
+  port: 443
+  server: 188.114.96.2
+  servername: Ggjd.digikala.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+  ws-opts:
+    headers:
+      Host: private.digikala.lat
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: fn🇵🇱PL²_1|1.6MB/s
+  port: 443
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 1929ef620e9b34f5
+  server: 158.160.201.80
+  servername: m.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e329843c-02c3-4401-8289-cf196d5a6921
+- cipher: aes-256-cfb
+  name: fn🇻🇳VN²_4|1.2MB/s
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.237
+  type: ss
+  udp: true
+- encryption: none
+  name: fn🇺🇸US²_4|3.5MB/s|KeepHistory
+  network: ws
+  port: 443
+  server: 172.67.130.204
+  servername: HHhhhHhhhhH.777198.xYz
+  tls: true
+  type: vless
+  uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  ws-opts:
+    headers:
+      Host: hhhhhhhhhhh.777198.xyz
+    path: /OjdW89Bpg4ykd4O
+- client-fingerprint: chrome
+  delay: 398
+  name: fn🇸🇬SG¹-US⁰_3|5.1MB/s|KeepSucceed
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- name: fn🇫🇷FR²_4|2.7MB/s
+  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
+  port: 21018
+  server: fq-fr.mxtn.net
+  skip-cert-verify: true
+  sni: fq-fr.mxtn.net
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: fn🇩🇪DE²_5|2.3MB/s|KeepSucceed
+  network: ws
+  port: 2087
   server: api.dark-coffe.com
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: fn🇭🇰HK²_2|1.7MB/s
+  port: 41579
+  reality-opts:
+    public-key: 3W_eKpL975AF7oI-mkgVtf2iK954luxwaT6C41re0RI
+    short-id: 2efb6c97c1
+  server: 161.248.63.15
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: f64cdd9d-57c3-45b2-e999-c46006719646
+- name: fn🇺🇸US¹⁺_3|1.5MB/s|KeepHistory
+  network: ws
+  port: 443
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: fn🇩🇪DE²_6|4.0MB/s
+  network: ws
+  port: 2096
+  server: 5.10.214.0
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
   tls: true
   type: vless
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
-- alpn:
-  - h3
-  down: ""
-  fingerprint: ""
-  name: fn🇫🇷FR²_10|1.9MB/s|KeepHistory
-  obfs: ""
-  obfs-password: ""
-  password: a516b408-e06d-4278-9e6d-5271571ecab5
-  port: 20248
-  server: 51.75.118.149
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  type: hysteria2
-  up: ""
-- name: fn🇺🇸US²_16|3.4MB/s
-  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
-  port: 21457
-  server: fq-us.mxtn.net
-  skip-cert-verify: true
-  sni: fq-us.mxtn.net
-  tls: false
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: fn🇺🇸US²_17|2.3MB/s|KeepHistory
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: fn🇯🇵JP²_6|1.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: 142.91.106.176
-  servername: japan.geodema.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-  xudp: true
-- client-fingerprint: chrome
-  name: fn🇫🇮FI²_4|1.8MB/s|KeepHistory
-  port: 47539
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  server: 178.17.53.28
-  servername: yandex.ru
-  tls: true
-  type: vless
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
