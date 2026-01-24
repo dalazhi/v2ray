@@ -1,46 +1,22 @@
 proxies:
-    - name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_1|2.5MB/s|KeepSucced"
+    - client-fingerprint: random
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_1|2.2MB/s"
       network: ws
       port: 443
-      server: cloudflare.182682.xyz
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_2|2.6MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 162.159.16.63
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      name: "fn\U0001F1FA\U0001F1F8US¹⁺_1|1.4MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
+      server: 162.159.45.104
+      servername: snip.zrf.hidns.co
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
       ws-opts:
         headers:
-            Host: l.ayovo.netlib.re
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /x-aniu/?ed=2560
-      xudp: true
+            Host: snip.zrf.hidns.co
+        path: /?ed=2560
     - client-fingerprint: chrome
       delay: 1261
-      name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_3|1.9MB/s|KeepSucced"
+      name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_1|2.7MB/s|KeepSucced"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -54,11 +30,10 @@ proxies:
             Host: l.ayovo.netlib.re
         max-early-data: 2560
         path: /
-    - name: "fn\U0001F1FA\U0001F1F8US¹⁺_2|4.7MB/s|KeepHistory"
+    - name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_2|1.3MB/s|KeepSucced"
       network: ws
       port: 443
-      server: 104.18.185.26
-      servername: l.ayovo.netlib.re
+      server: 162.159.16.63
       tls: true
       type: vless
       uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
@@ -66,120 +41,80 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - speedtest.adslthailand.com
-        method: GET
-        path:
-            - /
-      name: "fn\U0001F1F9\U0001F1EDTH²_1|2.0MB/s|KeepHistory"
-      network: http
-      port: 8080
-      server: m.modzard.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: f2e17b4d-22fd-44a4-90db-40649717be8e
-    - cipher: chacha20-ietf-poly1305
-      name: "fn\U0001F1F3\U0001F1F1NL²_1|3.2MB/s|KeepHistory"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 82.38.31.191
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F7\U0001F1FARU²_1|2.2MB/s|KeepHistory"
-      port: 7443
-      reality-opts:
-        public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-        short-id: fd88bd27db4cc661
-      server: 45.139.26.152
-      servername: eh.vk.com
-      tls: true
-      type: vless
-      uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-    - name: "fn\U0001F1F8\U0001F1ECSG²_1|2.4MB/s"
-      obfs: salamander
-      obfs-password: ikjnsdakjnasfdjkn
-      password: dbR4wwHGOi
-      port: 19500
-      server: visg.556359.xyz
-      skip-cert-verify: true
-      sni: go.microsoft.com
-      tls: false
-      type: hysteria2
-    - name: "fn\U0001F1F9\U0001F1FCTW²_1|5.7MB/s|KeepHistory"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1E9\U0001F1EADE²_1|2.7MB/s|KeepHistory"
+    - name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_3|1.8MB/s|KeepSucced"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-        short-id: 2f3e735aedc55aaf
-      server: 95.174.92.156
-      servername: carreta.ru
+      server: cloudflare.182682.xyz
       tls: true
       type: vless
-      uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_2|2.7MB/s"
+      network: ws
+      port: 443
+      server: 162.159.38.89
+      servername: snip.zrf.hidns.co
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrf.hidns.co
+        path: /?ed=2560
+    - name: "fn\U0001F1FA\U0001F1F8US¹⁺_1|1.5MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_3|2.1MB/s"
+      network: ws
+      port: 443
+      server: 162.159.44.248
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_4|1.9MB/s"
+      network: ws
+      port: 443
+      server: 172.64.145.31
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F3\U0001F1F1NL²_2|1.5MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-        short-id: 992f3294e2336744
-      server: ndt.fasti.win
-      servername: ndt.fasti.win
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3bd011c9-c5ec-4024-8aaa-6d79db4e97d3
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "fn\U0001F1F3\U0001F1F1NL²_3|2.8MB/s|KeepHistory"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.194
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "fn\U0001F1E9\U0001F1EADE²_2|1.9MB/s"
-      password: NQRCh-qm11GH9MaRWX9NdmSdWaGRhFeS
-      port: "22"
-      server: 51.250.79.203
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "fn\U0001F1FA\U0001F1F8US²_1|3.6MB/s|KeepHistory"
-      port: 180
-      server: 82.198.246.97
-      servername: broadcastlv.chat.bilibili.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - client-fingerprint: chrome
-      name: "fn\U0001F1FA\U0001F1F8US¹⁺_3|2.8MB/s"
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_4|2.5MB/s|KeepHistory"
       network: ws
       port: 443
-      server: 104.16.147.32
+      server: 162.159.45.232
       servername: l.ayovo.netlib.re
-      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
@@ -187,353 +122,223 @@ proxies:
       ws-opts:
         headers:
             Host: l.ayovo.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /?ed=2560
-    - encryption: none
-      name: "fn\U0001F1E9\U0001F1EADE²_3|3.0MB/s"
+      xudp: true
+    - name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_5|1.9MB/s"
       network: ws
-      port: "80"
-      server: www.speedtest.net
+      port: 443
+      server: 162.159.44.142
+      tls: true
       type: vless
-      udp: true
-      uuid: 6b1348aa-43de-4c14-af6a-bcbe02b0c7d5
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
-            Host: Www.speedtest.net.sIgmasigmaboy.site.
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F7\U0001F1FARU²_2|2.2MB/s"
-      port: 8443
-      reality-opts:
-        public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-        short-id: f1071c148a5aefc4
-      server: 176.120.67.71
-      servername: ozon.ru
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_6|1.1MB/s"
+      network: ws
+      port: 443
+      server: 108.162.198.122
+      servername: snip.zrf.hidns.co
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: d0dea598-9047-4567-a934-84c2797c0978
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrf.hidns.co
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_2|1.7MB/s"
+      network: ws
+      port: 443
+      server: 104.19.125.68
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1EF\U0001F1F5JP¹-US⁰_7|2.8MB/s"
+      network: ws
+      port: 443
+      server: cf.877774.xyz
+      servername: snip.zrf.hidns.co
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrf.hidns.co
+        path: /?ed=2560
+    - name: "fn\U0001F1F8\U0001F1ECSG¹-US⁰_5|1.4MB/s"
+      network: ws
+      port: 443
+      server: mfa.gov.ua
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_3|1.8MB/s"
+      network: ws
+      port: 443
+      server: 162.159.254.41
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_4|4.1MB/s"
+      network: ws
+      port: 443
+      server: 154.211.8.18
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
     - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "fn\U0001F1F5\U0001F1F1PL²_1|2.4MB/s"
-      network: tcp
-      port: "2085"
-      server: marzpol.citixen.sbs
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 27aac4a9-e839-4606-ad63-90f78228e6d7
-      xudp: true
-    - client-fingerprint: qq
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F7\U0001F1FARU²_3|1.8MB/s"
-      network: tcp
-      port: "52006"
-      reality-opts:
-        public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-        short-id: d8c6b58bcbb0c323
-      server: morgentop.ru
-      servername: max.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4dcfab42-4703-07d0-b56d-0965380a532e
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc
-      name: "fn\U0001F1E6\U0001F1F9AT²_1|1.1MB/s|KeepHistory"
-      network: grpc
-      port: 22955
-      reality-opts:
-        public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-        short-id: 6ba85179e30d4fc2
-      server: dfg.octopusss.net
-      servername: one-piece.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-      xudp: true
-    - cipher: chacha20-ietf
-      name: "fn\U0001F1ED\U0001F1F0HK²_1|1.5MB/s|KeepHistory"
-      password: asd123456
-      port: 8388
-      server: 103.149.182.158
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: UpdateService
-      name: "fn\U0001F1EB\U0001F1F7FR²_1|2.3MB/s|KeepHistory"
-      network: grpc
-      port: 2083
-      reality-opts:
-        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-        short-id: 6da16b1335651b38
-      server: 213.176.73.206
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-      xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F7\U0001F1FARU²_4|1.7MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
-        short-id: f78eee63f41b3ede
-      server: spb.jojack.ru
-      servername: spb.jojack.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: e8cba8f5-b824-4f56-8d91-9164fac200ce
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "fn\U0001F1F5\U0001F1F1PL²_2|2.0MB/s|KeepHistory"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: 8j9xx2O2pywcSy1EiGsMALbyzZXLs2EEbihC-E9E7nw
-        short-id: c2ec7bbfdbbad490
-      server: 51.250.42.73
-      servername: api-maps.yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 71031aa1-067e-425e-97f5-37875f838a10
-      xudp: true
-    - grpc-opts:
-        grpc-service-name: max.ru
-      name: "fn\U0001F1F8\U0001F1EASE²_1|2.6MB/s"
-      network: grpc
-      port: 8080
-      server: 62.182.192.232
-      type: vless
-      udp: true
-      uuid: d44175ee-d3e2-45d3-b16a-ea2705cbfe7b
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_1|2.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.196
-      type: ss
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_2|1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.138
-      type: ss
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_3|1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.214
-      type: ss
-    - client-fingerprint: chrome
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "fn\U0001F1E9\U0001F1EADE²_4|2.3MB/s"
-      network: tcp
-      port: 59152
-      reality-opts:
-        public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
-        short-id: effab4f3a0ed698e
-      server: 51.250.33.87
-      servername: ads.x5.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-      xudp: true
-    - delay: 2011
-      name: "fn\U0001F1FA\U0001F1F8US¹-NL⁰_1|3.4MB/s|KeepHistory"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-555|1.0MB/s"
       network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: 8443
-      server: koma-yt.pages.dev
-      skip-cert-verify: false
-      sni: Koma-YT.PAGeS.Dev
-      type: trojan
+      port: "443"
+      server: 104.18.32.47
+      servername: sakurai.bestcurt.ir
+      tls: true
+      type: vless
       udp: true
+      uuid: 8f7885e2-2851-481e-8864-38ed7f9680c2
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        max-early-data: 2560
-        path: /tro8sFW1S91B6sZrM1
-    - name: "fn\U0001F1E9\U0001F1EADE²_5|1.7MB/s|KeepHistory"
+            Host: sakurai.bestcurt.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /bestvpn
+      xudp: true
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_5|2.7MB/s"
+      network: ws
+      port: 443
+      server: 27.50.49.104
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_6|4.5MB/s"
+      network: ws
+      port: 443
+      server: 27.50.48.6
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - name: "fn\U0001F1E9\U0001F1EADE²_1|1.4MB/s|KeepHistory"
       password: ""
       port: 1080
-      server: 193.233.254.9
+      server: 193.233.254.8
       skip-cert-verify: true
       type: socks5
-      username: Og@193.233.254.9
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_4|1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.156
-      type: ss
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_5|3.7MB/s|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.81
-      type: ss
-    - alterId: 2
-      cipher: auto
-      name: "fn\U0001F1FA\U0001F1F8US²_2|1.7MB/s|KeepHistory"
-      port: 30808
-      server: v8.hdacd.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F3\U0001F1F1NL²_4|3.1MB/s"
+      username: Og@193.233.254.8
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_7|1.0MB/s"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: 48720c
-      server: 94.228.213.219
-      servername: hls-svod.itunes.apple.com
+      server: 27.50.48.2
+      servername: snip.zrfs.indevs.in
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_6|1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.222
-      type: ss
-    - name: "fn\U0001F1E9\U0001F1EADE²_6|2.3MB/s"
-      password: '@193.233.254.9:'
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-      username: Og@193.233.254.9
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: grpc
-      name: "fn\U0001F1E6\U0001F1F9AT²_2|2.2MB/s"
-      network: grpc
-      port: 22955
-      reality-opts:
-        public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-        short-id: 6ba85179e30d4fc2
-      server: 152.53.51.24
-      servername: one-piece.com
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_8|3.4MB/s"
+      network: ws
+      port: 443
+      server: 27.50.48.8
+      servername: snip.zrf.hidns.co
       skip-cert-verify: false
-      tfo: false
       tls: true
       type: vless
-      uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "fn\U0001F1F7\U0001F1FARU²_5|1.9MB/s|KeepHistory"
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrf.hidns.co
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_9|4.8MB/s"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
-        short-id: aabbccdd
-      server: 176.125.240.166
-      servername: apple.com
+      server: 27.50.49.104
+      servername: snip.zrf.hidns.co
+      skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 002accb526534fcab24a72b0ea1cff59
-    - cipher: aes-256-cfb
-      name: "fn\U0001F1FB\U0001F1F3VN²_7|1.3MB/s|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.127
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "fn\U0001F1E9\U0001F1EADE²_7|2.0MB/s|KeepHistory"
-      network: tcp
+      udp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrf.hidns.co
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "fn\U0001F1FA\U0001F1F8US¹⁺_10|3.6MB/s"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
-        short-id: 2c60d62e1d95c07a
-      server: 51.250.35.199
-      servername: eh.vk.com
+      server: 27.50.48.13
+      servername: snip.zrfs.indevs.in
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-      xudp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: grpc
-      name: "fn\U0001F1E6\U0001F1F9AT²_3|1.2MB/s"
-      network: grpc
-      port: 22955
-      reality-opts:
-        public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-        short-id: 6ba85179e30d4fc2
-      server: 152.53.48.237
-      servername: one-piece.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-      xudp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: UpdateService
-      name: "fn\U0001F1E9\U0001F1EADE²_8|1.8MB/s"
-      network: grpc
-      port: 2083
-      reality-opts:
-        public-key: dZa2XW10LFCKNROY-o-ItQzBbGyatkYR9CWNUw3DzBU
-        short-id: 70005607870ddd35
-      server: 51.250.33.87
-      servername: api-maps.yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-      xudp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: UpdateService
-      name: "fn\U0001F1E9\U0001F1EADE²_9|1.7MB/s|KeepHistory"
-      network: grpc
-      port: 2083
-      reality-opts:
-        public-key: dZa2XW10LFCKNROY-o-ItQzBbGyatkYR9CWNUw3DzBU
-        short-id: 70005607870ddd35
-      server: 51.250.41.54
-      servername: ads.x5.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-      xudp: true
+      uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+      ws-opts:
+        headers:
+            Host: snip.zrfs.indevs.in
+        path: /?ed=2560
