@@ -1,28 +1,40 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "宿舍\U0001F1FB\U0001F1F3VN_1|1.1MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.25
-    type: ss
   - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "宿舍\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-    network: ws
-    port: 2086
-    server: 154.83.2.156
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "宿舍\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+    network: tcp
+    port: 443
+    server: 57.129.64.102
+    tls: true
+    type: vless
     udp: true
-    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-    ws-opts:
-      headers:
-        Host: v205.19740822.xyz
-      path: /
+    uuid: nasnet
     xudp: true
+    servername: nasnet-5712964102-direct.sharghdaily.co
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "宿舍\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
+      short-id: ffffffffff
+    server: 185.214.74.184
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
+    xudp: true
+    servername: apple.com
 rule-providers:
   private:
     url: >-
