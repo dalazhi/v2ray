@@ -1,411 +1,538 @@
 proxies:
-  - name: "op\U0001F1F8\U0001F1ECSG_1|4.1MB/s"
-    network: ws
+  - name: "op\U0001F1F0\U0001F1F7KR_1|2.2MB/s"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - cipher: none
+    name: "op\U0001F1EF\U0001F1F5JP_1|2.2MB/s"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: false
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      tls: true
     port: 443
-    server: 112.126.1.114
+    server: 199.181.197.38
+    type: ss
+    udp: true
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    name: "op\U0001F1FA\U0001F1F8US_1|2.0MB/s"
+    port: 10121
+    reality-opts:
+      public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+      short-id: 9c2a7d4e5f18b6a3
+    server: 150.241.83.152
+    skip-cert-verify: false
     tls: true
     type: vless
-    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+    udp: true
+    uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+    network: tcp
+    servername: apple.com
+  - name: "op\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
+    port: 8443
+    server: 195.181.173.199
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - name: "op\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+    password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+    port: 443
+    server: a6c27e57-tcxds0-tnfe2z-1s4hc.de.oshuawei.com
+    tls: true
+    type: http
+    username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+    sni: a6c27e57-tcxds0-tnfe2z-1s4hc.de.oshuawei.com
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.191
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_1|1.8MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg007144ll4.cybervena.com
+    type: ss
+  - cipher: aes-128-gcm
+    name: "op\U0001F1EF\U0001F1F5JP_2|1.3MB/s"
+    password: shadowsocks
+    port: 443
+    server: 149.22.87.204
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_2|1.6MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: n8mrcg005958sxh.cybervena.com
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_3|1.7MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg001121x36.cybervena.com
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_4|1.2MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: nbmrcg003507ck6.cybervena.com
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_5|1.6MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg00121233v.cybervena.com
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_1|1.5MB/s"
+    network: ws
+    port: 80
+    server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
     ws-opts:
       headers:
-        Host: snippet.danfeng.eu.org
-      path: /danfeng
-    servername: snippet.danfeng.eu.org
+        Host: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-116.49.109.227-4840 | 0.598MB"
   - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
-    password: W74XFALLLuw6m5IA
-    port: 443
-    server: admin.c1.webramz.co
+    name: "op\U0001F1F9\U0001F1FCTW_6|3.0MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: 1.161.246.106
     type: ss
   - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1EC\U0001F1E7GB_2|2.2MB/s"
-    password: W74XFALLLuw6m5IA
-    port: 443
-    server: series-a1.samanehha.co
+    name: "op\U0001F1F9\U0001F1FCTW_7|1.5MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: n8mrcg005938lsz.cybervena.com
     type: ss
-  - cipher: aes-256-gcm
-    name: "op\U0001F1FA\U0001F1F8US_1|1.5MB/s"
-    password: 8JCsPssfgS8tiRwiMlhARg==
-    port: 12000
-    server: 144.217.164.29
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_8|1.1MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg001286ek2.cybervena.com
     type: ss
   - cipher: aes-256-cfb
-    name: "op\U0001F1E8\U0001F1E6CA_1|1.2MB/s"
-    obfs: plain
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    protocol: origin
-    server: 79.127.233.170
-    type: ssr
-  - name: "op\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
-    password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+    name: "op\U0001F1F0\U0001F1F7KR_2|2.2MB/s"
+    password: qwerREWQ@@
+    port: 13979
+    server: 221.139.79.57
+    type: ss
+  - name: "op\U0001F1ED\U0001F1F0HK_2|1.3MB/s"
+    password: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
     port: 5228
-    server: f496cf90-t9zts0-tpw4i4-1pckg.cm4.oshuawei.com
-    sni: f496cf90-t9zts0-tpw4i4-1pckg.cm4.oshuawei.com
+    server: 3b9d7ada-tcxds0-tgl134-1h240.cm4.oshuawei.com
     tls: true
     type: http
-    username: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_1|2.1MB/s"
-    password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-    port: 31233
-    server: 48335b4b-t9zts0-th9kx9-1os43.my.oshuawei.com
-    sni: 48335b4b-t9zts0-th9kx9-1os43.my.oshuawei.com
+    username: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
+    sni: 3b9d7ada-tcxds0-tgl134-1h240.cm4.oshuawei.com
+  - name: "op\U0001F1ED\U0001F1F0HK_3|1.7MB/s"
+    password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+    port: 5228
+    server: d7430e2e-tcxds0-tl09la-1q91p.cm4.oshuawei.com
     tls: true
     type: http
-    username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  - name: "op\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
-    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-    port: 27233
-    server: 8e05b1ca-t9zts0-t9x9zr-1lkt0.cm4.oshuawei.com
-    sni: 8e05b1ca-t9zts0-t9x9zr-1lkt0.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-  - name: "op\U0001F1F8\U0001F1ECSG_2|1.1MB/s"
-    password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-    port: 17235
-    server: 704dfe07-t9zts0-ts3rye-mrtr.cm4.oshuawei.com
-    sni: 704dfe07-t9zts0-ts3rye-mrtr.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  - name: "op\U0001F1F2\U0001F1FEMY_2|1.6MB/s"
-    password: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-    port: 31233
-    server: 2b716e1a-t9zts0-tdahby-1tnab.my.oshuawei.com
-    sni: 2b716e1a-t9zts0-tdahby-1tnab.my.oshuawei.com
-    tls: true
-    type: http
-    username: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_3|1.8MB/s"
-    password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-    port: 31233
-    server: 09b7ec6a-ta1og0-tnsc3a-1f0gu.my.oshuawei.com
-    sni: 09b7ec6a-ta1og0-tnsc3a-1f0gu.my.oshuawei.com
-    tls: true
-    type: http
-    username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  - name: "op\U0001F1F8\U0001F1ECSG_3|1.2MB/s"
-    password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-    port: 17235
-    server: 1fba79d6-t9zts0-td95qh-1isea.cm4.oshuawei.com
-    sni: 1fba79d6-t9zts0-td95qh-1isea.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  - name: "op\U0001F1F2\U0001F1FEMY_4|1.9MB/s"
-    password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-    port: 31233
-    server: 28da8b5e-ta1og0-tc2x42-n09f.my.oshuawei.com
-    sni: 28da8b5e-ta1og0-tc2x42-n09f.my.oshuawei.com
-    tls: true
-    type: http
-    username: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_5|1.0MB/s"
-    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-    port: 31233
-    server: c5529f16-t9zts0-tdq4vj-1l0qa.my.oshuawei.com
-    sni: c5529f16-t9zts0-tdq4vj-1l0qa.my.oshuawei.com
-    tls: true
-    type: http
-    username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_6|1.3MB/s"
+    username: c11ff50c-f582-11ee-94df-f23c9164ca5d
+    sni: d7430e2e-tcxds0-tl09la-1q91p.cm4.oshuawei.com
+  - name: "op\U0001F1ED\U0001F1F0HK_4|1.3MB/s"
     password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-    port: 31233
-    server: 718013b2-t9zts0-tdq1ln-1hpo0.my.oshuawei.com
-    sni: 718013b2-t9zts0-tdq1ln-1hpo0.my.oshuawei.com
+    port: 5228
+    server: 0c083164-tcxds0-tdq1ln-1hpo0.cm4.oshuawei.com
     tls: true
     type: http
     username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-  - name: "op\U0001F1F2\U0001F1FEMY_7|2.0MB/s"
-    password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+    sni: 0c083164-tcxds0-tdq1ln-1hpo0.cm4.oshuawei.com
+  - name: "op\U0001F1ED\U0001F1F0HK_5|1.3MB/s"
+    password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+    port: 5228
+    server: 687f6f45-tcxds0-tnt75r-1k8ga.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: f860f2da-5035-11ed-bb74-f23c9164ca5d
+    sni: 687f6f45-tcxds0-tnt75r-1k8ga.cm4.oshuawei.com
+  - name: "op\U0001F1EF\U0001F1F5JP_3|1.0MB/s"
+    password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    port: 27233
+    server: a7e79c09-tcxds0-tm53cm-1ol97.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    sni: a7e79c09-tcxds0-tm53cm-1ol97.cm4.oshuawei.com
+  - name: "op\U0001F1F8\U0001F1ECSG_1|4.0MB/s"
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    port: 3234
+    server: a058f978-tcxds0-tczog2-dnss.sub.cdnbytescm.com
+    tls: true
+    type: http
+    username: 16955d72-1794-11f0-a035-f23c95b6f51d
+    sni: a058f978-tcxds0-tczog2-dnss.sub.cdnbytescm.com
+  - name: "op\U0001F1F0\U0001F1F7KR_3|1.2MB/s"
+    password: c357a728-1211-11f0-9a65-f23c9164ca5d
+    port: 31433
+    server: 1043ca69-tcxds0-tw35ua-1m49t.kr.oshuawei.com
+    tls: true
+    type: http
+    username: c357a728-1211-11f0-9a65-f23c9164ca5d
+    sni: 1043ca69-tcxds0-tw35ua-1m49t.kr.oshuawei.com
+  - name: "op\U0001F1FA\U0001F1F8US_2|5.0MB/s"
+    password: e72e7036-2fa1-4c14-af82-567e22f97459
+    port: 18443
+    server: us-sje.baipiao0721-dns78655.eu
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: us-sje.baipiao0721-dns78655.eu
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_1|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.238
+    type: ss
+  - name: "op\U0001F1ED\U0001F1F0HK_6|2.0MB/s"
+    password: <password>
+    port: 8443
+    server: cc17a031-t9zts0-titr5n-1hhyy.hkt.cdnhuawei.com
+    sni: cc17a031-t9zts0-titr5n-1hhyy.hkt.cdnhuawei.com
+    tls: true
+    type: http
+    username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  - name: "op\U0001F1ED\U0001F1F0HK_7|1.2MB/s"
+    password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+    port: 5228
+    server: c3b31bad-t9zts0-ta6lxc-jjv2.cm4.oshuawei.com
+    sni: c3b31bad-t9zts0-ta6lxc-jjv2.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  - name: "op\U0001F1ED\U0001F1F0HK_8|1.0MB/s"
+    password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+    port: 5228
+    server: 532b2ef9-t9zts0-tfeciy-1iddy.cm4.oshuawei.com
+    sni: 532b2ef9-t9zts0-tfeciy-1iddy.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+  - name: "op\U0001F1ED\U0001F1F0HK_9|1.4MB/s"
+    password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    port: 5228
+    server: 6ffda144-t9zts0-th1s9h-8rja.cm4.oshuawei.com
+    sni: 6ffda144-t9zts0-th1s9h-8rja.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  - name: "op\U0001F1ED\U0001F1F0HK_10|1.6MB/s"
+    password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+    port: 5228
+    server: 68ba64d1-tc9b40-tgurfh-n09f.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+    sni: 68ba64d1-tc9b40-tgurfh-n09f.cm4.oshuawei.com
+  - name: "op\U0001F1ED\U0001F1F0HK_11|1.2MB/s"
+    password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    port: 5228
+    server: 433f9997-tcb5s0-te4ijj-1fqef.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    sni: 433f9997-tcb5s0-te4ijj-1fqef.cm4.oshuawei.com
+  - name: "op\U0001F1ED\U0001F1F0HK_12|1.2MB/s"
+    password: 40639730-e027-11ea-87ad-f23c913c8d2b
+    port: 5228
+    server: 983873c0-t9zts0-tebnsl-z93q.cm4.oshuawei.com
+    sni: 983873c0-t9zts0-tebnsl-z93q.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 40639730-e027-11ea-87ad-f23c913c8d2b
+  - name: "op\U0001F1ED\U0001F1F0HK_13|1.2MB/s"
+    password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
+    port: 5228
+    server: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
+    sni: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
+  - name: "op\U0001F1F8\U0001F1ECSG_2|1.1MB/s"
+    password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+    port: 17235
+    server: 0ba2b8fa-t9zts0-tb016b-1m7l4.cm4.oshuawei.com
+    sni: 0ba2b8fa-t9zts0-tb016b-1m7l4.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  - name: "op\U0001F1ED\U0001F1F0HK_14|1.7MB/s"
+    password: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+    port: 5228
+    server: c677ee82-t9zts0-tysu9z-1nq4g.cm4.oshuawei.com
+    sni: c677ee82-t9zts0-tysu9z-1nq4g.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  - name: "op\U0001F1F8\U0001F1ECSG_3|2.2MB/s"
+    password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+    port: 17235
+    server: 70f5a546-t9zts0-ts40sw-14g76.cm4.oshuawei.com
+    sni: 70f5a546-t9zts0-ts40sw-14g76.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  - name: "op\U0001F1F2\U0001F1FEMY_1|1.4MB/s"
+    password: 32315324-cf6b-11ed-979b-f23c9164ca5d
     port: 31233
-    server: e8277b3c-ta1og0-trhks8-1c9em.my.oshuawei.com
-    sni: e8277b3c-ta1og0-trhks8-1c9em.my.oshuawei.com
+    server: f55ab89c-t9zts0-tajk23-nx3b.my.oshuawei.com
+    sni: f55ab89c-t9zts0-tajk23-nx3b.my.oshuawei.com
+    tls: true
+    type: http
+    username: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  - name: "op\U0001F1F2\U0001F1FEMY_2|1.4MB/s"
+    password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+    port: 31233
+    server: f6d65cd1-t9zts0-tc9wl2-py5w.my.oshuawei.com
+    sni: f6d65cd1-t9zts0-tc9wl2-py5w.my.oshuawei.com
+    tls: true
+    type: http
+    username: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  - name: "op\U0001F1EF\U0001F1F5JP_4|1.2MB/s"
+    password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+    port: 27233
+    server: 8ff74373-t9zts0-tkhmfr-1jm8i.cm4.oshuawei.com
+    sni: 8ff74373-t9zts0-tkhmfr-1jm8i.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  - name: "op\U0001F1EF\U0001F1F5JP_5|1.1MB/s"
+    password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+    port: 443
+    server: 20b90c24-t9zts0-tdq1ln-1hpo0.jp.oshuawei.com
+    sni: 20b90c24-t9zts0-tdq1ln-1hpo0.jp.oshuawei.com
+    tls: true
+    type: http
+    username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  - name: "op\U0001F1ED\U0001F1F0HK_15|1.3MB/s"
+    password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    port: 5228
+    server: 1d60525e-t9zts0-tarwmr-1fqef.cm4.oshuawei.com
+    sni: 1d60525e-t9zts0-tarwmr-1fqef.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+  - name: "op\U0001F1EF\U0001F1F5JP_6|1.2MB/s"
+    password: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+    port: 27233
+    server: fb07ffbe-t9zts0-thiwul-1gcq2.cm4.oshuawei.com
+    sni: fb07ffbe-t9zts0-thiwul-1gcq2.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  - name: "op\U0001F1EE\U0001F1E9ID_1|1.1MB/s"
+    password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+    port: 32233
+    server: 98e07417-t9zts0-truoje-1uni.id.oshuawei.com
+    sni: 98e07417-t9zts0-truoje-1uni.id.oshuawei.com
+    tls: true
+    type: http
+    username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  - name: "op\U0001F1EE\U0001F1E9ID_2|1.1MB/s"
+    password: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+    port: 32233
+    server: 8f5c3530-t9zts0-tdahby-1tnab.id.oshuawei.com
+    sni: 8f5c3530-t9zts0-tdahby-1tnab.id.oshuawei.com
+    tls: true
+    type: http
+    username: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+  - name: "op\U0001F1EE\U0001F1E9ID_3|1.1MB/s"
+    password: ea93064c-176c-11f0-885d-f23c91cfbbc9
+    port: 32233
+    server: c2159036-t9zts0-tb6ky5-1rgxu.id.oshuawei.com
+    sni: c2159036-t9zts0-tb6ky5-1rgxu.id.oshuawei.com
+    tls: true
+    type: http
+    username: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  - name: "op\U0001F1ED\U0001F1F0HK_16|1.3MB/s"
+    password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+    port: 5228
+    server: cca08505-t9zts0-tasors-1tdqt.cm4.oshuawei.com
+    sni: cca08505-t9zts0-tasors-1tdqt.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  - name: "op\U0001F1F2\U0001F1FEMY_3|2.4MB/s"
+    password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+    port: 31233
+    server: c92910b5-ta1og0-tfeciy-1iddy.my.oshuawei.com
+    sni: c92910b5-ta1og0-tfeciy-1iddy.my.oshuawei.com
+    tls: true
+    type: http
+    username: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+  - name: "op\U0001F1F0\U0001F1F7KR_4|1.2MB/s"
+    password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+    port: 31433
+    server: f16d133d-t9zts0-tnnrly-g43g.kr.oshuawei.com
+    sni: f16d133d-t9zts0-tnnrly-g43g.kr.oshuawei.com
+    tls: true
+    type: http
+    username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  - name: "op\U0001F1ED\U0001F1F0HK_17|1.3MB/s"
+    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+    port: 5228
+    server: ba046db7-t9zts0-tdfzix-fm2v.cm4.oshuawei.com
+    sni: ba046db7-t9zts0-tdfzix-fm2v.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  - name: "op\U0001F1F0\U0001F1F7KR_5|1.1MB/s"
+    password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    port: 31433
+    server: bd72dd62-t9zts0-th1s9h-8rja.kr.oshuawei.com
+    sni: bd72dd62-t9zts0-th1s9h-8rja.kr.oshuawei.com
+    tls: true
+    type: http
+    username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  - name: "op\U0001F1F8\U0001F1ECSG_4|1.2MB/s"
+    password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+    port: 17235
+    server: b095a06a-t9zts0-tdq1ln-1hpo0.cm4.oshuawei.com
+    sni: b095a06a-t9zts0-tdq1ln-1hpo0.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  - name: "op\U0001F1ED\U0001F1F0HK_18|1.3MB/s"
+    password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+    port: 5228
+    server: d0a766a0-t9zts0-thntyd-1f596.cm4.oshuawei.com
+    sni: d0a766a0-t9zts0-thntyd-1f596.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+  - name: "op\U0001F1ED\U0001F1F0HK_19|1.7MB/s"
+    password: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+    port: 5228
+    server: 7d4f7060-ta1og0-thiwul-1gcq2.cm4.oshuawei.com
+    sni: 7d4f7060-ta1og0-thiwul-1gcq2.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  - name: "op\U0001F1F0\U0001F1F7KR_6|1.4MB/s"
+    password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+    port: 31433
+    server: 5b23dea8-t9zts0-tiaexf-ufc0.kr.oshuawei.com
+    sni: 5b23dea8-t9zts0-tiaexf-ufc0.kr.oshuawei.com
+    tls: true
+    type: http
+    username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  - name: "op\U0001F1ED\U0001F1F0HK_20|1.9MB/s"
+    password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+    port: 5228
+    server: 19149ce5-t9zts0-trhks8-1c9em.cm4.oshuawei.com
+    sni: 19149ce5-t9zts0-trhks8-1c9em.cm4.oshuawei.com
     tls: true
     type: http
     username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-  - name: "op\U0001F1EF\U0001F1F5JP_2|1.0MB/s"
-    password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-    port: 27233
-    server: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
-    sni: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
+  - name: "op\U0001F1EE\U0001F1E9ID_4|1.6MB/s"
+    password: c357a728-1211-11f0-9a65-f23c9164ca5d
+    port: 32233
+    server: be1e9e18-t9zts0-td5oia-1m49t.id.oshuawei.com
+    sni: be1e9e18-t9zts0-td5oia-1m49t.id.oshuawei.com
     tls: true
     type: http
-    username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  - name: "op\U0001F1F2\U0001F1FEMY_8|2.0MB/s"
-    password: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-    port: 31233
-    server: 5ef91dbb-t9zts0-tc48kl-1szgv.my.oshuawei.com
-    sni: 5ef91dbb-t9zts0-tc48kl-1szgv.my.oshuawei.com
+    username: c357a728-1211-11f0-9a65-f23c9164ca5d
+  - name: "op\U0001F1F8\U0001F1ECSG_5|1.9MB/s"
+    password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    port: 17235
+    server: 19b7ea9d-t9zts0-tbnk1n-ueq.cm4.oshuawei.com
+    sni: 19b7ea9d-t9zts0-tbnk1n-ueq.cm4.oshuawei.com
     tls: true
     type: http
-    username: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-  - name: "op\U0001F1F2\U0001F1FEMY_9|1.0MB/s"
-    password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
-    port: 31233
-    server: cc334dfd-t9zts0-tedirp-1fli7.my.oshuawei.com
-    sni: cc334dfd-t9zts0-tedirp-1fli7.my.oshuawei.com
-    tls: true
-    type: http
-    username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
-  - name: "op\U0001F1ED\U0001F1F0HK_2|1.2MB/s"
+    username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  - name: "op\U0001F1F0\U0001F1F7KR_7|1.0MB/s"
     password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-    port: 5228
-    server: 1b486472-ta1og0-tcr22d-1rsuw.cm4.oshuawei.com
-    sni: 1b486472-ta1og0-tcr22d-1rsuw.cm4.oshuawei.com
+    port: 31433
+    server: 5e54f8c7-t9zts0-tcr22d-1rsuw.kr.oshuawei.com
+    sni: 5e54f8c7-t9zts0-tcr22d-1rsuw.kr.oshuawei.com
     tls: true
     type: http
     username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_10|2.9MB/s"
-    password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-    port: 31233
-    server: 10c70073-ta1og0-tphxte-1h5u7.my.oshuawei.com
-    sni: 10c70073-ta1og0-tphxte-1h5u7.my.oshuawei.com
+  - name: "op\U0001F1F9\U0001F1EDTH_1|1.5MB/s"
+    password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+    port: 32232
+    server: 325462a7-t9zts0-tdq1ln-1hpo0.id.oshuawei.com
+    sni: 325462a7-t9zts0-tdq1ln-1hpo0.id.oshuawei.com
     tls: true
     type: http
-    username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_11|1.3MB/s"
-    password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
-    port: 31233
-    server: 6bd979bc-ta1og0-tcfo40-17xo8.my.oshuawei.com
-    sni: 6bd979bc-ta1og0-tcfo40-17xo8.my.oshuawei.com
+    username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  - name: "op\U0001F1EF\U0001F1F5JP_7|1.1MB/s"
+    password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+    port: 27233
+    server: e194379d-t9zts0-tq9o8d-1d3bw.cm4.oshuawei.com
+    sni: e194379d-t9zts0-tq9o8d-1d3bw.cm4.oshuawei.com
     tls: true
     type: http
-    username: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+    username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+  - name: "op\U0001F1F8\U0001F1ECSG_6|1.3MB/s"
+    password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+    port: 17235
+    server: 32eef67d-t9zts0-te0v28-1mh67.cm4.oshuawei.com
+    sni: 32eef67d-t9zts0-te0v28-1mh67.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_2|1.0MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.55
+    type: ss
+  - name: "op\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+    password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+    port: 443
+    server: 9ef9e2c5-ta1og0-tc4puo-m0b9.de.oshuawei.com
+    sni: 9ef9e2c5-ta1og0-tc4puo-m0b9.de.oshuawei.com
+    tls: true
+    type: http
+    username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_3|1.5MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.140
+    type: ss
   - alterId: 2
     cipher: auto
     client-fingerprint: chrome
-    name: "op\U0001F1ED\U0001F1F0HK_3|1.1MB/s"
+    name: "op\U0001F1ED\U0001F1F0HK_21|1.6MB/s"
     network: ws
     port: 80
-    server: 7e1f678a-t9zts0-tysu9z-1nq4g.hkt.gotochinatown.net
+    server: 7ad09aaf-t9hb40-ts40sw-14g76.hkt.gotochinatown.net
     tls: false
     type: vmess
     udp: true
-    uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+    uuid: 4729b4c8-1790-11eb-8684-f23c913c8d2b
     ws-opts:
       headers:
         Host: broadcastlv.chat.bilibili.com
       path: /
-  - name: "op\U0001F1F2\U0001F1FEMY_12|1.1MB/s"
-    password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-    port: 31233
-    server: 719a4d3c-ta1og0-tbao5v-gacy.my.oshuawei.com
-    sni: 719a4d3c-ta1og0-tbao5v-gacy.my.oshuawei.com
-    tls: true
-    type: http
-    username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_13|2.8MB/s"
-    password: c357a728-1211-11f0-9a65-f23c9164ca5d
-    port: 31233
-    server: 6bea27c4-t9zts0-td5oia-1m49t.my.oshuawei.com
-    sni: 6bea27c4-t9zts0-td5oia-1m49t.my.oshuawei.com
-    tls: true
-    type: http
-    username: c357a728-1211-11f0-9a65-f23c9164ca5d
-  - name: "op\U0001F1F2\U0001F1FEMY_14|1.6MB/s"
-    password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
-    port: 31233
-    server: 53640b1d-t9zts0-tozbjw-1462e.my.oshuawei.com
-    sni: 53640b1d-t9zts0-tozbjw-1462e.my.oshuawei.com
-    tls: true
-    type: http
-    username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
-  - name: "op\U0001F1F2\U0001F1FEMY_15|1.1MB/s"
-    password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    port: 31233
-    server: 4abc2c81-ta1og0-tgzvop-hns7.my.oshuawei.com
-    sni: 4abc2c81-ta1og0-tgzvop-hns7.my.oshuawei.com
-    tls: true
-    type: http
-    username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  - name: "op\U0001F1F2\U0001F1FEMY_16|1.0MB/s"
-    password: c931310e-a5e7-11f0-bf66-f23c9164ca5d
-    port: 31233
-    server: 4109a1f6-tcb5s0-tcjoyq-2cg3.my.oshuawei.com
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: c931310e-a5e7-11f0-bf66-f23c9164ca5d
-    sni: 4109a1f6-tcb5s0-tcjoyq-2cg3.my.oshuawei.com
-  - name: "op\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
-    password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-    port: 5228
-    server: fefc9dc9-t9zts0-tubliy-1la7v.cm4.oshuawei.com
-    sni: fefc9dc9-t9zts0-tubliy-1la7v.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  - name: "op\U0001F1ED\U0001F1F0HK_5|3.0MB/s"
-    password: <password>
-    port: 8443
-    server: 503cc7e8-ta1og0-taz53d-1j0y6.hkt.cdnhuawei.com
-    sni: 503cc7e8-ta1og0-taz53d-1j0y6.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F3\U0001F1F1NL_1|2.6MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.101
-    type: ss
-  - cipher: rc4-md5
-    name: "op\U0001F1EC\U0001F1E7GB_3|1.5MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 146.70.61.37
-    type: ss
-  - cipher: aes-128-gcm
-    name: "op\U0001F1FA\U0001F1F8US_2|2.8MB/s"
-    password: shadowsocks
-    port: 443
-    server: 173.244.56.6
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F3\U0001F1F1NL_2|4.1MB/s"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.179
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F3\U0001F1F1NL_3|2.2MB/s"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.205
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F3\U0001F1F1NL_4|1.9MB/s"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.202
-    type: ss
-  - cipher: aes-128-gcm
-    name: "op\U0001F1F3\U0001F1F1NL_5|1.7MB/s"
-    password: shadowsocks
-    port: 443
-    server: 158.173.20.171
-    type: ss
-  - cipher: aes-128-gcm
-    name: "op\U0001F1EC\U0001F1E7GB_4|3.4MB/s"
-    password: shadowsocks
-    port: 443
-    server: 141.98.101.182
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1E7\U0001F1ECBG_1|2.2MB/s"
-    password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
-    port: 31348
-    server: 89.44.197.181
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1FF\U0001F1E6ZA_1|1.0MB/s"
-    password: Xsy8Ox4yOV3xLlpxtjzs3X
-    port: 16233
-    server: 102.133.165.160
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F9\U0001F1F7TR_1|1.4MB/s"
-    password: AVLbEUEtBD59FsRqcNyEib
-    port: 60299
-    server: 203.202.232.78
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1EA\U0001F1F8ES_1|4.1MB/s"
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    port: 990
-    server: 37.143.130.203
-    type: ss
-  - name: "op\U0001F1F8\U0001F1ECSG_4|1.2MB/s"
-    password: 9f7d5cb76d1645101994d9b25891e3b7
-    port: 4674
-    server: 160.16.124.17
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "op\U0001F1E9\U0001F1EADE_1|2.4MB/s"
-    port: 12203
-    reality-opts:
-      public-key: UfdFTbhCJBW_vzBa5M9pojtL74k7Rpse1RSlYg5lr3c
-      short-id: d95becd131
-    server: 80.75.218.223
-    tls: true
-    type: vless
-    uuid: 180dfab2-4415-44c6-ba88-eb821156677c
-    network: tcp
-    servername: www.samsung.com
-  - name: "op\U0001F1EF\U0001F1F5JP_3|4.2MB/s"
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    port: 8201
-    server: 7ff201c5-tcy000-tdeulp-b4pt.tkodc1mpro.wkuaishou.com
-    tls: true
-    type: http
-    username: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    sni: 7ff201c5-tcy000-tdeulp-b4pt.tkodc1mpro.wkuaishou.com
-  - name: "op\U0001F1EF\U0001F1F5JP_4|1.2MB/s"
-    password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-    port: 443
-    server: 530aa2fe-tcxds0-tvgkxc-hrtf.jp.oshuawei.com
-    tls: true
-    type: http
-    username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-    sni: 530aa2fe-tcxds0-tvgkxc-hrtf.jp.oshuawei.com
-  - name: "op\U0001F1ED\U0001F1F0HK_6|1.0MB/s"
-    password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-    port: 5228
-    server: d75d05cc-tcxds0-th9kx9-1os43.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-    sni: d75d05cc-tcxds0-th9kx9-1os43.cm4.oshuawei.com
-  - name: "op\U0001F1F2\U0001F1FEMY_17|2.4MB/s"
-    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-    port: 31233
-    server: 3bdf7635-tcxds0-tdq4vj-1l0qa.my.oshuawei.com
-    tls: true
-    type: http
-    username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-    sni: 3bdf7635-tcxds0-tdq4vj-1l0qa.my.oshuawei.com
-  - name: "op\U0001F1FA\U0001F1F8US_3|1.3MB/s"
-    password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-    port: 443
-    server: f55bba4d-tcxds0-ttx5yr-1j0y6.sj.oshuawei.com
-    tls: true
-    type: http
-    username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-    sni: f55bba4d-tcxds0-ttx5yr-1j0y6.sj.oshuawei.com
-  - name: "op\U0001F1FA\U0001F1F8US_4|1.3MB/s"
-    password: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-    port: 443
-    server: d184e0d0-tcxds0-tysu9z-1nq4g.jp4.oshuawei.com
-    tls: true
-    type: http
-    username: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-    sni: d184e0d0-tcxds0-tysu9z-1nq4g.jp4.oshuawei.com
-  - name: "op\U0001F1FA\U0001F1F8US_5|1.1MB/s"
-    password: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-    port: 443
-    server: 4b0f5553-tcxds0-thvc3p-1o4kv.jp4.oshuawei.com
-    tls: true
-    type: http
-    username: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-    sni: 4b0f5553-tcxds0-thvc3p-1o4kv.jp4.oshuawei.com
-  - name: "op\U0001F1FA\U0001F1F8US_6|1.1MB/s"
-    password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-    port: 443
-    server: becc432a-tcxds0-toa9ad-4w8.sj.oshuawei.com
-    tls: true
-    type: http
-    username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-    sni: becc432a-tcxds0-toa9ad-4w8.sj.oshuawei.com
-  - alpn:
-      - ''
-    alterId: '2'
+  - alterId: '2'
     cipher: auto
-    name: "op\U0001F1ED\U0001F1F0HK_7|2.2MB/s"
+    name: "op\U0001F1ED\U0001F1F0HK_22|1.1MB/s"
     network: ws
     port: 80
     server: hkt.gotochinatown.net
@@ -413,71 +540,340 @@ proxies:
     tls: false
     type: vmess
     udp: true
-    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
     ws-opts:
       headers:
         Host: hkt.gotochinatown.net
       path: /
     xudp: true
-  - alterId: 0
-    cipher: aes-256-gcm
-    name: "op\U0001F1E8\U0001F1F1CL_1|1.7MB/s"
-    password: kDWvXYZoTBcGkC4
-    port: 8881
-    server: 38.54.20.59
-    skip-cert-verify: true
-    tls: true
-    type: ss
-  - alterId: 0
-    name: "op\U0001F1E7\U0001F1F7BR_1|1.5MB/s"
-    password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
-    port: 26593
-    server: 216.238.102.254
-    skip-cert-verify: true
-    sni: sao2.cdn-graph.click
-    type: trojan
-    udp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "op\U0001F1F8\U0001F1ECSG_5|2.0MB/s"
+    name: "op\U0001F1E8\U0001F1E6CA_1|1.2MB/s"
     network: ws
-    port: 14147
-    server: 203.69.248.40
+    port: 443
+    server: 178.248.75.6
     tls: true
     type: vless
     udp: true
-    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: snippet.fgfw.de5.net
+        Host: sni.111000.indevs.in
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
-          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
-          Chrome/28.0.1500.94 Mobile Safari/537.36
-      path: /danfeng
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@@jdfxq"
     xudp: true
-    servername: snippet.fgfw.de5.net
-  - encryption: none
-    name: "op\U0001F1ED\U0001F1F0HK_8|2.8MB/s"
+    servername: sni.111000.indevs.in
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_4|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.211
+    type: ss
+  - alterId: '2'
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_23|1.1MB/s"
     network: ws
     port: 80
-    server: 45.131.4.192
-    type: vless
+    server: hkt.gotochinatown.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-    uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+    uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
     ws-opts:
       headers:
-        Host: silent-paper-fa57.fipiyag989.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: /Cczu8jOo6HDo
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+        Host: hkt.gotochinatown.net
+      path: /
     xudp: true
+  - alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    name: "op\U0001F1ED\U0001F1F0HK_24|1.1MB/s"
+    network: ws
+    port: 80
+    server: f29a683e-t8ysg0-tqx9ef-1k0yf.hkt.gotochinatown.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    name: "op\U0001F1ED\U0001F1F0HK_25|1.3MB/s"
+    network: ws
+    port: 80
+    server: 04d23b94-t8wxs0-tpn98f-1rcxl.hkt.gotochinatown.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "op\U0001F1ED\U0001F1F0HK_26|1.5MB/s"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+    ws-opts:
+      path: /
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+    servername: hkt.gotochinatown.net
+  - name: "op\U0001F1F9\U0001F1EDTH_2|1.4MB/s"
+    password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+    port: 32232
+    server: 08833805-t9zts0-tasftf-duku.id.oshuawei.com
+    sni: 08833805-t9zts0-tasftf-duku.id.oshuawei.com
+    tls: true
+    type: http
+    username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_5|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.195
+    type: ss
+  - cipher: aes-256-cfb
+    name: "op\U0001F1FB\U0001F1F3VN_6|1.3MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.222
+    type: ss
+  - alterId: '2'
+    cipher: auto
+    name: "op\U0001F1ED\U0001F1F0HK_27|1.9MB/s"
+    network: ws
+    port: 80
+    server: ec8af57c-t9w4g0-ta42cg-1phla.hkt.gotochinatown.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+    xudp: true
+  - alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    name: "op\U0001F1ED\U0001F1F0HK_28|1.3MB/s"
+    network: ws
+    port: 80
+    server: 0610d40b-t9w4g0-tbnk1n-ueq.hkt.gotochinatown.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - name: "op\U0001F1E9\U0001F1EADE_3|1.1MB/s"
+    password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+    port: 443
+    server: d7dc4e92-ta1og0-tiaexf-ufc0.de.oshuawei.com
+    sni: d7dc4e92-ta1og0-tiaexf-ufc0.de.oshuawei.com
+    tls: true
+    type: http
+    username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: "op\U0001F1FA\U0001F1F8US_3|1.7MB/s"
+    network: ws
+    port: 443
+    server: 104.21.77.60
+    tls: true
+    type: vless
+    udp: false
+    uuid: ad29665d-4900-4e67-8059-a1cec75c7502
+    ws-opts:
+      headers:
+        Host: s-d-f-g-h.00000.bond
+      path: /o8vWPYfmwqtIgHpf
+    servername: s-d-f-g-h.00000.bond
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: "op\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
+    network: ws
+    port: 443
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: false
+    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+    ws-opts:
+      headers:
+        Host: 639075478000711639.civic-perma.info
+      path: /cahttingws
+    servername: 639075478000711639.civic-perma.info
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: "op\U0001F1FA\U0001F1F8US_4|1.5MB/s"
+    network: ws
+    port: 443
+    server: 104.21.39.117
+    tls: true
+    type: vless
+    udp: false
+    uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+    ws-opts:
+      headers:
+        Host: ffv.xx6.ccwu.cc
+      path: /XR8So0uqFVa3vY9ZbxgW4
+    servername: ffv.xx6.ccwu.cc
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: "op\U0001F1FA\U0001F1F8US_5|1.2MB/s"
+    network: ws
+    port: 8443
+    server: ovhwuxian.pai50288.uk
+    tls: true
+    type: vless
+    udp: false
+    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+    ws-opts:
+      headers:
+        Host: ovhwuxian.pai50288.uk
+      path: /57ba2ab1
+    servername: ovhwuxian.pai50288.uk
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: "op\U0001F1FA\U0001F1F8US_6|2.0MB/s"
+    network: ws
+    port: 8443
+    server: 45.142.215.242
+    tls: true
+    type: vless
+    udp: false
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+      path: "/?Telegram\U0001F1E8\U0001F1F3+@WangCai2="
+    servername: sni.111000.indevs.in
+  - client-fingerprint: chrome
+    name: "op\U0001F1E8\U0001F1E6CA_2|1.9MB/s"
+    network: ws
+    port: 443
+    server: jp.111000.cc.cd
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+      path: '/?ed=2560&proxyip=ip.111000.de5.net:443'
+    servername: sni.111000.dynv6.net
+  - client-fingerprint: chrome
+    name: "op\U0001F1E8\U0001F1E6CA_3|1.1MB/s"
+    network: ws
+    port: 443
+    server: freeyx.cloudflare88.eu.org
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+      path: '/?ed=2560&proxyip=ip.111000.de5.net:443'
+    servername: sni.111000.dynv6.net
+  - client-fingerprint: chrome
+    name: "op\U0001F1E8\U0001F1E6CA_4|1.8MB/s"
+    network: ws
+    port: 443
+    server: bestcf.030101.xyz
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+      path: '/?ed=2560&proxyip=ip.111000.de5.net:443'
+    servername: sni.111000.dynv6.net
+  - client-fingerprint: chrome
+    name: "op\U0001F1E8\U0001F1E6CA_5|1.9MB/s"
+    network: ws
+    port: 443
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+      path: '/?ed=2560&proxyip=ip.111000.de5.net:443'
+    servername: sni.111000.dynv6.net
+  - name: "op\U0001F1F3\U0001F1F1NL_3|2.3MB/s"
+    network: ws
+    port: 443
+    server: 192.200.160.20
+    tls: true
+    type: vless
+    uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+    ws-opts:
+      headers:
+        Host: 639073677243557970.camry-perma.info
+      path: /yaeungws
+    servername: 639073677243557970.camry-perma.info
   - client-fingerprint: chrome
     encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_2|1.0MB/s"
+    name: "op\U0001F1E8\U0001F1E6CA_6|2.1MB/s"
+    network: ws
+    port: 443
+    server: 157.230.27.167
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: sni.111000.indevs.in
+  - client-fingerprint: chrome
+    encryption: none
+    name: "op\U0001F1E8\U0001F1E6CA_7|2.0MB/s"
+    network: ws
+    port: 8443
+    server: 188.130.207.158
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: sni.111000.indevs.in
+  - client-fingerprint: chrome
+    encryption: none
+    name: "op\U0001F1E8\U0001F1E6CA_8|2.7MB/s"
     network: ws
     port: 443
     server: 185.16.110.0
@@ -489,211 +885,17 @@ proxies:
       headers:
         Host: sni.111000.dynv6.net
         User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
     servername: sni.111000.dynv6.net
-  - cipher: aes-256-gcm
-    name: "op\U0001F1FA\U0001F1F8US_7|1.1MB/s"
-    password: ZfbPFDdeBj0B1Txs
-    port: 80
-    server: 154.53.60.212
-    type: ss
-    udp: true
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "op\U0001F1ED\U0001F1F0HK_9|1.6MB/s"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    udp: true
-    uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "op\U0001F1ED\U0001F1F0HK_10|1.7MB/s"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    udp: true
-    uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "op\U0001F1ED\U0001F1F0HK_11|1.1MB/s"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 336501b6-51d2-11ee-a993-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "op\U0001F1ED\U0001F1F0HK_12|1.1MB/s"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    type: vmess
-    uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "op\U0001F1ED\U0001F1F0HK_13|1.1MB/s"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F3C1ZZ"
-    h2-opts: {}
-    http-opts: {}
-    name: "op\U0001F1E8\U0001F1E6CA_3|2.1MB/s"
-    network: ws
-    port: 443
-    server: 23.162.200.227
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    ws-opts:
-      path: /linkvws
-  - encryption: none
-    name: "op\U0001F1F5\U0001F1F1PL_1|2.0MB/s"
-    network: ws
-    port: 8880
-    server: africa.visa.com
-    type: vless
-    udp: true
-    uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-    ws-opts:
-      headers:
-        Host: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: >-
-        /?ed=2560Join---V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz
-    xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "op\U0001F1E9\U0001F1EADE_2|2.7MB/s"
-    network: ws
-    port: 443
-    server: chatgpt.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-    ws-opts:
-      headers:
-        Host: ancient-heart-60c5.dpccgizieb.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: >-
-        /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    xudp: true
-    servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1FA\U0001F1F8US_8|2.6MB/s"
-    network: ws
-    port: 443
-    server: 172.67.134.91
-    tls: true
-    type: vless
-    udp: true
-    uuid: e62d084a-b9de-4486-a776-a54d200f89c1
-    ws-opts:
-      headers:
-        Host: square-sea-36d2.sendconfig.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2272.101 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: square-sea-36d2.sendconfig.workers.dev
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1EE\U0001F1F3IN_1|1.1MB/s"
-    network: ws
-    port: 443
-    server: 172.64.155.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1027b850-de79-4a94-b337-eccdac28e141
-    ws-opts:
-      headers:
-        Host: g.sandesh.qzz.io
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
-      path: /vless
-    xudp: true
-    servername: g.sandesh.qzz.io
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "op\U0001F1F3\U0001F1F1NL_6|1.1MB/s"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 51.158.206.97
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_4|1.1MB/s"
+    name: "op\U0001F1E8\U0001F1E6CA_9|1.8MB/s"
     network: ws
     port: 2096
-    server: 104.26.7.205
+    server: 45.12.30.138
     tls: true
     type: vless
     udp: true
@@ -702,33 +904,25 @@ proxies:
       headers:
         Host: sni.111000.indevs.in
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
-      path: /?ed
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
     servername: sni.111000.indevs.in
-  - encryption: none
-    name: "op\U0001F1ED\U0001F1F0HK_14|1.1MB/s"
-    network: ws
-    port: 80
-    server: 162.159.38.62
-    type: vless
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_9|1.0MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: ncmrcg000019wnj.cybervena.com
+    type: ss
     udp: true
-    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-    ws-opts:
-      headers:
-        Host: vip.yaml7.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /
-    xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_5|1.1MB/s"
+    name: "op\U0001F1FA\U0001F1F8US_7|1.8MB/s"
     network: ws
-    port: 8443
-    server: 212.34.152.234
+    port: 443
+    server: 199.107.164.217
     tls: true
     type: vless
     udp: true
@@ -737,516 +931,93 @@ proxies:
       headers:
         Host: sni.111000.dynv6.net
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
-    xudp: true
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: chrome
-    name: "op\U0001F1ED\U0001F1F0HK_15|1.0MB/s"
-    network: ws
-    port: 443
-    server: chatgpt.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 73a4456a-0442-4550-8b4f-c719871a4eeb
-    ws-opts:
-      headers:
-        Host: 011.electrocellco-cf-011.workers.dev
-        User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.115 Safari/537.36
-      path: >-
-        /eyJqdW5rIjoibWRiMjNWaUwxNHVWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: 011.electrOCELlCO-CF-011.WorKERS.dEV
-  - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F3\U0001F1F1NL_7|1.1MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.62
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1EC\U0001F1E7GB_5|1.0MB/s"
-    network: ws
-    port: 8443
-    server: 104.18.34.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
-    ws-opts:
-      headers:
-        Host: socks5.revil-time3.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/62.0.3202.84 Mobile Safari/537.36
-      path: '/socks5://128.140.46.169:13482'
-    xudp: true
-    servername: socks5.revil-time3.workers.dev
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E9\U0001F1EADE_3|1.9MB/s"
-    network: ws
-    port: 443
-    server: mci.buzzmuzzpanel.online
-    tls: true
-    type: vless
-    udp: true
-    uuid: 20e295db-a6af-4006-bfd6-91453f169968
-    ws-opts:
-      headers:
-        Host: 057.electrocellco-cf-057.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: >-
-        /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    xudp: true
-    servername: 057.ElecTRocElLco-Cf-057.wOrKeRs.dEv
-  - encryption: none
-    name: "op\U0001F1ED\U0001F1F0HK_16|1.0MB/s"
-    network: ws
-    port: 80
-    server: 104.17.138.160
-    type: vless
-    udp: true
-    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-    ws-opts:
-      headers:
-        Host: vip.yaml7.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E9\U0001F1EADE_4|2.2MB/s"
-    network: ws
-    port: 2053
-    server: 104.18.185.26
-    tls: true
-    type: vless
-    udp: true
-    uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
-    ws-opts:
-      headers:
-        Host: ir1.airpanel.top
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: /
-    xudp: true
-    servername: ir1.airpanel.top
-  - client-fingerprint: chrome
-    name: "op\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
-    network: ws
-    password: humanity
-    port: 443
-    server: 185.18.250.245
-    skip-cert-verify: true
-    sni: www.calmlunch.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/55.0.2883.87 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1FA\U0001F1F8US_9|1.5MB/s"
-    network: ws
-    port: 2096
-    server: 141.11.203.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+          Gecko) Chrome/41.0.2272.118 Safari/537.36
       path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     xudp: true
-    servername: sni.jpmj.dev
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_6|1.3MB/s"
-    network: ws
-    port: 2096
-    server: 188.114.98.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: sni.111000.indevs.in
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_7|1.6MB/s"
-    network: ws
-    port: 2096
-    server: 154.197.75.138
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
-    xudp: true
-    servername: sni.111000.indevs.in
-  - encryption: none
-    name: "op\U0001F1FA\U0001F1F8US_10|1.2MB/s"
-    network: ws
-    port: 2095
-    server: 172.67.150.254
-    type: vless
-    udp: true
-    uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-    ws-opts:
-      headers:
-        Host: iioo.iioou.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "op\U0001F1FA\U0001F1F8US_11|1.8MB/s"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.197
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_8|1.9MB/s"
-    network: ws
-    port: 443
-    server: 209.102.207.120
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /
-    xudp: true
-    servername: sni.111000.v6.navy
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "op\U0001F1F3\U0001F1F1NL_8|1.7MB/s"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 51.158.206.80
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1FA\U0001F1F8US_12|1.8MB/s"
-    network: ws
-    port: 2096
-    server: 172.67.163.213
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-    ws-opts:
-      headers:
-        Host: ems.arc-time.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /88ailh3l64gh
-    xudp: true
-    servername: EMS.Arc-Time.Workers.DEV
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E9\U0001F1EADE_5|1.5MB/s"
-    network: ws
-    port: 443
-    server: irancell.buzzmuzzpanel.online
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef6db9e0-4c05-4933-a599-0dc9530f08cc
-    ws-opts:
-      headers:
-        Host: 022.electrocellco-cf-022.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: >-
-        /eyJqdW5rIjoiZDlTMUlUZGZPM0NYVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    xudp: true
-    servername: 022.eLEctRocELlcO-CF-022.worKeRs.DEV
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1F3\U0001F1F1NL_9|1.3MB/s"
-    network: ws
-    port: 443
-    server: usa.visa.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: a114d067-b900-4f60-87a5-50d4d63972b8
-    ws-opts:
-      headers:
-        Host: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1F3\U0001F1F1NL_10|1.1MB/s"
-    network: ws
-    port: 443
-    server: 172.67.213.69
-    tls: true
-    type: vless
-    udp: true
-    uuid: ea8d14d4-ca12-4cd1-bcad-f0fa72f6eadc
-    ws-opts:
-      headers:
-        Host: nl.vpnhi.ru
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /vpnws
-    xudp: true
-    servername: nl.vpnhi.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_9|1.2MB/s"
-    network: ws
-    port: 2096
-    server: 172.64.146.163
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
-    xudp: true
-    servername: sni.111000.indevs.in
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_10|1.2MB/s"
-    network: ws
-    port: 2096
-    server: 162.159.153.231
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
-    xudp: true
-    servername: sni.111000.indevs.in
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_11|1.2MB/s"
-    network: ws
-    port: 443
-    server: 57.129.137.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/39.0.2171.95 Safari/537.36
-      path: /
-    xudp: true
-    servername: sni.111000.v6.navy
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1FA\U0001F1F8US_13|1.1MB/s"
-    network: ws
-    port: 2096
-    server: 194.59.5.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
-    xudp: true
-    servername: sni.jpmj.dev
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "op\U0001F1F8\U0001F1ECSG_6|1.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: '-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs'
-      short-id: feedbacc
-    server: 67.159.52.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-    xudp: true
-    servername: sg.fasti.win
-  - client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1E8\U0001F1E6CA_12|1.3MB/s"
-    network: ws
-    port: 2096
-    server: 176.124.223.138
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.75 Safari/537.36
-      path: "/?ed=2560&telegram\U0001F1E8\U0001F1F3+@wangcai2"
-    xudp: true
-    servername: sni.111000.indevs.in
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "op\U0001F1F3\U0001F1F1NL_11|1.3MB/s"
-    network: ws
-    port: 443
-    server: 002.inc-electrocell-001-002.workers.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
-    ws-opts:
-      headers:
-        Host: 002.inc-electrocell-001-002.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: >-
-        /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    xudp: true
-    servername: 002.Inc-ElectROcElL-001-002.WoRKERS.DEV
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "op\U0001F1EB\U0001F1EEFI_1|1.2MB/s"
-    network: tcp
-    port: 10965
-    reality-opts:
-      public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
-      short-id: 9f3a7c6d2e8b41af
-    server: 138.124.6.182
-    tls: true
-    type: vless
-    udp: true
-    uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-    xudp: true
-    servername: deepl.com
+    servername: sni.111000.dynv6.net
   - cipher: chacha20-ietf-poly1305
-    name: "op\U0001F1F9\U0001F1FCTW_1|1.5MB/s"
+    name: "op\U0001F1F9\U0001F1FCTW_10|1.0MB/s"
     password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
     port: 50099
-    server: 111.250.214.183
+    server: ncmrcg0001797nk.cybervena.com
     type: ss
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_11|1.7MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg001166nc2.cybervena.com
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F9\U0001F1FCTW_12|2.3MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg007116sfa.cybervena.com
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "op\U0001F1F2\U0001F1FEMY_4|1.0MB/s"
+    password: RZirHzSqyyb37DDIiQeDLZTJft5ZQGmUCwyA3wm5ath4j9Y3
+    port: 51348
+    server: 124.217.247.205
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "op\U0001F1FA\U0001F1F8US_8|2.8MB/s"
+    password: ZfbPFDdeBj0B1Txs
+    port: 80
+    server: 154.53.60.212
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "op\U0001F1FA\U0001F1F8US_9|1.1MB/s"
+    password: QzM0NfuMNngbVnZK
+    port: 443
+    server: 144.126.145.77
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "op\U0001F1E9\U0001F1EADE_4|4.1MB/s"
+    network: ws
+    port: 443
+    server: betty.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+    ws-opts:
+      headers:
+        Host: octopusss4.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /tsghdws
+    xudp: true
+    servername: octopusss4.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "op\U0001F1FA\U0001F1F8US_10|8.5MB/s"
+    network: ws
+    port: 443
+    server: 135.84.73.100
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: sni.111000.dynv6.net
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
