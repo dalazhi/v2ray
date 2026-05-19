@@ -1,47 +1,13 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "op\U0001F1FA\U0001F1F8US_1|1.9MB/s"
-    network: ws
-    port: 2096
-    server: 167.68.42.238
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-      path: /
-    servername: sni.jpmj.dev
-  - name: "op\U0001F1FA\U0001F1F8US_2|1.8MB/s"
-    network: ws
-    port: 443
-    server: 91.108.242.85
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.latonyamadeline.ndjp.net
-      path: /
-    servername: sni.latonyamadeline.ndjp.net
-  - name: "op\U0001F1FA\U0001F1F8US_3|2.9MB/s"
-    network: ws
-    port: 443
-    server: 5.10.244.43
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.cc.cd
-      path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
-    servername: sni.111000.cc.cd
+  - alterId: 0
+    cipher: auto
+    name: op❓Other_1|1.0MB/s
+    port: 180
+    server: 82.198.246.233
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
