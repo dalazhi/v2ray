@@ -1,23 +1,35 @@
 proxies:
-  - client-fingerprint: chrome
+  - client-fingerprint: edge
     encryption: none
-    name: "op\U0001F1E9\U0001F1EADE_1|1.8MB/s"
-    network: ws
+    flow: xtls-rprx-vision
+    name: "op\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
+    network: tcp
     port: 443
-    server: 43.175.169.174
+    reality-opts:
+      public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+      short-id: 7a3f9e2b1c8d4f6a
+    server: 31.76.91.9
     tls: true
     type: vless
     udp: true
-    uuid: 37c8b06a-25cf-42d7-b2ea-31d3c8561998
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    xudp: true
+    servername: jp.s3-cloud.org
+  - client-fingerprint: chrome
+    name: "op\U0001F1F8\U0001F1ECSG_1|2.9MB/s"
+    network: ws
+    port: 443
+    server: 185.247.226.138
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
     ws-opts:
       headers:
-        Host: imap.mmadcoffee.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /14708/31d3c8561998/
-    xudp: true
-    servername: sni.mmadcoffee.info
+        Host: linek.perry.us.kg
+      path: /jp
+    servername: linek.perry.us.kg
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
